@@ -1,4 +1,4 @@
 title: "Vegan Recipes"
 description: "A collection of vegan recipes with a chatbot for easy search."
-baseurl: "/vegan-recipes" # the subpath of your site, e.g. /blog 
+baseurl: "" # the subpath of your site, e.g. /blog 
 url: "https://diogofranciscop.github.io" # the base hostname & protocol for your site
