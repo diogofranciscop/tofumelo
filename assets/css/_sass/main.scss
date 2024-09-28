@@ -13,12 +13,12 @@ body{
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 7vh;
+  margin-top: 4vh;
 }
 
 .searchTerm {
   width: 100%;
-  border: 3px solid #46ff74;
+  border: 3px solid rgba(0, 128, 0, 0.5);
   border-right: none;
   padding: 5px;
   height: 20px;
@@ -27,14 +27,14 @@ body{
 }
 
 .searchTerm:focus{
-  color: #46ff74;
+  color: black;
 }
 
 .searchButton {
   width: 40px;
   height: 36px;
-  border: 1px solid #46ff74;
-  background: #46ff74;
+  border: 1px solid rgba(0, 128, 0, 0.5);
+  background: rgba(0, 128, 0, 0.5);
   text-align: center;
   color: #fff;
   border-radius: 0 5px 5px 0;
@@ -162,4 +162,56 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
+}
+
+/* CSS */
+.button-3 {
+  appearance: none;
+  background-color: #2ea44f;
+  border: 1px solid rgba(27, 31, 35, .15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  padding: 6px 16px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.button-3:focus:not(:focus-visible):not(.focus-visible) {
+  box-shadow: none;
+  outline: none;
+}
+
+.button-3:hover {
+  background-color: #2c974b;
+}
+
+.button-3:focus {
+  box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
+  outline: none;
+}
+
+.button-3:disabled {
+  background-color: #94d3a2;
+  border-color: rgba(27, 31, 35, .1);
+  color: rgba(255, 255, 255, .8);
+  cursor: default;
+}
+
+.button-3:active {
+  background-color: #298e46;
+  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }

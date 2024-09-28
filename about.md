@@ -2,6 +2,5 @@
 layout: default
 title: About
 ---
-# About page
 
-This page tells you a little bit about me.
+Este site foi feito literalmente como uma base de dados para as receitas que mais gosto.
