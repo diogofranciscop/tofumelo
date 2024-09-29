@@ -13,14 +13,17 @@ title: Vegan Recipes
 <div style="margin-top: 5px;">
 <button class="button-3" role="button">Almoço e Jantar</button>
 <button class="button-3" role="button">Pequeno Almoço</button>
+<button class="button-3" role="button">Entradas</button>
 <button class="button-3" role="button">Lanche</button>
+<button class="button-3" role="button">Sobremesas</button>
 </div>
-
- <a href="#" class="card" style="margin-top: 5vh;">
-    <img src="assets/img/kebab_jaca.jpeg" class="card__img">
+<div class="posts">
+  {% for post in site.posts %}
+  <a href="{{ post.url }}" class="card">
+    <img src="{{ post.image }}" class="card__img">
     <span class="card__footer">
-      <span>Kebab de Jaca</span>
-      <span>Vegan kebab with jaca or pleurothus</span>
+      <span>{{ post.title }}</span>
+      <span>{{ post.description }}</span>
     </span>
     <span class="card__action">
       <svg viewBox="0 0 448 512" title="play">
@@ -28,3 +31,5 @@ title: Vegan Recipes
       </svg>
     </span>
   </a>
+  {% endfor %}
+</div>

@@ -215,3 +215,22 @@ nav ul li a:hover {
   background-color: #298e46;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
+
+.posts {
+  margin-top: 10vh;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+}
+
+@media (min-width: 768px) {
+  .posts {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .posts {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
