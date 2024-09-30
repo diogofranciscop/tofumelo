@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Francesinha"
+permalink: /Francesinha/
 description: "Vegan kebab with jaca or pleurothus"
 image: "/assets/img/francesinha.jpg"
 ingredients: >

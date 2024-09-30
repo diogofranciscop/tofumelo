@@ -313,3 +313,103 @@ body {
 html {
   font-size: 15px;
 }
+
+/*
+CSS for the forms
+*/
+.survey-container * {
+  font-family: "Source Code Pro", monospace;
+  letter-spacing: -0.25px;
+  word-spacing: -4px;
+}
+
+.survey-container body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+}
+
+.survey-container #survey-title,
+.survey-container #survey-description {
+  text-align: center;
+}
+
+.survey-container #survey-title {
+  margin: 2em auto 1.5em auto;
+}
+
+.survey-container #survey-form {
+  width: 50vw;
+  max-width: 900px;
+  min-width: 400px;
+  margin: 4em auto 2.5em auto;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 60px;
+}
+
+.survey-container .form-label {
+  display: block;
+  margin: 20 auto;
+}
+
+.survey-container .form-input,
+.survey-container .form-select,
+.survey-container .form-textarea {
+  margin: 12px auto 20px auto;
+  min-height: 3.6em;
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.survey-container .form-select {
+  font-size: 14px;
+  color: rgb(0, 0, 0);
+  border: unset;
+  height: 3em;
+}
+
+.survey-container input[type="radio"],
+.survey-container input[type="checkbox"] {
+  display: inline;
+  width: unset;
+  vertical-align: middle;
+  margin: -0.8em 1em -0.5em 0;
+}
+
+.survey-container button {
+  display: block;
+  width: 100%;
+  height: 3em;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-color: rgb(255, 255, 255);
+  margin-top: 2em;
+  font-size: 16px;
+}
+
+.survey-container footer {
+  padding: 1.5em;
+}
+
+.survey-container footer > p {
+  font-size: 16px;
+}
+
+.survey-container a {
+  color: rgb(128, 128, 128);
+}
+
+.survey-container .survey-description {
+  margin: -1.5em auto -1.5em auto;
+  font-size: 20px;
+}
+
+.survey-container .app-feature,
+.survey-container .comments {
+  margin-top: 1.5em;
+}

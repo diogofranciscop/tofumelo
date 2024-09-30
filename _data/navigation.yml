@@ -1,8 +1,8 @@
 - name: Receitas
   link: /
 - name: Sobre
-  link: /about.html
+  link: /about
 - name: Contactos
-  link: /blog.html
+  link: /blog
 - name: Créditos
-  link: /staff.html
+  link: /staff

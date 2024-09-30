@@ -2,3 +2,66 @@
 layout: default
 ---
 
+<div class="survey-container">
+    <h1 id="survey-title">Envia-nos a tua receita!</h1>
+    <p id="survey-description" class="survey-description">Thank you for taking the time to help cook a sumptuous experience</p>
+    <form id="survey-form">
+      <label class="form-label" id="name-label" for="name">Name 
+        <input class="form-input" id="name" type="text" placeholder="Your full name" required />
+      </label>
+      <label class="form-label" id="email-label" for="email">Email 
+        <input class="form-input" id="email" type="email" placeholder="Your email address" required />
+      </label>
+      <label class="form-label" id="number-label" for="number">Age 
+        <input class="form-input" id="number" type="number" min="18" max="99" placeholder="Your age as at last birthday" required />
+      </label>
+      <label class="form-label" for="personality">Which personality best describes your passion for food?
+        <select class="form-select" id="personality">
+          <option value="">Select a personality</option>
+          <option value="foodie">Foodie (eats, blogs, writes, snaps...)</option>
+          <option value="gastronaut">Gastronaut (just wants to eat good food)</option>
+          <option value="chef-de-cuisine">Chef de Cuisine (critiques the details)</option>
+          <option value="grazer">Grazer (munches on-the-go)</option>
+          <option value="fit-fam">Dr Fit-Fam (takes health seriously)</option>
+          <option value="peter-pan">Peter Pan (cares less about where)</option>
+          <option value="home-alone">Home Alone (eats only at home)</option>
+        </select>
+      </label>
+      <label class="form-label">What meal of the day are you less likely to order online?</label>
+      <label class="form-label"><input type="radio" name="meal" value="breakfast" checked />Breakfast</label>
+      <label class="form-label"><input type="radio" name="meal" value="lunch" />Lunch</label>
+      <label class="form-label"><input type="radio" name="meal" value="dinner" />Dinner</label>
+      <label class="form-label app-feature" for="dropdown">What feature in a food delivery app do you consider the most important?
+        <select class="form-select" id="dropdown">
+          <option value="">Select an option</option>
+          <option value="1">Push Notifications</option>
+          <option value="2">Search Filters</option>
+          <option value="3">Intuitive Menu Display</option>
+          <option value="4">Convenient & Secure Payment Options</option>
+          <option value="5">Real-time Order Tracking & History</option>
+          <option value="6">In-App Live Support</option>
+          <option value="7">Promos, Rewards, & Discounts</option>
+          <option value="8">Ratings & Reviews</option>
+          <option value="9">Other</option>
+        </select>
+      </label>
+      <label class="form-label">Which of these platforms have you interacted with?</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="area-chops" /> Area Chops</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="bolt-food" /> Bolt Food</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="chowdeck" /> Chowdeck</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="eden-life" /> Eden Life</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="food-court" /> Food Court</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="glovo" /> Glovo</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="gokada" /> Gokada (GFood)</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="jumia-food" /> Jumia Food</label>
+      <label class="form-label"><input type="checkbox" name="delivery-platform" value="uber-eats" /> Uber Eats</label>
+      <label class="form-label comments">Is there anything more you'd like to share with us?
+        <textarea class="form-textarea" rows="6" cols="48" placeholder="Enter them here..."></textarea>
+      </label>
+      <button id="submit" type="submit" form="survey-form">Submit</button>
+    </form>
+    <footer>
+      <p>Designed in <a href="https://www.freecodecamp.org">freeCodeCamp</a> by Oyinkansola Adebayo</p>
+    </footer>
+  </div>
+  
