@@ -2,8 +2,13 @@
   <ul>
     {% for item in site.data.navigation %}
       <li>
-        <a href="{{ item.link }}" {% if page.url == item.link %}class="current"{% endif %}>{{ item.name }}</a>
+        <a href="{{ item.link }}" 
+           {% if page.url == item.link %}class="current"{% endif %}
+           {% if item.name == "Contactos" %}class="contactos-special"{% endif %}>
+           {{ item.name }}
+        </a>
       </li>
     {% endfor %}
   </ul>
 </nav>
+

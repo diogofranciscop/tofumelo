@@ -7,14 +7,24 @@
 body{
   background: #ebe8e8;
   font-family: 'Open Sans', sans-serif;
+  margin:0px;
 }
 
+.wrap-search {
+  width: 100%;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 130%;
+  margin-top: 2%;
+
+}
 .search {
   width: 40%;
   position: relative;
   display: flex;
   justify-content: center;
-  margin-top: 4vh;
 }
 
 .searchTerm {
@@ -139,7 +149,7 @@ body {
 nav {
   width: 100%;
   margin: 0 auto;
-  background-color: blue;
+  background-color: white;
 }
 
 nav ul {
@@ -157,7 +167,7 @@ nav ul li a {
   font-family: "Open Sans";
   text-transform: uppercase;
   color: rgba(0, 35, 122, 0.5);
-  font-size: 18px;
+  font-size: 14px;
   text-decoration: none;
   display: block;
 }
@@ -166,6 +176,12 @@ nav ul li a:hover {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
+}
+nav .contactos-special{
+  background-color: green;
+  color: white;
+  border-radius: 1000px;
+  padding: 10px;
 }
 
 /* CSS for the cards recipes in the index.html*/
@@ -230,6 +246,7 @@ nav ul li a:hover {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
+  margin-bottom: 10vh;
 }
 
 @media (min-width: 768px) {
