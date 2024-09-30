@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: "Kiwi"
 description: "Vegan kebab with jaca or pleurothus"
 image: "assets/img/kebab_jaca.jpeg"
