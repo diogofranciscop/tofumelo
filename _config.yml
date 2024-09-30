@@ -5,8 +5,10 @@ url: "https://diogofranciscop.github.io" # the base hostname & protocol for your
 collections:
   authors:
     output: true
+  chefs:
+      output: true # Ensures the pages from the _chefs collection are generated
 
-permalink: pretty
+permalink: pretty 
 
 defaults:
   - scope:
@@ -14,6 +16,11 @@ defaults:
       type: "authors"
     values:
       layout: "author"
+  - scope:
+      path: ""
+      type: "chefs"
+    values:
+      layout: "chef"
   - scope:
       path: ""
       type: "posts"

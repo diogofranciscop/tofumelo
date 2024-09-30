@@ -2,6 +2,7 @@
 layout: post
 title: "Kebab de Jaca"
 permalink: /kebab-jaca/
+type: ["almoço"]
 description: "Vegan kebab with jaca or pleurothus"
 image: "/assets/img/kebab_jaca.jpeg"
 ingredients: >

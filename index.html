@@ -10,16 +10,17 @@ title: Vegan Recipes
    </button>
  </div>
  <!-- HTML !-->
-<div style="margin-top: 5px;">
-<button class="button-3" role="button">Almoço e Jantar</button>
-<button class="button-3" role="button">Pequeno Almoço</button>
-<button class="button-3" role="button">Entradas</button>
-<button class="button-3" role="button">Lanche</button>
-<button class="button-3" role="button">Sobremesas</button>
+ <div style="margin-top: 5px;">
+  <button class="button-3" data-role="almoço">Almoço e Jantar</button>
+  <button class="button-3" data-role="pequeno-almoço">Pequeno Almoço</button>
+  <button class="button-3" data-role="entrada">Entradas</button>
+  <button class="button-3" data-role="lanche">Lanche</button>
+  <button class="button-3" data-role="sobremesa">Sobremesas</button>
 </div>
+
 <div class="posts">
   {% for post in site.posts %}
-  <a href="{{ post.url }}" class="card">
+  <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}">
     <img src="{{ post.image }}" class="card__img">
     <span class="card__footer">
       <span>{{ post.title }}</span>
@@ -33,3 +34,38 @@ title: Vegan Recipes
   </a>
   {% endfor %}
 </div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+$(document).ready(function() {
+    $('.button-3').click(function() {
+        var role = $(this).data('role'); // Get the role of the clicked button
+
+        // Toggle selected class
+        $(this).toggleClass('selected');
+
+        // Get all selected roles
+        var selectedRoles = [];
+        $('.button-3.selected').each(function() {
+            selectedRoles.push($(this).data('role'));
+        });
+
+        // Filter posts based on selected roles
+        $('.card').each(function() {
+            var types = $(this).data('type').split(','); // Get the types of the current post
+            
+            // Show all posts if no buttons are selected
+            if (selectedRoles.length === 0) {
+                $(this).show();
+            } else if (selectedRoles.some(role => types.includes(role))) {
+                $(this).show(); // Show the post if it matches any selected role
+            } else {
+                $(this).hide(); // Hide the post if it does not match
+            }
+        });
+    });
+});
+</script>
+
+
+

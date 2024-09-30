@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Francesinha"
+type: ["almoço"]
 permalink: /Francesinha/
 description: "Vegan kebab with jaca or pleurothus"
 image: "/assets/img/francesinha.jpg"

@@ -2,6 +2,7 @@
 layout: post
 title: "Kiwi"
 permalink: /kiwi/
+type: ["sobremesa"]
 description: "Vegan kebab with jaca or pleurothus"
 image: "/assets/img/kebab_jaca.jpeg"
 ingredients: >

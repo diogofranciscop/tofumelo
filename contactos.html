@@ -7,24 +7,25 @@ layout: default
     <p id="survey-description" class="survey-description">Vamos experimentar a tua receita e se gostarmos vamos acrescenta-la ao site com os devidos creditos</p>
     <form id="survey-form">
       <label class="form-label" id="name-label" for="name">Nome
-        <input class="form-input" id="name" type="text" placeholder="Your full name" required />
+        <input class="form-input" id="name" type="text" placeholder="O teu nome completo" required />
       </label>
       <label class="form-label" id="email-label" for="email">Email 
-        <input class="form-input" id="email" type="email" placeholder="Your email address" required />
+        <input class="form-input" id="email" type="email" placeholder="O teu email" required />
       </label>
       <label class="form-label" id="number-label" for="number">Idade
-        <input class="form-input" id="number" type="number" min="18" max="99" placeholder="Your age as at last birthday" required />
+        <input class="form-input" id="number" type="number" min="18" max="99" placeholder="A tua idade" required />
       </label>
       <label class="form-label">Que tipo de refeição é?</label>
-      <label class="form-label"><input type="radio" name="meal" value="breakfast" checked />Almoço ou jantar</label>
-      <label class="form-label"><input type="radio" name="meal" value="lunch" />lanche</label>
-      <label class="form-label"><input type="radio" name="meal" value="dinner" />Pequeno Almoço</label>
+      <label class="form-label"><input type="radio" name="meal" value="breakfast" />Pequeno Almoço</label>
+      <label class="form-label"><input type="radio" name="meal" value="lunch" checked />Almoço ou jantar</label>
+      <label class="form-label"><input type="radio" name="meal" value="snacks" />Lanche</label>
+     <label class="form-label"><input type="radio" name="meal" value="appetizers" />Entrada</label>
       <label class="form-label"><input type="radio" name="meal" value="disert" />Sobremesa</label>
       <label class="form-label comments">Ingredientes
-        <textarea class="form-textarea" rows="6" cols="48" placeholder="Enter them here..."></textarea>
+        <textarea class="form-textarea" rows="6" cols="48" placeholder="Descreve separado por virgulas"></textarea>
       </label>
       <label class="form-label comments">Receita
-        <textarea class="form-textarea" rows="6" cols="48" placeholder="Enter them here..."></textarea>
+        <textarea class="form-textarea" rows="6" cols="48" placeholder="Acrescenta a tua receita organizando por passo a passo"></textarea>
       </label>
       <button id="submit" type="submit" form="survey-form">Enviar Receita</button>
     </form>
