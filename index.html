@@ -4,11 +4,12 @@ title: Vegan Recipes
 ---
 
 <div class="search">
-    <input type="text" class="searchTerm" placeholder="Pesquisa...">
-    <button type="submit" class="searchButton">
-      <i class="fa fa-search"></i>
-   </button>
- </div>
+  <input type="text" class="searchTerm" placeholder="Pesquisa...">
+  <button type="submit" class="searchButton">
+    <i class="fa fa-search"></i>
+ </button>
+</div>
+
  <!-- HTML !-->
  <div style="margin-top: 5px;">
   <button class="button-3" data-role="almoço">Almoço e Jantar</button>
@@ -38,31 +39,42 @@ title: Vegan Recipes
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
 $(document).ready(function() {
-    $('.button-3').click(function() {
-        var role = $(this).data('role'); // Get the role of the clicked button
-
-        // Toggle selected class
-        $(this).toggleClass('selected');
-
-        // Get all selected roles
+    // Filter posts based on button selections
+    function filterPosts() {
         var selectedRoles = [];
         $('.button-3.selected').each(function() {
             selectedRoles.push($(this).data('role'));
         });
 
-        // Filter posts based on selected roles
+        // Get the search term
+        var searchTerm = $('.searchTerm').val().toLowerCase();
+
         $('.card').each(function() {
             var types = $(this).data('type').split(','); // Get the types of the current post
-            
-            // Show all posts if no buttons are selected
-            if (selectedRoles.length === 0) {
-                $(this).show();
-            } else if (selectedRoles.some(role => types.includes(role))) {
-                $(this).show(); // Show the post if it matches any selected role
+            var title = $(this).find('.card__footer span:first').text().toLowerCase(); // Get the title of the post
+
+            // Show posts if no buttons are selected and the search term is empty
+            if (selectedRoles.length === 0 && searchTerm === '') {
+                $(this).show(); // Show all posts
+            } else if (selectedRoles.length === 0 && title.includes(searchTerm)) {
+                $(this).show(); // Show posts matching the search term
+            } else if (selectedRoles.some(role => types.includes(role)) && title.includes(searchTerm)) {
+                $(this).show(); // Show posts matching selected roles and search term
             } else {
                 $(this).hide(); // Hide the post if it does not match
             }
         });
+    }
+
+    // Button click handler
+    $('.button-3').click(function() {
+        $(this).toggleClass('selected');
+        filterPosts(); // Call the filter function after toggling selection
+    });
+
+    // Search input handler
+    $('.searchTerm').on('input', function() {
+        filterPosts(); // Call the filter function on input change
     });
 });
 </script>

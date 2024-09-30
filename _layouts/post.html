@@ -12,7 +12,11 @@ layout: default
         <div class="card_content_post">
           <h2 class="card_title_post">Ingredientes</h2>
           <div class="card_text_post">
-          {{page.ingredients}}  
+            <ul>
+              {% for ingredient in page.ingredients %}
+                  <li>{{ ingredient }}</li>
+              {% endfor %}
+          </ul>
           </div>
         </div>
       </div>
@@ -23,19 +27,18 @@ layout: default
         <div class="card_content_post">
           <h2 class="card_title_post">Receita</h2>
           <div class="card_text_post">
-            <p>All great meals take time, but this one takes it to the next level! More than 650 hours of fermenting, brining, aging, and curing goes into each and every one of our legendary Reuben sandwiches.
-            </p>
-            <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the pickle. The only thing we didn't make on the premises is the toothpick ( but we're looking into how to do that). </p>
-            <p>This unforgettable sandwich has all of the classic Reuben elements: corned beef, rye bread, creamy Russian dressing, sauerkraut, plus a sweet gherkin pickle. No substitions please!
-            <p>
-              <p>Add a side of french fries or sweet potato fries for $2 more, or our housemade pub chips for $1.</p>
-          </div>
+            <ul>
+              {% for pass in page.recipe %}
+                  <li>{{ pass }}
+                    <br>
+                  </li>
+              {% endfor %}
+          </ul>
+              </div>
         </div>
       </div>
     </li>
   </ul>
 </div>
-
-{{ content }}
 
 </div>

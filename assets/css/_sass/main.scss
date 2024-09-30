@@ -285,6 +285,10 @@ nav ul li a:hover {
   -webkit-mask: radial-gradient(circle .8rem at 2px 50%, #0000 98%, #000) 0 0 / 100% 2.4rem;
 }
 
+.card_text_post li {
+  margin-bottom: 10px; /* Adjust the value to your preference */
+}
+
 .post-container .card_image_post {
   height: calc(10 * 1.2rem); /* Reduce image height */
   padding: 1rem 1rem 0;
