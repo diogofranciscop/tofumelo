@@ -1,13 +1,38 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}</h1>
+<h1>{{page.title | upcase}}</h1>
+<div class="main_post">
+  <ul class="cards_post">
+    <li class="cards_item_post">
+      <div class="card_post">
+        <div class="card_image_post"><img src="{{ page.image }}">
+        </div>
+        <div class="card_content_post">
+          <h2 class="card_title_post">Ingredientes</h2>
+          <div class="card_text_post">
+          {{page.ingredients}}  
+          </div>
+        </div>
+      </div>
+    </li>
 
-<p> 
-  {% assign author = site.authors | where: 'short_name', page.author | first %}
-  {% if author %}
-    - <a href="{{ author.url }}">{{ author.name }}</a>
-  {% endif %}
-</p>
+    <li class="cards_item_post">
+      <div class="card_post">
+        <div class="card_content_post">
+          <h2 class="card_title_post">Receita</h2>
+          <div class="card_text_post">
+            <p>All great meals take time, but this one takes it to the next level! More than 650 hours of fermenting, brining, aging, and curing goes into each and every one of our legendary Reuben sandwiches.
+            </p>
+            <p>Every element of this extraordinary sandwich is handcrafted in our kitchens, from the rye bread baked from our secret recipe to the cave-aged Swiss cheese, right down to the pickle. The only thing we didn't make on the premises is the toothpick ( but we're looking into how to do that). </p>
+            <p>This unforgettable sandwich has all of the classic Reuben elements: corned beef, rye bread, creamy Russian dressing, sauerkraut, plus a sweet gherkin pickle. No substitions please!
+            <p>
+              <p>Add a side of french fries or sweet potato fries for $2 more, or our housemade pub chips for $1.</p>
+          </div>
+        </div>
+      </div>
+    </li>
+  </ul>
+</div>
 
 {{ content }}

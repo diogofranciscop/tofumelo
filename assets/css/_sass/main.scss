@@ -1,3 +1,4 @@
+/*CSS for the search box */
 .current {
     color: green;
   }
@@ -132,6 +133,8 @@ body {
   --hover: 1;
 } 
 
+/* CSS for the navbar */
+
 nav {
   max-width: 960px;
   mask-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, #ffffff 25%, #ffffff 75%, rgba(255, 255, 255, 0) 100%);
@@ -164,7 +167,7 @@ nav ul li a:hover {
   color: rgba(0, 35, 122, 0.7);
 }
 
-/* CSS */
+/* CSS for the cards recipes in the index.html*/
 .button-3 {
   appearance: none;
   background-color: #2ea44f;
@@ -233,4 +236,80 @@ nav ul li a:hover {
   .posts {
     grid-template-columns: repeat(3, 1fr);
   }
+}
+/* CSS for the post html*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.cards_post {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(200px, 1fr)); /* Limit minimum and maximum width */
+  gap: 20px; /* Add space between the cards */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item_post {
+  display: flex;
+  justify-content: center; /* Center cards in their grid space */
+  padding: 1rem;
+}
+
+.card_post {
+  max-width: 300px; /* Set a smaller maximum width for the cards */
+  width: 100%;
+  background-color: white;
+  border-radius: 0.25rem;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  padding-left: 20px; /* Reduce padding */
+  background: repeating-linear-gradient(#0000 0 calc(1.2rem - 1px), #66afe1 0 1.2rem) right bottom / 100% 100%, linear-gradient(red 0 0) 30px 0 / 2px 100% #fff;
+  background-repeat: no-repeat;
+  line-height: 1.2rem;
+  -webkit-mask: radial-gradient(circle .8rem at 2px 50%, #0000 98%, #000) 0 0 / 100% 2.4rem;
+}
+
+.card_image_post {
+  height: calc(10 * 1.2rem); /* Reduce image height */
+  padding: 1rem 1rem 0;
+  position: relative;
+}
+
+.card_image_post img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card_content_post {
+  padding: 1rem; /* Reduce padding */
+}
+
+h2.card_title,
+p {
+  margin: 1rem 0;
+}
+
+h2.card_title {
+  font-size: 1.2em; /* Slightly smaller font */
+}
+
+body {
+  font-family: monospace;
+  background: #eee;
+}
+
+html {
+  font-size: 15px;
 }
