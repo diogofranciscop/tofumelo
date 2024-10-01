@@ -140,16 +140,30 @@ body {
 /* CSS for the navbar */
 
 nav {
+  display: flex;
+  align-items: center;
   width: 100%;
   margin: 0 auto;
+  padding: 0 20px; /* Adjust this for desired space from the left */
   background-color: white;
   border-bottom: 2px solid rgba(128, 127, 129, 0.5); 
 }
 
+nav .logo {
+  max-height: 50px;
+  position: absolute;
+  top: 5px;
+  left: 40px;
+}
+
 nav ul {
-  text-align: center;
-  margin-top: 0px;
-  margin-bottom: 0px;
+  display: flex;
+  justify-content: center; /* Center the navigation links */
+  align-items: center;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  flex-grow: 1; /* Allows the ul to take up remaining space */
 }
 
 nav ul li {
@@ -171,12 +185,16 @@ nav ul li a:hover {
   background: rgba(255, 255, 255, 0.1);
   color: rgba(0, 35, 122, 0.7);
 }
-nav .contactos-special{
+
+nav .contactos-special {
   background-color: green;
   color: white;
   border-radius: 1000px;
   padding: 10px;
 }
+
+
+
 
 /* CSS for the cards recipes in the index.html*/
 .button-3 {
