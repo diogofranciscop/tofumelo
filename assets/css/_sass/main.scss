@@ -4,11 +4,6 @@
   }
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
-body{
-  background: #ebe8e8;
-  font-family: 'Open Sans', sans-serif;
-  margin:0px;
-}
 
 .wrap-search {
   width: 100%;
@@ -16,25 +11,25 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 130%;
-  margin-top: 2%;
-
+  height: 100px;
 }
 .search {
-  width: 40%;
+  width: 40%; 
   position: relative;
   display: flex;
   justify-content: center;
+ 
 }
 
 .searchTerm {
+  border: 2px solid rgba(128, 127, 129, 0.5); 
   width: 100%;
-  border: 3px solid rgba(0, 128, 0, 0.5);
   border-right: none;
   padding: 5px;
   height: 20px;
-  border-radius: 5px 0 0 5px;
+  border-radius: 20px 0 0 20px;
   outline: none;
+  background-color: #efedf7;
 }
 
 .searchTerm:focus{
@@ -42,15 +37,13 @@ body{
 }
 
 .searchButton {
+  border: 2px solid rgba(128, 127, 129, 0.5); 
   width: 40px;
-  height: 36px;
-  border: 1px solid rgba(0, 128, 0, 0.5);
-  background: rgba(0, 128, 0, 0.5);
   text-align: center;
-  color: #fff;
-  border-radius: 0 5px 5px 0;
+  color: #6b5fb3;
+  border-radius: 0 20px 20px 0;
   cursor: pointer;
-  font-size: 20px;
+  font-size: 15px;
 }
 
 /*Resize the wrap to see the search bar change!*/
@@ -150,6 +143,7 @@ nav {
   width: 100%;
   margin: 0 auto;
   background-color: white;
+  border-bottom: 2px solid rgba(128, 127, 129, 0.5); 
 }
 
 nav ul {
