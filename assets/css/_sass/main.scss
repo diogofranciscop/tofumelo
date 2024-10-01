@@ -452,3 +452,32 @@ CSS for the forms
 .survey-container .comments {
   margin-top: 1.5em;
 }
+
+/*
+CSS for the info button
+*/
+
+.info-button {
+  position: relative; /* Position relative for tooltip positioning */
+  display: inline-block; /* Keep it inline with other elements */
+  cursor: pointer; /* Indicate it's clickable */
+}
+
+.info-tooltip {
+  display: none; /* Initially hide the tooltip */
+  position: absolute; /* Position it relative to the button */
+  bottom: 100%; /* Position above the button */
+  left: 50%; /* Center the tooltip horizontally */
+  transform: translateX(-50%); /* Adjust for centering */
+  background-color: #fff; /* Tooltip background color */
+  color: #000; /* Text color */
+  padding: 8px; /* Padding for the tooltip */
+  border: 1px solid rgba(128, 127, 129, 0.5); /* Border */
+  border-radius: 4px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Shadow for depth */
+  z-index: 1000; /* Ensure it appears above other elements */
+}
+
+.info-button:hover .info-tooltip {
+  display: block; /* Show the tooltip on hover */
+}
