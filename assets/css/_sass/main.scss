@@ -147,6 +147,9 @@ nav {
   padding: 0 20px; /* Adjust this for desired space from the left */
   background-color: white;
   border-bottom: 2px solid rgba(128, 127, 129, 0.5); 
+  position: fixed; /* Fixes the navbar to the top */
+  top: 0; /* Ensures it is at the top of the viewport */
+  z-index: 1000; /* Ensures it appears above other elements */
 }
 
 nav .logo {
@@ -192,8 +195,6 @@ nav .contactos-special {
   border-radius: 1000px;
   padding: 10px;
 }
-
-
 
 
 /* CSS for the cards recipes in the index.html*/
