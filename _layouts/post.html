@@ -2,43 +2,51 @@
 layout: default
 ---
 <div class="post-container">
-<h1>{{page.title | upcase}}</h1>
-<div class="main_post">
-  <ul class="cards_post">
-    <li class="cards_item_post">
-      <div class="card_post">
-        <div class="card_image_post"><img src="{{ page.image }}">
-        </div>
-        <div class="card_content_post">
-          <h2 class="card_title_post">Ingredientes</h2>
-          <div class="card_text_post">
-            <ul>
-              {% for ingredient in page.ingredients %}
-                  <li>{{ ingredient }}</li>
-              {% endfor %}
-          </ul>
-          </div>
-        </div>
+<div class="recipe-card">
+  <div class="header">
+      <h1>{{page.title}}</h1>
+      <h2>{{page.description}}</h2>
+      <div class="rating">
+          ★★★★☆
       </div>
-    </li>
+  </div>
 
-    <li class="cards_item_post">
-      <div class="card_post">
-        <div class="card_content_post">
-          <h2 class="card_title_post">Receita</h2>
-          <div class="card_text_post">
-            <ul>
+  <div class="image-section">
+    <img class="post-recipe-img" src="{{ page.image }}">
+  </div>
+
+  
+  <div class="content">
+      <div class="ingredients">
+        <div class="info">
+          <div class="servings">
+              <img src="/assets/img/cultery.png" alt="Servings">
+              <p>2 servings</p>
+          </div>
+          <div class="time">
+              <img src="/assets/img/clock.png" alt="Time">
+              <p>15 minutes</p>
+          </div>
+      </div>
+    
+          <h3>INGREDIENTS</h3>
+          <ul>
+            {% for ingredient in page.ingredients %}
+                <li>{{ ingredient }}</li>
+            {% endfor %}
+        </ul>
+      </div>
+      <div class="separator"></div>
+      <div class="directions">
+          <h3>DIRECTIONS</h3>
+          <ol>
               {% for pass in page.recipe %}
                   <li>{{ pass }}
                     <br>
                   </li>
               {% endfor %}
-          </ul>
-              </div>
-        </div>
+          </ol>
       </div>
-    </li>
-  </ul>
+  </div>
 </div>
-
 </div>
