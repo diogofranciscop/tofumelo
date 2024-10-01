@@ -1,16 +1,18 @@
 <nav>
-  
+
   <ul>
-    <li><img src="/assets/img/porco.png" alt="Website Logo" class="logo"></li>
+    <li>
+      <a href="/" class="image-link">
+        <img src="/assets/img/porco.png" alt="Website Logo" class="logo">
+      </a>
+    </li>
     {% for item in site.data.navigation %}
-      <li>
-        <a href="{{ item.link }}" 
-           {% if page.url == item.link %}class="current"{% endif %}
-           {% if item.name == "Contactos" %}class="contactos-special"{% endif %}>
-           {{ item.name }}
-        </a>
-      </li>
+    <li>
+      <a href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %} {% if item.name=="Contactos"
+        %}class="contactos-special" {% endif %}>
+        {{ item.name }}
+      </a>
+    </li>
     {% endfor %}
   </ul>
 </nav>
-
