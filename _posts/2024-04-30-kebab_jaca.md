@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post_multiple_sections
 title: "Kebab de Jaca"
 permalink: /kebab-jaca/
 type: ["almoço"]

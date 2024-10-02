@@ -1,0 +1,56 @@
+---
+layout: default
+---
+<div class="post-container">
+<div class="recipe-card">
+  <div class="header">
+      <h1>{{page.title}}</h1>
+      <h2>{{page.description}}</h2>
+      <div class="rating">
+          ★★★★☆
+      </div>
+  </div>
+
+  <div class="image-section">
+    <img class="post-recipe-img" src="{{ page.image }}">
+  </div>
+
+  
+  <div class="content">
+      <div class="ingredients">
+        <div class="info">
+          <div class="servings">
+              <img src="/assets/img/cultery.png" alt="Servings">
+              <p>2 servings</p>
+          </div>
+          <div class="time">
+              <img src="/assets/img/clock.png" alt="Time">
+              <p>15 minutes</p>
+          </div>
+      </div>
+    
+          <h3>INGREDIENTES</h3>
+          {% assign sections = page.ingredients %}
+            {% for section in sections %}
+                <h4>For {{ section[0] }}</h4>
+                <ul>
+                    {% for ingredient in section[1] %}
+                        <li>{{ ingredient }}</li>
+                    {% endfor %}
+                </ul>
+            {% endfor %}
+      </div>
+      <div class="separator"></div>
+      <div class="directions">
+          <h3 style="text-align: center;">INSTRUÇÕES</h3>
+          <ol>
+              {% for pass in page.recipe %}
+                  <li>{{ pass }}
+                    <br>
+                  </li>
+              {% endfor %}
+          </ol>
+      </div>
+  </div>
+</div>
+</div>
