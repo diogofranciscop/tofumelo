@@ -21,7 +21,7 @@ layout: default
         <div class="info">
           <div class="servings">
               <img src="/assets/img/cultery.png" alt="Servings">
-              <p>2 servings</p>
+              <p>{{page.serve}} pessoas</p>
           </div>
           <div class="time">
               <img src="/assets/img/clock.png" alt="Time">
@@ -44,11 +44,15 @@ layout: default
       <div class="directions">
           <h3 style="text-align: center;">INSTRUÇÕES</h3>
           <ol>
-              {% for pass in page.recipe %}
-                  <li>{{ pass }}
-                    <br>
-                  </li>
-              {% endfor %}
+            {% assign sections = page.instructions %}
+            {% for section in sections %}
+                <h4>Para {{ section[0] }}</h4>
+                <ol>
+                    {% for ingredient in section[1] %}
+                        <li>{{ ingredient }}</li>
+                    {% endfor %}
+                </ol>
+            {% endfor %}
           </ol>
       </div>
   </div>
