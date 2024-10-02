@@ -6,11 +6,11 @@ type: ["almoço"]
 description: "Vegan kebab with jaca or pleurothus"
 image: "/assets/img/kebab_jaca.jpeg"
 ingredients: 
-  Pão Pita:
+  o pão pita:
     - farinha
     - água
     - fermento
-  Recheio:
+  o recheio:
     - banana
     - jaca
     - ananas

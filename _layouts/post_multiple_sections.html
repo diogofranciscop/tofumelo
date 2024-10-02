@@ -32,7 +32,7 @@ layout: default
           <h3>INGREDIENTES</h3>
           {% assign sections = page.ingredients %}
             {% for section in sections %}
-                <h4>For {{ section[0] }}</h4>
+                <h4>Para {{ section[0] }}</h4>
                 <ul>
                     {% for ingredient in section[1] %}
                         <li>{{ ingredient }}</li>
