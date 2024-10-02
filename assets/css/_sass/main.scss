@@ -126,7 +126,7 @@ body {
 }
 
 .card__footer span:nth-of-type(1) {
-  font-size: calc(var(--size) * 0.065);
+  font-size: calc(var(--size) * 0.060);
 }
 
 .card__footer span:nth-of-type(2) {
@@ -136,6 +136,7 @@ body {
 .card:is(:hover, :focus-visible) {
   --hover: 1;
 } 
+
 
 /* CSS for the navbar */
 
@@ -499,8 +500,12 @@ CSS for the post page
   justify-content: space-between;
 }
 
-.ingredients, .directions {
+.ingredients  {
   text-align: center;
+  width: 48%;
+}
+
+.directions{
   width: 48%;
 }
 
