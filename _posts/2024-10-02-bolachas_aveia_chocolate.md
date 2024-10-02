@@ -11,7 +11,7 @@ ingredients:
   - 100gr de açucar (acrescentar 50gr se preferir mais doce)
   - 120gr de manteiga vegan (costumo usar da Alpro)
   - 50gr de chocolate negro (costumo usar 70%)
-recipe:
+instructions:
   - Comece por pré-aquecer o forno a 180ºC.
   - Misturar a aveia, a a farinha e o açucar amarelo.
   - Partir o chocolate em pedaços pequenos e juntar à mistura.
