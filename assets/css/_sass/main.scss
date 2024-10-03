@@ -1,3 +1,28 @@
+/*
+CSS for the default page
+*/
+/* Apply to the main container */
+.html-defautl, .body-default {
+  height: 100%;
+  margin: 0;
+}
+
+.container-default {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full height of the viewport */
+}
+
+.content-default {
+  flex: 1; /* Takes up available space */
+}
+
+footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+
 /*CSS for the search box */
 .current {
     color: green;
@@ -540,6 +565,7 @@ CSS for the post page
 /*
 CSS do footer
 */
-footer {
-  padding: 100px;
+
+.filter-buttons{
+  text-align: center;
 }

@@ -1,17 +1,24 @@
 <!doctype html>
-<html>
+<html class="html-default">
   <head>
     <meta charset="utf-8">
     <title>Vegan Recipes</title>
-    <link rel="icon" href="assets/img/porco.png" type="image/x-icon">
+    <link rel="icon" href="/assets/img/porco.png" type="image/x-icon">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   </head>
-  <body style="margin-top: 55px">
+  <body class="body-default" style="margin-top: 55px">
     {% include navigation.html %}
-    {{ content }}
+    <div class="container-default">
+        <div class="content-default">
+            <!-- Main content goes here -->
+             {{ content }}
+        </div>
+        <footer>
+            <!-- Footer content goes here -->
+           <p>© 2024 vegan-recipes</p> 
+            <p>Released under the <a href="https://opensource.org/licenses/MIT" target="_blank">MIT License</a>.</p>
+        </footer>
+    </div>
   </body>
-  <footer>
-    Todos os direitos reservados por vegan-recipes
-  </footer>
 </html>
