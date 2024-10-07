@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ""
+title: "Mix de grão e legumes"
 permalink: 
-type: [""]
+type: ["Almoço"]
 description: ""
-image: 
+image: "/assets/img/photo-icon.png"
 ingredients:
 
 instructions:

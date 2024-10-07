@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ""
+title: "Sopa de feijão e couve"
 permalink: 
-type: [""]
+type: ["entrada"]
 description: ""
-image: 
+image: "/assets/img/photo-icon.png"
 ingredients:
 
 instructions:

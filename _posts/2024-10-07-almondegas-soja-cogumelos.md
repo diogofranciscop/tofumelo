@@ -1,8 +1,8 @@
 ---
 layout: post
-title: "Salada de batata e tofu"
+title: "Almondegas de soja e cogumelos"
 permalink: 
-type: ["Almoço"]
+type: ["almoço"]
 description: ""
 image: "/assets/img/photo-icon.png"
 ingredients:

@@ -1,10 +1,10 @@
 ---
 layout: post
-title: ""
+title: "Tofu na cerveja"
 permalink: 
-type: [""]
+type: ["Almoço"]
 description: ""
-image: 
+image: "/assets/img/photo-icon.png"
 ingredients:
 
 instructions:
