@@ -25,7 +25,7 @@ footer {
 
 /*CSS for the search box */
 .current {
-    color: green;
+    color: #A7D489;
   }
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -47,14 +47,14 @@ footer {
 }
 
 .searchTerm {
-  border: 2px solid rgba(128, 127, 129, 0.5); 
+  border: 2px solid #ECEBC9; 
   width: 100%;
   border-right: none;
   padding: 5px;
   height: 20px;
   border-radius: 20px 0 0 20px;
   outline: none;
-  background-color: #efedf7;
+  background-color: #F6F6DB;
 }
 
 .searchTerm:focus{
@@ -62,11 +62,12 @@ footer {
 }
 
 .searchButton {
-  border: 2px solid rgba(128, 127, 129, 0.5); 
+  border: 2px solid #ECEBC9; 
   width: 40px;
   text-align: center;
-  color: #6b5fb3;
+  color: #ECEBC9;
   border-radius: 0 20px 20px 0;
+  background-color: #F6F6DB;
   cursor: pointer;
   font-size: 15px;
 }
@@ -172,7 +173,7 @@ nav {
   margin: 0 auto;
   padding: 0 20px; /* Adjust this for desired space from the left */
   background-color: white;
-  border-bottom: 2px solid rgba(128, 127, 129, 0.5); 
+  border-bottom: 2px solid #ECEBC9; 
   position: fixed; /* Fixes the navbar to the top */
   top: 0; /* Ensures it is at the top of the viewport */
   z-index: 1000; /* Ensures it appears above other elements */
@@ -216,7 +217,7 @@ nav ul li a:hover {
 }
 
 nav .contactos-special {
-  background-color: green;
+  background-color: #A7D489;
   color: white;
   border-radius: 1000px;
   padding: 10px;
@@ -237,7 +238,7 @@ nav .contactos-special {
 /* CSS for the cards recipes in the index.html*/
 .button-3 {
   appearance: none;
-  background-color: #2ea44f;
+  background-color: #C4DEA4;
   border: 1px solid rgba(27, 31, 35, .15);
   border-radius: 6px;
   box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
@@ -266,7 +267,7 @@ nav .contactos-special {
 }
 
 .button-3:hover {
-  background-color: #2c974b;
+  background-color: #A7D489;
 }
 
 .button-3:focus {
@@ -282,12 +283,12 @@ nav .contactos-special {
 }
 
 .button-3:active {
-  background-color: #298e46;
+  background-color: #A7D489;
   box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
 .button-3.selected {
-  background-color: blue; /* Color for selected state */
+  background-color: #A7D489; /* Color for selected state */
   color: white; /* Text color when selected */
 }
 
