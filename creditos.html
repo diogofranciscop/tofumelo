@@ -7,9 +7,16 @@ title: Staff
 <ul>
   {% for chef in site.chefs %}
     <li>
-      <h2><a href="{{ chef.url }}">{{ chef.name }}</a></h2>
-      <h3>{{ chef.position }}</h3>
+      <h2>{{ chef.name }}</h2>
       <p>{{ chef.content | markdownify }}</p>
+      <p>As receitas onde nos inspiramos nele são:</p>
+      <ul>
+        {% assign filtered_posts = site.posts | where: 'author', chef.short_name %}
+        {% for post in filtered_posts %}
+          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+        {% endfor %}
+      </ul>
     </li> 
   {% endfor %}
 </ul>
+

@@ -6,7 +6,7 @@ type: ["almoço"]
 description: "Vegan kebab with jaca or pleurothus"
 image: "/assets/img/kebab_jaca.jpeg"
 serve: 2
-author: 
+author: tuga-vegetal
 ingredients: 
   o pão pita:
     - 300 gr de farinha de trigo
