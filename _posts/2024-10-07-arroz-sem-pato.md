@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Arroz Sem Pato"
-permalink: 
+permalink: /arros-sem-pato/
 type: ["Almoço"]
 description: ""
 image: "/assets/img/photo-icon.png"

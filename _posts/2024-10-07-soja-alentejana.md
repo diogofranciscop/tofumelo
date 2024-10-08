@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Soja à alentejana"
-permalink: 
+permalink: /soja-alentejana/
 type: ["almoço"]
 description: ""
 image: "/assets/img/photo-icon.png"

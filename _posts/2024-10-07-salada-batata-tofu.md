@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Salada de batata e tofu"
-permalink: 
+permalink: /salada-batata-tofu/
 type: ["Almoço"]
 description: ""
 image: "/assets/img/photo-icon.png"

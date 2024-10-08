@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Tofu asiádio (sticky)"
-permalink: 
+title: "Tofu asiático (sticky)"
+permalink: /tofu-sticky/
 type: ["almoço"]
 description: ""
 image: "/assets/img/photo-icon.png"
