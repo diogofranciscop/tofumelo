@@ -8,7 +8,7 @@ title: Staff
   {% for chef in site.chefs %}
     <li>
       <h2>{{ chef.name }}</h2>
-      <p>As receitas onde nos inspiramos nele são:</p>
+      <p>As receitas onde nos inspiramos são:</p>
       <ul>
         {% assign filtered_posts = site.posts | where: 'author', chef.short_name %}
         {% for post in filtered_posts %}
