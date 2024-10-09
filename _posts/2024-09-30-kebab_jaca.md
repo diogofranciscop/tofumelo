@@ -5,7 +5,8 @@ permalink: /kebab-jaca/
 type: ["almoço"]
 description: "Vegan kebab with jaca or pleurothus"
 image: "/assets/img/kebab_jaca.jpeg"
-serve: 2
+serve: 4 refeições
+minutes: 60
 author: tuga-vegetal
 ingredients: 
   o pão pita:
@@ -44,4 +45,5 @@ instructions:
     - Depois numa frigideira colocar um fio de azeite, aquecer, e juntar a jaca temparada, deixar 5 minutos, mexendo.
     - Entretanto, preparar o molho, juntar a maionese com um fio de sriracha.
     - Depois é sé meter o molho no pão pita, juntar a cenoura, a alface e a jaca.
+    - Costumo acompanhar com umas batatas caseiras firtas na air fryer.
 ---

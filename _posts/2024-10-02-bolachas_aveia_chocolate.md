@@ -5,8 +5,9 @@ permalink: /bolachas-aveia-chocolate/
 type: ["sobremesa"]
 description: "Bolachas crocantes com pouco açucar"
 image: "/assets/img/bolachas_aveia.png"
-serve: 2
-author: 
+serve: 15 bolachas
+minutes: 30 min
+author: nossa
 ingredients:
   - 150gr de farinha de trigo
   - 150gr de aveia em flocos

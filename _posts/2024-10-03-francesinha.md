@@ -6,7 +6,7 @@ permalink: /Francesinha/
 description: "Vegan kebab with jaca or pleurothus"
 image: "/assets/img/francesinha.jpg"
 serve: 2
-author: 
+author: derek
 ingredients: >
   A banana is an edible fruit – botanically a berry – produced by several
   kinds of large herbaceous flowering plants in the genus Musa.
