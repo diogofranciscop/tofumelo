@@ -47,7 +47,16 @@ layout: default
                     {% endfor %}
                 </ol>
             </div>
-        </div> 
+
+        </div>
+        {% if page.notes %}
+        <div class="notes-footer">
+            <h3>Notas</h3>
+            {% for note in page.notes | split: "\n\n" %}
+            <p>{{ note }}</p>
+            {% endfor %}
+        </div>
+        {% endif %}
     </div>
-   
+
 </div>
