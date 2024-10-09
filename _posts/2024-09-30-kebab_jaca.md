@@ -45,5 +45,6 @@ instructions:
     - Depois numa frigideira colocar um fio de azeite, aquecer, e juntar a jaca temparada, deixar 5 minutos, mexendo.
     - Entretanto, preparar o molho, juntar a maionese com um fio de sriracha.
     - Depois é sé meter o molho no pão pita, juntar a cenoura, a alface e a jaca.
-    - Costumo acompanhar com umas batatas caseiras firtas na air fryer.
+    - Costumo acompanhar com umas batatas caseiras fritas na air fryer.
+
 ---

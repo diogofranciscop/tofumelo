@@ -52,7 +52,9 @@ layout: default
         {% if page.notes %}
         <div class="notes-footer">
             <h3>Notas</h3>
-            <p>{{ page.notes }}</p>
+            {% for note in page.notes %}
+                <p>{{ note | markdownify }}</p>  <!-- Use markdownify to convert Markdown to HTML -->
+            {% endfor %}
         </div>
         {% endif %}
     </div>

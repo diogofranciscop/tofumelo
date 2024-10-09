@@ -9,6 +9,7 @@ collections:
       output: true # Ensures the pages from the _chefs collection are generated
 
 permalink: pretty 
+markdown: kramdown
 
 defaults:
   - scope:
