@@ -116,7 +116,7 @@ body {
   width: 100%;
   background: red;
   display: grid;
-  grid-template-row: auto auto;
+  grid-template-rows: auto auto;
   gap: 0.5ch;
   background: hsla(38, 38%, 64%, 0.5);
   backdrop-filter: blur(var(--blur));
