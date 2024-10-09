@@ -52,9 +52,7 @@ layout: default
         {% if page.notes %}
         <div class="notes-footer">
             <h3>Notas</h3>
-            {% for note in page.notes | split: "\n\n" %}
-            <p>{{ note }}</p>
-            {% endfor %}
+            <p>{{ page.notes }}</p>
         </div>
         {% endif %}
     </div>
