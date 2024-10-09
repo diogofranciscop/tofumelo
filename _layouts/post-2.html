@@ -49,7 +49,7 @@ layout: default
                 <h4>Para {{ section[0] }}</h4>
                 <ol>
                     {% for ingredient in section[1] %}
-                        <li>{{ ingredient }}</li>
+                    <li>{{ ingredient | markdownify}}</li>
                     {% endfor %}
                 </ol>
             {% endfor %}

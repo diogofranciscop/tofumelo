@@ -32,7 +32,7 @@ layout: default
                 <h3>INGREDIENTES</h3>
                 <ul>
                     {% for ingredient in page.ingredients %}
-                    <li>{{ ingredient }}</li>
+                    <li>{{ ingredient | markdownify}}</li>
                     {% endfor %}
                 </ul>
             </div>
