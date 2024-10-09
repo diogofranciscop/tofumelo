@@ -6,7 +6,7 @@ type: ["pequeno-almoço","lanche"]
 description: "Weetabix  adormecidos com iogurte e fruta fresca"
 image: "/assets/img/camera-icon.png"
 serve: 4 vezes
-author: 
+author: original
 ingredients:
     - 6 bolachas weetabix
     - Bebida vegetal de amendoa q.b.

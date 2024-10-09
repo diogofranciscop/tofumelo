@@ -7,7 +7,7 @@ description: "Bolachas de aveia com pedaços de chocolate negro"
 image: "/assets/img/bolachas_aveia.png"
 serve: 15 bolachas
 minutes: 30 min
-author: nossa
+author: original
 ingredients:
   - 150gr de farinha de trigo
   - 150gr de aveia em flocos
