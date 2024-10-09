@@ -3,7 +3,7 @@ layout: post
 title: "Bolachas de aveia e chocolate"
 permalink: /bolachas-aveia-chocolate/
 type: ["sobremesa"]
-description: "Bolachas crocantes com pouco açucar"
+description: "Bolachas de aveia com pedaços de chocolate negro"
 image: "/assets/img/bolachas_aveia.png"
 serve: 15 bolachas
 minutes: 30 min

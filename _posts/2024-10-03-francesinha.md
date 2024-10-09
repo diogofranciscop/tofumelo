@@ -3,7 +3,7 @@ layout: post-2
 title: "Francesinha"
 type: ["almoço"]
 permalink: /Francesinha/
-description: "Vegan kebab with jaca or pleurothus"
+description: "Francesinha vegan com tofu, cogumelos e molho apurado."
 image: "/assets/img/francesinha.jpg"
 serve: 2 refeições
 author: Omeletes sem ovos

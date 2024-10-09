@@ -3,7 +3,7 @@ layout: post-2
 title: "Kebab de Jaca"
 permalink: /kebab-jaca/
 type: ["almoço"]
-description: "Vegan kebab with jaca or pleurothus"
+description: "Delicioso Kebab de jaca com pão pita caseiro"
 image: "/assets/img/kebab_jaca.jpeg"
 serve: 4 refeições
 minutes: 60
