@@ -176,7 +176,7 @@ nav {
   margin: 0 auto;
   padding: 0 20px; /* Adjust this for desired space from the left */
   background-color: white;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
   position: fixed; /* Fixes the navbar to the top */
   top: 0; /* Ensures it is at the top of the viewport */
   z-index: 1000; /* Ensures it appears above other elements */
@@ -198,6 +198,7 @@ nav ul {
   margin-bottom: 0;
   flex-grow: 1;
   margin-right: 50px;
+  padding: 5px;
 }
 
 nav ul li {
@@ -206,7 +207,7 @@ nav ul li {
 
 nav ul li a {
   padding: 18px;
-  font-family: "Open Sans";
+  font-family: "Archivo Narrow";
   text-transform: uppercase;
   color: rgba(0, 35, 122, 0.5);
   font-size: 14px;
