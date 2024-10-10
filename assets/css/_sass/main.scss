@@ -207,12 +207,17 @@ nav ul li {
 
 nav ul li a {
   padding: 18px;
-  font-family: "Archivo Narrow";
   text-transform: uppercase;
   color: rgba(0, 35, 122, 0.5);
-  font-size: 14px;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 20.21px;
   text-decoration: none;
   display: block;
+  padding: 18px;
+  text-transform: uppercase;
+  color: rgba(0, 35, 122, 0.5);
 }
 
 nav ul li a:hover {
@@ -222,10 +227,11 @@ nav ul li a:hover {
 }
 
 nav .contactos-special {
-  background-color: #4A8649;
+  background-color: #7BA16D;
   color: white;
   border-radius: 1000px;
   padding: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .image-link {
