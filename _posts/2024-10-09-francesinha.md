@@ -6,7 +6,7 @@ permalink: /Francesinha/
 description: "Francesinha vegan com tofu, cogumelos e molho apurado."
 image: "/assets/img/francesinha.jpg"
 serve: 2 refeições
-author: Omeletes sem ovos
+author: omeletes-sem-ovos
 ingredients: 
   molho:
     - 1 chávena de chá de polpa de tomate

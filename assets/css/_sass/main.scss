@@ -26,7 +26,7 @@ footer {
 
 /*CSS for the search box */
 .current {
-    color: #A7D489;
+    color: #2D5A2C  ;
   }
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
@@ -56,6 +56,7 @@ footer {
   border-radius: 20px 0 0 20px;
   outline: none;
   background-color: #F6F6DB;
+  padding-left: 15px;
 }
 
 .searchTerm:focus{
@@ -175,7 +176,7 @@ nav {
   margin: 0 auto;
   padding: 0 20px; /* Adjust this for desired space from the left */
   background-color: white;
-  border-bottom: 2px solid #ECEBC9; 
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Shadow effect */
   position: fixed; /* Fixes the navbar to the top */
   top: 0; /* Ensures it is at the top of the viewport */
   z-index: 1000; /* Ensures it appears above other elements */
@@ -190,12 +191,13 @@ nav .logo {
 
 nav ul {
   display: flex;
-  justify-content: center; /* Center the navigation links */
+  justify-content: right;
   align-items: center;
   list-style-type: none;
   margin-top: 0;
   margin-bottom: 0;
-  flex-grow: 1; /* Allows the ul to take up remaining space */
+  flex-grow: 1;
+  margin-right: 50px;
 }
 
 nav ul li {
@@ -219,7 +221,7 @@ nav ul li a:hover {
 }
 
 nav .contactos-special {
-  background-color: #A7D489;
+  background-color: #4A8649;
   color: white;
   border-radius: 1000px;
   padding: 10px;
