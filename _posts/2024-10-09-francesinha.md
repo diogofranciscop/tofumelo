@@ -4,7 +4,7 @@ title: "Francesinha"
 type: ["almoço"]
 permalink: /Francesinha/
 description: "Francesinha vegan com tofu, cogumelos e molho apurado."
-image: "/assets/img/francesinha.jpg"
+image: "/assets/img/francesinha2.jpeg"
 serve: 2 refeições
 author: omeletes-sem-ovos
 ingredients: 

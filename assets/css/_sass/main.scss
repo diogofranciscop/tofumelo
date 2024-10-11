@@ -93,87 +93,85 @@ footer {
 }
 
 /* This is the style of the card */
+/* General container for the card */
 body {
   display: grid;
   place-items: center;
   margin-top: 0px;
-}
-
-.card {
-  --blur: 16px;
-  --size: clamp(300px, 50vmin, 600px);
-  width: var(--size);
-  aspect-ratio: 4 / 3;
-  position: relative;
-  border-radius: 2rem;
+}.card {
+  position: relative; 
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25); /* Increased shadow size */
   overflow: hidden;
-  color: #000;
-  transform: translateZ(0);
+  background: rgba(217, 217, 217, 0.3);
+  width: 160px; /* Increased width */
+  display: inline-block;
+  vertical-align: top;
+  text-align: center;
+  transition: transform 0.2s;
+  height: 220px; /* Increased height */
+  text-decoration: none;
 }
 
+.card__overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25); /* Increased shadow size */
+  background: rgba(217, 217, 217, 0.9);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  text-align: center; 
+  color: black;
+}
+
+.card__overlay p {
+  max-width: 80%; 
+  text-align: center; 
+  margin: 0; 
+  font-size: 1rem; /* Increased font size for the description */
+}
+
+/* Show the overlay on hover */
+.card:hover .card__overlay {
+  opacity: 1; 
+}
+
+.card__img-container{
+  margin-bottom: 10px;
+}
+/* Container for the image */
 .card__img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  transform: scale(calc(1 + (var(--hover, 0) * 0.25))) rotate(calc(var(--hover, 0) * -5deg));
-  transition: transform 0.2s;
+  width: 140px; /* Increased width */
+  height: 160px; /* Increased height */
+  margin-top: 10px;
+  box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25); /* Increased shadow size */
 }
 
 .card__footer {
-  padding: 0 1.5rem;
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  background: red;
-  display: grid;
-  grid-template-rows: auto auto;
-  gap: 0.5ch;
-  background: hsla(38, 38%, 64%, 0.5);
-  backdrop-filter: blur(var(--blur));
-  height: 30%;
-  align-content: center;
+  font-size: 1.4rem; /* Increased footer font size */
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
+  margin: 20px 0;
+  color: #333;
+  height: 18px; /* Increased height */
+  font-family: "Asap Condensed";
+  font-size: 14px; /* Increased font size */
+  font-weight: 400;
+  line-height: 15.75px; /* Adjusted line height */
+  text-align: left;
+  text-decoration: none;
 }
 
-.card__action {
-  position: absolute;
-  aspect-ratio: 1;
-  width: calc(var(--size) * 0.15);
-  bottom: 30%;
-  right: 1.5rem;
-  transform: translateY(50%)
-    translateY(
-      calc(
-        (var(--size) * 0.4)
-      )
-    )
-    translateY(calc(var(--hover, 0) * (var(--size) * -0.4)));
-  background: purple;
-  display: grid;
-  place-items: center;
-  border-radius: 0.5rem;
-  background: hsl(0 0% 100% / 0.5);
-/*   backdrop-filter: blur(calc(var(--blur) * 0.5)); */
-  transition: transform 0.2s;
+.title-card {
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+  color: rgba(0, 0, 0, 1);
 }
 
-.card__action svg {
-  aspect-ratio: 1;
-  width: 50%;
-}
-
-.card__footer span:nth-of-type(1) {
-  font-size: calc(var(--size) * 0.060);
-}
-
-.card__footer span:nth-of-type(2) {
-  font-size: calc(var(--size) * 0.035);
-  max-width: 290px;
-}
-
-.card:is(:hover, :focus-visible) {
-  --hover: 1;
-} 
 
 
 /* CSS for the navbar */
@@ -329,22 +327,23 @@ nav .contactos-special {
 }
 
 .posts {
-  margin-top: 10vh;
+  margin-top: 30px;
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
   margin-bottom: 10vh;
+  width: 700px;
 }
 
 @media (min-width: 768px) {
   .posts {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (min-width: 1024px) {
   .posts {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 /* CSS for the post html*/

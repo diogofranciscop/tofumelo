@@ -24,13 +24,15 @@ permalink: /
 <div class="posts">
   {% for post in site.posts %}
   <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}">
-    <img src="{{ post.image }}" class="card__img">
+    <div class="card__overlay">
+      <p>{{ post.description }}</p> <!-- Add a description here -->
+    </div>
+    <div class="card__img-container">
+      <img src="{{ post.image }}" class="card__img" alt="Recipe Image">
+      
+    </div>
     <span class="card__footer">
-      <span>{{ post.title }}</span>
-      <span>{{ post.description }}</span>
-    </span>
-    <span class="card__action">
-      <img src="assets/img/click_set-removebg-preview.png" class="card__img">
+      <span class="title-card">{{ post.title | upcase}}</span>
     </span>
   </a>
   {% endfor %}
