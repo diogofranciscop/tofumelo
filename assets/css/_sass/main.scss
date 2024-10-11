@@ -183,7 +183,6 @@ nav {
   align-items: center;
   width: 100%;
   margin: 0 auto;
-  padding: 0 20px; /* Adjust this for desired space from the left */
   background-color: white;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
   position: fixed; /* Fixes the navbar to the top */
@@ -207,7 +206,7 @@ nav ul {
   margin-bottom: 0;
   flex-grow: 1;
   margin-right: 50px;
-  padding: 5px;
+
 }
 
 nav ul li {
@@ -224,7 +223,7 @@ nav ul li a {
   line-height: 20.21px;
   text-decoration: none;
   display: block;
-  padding: 18px;
+  margin-right: 5px;
   text-transform: uppercase;
   color: rgba(0, 35, 122, 0.5);
 }
