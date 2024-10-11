@@ -31,48 +31,57 @@ footer {
   @import url(https://fonts.googleapis.com/css?family=Open+Sans);
 
 
-.wrap-search {
-  width: 100%;
-  background: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-}
-.search {
-  width: 40%; 
-  position: relative;
-  display: flex;
-  justify-content: center;
- 
-}
-
-.searchTerm {
-  border: 2px solid #ECEBC9; 
-  width: 100%;
-  border-right: none;
-  padding: 5px;
-  height: 20px;
-  border-radius: 20px 0 0 20px;
-  outline: none;
-  background-color: #F6F6DB;
-  padding-left: 15px;
-}
-
-.searchTerm:focus{
-  color: black;
-}
-
-.searchButton {
-  border: 2px solid #ECEBC9; 
-  width: 40px;
-  text-align: center;
-  color: #ECEBC9;
-  border-radius: 0 20px 20px 0;
-  background-color: #F6F6DB;
-  cursor: pointer;
-  font-size: 15px;
-}
+  .wrap-search {
+    width: 100%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+  
+  .search {
+    width: 635px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px 20px 20px 20px;
+  }
+  
+  .searchTerm {
+    flex: 1;
+    border: none;
+    padding: 5px 15px;
+    height: 20px;
+    outline: none;
+    background-color: rgba(217, 217, 217, 0.25);
+    margin: 0; /* Ensure no margin */
+    border-right: none; /* Remove the border on the right */
+    border-left: none;
+    border-radius: 20px 0px 0px 20px;
+  }
+  
+  .searchTerm:focus {
+    color: black;
+  }
+  
+  .searchButton {
+    border: none;
+    width: 40px;
+    text-align: center;
+    color: #555555;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(217, 217, 217, 0.25);
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0; /* Ensure no margin */
+    padding: 0; /* Ensure no padding that might create space */
+    border-left: none; /* Remove any border on the left */
+  }
+  
+  
 
 /*Resize the wrap to see the search bar change!*/
 .wrap{
@@ -230,8 +239,8 @@ nav .contactos-special {
   background-color: #7BA16D;
   color: white;
   border-radius: 1000px;
-  padding: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+  padding: 7px 15px 7px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
 .image-link {
@@ -246,21 +255,20 @@ nav .contactos-special {
 }
 
 
-/* CSS for the cards recipes in the index.html*/
 .button-3 {
   appearance: none;
-  background-color: #C4DEA4;
-  border: 1px solid rgba(27, 31, 35, .15);
-  border-radius: 6px;
-  box-shadow: rgba(27, 31, 35, .1) 0 1px 0;
+  background-color: rgba(35, 99, 12, 0.3);  
+  border: none;
+  border-radius: 1000px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1);
   box-sizing: border-box;
-  color: #fff;
+  color: black;
   cursor: pointer;
   display: inline-block;
-  font-family: -apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji";
-  font-size: 14px;
-  font-weight: 600;
-  line-height: 20px;
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 14.82px;
   padding: 6px 16px;
   position: relative;
   text-align: center;
@@ -270,37 +278,55 @@ nav .contactos-special {
   touch-action: manipulation;
   vertical-align: middle;
   white-space: nowrap;
+  margin-right: 10px; /* Add this for spacing between buttons */
+}
+
+/* Specific styles for the filter button */
+.filter-button {
+  background-color: rgba(217, 217, 217, 0.25);
+ /* Different background color */
+  color: black; /* Different text color */
+  padding: 8px 20px; /* Modify padding if needed */
+}
+
+.button-3:last-child {
+  margin-right: 0; /* Ensures no extra margin on the last button */
 }
 
 .button-3:focus:not(:focus-visible):not(.focus-visible) {
   box-shadow: none;
   outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .button-3:hover {
-  background-color: #A7D489;
+  background-color: rgba(35, 99, 12, 0.6);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .button-3:focus {
   box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
   outline: none;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .button-3:disabled {
   background-color: #94d3a2;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
   border-color: rgba(27, 31, 35, .1);
   color: rgba(255, 255, 255, .8);
   cursor: default;
 }
 
 .button-3:active {
-  background-color: #A7D489;
-  box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
+  background-color: rgba(35, 99, 12, 0.6);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .button-3.selected {
-  background-color: #A7D489; /* Color for selected state */
-  color: white; /* Text color when selected */
+  background-color: rgba(35, 99, 12, 0.6);/* Color for selected state */
+  color: black; /* Text color when selected */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
 .posts {
