@@ -6,6 +6,8 @@ type: ["entrada"]
 description: "Caldo verde com rodelas de cenoura"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
+diet: ["S/Gluten"]
+time: 60
 author: original
 ingredients:
     - 280g de cebola

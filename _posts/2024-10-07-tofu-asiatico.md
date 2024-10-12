@@ -6,6 +6,8 @@ type: ["almoço"]
 description: "Tofu assado com molho asiático agridoce e picante"
 image: "/assets/img/camera-icon.png"
 serve: 4
+diet: ["S/Gluten"]
+time: 60
 author: 
 ingredients:
     - 400gr de tofu

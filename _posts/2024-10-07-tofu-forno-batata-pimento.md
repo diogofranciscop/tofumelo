@@ -6,6 +6,8 @@ type: ["almoço"]
 description: "Tofu assado com batatas e pimentos coloridos."
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
+diet: ["S/Gluten"]
+time: 60
 author: derek
 ingredients:
     - 500 gramas de batatas pequenas, cortadas ao meio

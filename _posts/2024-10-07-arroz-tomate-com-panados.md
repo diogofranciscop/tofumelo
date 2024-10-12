@@ -6,6 +6,8 @@ type: ["Almoço"]
 description: "Arroz de tomate aromático acompanhado por panados crocantes de seitan caseiro."
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
+diet: ["S/Gluten"]
+time: 60
 author: original
 ingredients:
     Arroz:

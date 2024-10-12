@@ -6,6 +6,8 @@ type: ["almoço"]
 description: "Arroz integral em molho de tomate com legumes grelhados e feijão preto"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
+diet: ["S/Soja"]
+time: 60
 author: derek
 ingredients:  
     - 200 gr de arroz integral

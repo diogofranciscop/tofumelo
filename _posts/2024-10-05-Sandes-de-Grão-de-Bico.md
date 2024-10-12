@@ -6,6 +6,8 @@ type: ["almoço"]
 description: "Sandes recheadas com grão-de-bico, cogumelos e legumes."
 image: "/assets/img/camera-icon.png"
 serve: 4 sandes
+diet: ["S/Gluten"]
+time: 60
 author: original
 ingredients: 
     - pão de água

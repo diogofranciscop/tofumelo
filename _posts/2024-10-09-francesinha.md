@@ -3,9 +3,11 @@ layout: post-2
 title: "Francesinha"
 type: ["almoço"]
 permalink: /Francesinha/
-description: "Francesinha vegan com tofu, cogumelos e molho apurado."
+description: "Francesinha vegana com tofu, pleurothus, linguiça e curgete, regada com um molho delicioso"
 image: "/assets/img/francesinha2.jpeg"
 serve: 2 refeições
+diet: ["S/Gluten"]
+time: 60
 author: omeletes-sem-ovos
 ingredients: 
   molho:

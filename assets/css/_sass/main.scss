@@ -293,6 +293,13 @@ nav .contactos-special {
   padding: 12px 24px; /* Slightly smaller padding for filter button */
 }
 
+.filter-button:hover {
+  background-color: #d9d9d9 !important;
+}
+
+.filter-button:focus {
+  background-color: #d9d9d9 !important;
+}
 .button-3:last-child {
   margin-right: 0; 
 }
@@ -313,6 +320,9 @@ nav .contactos-special {
   outline: none;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
+.filter-button:active {
+  background-color: #d9d9d9 !important;
+}
 
 .button-3:disabled {
   background-color: #94d3a2;
@@ -331,6 +341,95 @@ nav .contactos-special {
   background-color: rgba(35, 99, 12, 0.6); 
   color: black; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+}
+
+/* Styles for the filter box */
+/* Filter Box Styles */
+#filterBox {
+  display: none; /* Initially hide the filter box */
+  background-color: rgba(244, 243, 243, 1);
+ /* Background for better visibility */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+ /* Shadow for depth */
+  padding: 10px; /* Padding for aesthetics */
+  z-index: 1000;
+}
+
+/* Flexbox for each filter item */
+.filter-item {
+  display: flex; /* Enable flexbox */
+  align-items: center; /* Center items vertically */
+  margin-bottom: 5px; /* Space between filters */
+}
+
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 40px; /* Decreased width */
+  height: 20px; /* Decreased height */
+  margin-right: 10px; /* Add some spacing between switch and label */
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.title-filter{
+  font-family: "Archivo Narrow";
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 14.82px;
+  text-align: left;
+  margin-top: 0px;
+}
+.filter-item span{
+  font-family: Archivo Narrow;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 14.82px;
+  text-align: left;
+
+}
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #bcd0b5;
+  transition: 0.4s;
+  border-radius: 34px; /* Keep this for rounded corners */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px; /* Decreased thumb size */
+  width: 16px; /* Decreased thumb size */
+  left: 2px;
+  bottom: 2px;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #7ba16d;
+}
+
+input:checked + .slider:before {
+  transform: translateX(20px); /* Adjust this to match the new slider width */
+}
+
+.hidden {
+  display: none;
 }
 
 

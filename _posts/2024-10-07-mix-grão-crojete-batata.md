@@ -6,6 +6,8 @@ type: ["Almoço"]
 description: "Legumes assados e grão de bico temperados com especiarias"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
+diet: ["S/Gluten"]
+time: 60
 author: 
 ingredients:
     - 1 crojete grande

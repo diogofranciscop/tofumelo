@@ -6,6 +6,8 @@ type: ["almoço"]
 description: "Soja marinada à alentejana acompanhada de batatas fritas crocantes"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
+diet: ["S/Gluten"]
+time: 60
 author: 
 ingredients:
     Para a soja:

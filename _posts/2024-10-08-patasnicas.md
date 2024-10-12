@@ -6,6 +6,8 @@ type: ["almoço", "snack"]
 description: "pataniscas de legumes fritas e crocantes"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
+diet: ["S/Gluten"]
+time: 60
 author: evagoodlife
 
 ingredients:

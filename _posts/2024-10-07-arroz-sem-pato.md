@@ -6,6 +6,8 @@ type: ["Almoço"]
 description: "Arroz de forno com chouriço vegetal e cogumelos pleurothus"
 image: "/assets/img/camera-icon.png"
 serve: 2
+diet: ["S/Gluten"]
+time: 60
 author: greentastecuisine
 ingredients:
     - 1 chouriço vegetal

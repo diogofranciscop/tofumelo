@@ -13,17 +13,79 @@ permalink: /
 </div>
  <!-- HTML !-->
  <div class="filter-buttons">
-  <button class="button-3 filter-button" data-role="filtros"><i class="fas fa-sliders-h"></i> FILTROS</button>
-  <button class="button-3" data-role="almoço">ALMOÇO/JANTAR</button>
-  <button class="button-3" data-role="pequeno-almoço">PEQUENO-ALMOÇO</button>
-  <button class="button-3" data-role="entrada">ENTRADAS</button>
-  <button class="button-3" data-role="lanche">LANCHE</button>
-  <button class="button-3" data-role="sobremesa">SOBREMESAS</button>
+  <button class="button-3 filter-button button-5" data-role="filtros"><i class="fas fa-sliders-h"></i> FILTROS</button>
+  <button class="button-3 button-4" data-role="almoço">ALMOÇO/JANTAR</button>
+  <button class="button-3 button-4" data-role="pequeno-almoço">PEQUENO-ALMOÇO</button>
+  <button class="button-3 button-4" data-role="entrada">ENTRADAS</button>
+  <button class="button-3 button-4" data-role="lanche">LANCHE</button>
+  <button class="button-3 button-4" data-role="sobremesa">SOBREMESAS</button>
+</div>
+<!-- Hidden filter box that will appear on clicking the FILTROS button -->
+<div id="filterBox" class="filter-box hidden">
+  <p class="title-filter">Ordenar por:</p>
+  <div class="filter-item">
+      <label class="switch">
+          <input type="checkbox" id="toggleTempoMenor">
+          <span class="slider"></span>
+      </label>
+      <span>Tempo de confeção menor</span>
+  </div>
+
+  <div class="filter-item">
+      <label class="switch">
+          <input type="checkbox" id="toggleTempoMaior">
+          <span class="slider"></span>
+      </label>
+      <span>Tempo de confeção maior</span>
+  </div>
+
+  <div class="filter-item">
+      <label class="switch">
+          <input type="checkbox" id="toggleOrdemAZ">
+          <span class="slider"></span>
+      </label>
+      <span>Ordem alfabética A > Z</span>
+  </div>
+
+  <div class="filter-item">
+      <label class="switch">
+          <input type="checkbox" id="toggleOrdemZA">
+          <span class="slider"></span>
+      </label>
+      <span>Ordem alfabética Z > A</span>
+  </div>
+
+  <p class="title-filter">Tipo de dieta:</p>
+  <div class="filter-item">
+      <label class="switch">
+          <input type="checkbox" id="toggleSemGluten">
+          <span class="slider"></span>
+      </label>
+      <span>S/Glúten</span>
+  </div>
+
+  <div class="filter-item">
+      <label class="switch">
+          <input type="checkbox" id="toggleSemSoja">
+          <span class="slider"></span>
+      </label>
+      <span>S/Soja</span>
+  </div>
+
+  <div class="filter-item">
+      <label class="switch">
+          <input type="checkbox" id="toggleSemFrutosSecos">
+          <span class="slider"></span>
+      </label>
+      <span>S/Frutos Secos</span>
+  </div>
+
+</div>
 </div>
 
 <div class="posts">
   {% for post in site.posts %}
-  <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}">
+  <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}" data-time="{{ post.time | join: ',' }}" data-diet="{{ post.diet  | join: ',' }}">
     <div class="card__overlay">
       <p>{{ post.description }}</p> <!-- Add a description here -->
     </div>
