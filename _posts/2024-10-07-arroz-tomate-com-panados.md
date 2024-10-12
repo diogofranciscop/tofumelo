@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-2
 title: "Arroz de tomate com panados"
 permalink: /arroz-tomate-com-panados/
 type: ["Almoço"]

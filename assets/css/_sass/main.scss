@@ -404,6 +404,7 @@ nav .contactos-special {
   right: 0;
   bottom: 0;
   background-color: #bcd0b5;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.1) inset;
   transition: 0.4s;
   border-radius: 34px; /* Keep this for rounded corners */
 }
@@ -717,3 +718,294 @@ CSS do footer
   text-align: center;
 }
 
+/*
+New recipe card
+*/
+
+
+.recipe-card * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.recipe-card body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.recipe-card {
+  width: 600px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 300px;
+  overflow: hidden;
+}
+
+.recipe-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image covers the container, keeping the aspect ratio */
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Darkens the bottom for text readability */
+  color: white;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.recipe-title {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.recipe-description {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.recipe-details {
+  margin-top: 5px;
+  font-size: 14px;
+  opacity: 0.8;
+}
+
+.content {
+  padding: 20px;
+}
+
+.recipe-card h2 {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.recipe-card ul {
+  margin-left: 20px;
+  list-style: disc;
+  padding-left: 0;
+}
+
+.recipe-card li {
+  margin-bottom: 5px;
+  display: list-item;
+}
+
+.recipe-card p {
+  margin-bottom: 10px;
+}
+
+
+/*
+
+
+wefqwrgqwerg
+*/
+
+
+.post-container2 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.post-container2 body {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.recipe-card2 {
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.header2 {
+  text-align: center;
+}
+
+.header2 h1 {
+  font-family: "Asap Condensed";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36.67px;
+  text-align: center;  
+}
+
+.header2 h2 {
+  font-size: 18px;
+  font-family: "Titillium Web";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24.34px;
+  text-align: center;
+}
+
+.rating2 {
+  font-size: 20px;
+  color: #f4b400;
+  margin-bottom: 20px;
+}
+
+.image-section2 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.post-recipe-img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-image-source: linear-gradient(0deg, #7BA16D, #7BA16D),
+  linear-gradient(0deg, #7BA16D, #7BA16D);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.info2 {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: center;
+  margin-top:15px;
+}
+
+.info2 div {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  font-family: "Archivo Narrow";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.55px;
+  text-align: center;
+
+}
+
+.info2 img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.info2 p{
+  margin-right: 40px;
+}
+.info2 span{
+  color:rgba(35, 99, 12, 1);
+
+}
+.content2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-ingredients2{
+  background-color:   rgba(245, 245, 245, 1);
+  width: 40%;
+}
+.ingredients2  {
+  margin-left: 20px;
+  margin-top: 30px;
+  padding-bottom: 30px;
+}
+.container-directions2{
+  width: 60%;
+}
+.directions2{
+  padding-bottom: 30px;
+  margin-top: 30px;
+}
+
+.ingredients2 h3, .directions2 h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+.ingredients2 h4, .directions2 h4 {
+  margin-bottom: 10px;
+}
+.ingredients2 ul {
+  list-style: none;
+  margin-left: 20px;
+  font-family: "Archivo Narrow";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.94px;
+  text-align: left;
+
+}
+
+.ingredients2 ul li  {
+  margin-bottom: 0px;
+}
+.directions2 ol li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.directions2 ol {
+  padding-left: 20px;
+}
+.notes-footer2{
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.notes-footer2 ul{
+  list-style: none;
+  margin-left: 20px;
+
+  text-align: left;
+}
+.notes-footer2 ul li {  
+  margin-bottom: 10px;
+}
+
+
+.measure3 {
+  color: rgba(35, 99, 12, 1);
+  font-weight: bold;
+}
+
+.ingredient3 {
+  color: black;
+}

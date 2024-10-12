@@ -1,70 +1,85 @@
 ---
 layout: default
 ---
-<div class="post-container">
-<div class="recipe-card">
-  <div class="header">
-      <h1>{{page.title}}</h1>
-      <h2>{{page.description}}</h2>
-      <div class="rating">
-          ★★★★☆
-      </div>
-  </div>
+<div class="post-container2">
+    <div class="recipe-card2">
 
-  <div class="image-section">
-    <img class="post-recipe-img" src="{{ page.image }}">
-  </div>
+        <div class="image-section2">
+            <img class="post-recipe-img2" src="{{ page.image }}">
+            <div class="overlay2">
+                <div class="header2">
+                    <h1>{{page.title | upcase}}</h1>
+                    <h2>{{page.description}}</h2>
+                    <div class="info2">
+                        <div class="servings2">
+                            <img src="/assets/img/serving.png" alt="Type">
+                            <p><span>{{page.type}}</span> </p>
+                        </div>
+                        <div class="time2">
+                            <img src="/assets/img/clock.png" alt="Time">
+                            <p>Total: <span>{{page.time-total}}min |</span> Preparação: <span>{{page.time-prepar}}min
+                                    |</span> Confeção: <span>{{page.time-confe}}min</span></p>
+                        </div>
+                        <div class="porcoes2">
+                            <img src="/assets/img/porcoes.png" alt="Serves">
+                            <p><span>{{page.serve}}</span> </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-  
-  <div class="content">
-      <div class="ingredients">
-        <div class="info">
-          <div class="servings">
-              <img src="/assets/img/cultery.png" alt="Servings">
-              <p>{{page.serve}} </p>
-          </div>
-          <div class="time">
-              <img src="/assets/img/clock.png" alt="Time">
-              <p>{{page.minutes}} minutes</p>
-          </div>
-      </div>
-    
-          <h3>INGREDIENTES</h3>
-          {% assign sections = page.ingredients %}
-            {% for section in sections %}
-                <h4>Para {{ section[0] }}</h4>
-                <ul>
-                    {% for ingredient in section[1] %}
-                        <li>{{ ingredient }}</li>
+
+        </div>
+        <div class="content2">
+            <div class="container-ingredients2">
+                <div class="ingredients2">
+                    <h3>INGREDIENTES</h3>
+                    {% assign sections = page.ingredients %}
+                    {% for section in sections %}
+                    <h4>Para {{ section[0] }}</h4>
+                    <ul>
+                        {% for ingredient in section[1] %}
+                        {% assign parts = ingredient | split: "|" %}
+                        <li>
+                            - <span class="measure3"> {{ parts[0] }}</span>
+                            {% if parts[1] %}
+                            <span class="ingredient3">{{ parts[1]}}</span>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
                     {% endfor %}
-                </ul>
-            {% endfor %}
-      </div>
-      <div class="separator"></div>
-      <div class="directions">
-          <h3 style="text-align: center;">INSTRUÇÕES</h3>
-          <ol>
-            {% assign sections = page.instructions %}
-            {% for section in sections %}
-                <h4>Para {{ section[0] }}</h4>
-                <ol>
-                    {% for ingredient in section[1] %}
-                    <li>{{ ingredient | markdownify}}</li>
-                    {% endfor %}
-                </ol>
-            {% endfor %}
-          </ol>
-      </div>
-  </div>
-      <!-- Notes Section (Footer) -->
-      {% if page.notes %}
-      <div class="notes-footer">
-          <h3>Notas</h3>
-          {% for note in page.notes %}
-              <p>{{ note | markdownify }}</p>  <!-- Use markdownify to convert Markdown to HTML -->
-          {% endfor %}
-      </div>
-      {% endif %}
-</div>
+                </div>
+            </div>
+            <div class="container-directions2">
+                <div class="directions2">
+                    <h3 style="text-align: center;">INSTRUÇÕES</h3>
+                    <ol>
+                        {% assign sections = page.instructions %}
+                        {% for section in sections %}
+                        <h4>Para {{ section[0] }}</h4>
+                        <ol>
+                            {% for ingredient in section[1] %}
+                            <li>{{ ingredient | markdownify}}</li>
+                            {% endfor %}
+                        </ol>
+                        {% endfor %}
+                    </ol>
+                    <!-- Notes Section (Footer) -->
+                    {% if page.notes %}
+                    <div class="notes-footer2">
+                        <h4>Notas</h4>
+                        <ul>
+                            {% for note in page.notes %}
+                              <li>{{ note | markdownify | strip_newlines | strip }}</li>
+                            {% endfor %}
+                          </ul>                          
+                    </div>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 </div>
