@@ -439,7 +439,8 @@ input:checked + .slider:before {
   grid-template-columns: repeat(1, 1fr);
   gap: 20px;
   margin-bottom: 10vh;
-  width: 900px;
+  width: 100%;
+  max-width: 900px;
 }
 
 @media (min-width: 768px) {
@@ -714,4 +715,8 @@ CSS do footer
 
 .filter-buttons{
   text-align: center;
+}
+
+.content-default{
+  max-height: 130px;
 }

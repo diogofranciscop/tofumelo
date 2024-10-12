@@ -4,15 +4,15 @@ title: Vegan Recipes
 permalink: /
 ---
 <div class="wrap-search">
-<div class="search">
-  <input type="text" class="searchTerm" placeholder="Pesquisa por nome de receita ou ingrediente...">
-  <button type="submit" class="searchButton">
-    <i class="fa fa-search"></i>
- </button>
+  <div class="search">
+    <input type="text" class="searchTerm" placeholder="Pesquisa por nome de receita ou ingrediente...">
+    <button type="submit" class="searchButton">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
 </div>
-</div>
- <!-- HTML !-->
- <div class="filter-buttons">
+<!-- HTML !-->
+<div class="filter-buttons">
   <button class="button-3 filter-button button-5" data-role="filtros"><i class="fas fa-sliders-h"></i> FILTROS</button>
   <button class="button-3 button-4" data-role="almoço">ALMOÇO/JANTAR</button>
   <button class="button-3 button-4" data-role="pequeno-almoço">PEQUENO-ALMOÇO</button>
@@ -24,60 +24,60 @@ permalink: /
 <div id="filterBox" class="filter-box hidden">
   <p class="title-filter">Ordenar por:</p>
   <div class="filter-item">
-      <label class="switch">
-          <input type="checkbox" id="toggleTempoMenor">
-          <span class="slider"></span>
-      </label>
-      <span>Tempo de confeção menor</span>
+    <label class="switch">
+      <input type="checkbox" id="toggleTempoMenor" data-time="TempoMenos">
+      <span class="slider"></span>
+    </label>
+    <span>Tempo de confeção menor</span>
   </div>
 
   <div class="filter-item">
-      <label class="switch">
-          <input type="checkbox" id="toggleTempoMaior">
-          <span class="slider"></span>
-      </label>
-      <span>Tempo de confeção maior</span>
+    <label class="switch">
+      <input type="checkbox" id="toggleTempoMaior" data-time="TempoMaior">
+      <span class="slider"></span>
+    </label>
+    <span>Tempo de confeção maior</span>
   </div>
 
   <div class="filter-item">
-      <label class="switch">
-          <input type="checkbox" id="toggleOrdemAZ">
-          <span class="slider"></span>
-      </label>
-      <span>Ordem alfabética A > Z</span>
+    <label class="switch">
+      <input type="checkbox" id="toggleOrdemAZ" data-title="toggleOrdemAZ">
+      <span class="slider"></span>
+    </label>
+    <span>Ordem alfabética A > Z</span>
   </div>
 
   <div class="filter-item">
-      <label class="switch">
-          <input type="checkbox" id="toggleOrdemZA">
-          <span class="slider"></span>
-      </label>
-      <span>Ordem alfabética Z > A</span>
+    <label class="switch">
+      <input type="checkbox" id="toggleOrdemZA" data-title="toggleOrdemZA">
+      <span class="slider"></span>
+    </label>
+    <span>Ordem alfabética Z > A</span>
   </div>
 
   <p class="title-filter">Tipo de dieta:</p>
   <div class="filter-item">
-      <label class="switch">
-          <input type="checkbox" id="toggleSemGluten">
-          <span class="slider"></span>
-      </label>
-      <span>S/Glúten</span>
+    <label class="switch">
+      <input type="checkbox" id="toggleSemGluten" data-diet="s-gluten">
+      <span class="slider"></span>
+    </label>
+    <span>S/Glúten</span>
   </div>
 
   <div class="filter-item">
-      <label class="switch">
-          <input type="checkbox" id="toggleSemSoja">
-          <span class="slider"></span>
-      </label>
-      <span>S/Soja</span>
+    <label class="switch">
+      <input type="checkbox" id="toggleSemSoja" data-diet="s-soja">
+      <span class="slider"></span>
+    </label>
+    <span>S/Soja</span>
   </div>
 
   <div class="filter-item">
-      <label class="switch">
-          <input type="checkbox" id="toggleSemFrutosSecos">
-          <span class="slider"></span>
-      </label>
-      <span>S/Frutos Secos</span>
+    <label class="switch">
+      <input type="checkbox" id="toggleSemFrutosSecos" data-diet="s-frutos-secos">
+      <span class="slider"></span>
+    </label>
+    <span>S/Frutos Secos</span>
   </div>
 
 </div>
@@ -85,13 +85,14 @@ permalink: /
 
 <div class="posts">
   {% for post in site.posts %}
-  <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}" data-time="{{ post.time | join: ',' }}" data-diet="{{ post.diet  | join: ',' }}">
+  <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}" data-role="{{post.title | join: ','}}"
+    data-time="{{ post.time | join: ',' }}" data-diet="{{ post.diet  | join: ',' }}">
     <div class="card__overlay">
       <p>{{ post.description }}</p> <!-- Add a description here -->
     </div>
     <div class="card__img-container">
       <img src="{{ post.image }}" class="card__img" alt="Recipe Image">
-      
+
     </div>
     <div class="card__footer">
       <span class="title-card">{{ post.title | upcase}}</span>
@@ -116,7 +117,4 @@ INFO BUTTON
     <span>ℹ️</span>
     <div class="info-tooltip">Here is some information about this feature.</div>
   </div>
---> 
-
-
-
+-->
