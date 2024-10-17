@@ -7,7 +7,9 @@ description: "Delicioso Kebab de jaca com pão pita caseiro"
 image: "/assets/img/kebab_jaca.jpeg"
 serve: 4 refeições
 diet: ["S/Gluten"]
-time: 60
+time-total: 70
+time-prepar: 30
+time-confe: 40
 author: tuga-vegetal
 ingredients: 
   o pão pita:

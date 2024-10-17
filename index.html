@@ -25,7 +25,7 @@ permalink: /
   <p class="title-filter">Ordenar por:</p>
   <div class="filter-item">
     <label class="switch">
-      <input type="checkbox" id="toggleTempoMenor" data-time="TempoMenos">
+      <input type="checkbox" id="toggleTempoMenor" data-time="TempoMenos" name="sort">
       <span class="slider"></span>
     </label>
     <span>Tempo de confeção menor</span>
@@ -33,7 +33,7 @@ permalink: /
 
   <div class="filter-item">
     <label class="switch">
-      <input type="checkbox" id="toggleTempoMaior" data-time="TempoMaior">
+      <input type="checkbox" id="toggleTempoMaior" data-time="toggleTempoMaior" name="sort">
       <span class="slider"></span>
     </label>
     <span>Tempo de confeção maior</span>
@@ -41,7 +41,7 @@ permalink: /
 
   <div class="filter-item">
     <label class="switch">
-      <input type="checkbox" id="toggleOrdemAZ" data-title="toggleOrdemAZ">
+      <input type="checkbox" id="toggleOrdemAZ" data-title="toggleOrdemAZ" name="sort">
       <span class="slider"></span>
     </label>
     <span>Ordem alfabética A > Z</span>
@@ -49,7 +49,7 @@ permalink: /
 
   <div class="filter-item">
     <label class="switch">
-      <input type="checkbox" id="toggleOrdemZA" data-title="toggleOrdemZA">
+      <input type="checkbox" id="toggleOrdemZA" data-title="toggleOrdemZA" name="sort">
       <span class="slider"></span>
     </label>
     <span>Ordem alfabética Z > A</span>
@@ -86,7 +86,7 @@ permalink: /
 <div class="posts">
   {% for post in site.posts %}
   <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}" data-role="{{post.title | join: ','}}"
-    data-time="{{ post.time | join: ',' }}" data-diet="{{ post.diet  | join: ',' }}">
+    data-time="{{ post.time-total | join: ',' }}" data-diet="{{ post.diet  | join: ',' }}">
     <div class="card__overlay">
       <p>{{ post.description }}</p> <!-- Add a description here -->
     </div>

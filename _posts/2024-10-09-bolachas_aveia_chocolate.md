@@ -8,7 +8,9 @@ image: "/assets/img/bolachas_aveia.png"
 serve: 15 bolachas
 minutes: 30 min
 diet: ["S/Gluten"]
-time: 60
+time-total: 60
+time-prepar: 30
+time-confe: 30
 author: original
 ingredients:
   - 150gr de farinha de trigo

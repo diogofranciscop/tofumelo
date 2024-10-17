@@ -7,7 +7,9 @@ description: "Arroz integral em molho de tomate com legumes grelhados e feijão 
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
 diet: ["S/Soja"]
-time: 70
+time-total: 60
+time-prepar: 30
+time-confe: 30
 author: derek
 ingredients:  
     - 200 gr de arroz integral

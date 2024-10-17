@@ -7,7 +7,9 @@ description: "Guisado reconfortante de soja com cogumelos"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
 diet: ["S/Gluten"]
-time: 60
+time-total: 60
+time-prepar: 30
+time-confe: 30
 author: be pure inside
 ingredients:
     - 180 gr de soja grossa

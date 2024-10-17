@@ -7,7 +7,9 @@ description: ""
 image: "/assets/img/camera-icon.png"
 serve: 2
 diet: ["S/Gluten"]
-time: 60
+time-total: 60
+time-prepar: 30
+time-confe: 30
 author: 
 ingredients:
 

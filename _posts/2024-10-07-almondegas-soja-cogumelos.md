@@ -7,7 +7,9 @@ description: "Almôndegas de soja e cogumelos com especiarias"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
 diet: ["S/Gluten"]
-time: 50
+time-total: 60
+time-prepar: 30
+time-confe: 30
 author: original
 ingredients:
     - 140gr de soja de molho por 30 min

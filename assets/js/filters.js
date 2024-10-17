@@ -109,9 +109,20 @@ $(document).ready(function() {
     });
 
     // Checkbox change handler for sorting/filtering
-    $('input[type="checkbox"]').on('change', function() {
-        filterAndSortPosts(); // Call the function when checkboxes change
-    });
+    // Handle changes for sorting checkboxes (those with name="sort")
+$('input[type="checkbox"][name="sort"]').on('change', function() {
+    // Uncheck all other sorting checkboxes
+    $('input[type="checkbox"][name="sort"]').not(this).prop('checked', false);
+    
+    // Call the function to filter and sort posts
+    filterAndSortPosts();
+});
+
+// Handle changes for all other filter checkboxes (e.g., diet checkboxes)
+$('input[type="checkbox"]').not('[name="sort"]').on('change', function() {
+    // Call the function to filter and sort posts
+    filterAndSortPosts();
+});
 
     // Search input handler for filtering
     $('.searchTerm').on('input', function() {

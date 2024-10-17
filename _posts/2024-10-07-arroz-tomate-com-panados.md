@@ -7,7 +7,9 @@ description: "Arroz de tomate aromático acompanhado por panados crocantes de se
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
 diet: ["S/Gluten"]
-time: 60
+time-total: 60
+time-prepar: 30
+time-confe: 30
 author: original
 ingredients:
     Arroz:
