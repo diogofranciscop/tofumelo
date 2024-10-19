@@ -48,7 +48,6 @@ instructions:
     - Levar ao microondas por 1 minuto para o quejo derreter bem.
     - Está pronto a servir. Costumo fritar batatas fritas na air fryer para acompanhar
 notes: 
-notes: 
   - "-&nbsp;O molho desta receita foi inspirado na receita do blog da [omelete sem ovos](https://www.exemplo.com)."
   - "-&nbsp;O resto da receita foi personalizado por nós, personalizem também com ingredientes que achem que fiquem bem."
 ---
