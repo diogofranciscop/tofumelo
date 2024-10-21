@@ -48,5 +48,7 @@ instructions:
         - Pincelar uma travessa de ir ao forno com azeite, colocar a mistura anterior e espalhar uniformemente. Cobrir com o restante molho branco e levar ao forno pré-aquecido a 220°C cerca de 40 minutos até o topo ficar dourado.
 
 notes:
-    -&nbsp;Esta receita foi inspirada aqui [Tuga Vegetal](https://tugavegetal.com/bacalhau-com-natas-vegano/)
+    -&nbsp; Acompanho esta receita com uma salada de alface e tomate <br>     
+    -&nbsp; Esta receita foi inspirada aqui [Tuga Vegetal](https://tugavegetal.com/bacalhau-com-natas-vegano/)
+    
 ---
