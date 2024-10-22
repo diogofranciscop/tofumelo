@@ -6,7 +6,7 @@ type: ["almoço"]
 description: "Sandes recheadas com grão-de-bico, cogumelos e legumes."
 image: "/assets/img/camera-icon.png"
 serve: 4 sandes
-diet: ["s-gluten"]
+diet: [""]
 time-total: 60
 time-prepar: 30
 time-confe: 30
