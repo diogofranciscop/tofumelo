@@ -19,7 +19,9 @@ ingredients:
     - 1 dl | de natas vegetais
     - 1 colher de chá | de alho em pó
     - 1 folha | de louro 
-    - 1/2 cubo  | de caldo de legumes
+    - 1 chávena  | de caldo de legumes caseiro
+    - 1/2 chávena | de vinho do porto
+    - 1/2 chávena | de vinho branco 
     - 1 colher de chá | de mostarda
     - 1 colher de chá | de molho de soja
     - 1 colher de chá | de molho inglês
