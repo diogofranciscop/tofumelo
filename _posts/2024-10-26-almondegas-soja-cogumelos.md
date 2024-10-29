@@ -33,7 +33,7 @@ instructions:
     - Untar as almondegas com um pouco de azeite (costuma passar um spray de azeite).
     - Levar à Air Frier a 180º durante 15 minutos (alternativamente fritar em um pouco de azeite na frigideira)
     - Está pronto a servir.
-note:
+notes:
     - Costumo fazer um molho de tomate ou molho de francesinha  para depois meter as almondegas. Acompanho sempre com esparguete.
 ---
 
