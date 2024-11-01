@@ -1401,3 +1401,71 @@ width:100%;
   display: block;  /* Displayed when visible class is added */
 }
 
+#InformationBox {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+.title-informaçao {
+  font-weight: bold;
+  text-align: center;
+  font-size: 16px;
+  color: #333;
+}
+
+.information-row {
+  display: flex!important;
+  align-items: center!important;
+  justify-content: space-between!important;
+  margin: 10px 0!important;
+}
+
+.nutrition-item {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  border-radius: 25px;
+  background-color: #d9e9d9;
+  position: relative;
+}
+.nutrition-item::after {
+  content: '';
+    position: absolute;
+    top: 50%; /* Position vertically centered */
+    left: -10px; /* Position to the left */
+    margin-top: -10px; /* Center the triangle vertically */
+    border-width: 10px;
+    border-style: solid;
+    border-color: transparent black transparent transparent; 
+}
+
+.nutrition-item .value {
+  background-color: #d3ecce;
+  color: #1a7722;
+  font-weight: bold;
+  padding: 8px 16px;
+  border-radius: 25px;
+  margin-left: 10px;
+  font-size: 16px;
+  min-width: 60px;
+  text-align: center;
+}
+
+.nutrition-item .label {
+  flex: 1;
+  padding: 8px 16px;
+  text-align: left;
+  font-size: 16px;
+  color: #333;
+}
+
+.note {
+  font-size: 10px;
+  color: #555;
+  margin-top: 10px;
+}
+
