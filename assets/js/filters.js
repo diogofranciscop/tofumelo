@@ -173,3 +173,8 @@ $(document).ready(function() {
         }
     });
 });
+$(document).ready(function() {
+    $(".informação-nutricional").click(function() {
+        $(".InformationBox").toggle();  // Toggles visibility
+    });
+});

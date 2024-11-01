@@ -154,6 +154,8 @@ body {
   height: 200px; /* Increased height */
   margin-top: 10px;
   box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.25); /* Increased shadow size */
+  object-fit: cover; /* Ensures the image covers the box */
+  object-position: center;
 }
 
 .card__footer {
@@ -849,7 +851,7 @@ wefqwrgqwerg
   background-color: #fff;
   overflow: hidden;
   box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-
+  position: relative;
 }
 
 .header2 {
@@ -1362,5 +1364,40 @@ width:100%;
 #porcoes{
   width:150px !important;
   flex-grow: 0!important;
+}
+
+
+.informação-nutricional{
+  font-family: "Titillium Web";
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 21.29px;
+  text-align: right;
+  color: rgba(75, 82, 73, 1);
+}
+
+.fa-caret-down{
+  margin-left: 5px;
+}
+
+.InformationBox 
+  {
+    display: none; /* Initially hide the filter box */
+    background-color: rgba(244, 243, 243, 1);
+   /* Background for better visibility */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+   /* Shadow for depth */
+    padding: 10px; /* Padding for aesthetics */
+    z-index: 1000;
+    position: absolute;
+    right: 2%;
+    margin-top: 10px;
+  }
+
+
+.InformationBox.visible {
+  display: block;  /* Displayed when visible class is added */
 }
 

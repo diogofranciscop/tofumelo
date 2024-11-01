@@ -17,7 +17,8 @@ layout: default
                         </div>
                         <div class="time2">
                             <img src="/assets/img/clock.png" alt="Time">
-                            <p>Total: <span>{{page.time-total}}min |</span> Preparação: <span>{{page.time-prepar}}min |</span> Confeção: <span>{{page.time-confe}}min</span></p>
+                            <p>Total: <span>{{page.time-total}}min |</span> Preparação: <span>{{page.time-prepar}}min
+                                    |</span> Confeção: <span>{{page.time-confe}}min</span></p>
                         </div>
                         <div class="porcoes2">
                             <img src="/assets/img/porcoes.png" alt="Serves">
@@ -25,50 +26,80 @@ layout: default
                         </div>
                     </div>
                 </div>
+                <div class="informação-nutricional">
+                    Consultar informação nutricional
+                    <i class="fas fa-caret-down"></i>
+
+                </div>
             </div>
 
-
+            
+        </div>
+        <div id="InformationBox" class="InformationBox hidden">
+            <p class="title-informaçao">Informação Nutricional*<br>(por porção)</p>
+            <div class="filter-item">
+              <label class="switch">
+                <input type="checkbox" id="toggleTempoMenor" data-time="TempoMenos" name="sort">
+                <span class="slider"></span>
+              </label>
+              <span>Tempo de confeção menor</span>
+            </div>
+            <div class="filter-item">
+                <label class="switch">
+                  <input type="checkbox" id="toggleTempoMenor" data-time="TempoMenos" name="sort">
+                  <span class="slider"></span>
+                </label>
+                <span>Tempo de confeção menor</span>
+              </div>
+            
+              <div class="filter-item">
+                <label class="switch">
+                  <input type="checkbox" id="toggleTempoMaior" data-time="toggleTempoMaior" name="sort">
+                  <span class="slider"></span>
+                </label>
+                <span>Tempo de confeção maior</span>
+              </div>
         </div>
         <div class="content2">
             <div class="container-ingredients2">
-            <div class="ingredients2">
-                <h3>INGREDIENTES</h3>
-                <ul>
-                    {% for ingredient in page.ingredients %}
-                    {% assign parts = ingredient | split: "|" %}
-                    <li>
-                        - <span class="measure3"> {{ parts[0]  }}</span>
-                        {% if parts[1] %}
-                          <span class="ingredient3">{{ parts[1]}}</span>
-                        {% endif %}
-                      </li>
-                    {% endfor %}
-                </ul>
+                <div class="ingredients2">
+                    <h3>INGREDIENTES</h3>
+                    <ul>
+                        {% for ingredient in page.ingredients %}
+                        {% assign parts = ingredient | split: "|" %}
+                        <li>
+                            - <span class="measure3"> {{ parts[0] }}</span>
+                            {% if parts[1] %}
+                            <span class="ingredient3">{{ parts[1]}}</span>
+                            {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <div class="container-directions2">
+                <div class="directions2">
+                    <h3 style="text-align: center;">INSTRUÇÕES</h3>
+                    <ol>
+                        {% for pass in page.instructions %}
+                        <li>{{ pass }}
+                            <br>
+                        </li>
+                        {% endfor %}
+                    </ol>
+                    <!-- Notes Section (Footer) -->
+                    {% if page.notes %}
+                    <div class="notes-footer2">
+                        <h3>Notas</h3>
+                        {% for note in page.notes %}
+                        <p>{{ note | markdownify }}</p> <!-- Use markdownify to convert Markdown to HTML -->
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
             </div>
         </div>
-        <div class="container-directions2">
-            <div class="directions2">
-                <h3 style="text-align: center;">INSTRUÇÕES</h3>
-                <ol>
-                    {% for pass in page.instructions %}
-                    <li>{{ pass }}
-                        <br>
-                    </li>
-                    {% endfor %}
-                </ol>
-                <!-- Notes Section (Footer) -->
-        {% if page.notes %}
-        <div class="notes-footer2">
-            <h3>Notas</h3>
-            {% for note in page.notes %}
-            <p>{{ note | markdownify }}</p> <!-- Use markdownify to convert Markdown to HTML -->
-            {% endfor %}
-        </div>
-        {% endif %}
-            </div>
-        </div>
-    </div>
-        
+
     </div>
 
 </div>
