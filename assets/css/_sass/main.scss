@@ -1376,6 +1376,9 @@ width:100%;
   text-align: right;
   color: rgba(75, 82, 73, 1);
 }
+.informação-nutricional:hover{
+  cursor: pointer;
+}
 
 .fa-caret-down{
   margin-left: 5px;
@@ -1391,7 +1394,6 @@ width:100%;
     z-index: 1000;
     position: absolute;
     right: 2%;
-    margin-top: 10px;
   }
 
 

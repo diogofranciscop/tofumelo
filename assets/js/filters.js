@@ -178,3 +178,13 @@ $(document).ready(function() {
         $(".InformationBox").toggle();  // Toggles visibility
     });
 });
+ // Handle clicks outside the filter box to hide it
+ $(document).on('click', function(event) {
+    const filterBox = $('.InformationBox');
+    const filterButton = $('.informação-nutricional');
+
+    // Check if the clicked target is not the filter box or the filter button
+    if (!filterBox.is(event.target) && filterBox.has(event.target).length === 0 && !filterButton.is(event.target)) {
+        filterBox.hide(); // Hide the filter box
+    }
+});
