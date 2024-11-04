@@ -83,7 +83,7 @@ permalink: /
 </div>
 
 
-<div class="posts">
+<div class="posts" id="post-container">
   {% for post in site.posts %}
   <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}" data-role="{{post.title | join: ','}}"
     data-time="{{ post.time-total | join: ',' }}" data-diet="{{ post.diet  | join: ',' }}">
@@ -100,8 +100,31 @@ permalink: /
   </a>
   {% endfor %}
 </div>
+<div id="pagination-container" class="pagination"></div>
+<script>
+    const filtrosButton = document.querySelector('.filter-button[data-role="filtros"]');
+  const filterBox = document.getElementById('filterBox');
 
+  // Add event listener to toggle 'hidden' class on filterBox when the button is clicked
+  filtrosButton.addEventListener('click', () => {
+    filterBox.classList.toggle('hidden');
+  });
+</script>
+<script>
 
+  const allPosts = [];
+    {% for post in site.posts %}
+    allPosts.push({
+        url: "{{ post.url }}",
+        title: "{{ post.title | escape }}",
+        description: "{{ post.description | escape }}",
+        image: "{{ post.image }}",
+        type: "{{ post.type | join: ',' }}",
+        time: "{{ post.time-total | join: ',' }}",
+        diet: "{{ post.diet | join: ',' }}"
+    });
+    {% endfor %}
+</script>
 <!--
 PLAY BUTTON 
 <svg viewBox="0 0 448 512" title="play">

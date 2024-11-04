@@ -2,7 +2,7 @@
 layout: post
 title: "Sandes de Grão-de-Bico"
 permalink: /sandes-grãobico/
-type: ["almoço"]
+type: ["Almoço/Jantar"]
 description: "Sandes recheadas com grão-de-bico, cogumelos e legumes."
 image: "/assets/img/camera-icon.png"
 serve: 4 sandes

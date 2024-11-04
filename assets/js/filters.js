@@ -1,178 +1,241 @@
-$(document).ready(function() {
-    var originalOrder = $('.card').toArray(); // Cache the original order of posts on page load
+// Variables for filtering and sorting
+let originalOrder = [];
+let selectedRoles = [];
+let selectedDiets = [];
+let searchTerm = "";
+let selectedTitleSort = "";
+let selectedTimeSort = "";
 
-    // Function to filter and sort posts
-    function filterAndSortPosts() {
-        var selectedRoles = [];
-        var selectedDiets = [];
-        var selectedTitleSort = '';
-        var selectedTimeSort = '';
-
-        // Get selected roles from buttons
-        $('.button-4.selected').each(function() {
-            selectedRoles.push($(this).data('role'));
-        });
-
-        // Get selected diets from checkboxes
-        $('input[type="checkbox"]:checked').each(function() {
-            var diet = $(this).data('diet');
-            if (diet) selectedDiets.push(diet);
-        });
-
-        // Check for title sorting
-        if ($('#toggleOrdemAZ').is(':checked')) {
-            selectedTitleSort = 'AZ';
-        } else if ($('#toggleOrdemZA').is(':checked')) {
-            selectedTitleSort = 'ZA';
-        }
-
-        // Check for time sorting
-        if ($('#toggleTempoMenor').is(':checked')) {
-            selectedTimeSort = 'menor';
-        } else if ($('#toggleTempoMaior').is(':checked')) {
-            selectedTimeSort = 'maior';
-        }
-
-        // Get the search term
-        var searchTerm = $('.searchTerm').val().toLowerCase();
-
-        // Filter and show/hide posts
-        var posts = $('.card');
-        posts.each(function() {
-            var types = $(this).data('type').split(',');
-            var title = $(this).find('.card__footer span:first').text().toLowerCase();
-            var diet = $(this).data('diet') ? $(this).data('diet').split(',') : [];
-            var time = $(this).data('time'); // Extract the time value from the data attribute
-
-            // Show posts if they match the selected filters and search term
-            if (
-                (selectedRoles.length === 0 || selectedRoles.some(role => types.includes(role))) &&
-                (selectedDiets.length === 0 || selectedDiets.some(d => diet.includes(d))) &&
-                title.includes(searchTerm)
-            ) {
-                $(this).show();
-            } else {
-                $(this).hide();
-            }
-        });
-
-        // Sorting logic based on the selected options
-        if (selectedTitleSort === 'AZ') {
-            sortByTitle(posts, 'asc');
-        } else if (selectedTitleSort === 'ZA') {
-            sortByTitle(posts, 'desc');
-        } else if (selectedTimeSort === 'menor') {
-            sortByTime(posts, 'asc');
-        } else if (selectedTimeSort === 'maior') {
-            sortByTime(posts, 'desc');
-        } else {
-            // If no sorting is selected, reset to the original order
-            restoreOriginalOrder();
-        }
-    }
-
-    // Sort posts by title (A-Z or Z-A)
-    function sortByTitle(posts, order) {
-        posts.sort(function(a, b) {
-            var titleA = $(a).find('.card__footer span:first').text().toLowerCase();
-            var titleB = $(b).find('.card__footer span:first').text().toLowerCase();
-            if (order === 'asc') {
-                return titleA.localeCompare(titleB);
-            } else {
-                return titleB.localeCompare(titleA);
-            }
-        }).appendTo('.posts'); // Re-attach sorted posts to the DOM
-    }
-
-    // Sort posts by time (largest to smallest or smallest to largest)
-    function sortByTime(posts, order) {
-        posts.sort(function(a, b) {
-            var timeA = parseInt($(a).data('time'), 10);
-            var timeB = parseInt($(b).data('time'), 10);
-            if (order === 'asc') {
-                return timeA - timeB;
-            } else {
-                return timeB - timeA;
-            }
-        }).appendTo('.posts'); // Re-attach sorted posts to the DOM
-    }
-
-    // Restore the original order of the posts
-    function restoreOriginalOrder() {
-        $(originalOrder).appendTo('.posts'); // Re-attach the posts in the original order
-    }
-
-    // Button click handler for filtering
-    $('.button-4').click(function() {
-        $(this).toggleClass('selected');
-        filterAndSortPosts(); // Call the function after toggling
-    });
-
-    // Checkbox change handler for sorting/filtering
-    // Handle changes for sorting checkboxes (those with name="sort")
-$('input[type="checkbox"][name="sort"]').on('change', function() {
-    // Uncheck all other sorting checkboxes
-    $('input[type="checkbox"][name="sort"]').not(this).prop('checked', false);
-    
-    // Call the function to filter and sort posts
-    filterAndSortPosts();
+// Initial setup and event listeners
+$(document).ready(function () {
+    loadOriginalPosts();
+    setupFilterButton();
+    setupRoleSelection();
+    setupDietSelection();
+    setupSorting();
+    setupSearch();
 });
 
-// Handle changes for all other filter checkboxes (e.g., diet checkboxes)
-$('input[type="checkbox"]').not('[name="sort"]').on('change', function() {
-    // Call the function to filter and sort posts
-    filterAndSortPosts();
-});
+function loadOriginalPosts() {
+    originalOrder = allPosts; // Save the original order of posts
+    loadPage(0, originalOrder); // Load the original posts
+}
 
-    // Search input handler for filtering
-    $('.searchTerm').on('input', function() {
-        filterAndSortPosts(); // Call the function on search input change
-    });
-
-    // Trigger the function to initialize the sorting/filtering
-    filterAndSortPosts();
-    $('.posts').hide();   // Hide the container temporarily
-    $('.posts').show();
-});
-
-
-
-$(document).ready(function() {
-    // Toggle the filter box
+function setupFilterButton() {
     $('.filter-button').on('click', function(event) {
-        event.stopPropagation(); // Prevent the click event from bubbling up
+        event.stopPropagation();
         $('#filterBox').toggle();
-        const buttonPosition = $(this).offset();
-        const buttonHeight = $(this).outerHeight();
-        $('#filterBox').css({
-            top: buttonPosition.top + buttonHeight + 10 + 'px', // 10px space
-            left: buttonPosition.left + 'px',
-            position: 'absolute'
-        });
+        positionFilterBox(this);
     });
-
-    // Handle clicks outside the filter box to hide it
+    
     $(document).on('click', function(event) {
         const filterBox = $('#filterBox');
         const filterButton = $('.filter-button');
-
-        // Check if the clicked target is not the filter box or the filter button
         if (!filterBox.is(event.target) && filterBox.has(event.target).length === 0 && !filterButton.is(event.target)) {
-            filterBox.hide(); // Hide the filter box
+            filterBox.hide();
         }
+    });
+}
+
+function positionFilterBox(button) {
+    const buttonPosition = $(button).offset();
+    const buttonHeight = $(button).outerHeight();
+    $('#filterBox').css({
+        top: buttonPosition.top + buttonHeight + 10 + 'px',
+        left: buttonPosition.left + 'px',
+        position: 'absolute'
+    });
+}
+
+function setupRoleSelection() {
+    $('.button-4').on('click', function() {
+        const role = $(this).data('role');
+        toggleSelection(role, 'role');
+        filterAndSortPosts(); // Re-filter and sort when role is toggled
+    });
+}
+
+function setupDietSelection() {
+    $('#filterBox input[data-diet]').on('change', function() {
+        // Since data-diet can contain multiple values, split them on the comma
+        const diet = $(this).data('diet') ? $(this).data('diet') : '';
+        toggleSelection(diet, 'diet'); // Update the selection
+        filterAndSortPosts(); // Re-filter and sort when diet is toggled
+    });
+}
+
+
+function setupSorting() {
+    $('#toggleOrdemAZ').on('change', function() {
+        if ($(this).is(':checked')) {
+            selectedTitleSort = 'toggleOrdemAZ'; // Set sort to ascending
+        } else {
+            selectedTitleSort = ""; // Reset if unchecked
+        }
+        filterAndSortPosts(); // Re-filter and sort
     });
 
-    // Handle the toggle switch state
-    $('#toggleSwitch').on('change', function() {
+    $('#toggleOrdemZA').on('change', function() {
         if ($(this).is(':checked')) {
-            console.log('Toggle is ON');
-            // Add the logic to apply the filter when toggled on
+            selectedTitleSort = 'toggleOrdemZA'; // Set sort to descending
         } else {
-            console.log('Toggle is OFF');
-            // Add the logic to remove the filter when toggled off
+            selectedTitleSort = ""; // Reset if unchecked
         }
+        filterAndSortPosts(); // Re-filter and sort
     });
-});
+
+    $('#toggleTempoMenor').on('change', function() {
+        if ($(this).is(':checked')) {
+            selectedTimeSort = 'TempoMenos'; // Set sort to shorter time
+        } else {
+            selectedTimeSort = ""; // Reset if unchecked
+        }
+        filterAndSortPosts(); // Re-filter and sort
+    });
+
+    $('#toggleTempoMaior').on('change', function() {
+        if ($(this).is(':checked')) {
+            selectedTimeSort = 'TempoMais'; // Set sort to longer time
+        } else {
+            selectedTimeSort = ""; // Reset if unchecked
+        }
+        filterAndSortPosts(); // Re-filter and sort
+    });
+    $('input[type="checkbox"][name="sort"]').on('change', function() {
+        // Uncheck all other sorting checkboxes
+        $('input[type="checkbox"][name="sort"]').not(this).prop('checked', false);
+        
+        // Call the function to filter and sort posts
+        filterAndSortPosts();
+    });
+    
+}
+
+function setupSearch() {
+    $('.searchTerm').on('input', function() {
+        searchTerm = $(this).val().toLowerCase(); // Get current search term
+        filterAndSortPosts(); // Re-filter and sort
+    });
+}
+
+function toggleSelection(value, type) {
+    if (type === 'role') {
+        updateSelectionArray(selectedRoles, value);
+    } else if (type === 'diet') {
+        updateSelectionArray(selectedDiets, value);
+    }
+}
+
+function updateSelectionArray(array, value) {
+    const index = array.indexOf(value);
+    if (index === -1) {
+        array.push(value); // Add value if not present
+    } else {
+        array.splice(index, 1); // Remove value if present
+    }
+}
+
+function filterAndSortPosts() {
+    // Check if no filters or sorting options are active
+    const noFiltersOrSorting =
+        selectedRoles.length === 0 &&
+        selectedDiets.length === 0 &&
+        searchTerm === "" &&
+        !selectedTitleSort &&
+        !selectedTimeSort;
+
+    if (noFiltersOrSorting) {
+        // If no filters/sorting are applied, revert to original order
+        loadPage(0, originalOrder); // Load original posts
+        return; // Exit function
+    }
+
+    let filteredPosts = [...originalOrder]; // Start with original posts
+
+    // Apply filters
+    filteredPosts = filteredPosts.filter(post => {
+        const matchesRole = selectedRoles.length === 0 || selectedRoles.includes(post.type);
+        const matchesDiet = selectedDiets.length === 0 || selectedDiets.some(diet => post.diet.includes(diet));
+        const matchesSearchTerm = post.title.toLowerCase().includes(searchTerm);
+        return matchesRole && matchesDiet && matchesSearchTerm;
+    });
+    
+
+    // Apply sorting if any sort option is selected
+    if (selectedTitleSort) {
+        filteredPosts.sort((a, b) =>
+            selectedTitleSort === 'toggleOrdemAZ'
+                ? a.title.localeCompare(b.title)
+                : b.title.localeCompare(a.title)
+        );
+    } else if (selectedTimeSort) {
+        filteredPosts.sort((a, b) =>
+            selectedTimeSort === 'TempoMenos'
+                ? parseInt(a.time) - parseInt(b.time)
+                : parseInt(b.time) - parseInt(a.time)
+        );
+    }
+
+    loadPage(0, filteredPosts); // Load the first page of filtered/sorted posts
+}
+
+// Load and render posts
+function loadPage(page, posts) {
+    const postsPerPage = 20;
+    const start = page * postsPerPage;
+    const end = Math.min(start + postsPerPage, posts.length);
+    loadRecipes(posts.slice(start, end)); // Load recipes for current page
+    createPaginationButtons(page, posts); // Create pagination
+}
+
+function loadRecipes(posts) {
+    $('#post-container').empty(); // Clear previous posts
+    posts.forEach(post => {
+        const $postElement = $('<a>')
+            .attr('href', post.url)
+            .addClass('card')
+            .html(`
+                <div class="card__overlay">
+                    <p>${post.description}</p>
+                </div>
+                <div class="card__img-container">
+                    <img src="${post.image}" class="card__img" alt="Recipe Image">
+                </div>
+                <div class="card__footer">
+                    <span class="title-card">${post.title.toUpperCase()}</span>
+                </div>
+            `);
+        $('#post-container').append($postElement); // Add post to container
+    });
+}
+
+// Function to create pagination buttons based on the filtered list of posts
+function createPaginationButtons(currentPage, posts) {
+    const totalPages = Math.ceil(posts.length / 20);
+    $('#pagination-container').empty();
+
+    const $firstPage = $('<button>').text('PRIMEIRA PÁGINA').addClass('pagination-button').on('click', () => loadPage(0, posts));
+    const $lastPage = $('<button>').text('ÚLTIMA PÁGINA').addClass('pagination-button').on('click', () => loadPage(totalPages - 1, posts));
+    const $prevPage = $('<button>').text('←').addClass('pagination-button').on('click', () => loadPage(Math.max(0, currentPage - 1), posts));
+    const $nextPage = $('<button>').text('→').addClass('pagination-button').on('click', () => loadPage(Math.min(totalPages - 1, currentPage + 1), posts));
+
+    $('#pagination-container').append($firstPage, $prevPage);
+
+    if (currentPage > 2) $('#pagination-container').append($('<span>').text('1').addClass('pagination-button').on('click', () => loadPage(0, posts)));
+    if (currentPage > 3) $('#pagination-container').append($('<span>').text('...').addClass('pagination-ellipsis'));
+
+    for (let i = Math.max(0, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+        const $pageButton = $('<button>').text(i + 1).addClass('pagination-button');
+        if (i === currentPage) $pageButton.addClass('active');
+        $pageButton.on('click', () => loadPage(i, posts));
+        $('#pagination-container').append($pageButton);
+    }
+
+    if (currentPage < totalPages - 4) $('#pagination-container').append($('<span>').text('...').addClass('pagination-ellipsis'));
+    if (currentPage < totalPages - 3) $('#pagination-container').append($('<span>').text(totalPages).addClass('pagination-button').on('click', () => loadPage(totalPages - 1, posts)));
+
+    $('#pagination-container').append($nextPage, $lastPage);
+}
 $(document).ready(function() {
     $(".informação-nutricional").click(function() {
         $(".InformationBox").toggle();  // Toggles visibility
