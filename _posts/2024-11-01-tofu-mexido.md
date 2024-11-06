@@ -6,7 +6,7 @@ type: ["pequeno-almoço"]
 description: ""
 image: "/assets/img/tofu-mexido.jpeg"
 serve:
-diet: [""]
+diet: ["s-frutos-secos"]
 time-total: 
 time-prepar: 
 time-confe: 

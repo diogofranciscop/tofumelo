@@ -4,7 +4,7 @@ title: "Sandes de Grão-de-Bico"
 permalink: /sandes-grãobico/
 type: ["Almoço/Jantar"]
 description: "Sandes recheadas com grão-de-bico, cogumelos e legumes."
-image: "/assets/img/camera-icon.png"
+image: "/assets/img/sandes-grão-bico.png"
 serve: 4 sandes
 diet: [""]
 time-total: 60

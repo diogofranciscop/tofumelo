@@ -6,7 +6,7 @@ type: ["Almoço"]
 description: "Tofu marinado assado com batatas e cebola na cerveja"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
-diet: ["S/Gluten"]
+diet: ["s-frutos-secos", "s-gluten"]
 time-total: 60
 time-prepar: 30
 time-confe: 30

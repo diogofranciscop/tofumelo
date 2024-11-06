@@ -6,7 +6,7 @@ serve: 4 porções
 permalink: /sem-bacalhau-sem-natas/
 description: "Replicação da tradicional receita do bacalhau com natas mas vegan"
 image: "/assets/img/sem-bacalhau-sem-natas.jpeg"
-diet: []
+diet: ["s-frutos-secos"]
 time-total: 35
 time-prepar: 10
 time-confe: 25

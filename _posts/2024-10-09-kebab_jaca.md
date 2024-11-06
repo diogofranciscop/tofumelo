@@ -6,7 +6,7 @@ type: ["almoço"]
 description: "Delicioso Kebab de jaca com pão pita caseiro"
 image: "/assets/img/kebab_jaca.jpeg"
 serve: 4 refeições
-diet: ["S/Gluten"]
+diet: ["s-soja", "s-frutos-secos"]
 time-total: 70
 time-prepar: 30
 time-confe: 40

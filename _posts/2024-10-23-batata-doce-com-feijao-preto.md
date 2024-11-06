@@ -6,7 +6,7 @@ serve: 4 porções
 permalink: /batata-doce-com-feijao-preto/
 description: "Replicação da tradicional receita do bacalhau com natas mas vegan"
 image: "/assets/img/batata-doce-feijao-preto.jpeg"
-diet: []
+diet: ["s-soja", "s-frutos-secos", "s-gluten"]
 time-total: 35
 time-prepar: 10
 time-confe: 25

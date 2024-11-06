@@ -6,25 +6,26 @@ type: ["almoço", "snack"]
 description: "pataniscas de legumes fritas e crocantes"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
-diet: ["S/Gluten"]
+diet: ["s-gluten","s-frutos-secos", "s-soja"]
 time-total: 60
 time-prepar: 30
 time-confe: 30
 author: evagoodlife
 
 ingredients:
-- 2 cebolas
-- 2 cenouras
-- 1 molho de salsa
-- óleo para fritar
+    Geral:
+    - 2 cebolas
+    - 2 cenouras
+    - 1 molho de salsa
+    - óleo para fritar
 
-POLME:
-- 200g de farinha de espelta ou trigo
-- 70g de farinha de grão (opcional)
-- 2 chávenas de água com gás
-- 1 c. de chá de caril
-- 1 dente de alho ralado ou 1 c. de chá de alho em pó
-- 1 pitada de sal
+    POLME:
+    - 200g de farinha de espelta ou trigo
+    - 70g de farinha de grão (opcional)
+    - 2 chávenas de água com gás
+    - 1 c. de chá de caril
+    - 1 dente de alho ralado ou 1 c. de chá de alho em pó
+    - 1 pitada de sal
 
 instructions:
     - Comece por picar a cebola e a salsa e ralar as cenouras, juntando tudo numa taça.

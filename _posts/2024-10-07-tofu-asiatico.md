@@ -6,7 +6,7 @@ type: ["almoço"]
 description: "Tofu assado com molho asiático agridoce e picante"
 image: "/assets/img/camera-icon.png"
 serve: 4
-diet: ["S/Gluten"]
+diet: ["s-frutos-secos","s-gluten"]
 time-total: 60
 time-prepar: 30
 time-confe: 30

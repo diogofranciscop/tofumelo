@@ -155,12 +155,14 @@ function filterAndSortPosts() {
     // Apply filters
     filteredPosts = filteredPosts.filter(post => {
         const matchesRole = selectedRoles.length === 0 || selectedRoles.includes(post.type);
-        const matchesDiet = selectedDiets.length === 0 || selectedDiets.some(diet => post.diet.includes(diet));
+
+        // Modify the diet filter to check that all selected diets are present in post.diet
+        const matchesDiet = selectedDiets.length === 0 || selectedDiets.every(diet => post.diet.includes(diet));
+
         const matchesSearchTerm = post.title.toLowerCase().includes(searchTerm);
         return matchesRole && matchesDiet && matchesSearchTerm;
     });
     
-
     // Apply sorting if any sort option is selected
     if (selectedTitleSort) {
         filteredPosts.sort((a, b) =>
@@ -178,6 +180,7 @@ function filterAndSortPosts() {
 
     loadPage(0, filteredPosts); // Load the first page of filtered/sorted posts
 }
+
 
 // Load and render posts
 function loadPage(page, posts) {

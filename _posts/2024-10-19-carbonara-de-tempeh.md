@@ -6,7 +6,7 @@ serve: 2 porções
 permalink: /carbonara-de-tempeh/
 description: "Carbonara com molho de caju e bacon de tempeh"
 image: "/assets/img/carbonara-tempeh.jpeg"
-diet: []
+diet: ["s-frutos-secos"]
 time-total: 35
 time-prepar: 10
 time-confe: 25

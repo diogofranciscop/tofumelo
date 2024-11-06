@@ -6,7 +6,7 @@ type: ["almoço"]
 description: "Arroz integral em molho de tomate com legumes grelhados e feijão preto"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
-diet: ["S/Soja"]
+diet: ["s-soja", "s-frutos-secos", "s-gluten"]
 time-total: 60
 time-prepar: 30
 time-confe: 30

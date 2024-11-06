@@ -6,7 +6,7 @@ type: ["almoço"]
 description: "Almôndegas de soja e cogumelos com especiarias"
 image: "/assets/img/almondegas.jpeg"
 serve: 4 refeições
-diet: ["s-soja"]
+diet: ["s-gluten","s-frutos-secos"]
 time-total: 60
 time-prepar: 30
 time-confe: 30

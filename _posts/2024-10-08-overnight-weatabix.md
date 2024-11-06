@@ -6,7 +6,7 @@ type: ["pequeno-almoço","lanche"]
 description: "Weetabix  adormecidos com iogurte e fruta fresca"
 image: "/assets/img/camera-icon.png"
 serve: 4 vezes
-diet: ["S/Gluten"]
+diet: ["s-gluten","s-soja"]
 time-total: 60
 time-prepar: 30
 time-confe: 30

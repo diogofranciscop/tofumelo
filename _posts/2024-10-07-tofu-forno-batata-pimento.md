@@ -6,7 +6,7 @@ type: ["almoço"]
 description: "Tofu assado com batatas e pimentos coloridos."
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
-diet: ["S/Gluten"]
+diet: ["s-gluten", "s-frutos-secos"]
 time-total: 60
 time-prepar: 30
 time-confe: 30

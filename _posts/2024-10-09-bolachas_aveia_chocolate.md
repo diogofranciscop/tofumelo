@@ -7,8 +7,7 @@ description: "Bolachas de aveia com pedaços de chocolate negro"
 image: "/assets/img/bolachas_aveia.png"
 serve: 15 bolachas
 minutes: 30 min
-diet: ["S/Gluten"]
-time-total: 60
+diet: ["s-soja", "s-frutos-secos"]
 time-prepar: 30
 time-confe: 30
 author: original

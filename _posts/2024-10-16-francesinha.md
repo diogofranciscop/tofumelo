@@ -6,7 +6,7 @@ permalink: /Francesinha/
 description: "Francesinha vegana com tofu, pleurothus, linguiça e curgete, regada com um molho delicioso"
 image: "/assets/img/francesinha2.jpeg"
 serve: 2 refeições
-diet: ["S/Gluten"]
+diet: ["s-frutos-secos"]
 time-total: 60
 time-prepar: 30
 time-confe: 30
