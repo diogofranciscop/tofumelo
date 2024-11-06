@@ -254,3 +254,31 @@ $(document).ready(function() {
         filterBox.hide(); // Hide the filter box
     }
 });
+$(document).ready(function() {
+    // Function to handle burger menu visibility
+    function handleBurgerMenu() {
+        if ($(window).width() <= 1000) {
+            // Show the burger menu and hide nav links on mobile
+            $('.burger-menu').show();
+            $('#nav-links').hide(); 
+
+            // Toggle nav links when burger button is clicked
+            $('#burger-toggle').click(function() {
+                console.log('Burger menu clicked!'); // Debugging log
+                $('#nav-links').toggle();  // Toggle visibility of nav links
+            });
+        } else {
+            // Hide the burger menu and ensure nav links are visible on larger screens
+            $('.burger-menu').hide();
+            $('#nav-links').show(); 
+        }
+    }
+
+    // Initial check
+    handleBurgerMenu();
+
+    // Re-check and update visibility on window resize
+    $(window).resize(function() {
+        handleBurgerMenu();
+    });
+});

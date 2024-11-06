@@ -1,0 +1,121 @@
+nav {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
+    position: fixed; /* Fixes the navbar to the top */
+    top: 0; /* Ensures it is at the top of the viewport */
+    z-index: 1000; /* Ensures it appears above other elements */
+  }
+  
+  nav .logo {
+    max-height: 50px;
+    position: absolute;
+    top: 5px;
+    left: 40px;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style-type: none;
+    margin-top: 0;
+    margin-bottom: 0;
+    flex-grow: 1;
+    margin-right: 50px;
+  
+  }
+  
+  nav ul li {
+    display: inline-block;
+  }
+  
+  nav ul li a {
+    padding: 18px;
+    text-transform: uppercase;
+    color: rgba(0, 35, 122, 0.5);
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20.21px;
+    text-decoration: none;
+    display: block;
+    margin-right: 5px;
+    text-transform: uppercase;
+    color: rgba(0, 35, 122, 0.5);
+  }
+  
+  nav ul li a:hover {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(0, 35, 122, 0.7);
+  }
+  
+  nav .contactos-special {
+    background-color: #7BA16D;
+    color: white;
+    border-radius: 1000px;
+    padding: 7px 15px 7px 15px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+  
+  nav .contactos-special:hover{
+    background-color: #bcd0b5;
+    color: white;
+  }
+  
+  .image-link {
+    display: inline; /* Prevents block display */
+    padding: 0; /* Removes padding */
+    text-decoration: none; /* Removes underline */
+    /* Add any other styles you want specifically for the image link */
+  }
+  
+  .image-link img {
+    display: block; /* Ensures the image behaves as a block */
+  }
+
+/* Mobile Styles */
+/* Mobile View */
+@media (max-width: 768px) {
+    /* Hide the navigation links by default */
+    #nav-links {
+      display: none; /* Initially hide the links */
+      flex-direction: column;
+      background-color: white;
+      position: absolute;
+      top: 50px;  /* Position below the logo */
+      right: 20px;
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      width: 80%;
+      z-index: 999;
+    }
+  
+    /* Show nav links when the 'active' class is added */
+    #nav-links.active {
+      display: block; /* Make the nav links visible */
+    }
+    
+    /* Show nav links when 'active' class is added */
+    #nav-links.active {
+        display: block;
+    }
+    
+  
+    /* Style for the burger button */
+    .burger-menu {
+      display: inline-block;
+      margin-left: auto;
+    }
+  
+    .burger-menu button {
+      font-size: 24px;
+      background: none;
+      border: none;
+      cursor: pointer;
+    }
+  }
+  
