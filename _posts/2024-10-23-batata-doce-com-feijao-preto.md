@@ -10,6 +10,10 @@ diet: ["s-soja", "s-frutos-secos", "s-gluten"]
 time-total: 35
 time-prepar: 10
 time-confe: 25
+calorias:
+proteinas:
+lipidos:
+hidratos:
 author: original
 ingredients:
     as natas:

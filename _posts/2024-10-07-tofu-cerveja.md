@@ -10,6 +10,10 @@ diet: ["s-frutos-secos", "s-gluten"]
 time-total: 60
 time-prepar: 30
 time-confe: 30
+calorias:
+proteinas:
+lipidos:
+hidratos:
 author: 
 ingredients:
     Marinar tofu:

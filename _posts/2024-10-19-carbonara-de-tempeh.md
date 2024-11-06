@@ -10,6 +10,10 @@ diet: ["s-frutos-secos"]
 time-total: 35
 time-prepar: 10
 time-confe: 25
+calorias:
+proteinas:
+lipidos:
+hidratos:
 author: vegan heaven
 ingredients:
     o bacon de tempeh:

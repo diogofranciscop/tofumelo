@@ -10,6 +10,10 @@ diet: ["s-soja", "s-frutos-secos"]
 time-total: 70
 time-prepar: 30
 time-confe: 40
+calorias:
+proteinas:
+lipidos:
+hidratos:
 author: tuga-vegetal
 ingredients: 
   o pão pita:

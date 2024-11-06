@@ -10,6 +10,10 @@ diet: [""]
 time-total: 
 time-prepar: 
 time-confe: 
+calorias:
+proteinas:
+lipidos:
+hidratos:
 author: 
 ingredients:
     - 

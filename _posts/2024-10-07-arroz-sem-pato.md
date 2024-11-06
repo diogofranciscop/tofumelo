@@ -10,6 +10,10 @@ diet: ["s-gluten", "s-frutos-secos"]
 time-total: 60
 time-prepar: 30
 time-confe: 30
+calorias:
+proteinas:
+lipidos:
+hidratos:
 author: greentastecuisine
 ingredients:
     - 1 chouriço vegetal

@@ -10,6 +10,10 @@ diet: ["s-gluten","s-soja"]
 time-total: 60
 time-prepar: 30
 time-confe: 30
+calorias:
+proteinas:
+lipidos:
+hidratos:
 author: original
 ingredients:
     - 6 bolachas weetabix

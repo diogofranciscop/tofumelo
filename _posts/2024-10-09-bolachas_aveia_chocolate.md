@@ -8,8 +8,13 @@ image: "/assets/img/bolachas_aveia.png"
 serve: 15 bolachas
 minutes: 30 min
 diet: ["s-soja", "s-frutos-secos"]
+time-total: 70
 time-prepar: 30
 time-confe: 30
+calorias:
+proteinas:
+lipidos:
+hidratos:
 author: original
 ingredients:
   - 150gr de farinha de trigo
