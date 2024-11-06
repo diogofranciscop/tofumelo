@@ -10,10 +10,10 @@ diet: ["s-frutos-secos"]
 time-total: 
 time-prepar: 
 time-confe: 
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 10
+proteinas: 100
+lipidos: 100
+hidratos: 1000
 author: 
 ingredients:
     - 

@@ -37,22 +37,23 @@ layout: default
             </div>
         </div>
         <div id="InformationBox" class="InformationBox hidden">
+            
             <h2 class="informacao-title">Informação nutricional*</h2>
             <h2 class="por-porcao">(por porção)</h2>
             <div class="nutrition-item">
-                <span class="value">225KCal</span>
+                <span class="value">{{page.calorias}}KCal</span>
                 <span class="label">Calorias</span>
             </div>
             <div class="nutrition-item">
-                <span class="value">14g</span>
+                <span class="value">{{page.proteinas}}g</span>
                 <span class="label">Proteína</span>
             </div>
             <div class="nutrition-item">
-                <span class="value">30g</span>
+                <span class="value">{{page.hidratos}}g</span>
                 <span class="label">Hidratos de Carbono</span>
             </div>
             <div class="nutrition-item">
-                <span class="value">25g</span>
+                <span class="value">{{page.lipidos}}g</span>
                 <span class="label">Lípidos</span>
             </div>
 
