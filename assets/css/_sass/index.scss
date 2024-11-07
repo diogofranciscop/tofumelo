@@ -1,15 +1,14 @@
 .wrap-search {
-  width: 100%;
+  max-width: 100vw;
   background: white;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
   margin-bottom: 20px;
 }
 
 .search {
-  width: 730px;
+  width: 50%;
   position: relative;
   display: flex;
   justify-content: center;
@@ -187,7 +186,9 @@ background-color: rgba(217, 217, 217, 0.25);
 color: black;
 padding: 12px 24px; /* Slightly smaller padding for filter button */
 }
-
+.filter-buttons{
+  max-width: 100vw;
+}
 .filter-button:hover {
 background-color: #d9d9d9 !important;
 }
@@ -336,7 +337,7 @@ grid-template-columns: repeat(1, 1fr);
 gap: 20px;
 margin-bottom: 10vh;
 width: 100%;
-max-width: 900px;
+max-width: 100vw;
 }
 
 @media (min-width: 768px) {
@@ -349,4 +350,50 @@ max-width: 900px;
 .posts {
   grid-template-columns: repeat(4, 1fr);
 }
+}
+
+/*Pagination Buttons*/
+/* Page buttons*/
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+  max-width: 100vw;
+}
+
+.pagination-button,
+.pagination-ellipsis {
+  padding: 8px 12px;
+  background-color: #f0f0f0;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 14px;
+  color: #666;
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.25); /* Increased shadow size */
+  margin-left: 20px;
+}
+
+.pagination-button.active,
+.pagination-button:hover {
+  background-color: #9fd2a1;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+}
+
+.pagination-ellipsis {
+  background: none;
+  cursor: default;
+  color: #aaa;
+}
+
+.pagination-button:first-of-type,
+.pagination-button:last-of-type {
+  padding: 8px 16px;
+  border-radius: 20px;
 }
