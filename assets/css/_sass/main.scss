@@ -27,7 +27,6 @@ html, body {
 }
 .container-default{
   max-width: 100%;
-  padding-top: calc(55px + env(safe-area-inset-top)); /* Adds dynamic padding */
 }
 
 
@@ -996,8 +995,8 @@ footer ul {
   margin-bottom: 0;
   flex-grow: 1;
   margin-right: 50px;
-  margin-top: 30px;
-
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 footer ul li {
