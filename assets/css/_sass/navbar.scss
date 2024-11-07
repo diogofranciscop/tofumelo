@@ -7,7 +7,9 @@ nav {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
     position: fixed; /* Fixes the navbar to the top */
     top: 0; /* Ensures it is at the top of the viewport */
+    left:0;
     z-index: 1000; /* Ensures it appears above other elements */
+    overflow-x: hidden;
   }
   
   nav .logo {
@@ -26,7 +28,7 @@ nav {
     margin-bottom: 0;
     flex-grow: 1;
     margin-right: 50px;
-  
+    width: 100%;
   }
   
   nav ul li {
@@ -79,43 +81,66 @@ nav {
   }
 
 /* Mobile Styles */
-/* Mobile View */
 @media (max-width: 768px) {
-    /* Hide the navigation links by default */
+    body{
+        width: 100%;
+    }
+     nav{
+        width: 100%;
+        margin-right: 0px;
+     }
+     nav ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        flex-grow: 1; /* Ensure the list doesn't stretch beyond its parent */
+        flex-wrap: wrap; /* Allow items to wrap to the next line on small screens */
+        width:100%
+      }
+      
+     nav ul li {
+        flex-direction: column;
+      }
+    /* Show the burger menu */
+    .burger-menu {
+      display: block;  /* Make the burger menu visible */
+    }
+  
+    /* Hide nav links by default */
     #nav-links {
-      display: none; /* Initially hide the links */
+      display: none;
       flex-direction: column;
       background-color: white;
       position: absolute;
-      top: 50px;  /* Position below the logo */
+      top: 50px;
       right: 20px;
+      width: 100%;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      width: 80%;
       z-index: 999;
     }
   
-    /* Show nav links when the 'active' class is added */
+    /* Make nav links visible when the 'active' class is added */
     #nav-links.active {
-      display: block; /* Make the nav links visible */
-    }
-    
-    /* Show nav links when 'active' class is added */
-    #nav-links.active {
-        display: block;
-    }
-    
-  
-    /* Style for the burger button */
-    .burger-menu {
-      display: inline-block;
-      margin-left: auto;
+      display: block;
     }
   
-    .burger-menu button {
-      font-size: 24px;
+    /* Style for burger button */
+    .burger {
+      font-size: 50px;
+      width: 100px;
+      height: 100px;
       background: none;
       border: none;
+      color: #00357a;  /* Change the color to match your theme */
       cursor: pointer;
+    }
+  
+    /* Adjust burger icon color when hovered */
+    .burger:hover {
+      color: #7ba16d; /* Change to accent color */
     }
   }
   

@@ -257,28 +257,28 @@ $(document).ready(function() {
 $(document).ready(function() {
     // Function to handle burger menu visibility
     function handleBurgerMenu() {
-        if ($(window).width() <= 1000) {
-            // Show the burger menu and hide nav links on mobile
-            $('.burger-menu').show();
-            $('#nav-links').hide(); 
-
-            // Toggle nav links when burger button is clicked
-            $('#burger-toggle').click(function() {
-                console.log('Burger menu clicked!'); // Debugging log
-                $('#nav-links').toggle();  // Toggle visibility of nav links
-            });
-        } else {
-            // Hide the burger menu and ensure nav links are visible on larger screens
-            $('.burger-menu').hide();
-            $('#nav-links').show(); 
-        }
+      if ($(window).width() <= 768) {
+        // Ensure burger menu is shown
+        $('.burger-menu').show();
+  
+        // Add click event to toggle 'active' class on the nav links
+        $('#burger-toggle').click(function() {
+          console.log('Burger menu clicked!'); // Debugging log
+          $('#nav-links').toggleClass('active');  // Toggle visibility using CSS 'active' class
+        });
+      } else {
+        // Ensure nav links are visible on larger screens and burger menu is hidden
+        $('#nav-links').show();
+        $('.burger-menu').hide();
+      }
     }
-
+  
     // Initial check
     handleBurgerMenu();
-
+  
     // Re-check and update visibility on window resize
     $(window).resize(function() {
-        handleBurgerMenu();
+      handleBurgerMenu();
     });
-});
+  });
+  
