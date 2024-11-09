@@ -5,7 +5,7 @@ permalink: /arroz-sem-pato/
 type: ["Almoço/Jantar"]
 description: "Arroz de forno com cogumelos pleurothus e chouriço vegetal, aromático e reconfortante"
 image: "/assets/img/arroz-sem-pato.png"
-serve: 4
+serve: 4 porções
 diet: ["s-gluten", "s-frutos-secos"]
 time-total: "?"
 time-prepar: "?"
@@ -17,7 +17,7 @@ hidratos:
 author: greentastecuisine
 ingredients:
     - 400gr | de Arroz Vaporizado ou Agulha
-    - 500 gr de Cogumelos Pleurothus
+    - 500 gr | de Cogumelos Pleurothus
     - 1 | Chouriço Vegetal
     - 500ml | de Caldo de Legumes
     - 500ml | de Água
