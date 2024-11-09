@@ -16,7 +16,7 @@ lipidos:
 hidratos:
 author: vegan heaven
 ingredients:
-   o acompanhamento:
+    o acompanhamento:
         - 200gr | de Esparguete
     o bacon de tempeh:
         - 200 gramas | de Tempeh
