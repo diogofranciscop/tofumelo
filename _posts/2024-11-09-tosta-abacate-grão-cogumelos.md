@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tosta de abacate, grão e cogumelos, "
+title: "Tosta de abacate, grão e cogumelos"
 permalink: /tosta-abacate-grão-cogumelo/
 type: ["Pequeno-Almoço","Lanche"]
 description: "Tosta com pasta de abacate e grão com cogumelos grelhados e tomate"

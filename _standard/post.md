@@ -2,11 +2,11 @@
 layout: post
 title: ""
 permalink: //
-type: [""]
+type: ["Almoço/Jantar", "Pequeno-Almoço", Entrada","Lanche", "Sobremesa"]
 description: ""
 image: "/assets/img/"
 serve:
-diet: [""]
+diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 
 time-prepar: 
 time-confe: 
