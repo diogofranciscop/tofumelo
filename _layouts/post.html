@@ -82,8 +82,8 @@ layout: default
                     <h3 style="text-align: center;">INSTRUÇÕES</h3>
                     <ol>
                         {% for pass in page.instructions %}
-                        <li>{{ pass }}
-                            <br>
+                        <li>
+                            {{ pass | markdownify}}
                         </li>
                         {% endfor %}
                     </ol>
@@ -91,9 +91,14 @@ layout: default
                     {% if page.notes %}
                     <div class="notes-footer2">
                         <h3>Notas</h3>
-                        {% for note in page.notes %}
-                        <p>{{ note | markdownify }}</p> <!-- Use markdownify to convert Markdown to HTML -->
-                        {% endfor %}
+                        <ul>
+                            {% for note in page.notes %}
+                            <li>
+                                <span>- {{ note | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                        
                     </div>
                     {% endif %}
                 </div>
