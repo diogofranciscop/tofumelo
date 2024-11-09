@@ -2,34 +2,36 @@
 layout: post
 title: "Caldo Verde"
 permalink: /caldo-verde/
-type: ["entrada"]
-description: "Caldo verde com rodelas de cenoura"
+type: ["Entrada"]
+description: "Sopa cremosa de legumes com couve e rodelas de cenoura, leve e nutritiva."
 image: "/assets/img/camera-icon.png"
-serve: 4 refeições
+serve: 6 pratos de sopa
 diet: ["s-gluten","s-frutos-secos", "s-soja"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: 57?
+time-prepar: 20?
+time-confe: 37?
 calorias:
 proteinas:
 lipidos:
 hidratos:
 author: original
 ingredients:
-    - 280g de cebola
-    - 200 gr de batata
-    - 300g de legumes (beringela pouca, cenoura e curgete descascadas)
-    - 3 dentes de alho
-    - 750g de água
-    - 65g de azeite (costumo meter metade)
-    - Sal a gosto
-    - 1 Cenoura as rodelas
-    - 100g de couve ralada
+    - 280gr | de Cebola
+    - 100gr | de Batata
+    - 400gr | de Courgette
+    - 3 dentes | de Alho
+    - 750ml | de Água
+    - 20gr | de Azeite (costumo meter metade)
+     - 1 | Cenoura pequena
+    - 100gr | de Couve Ralada finamente
+    - "| Sal q.b."
 instructions:
-    - Cortar grossamente a cebola de os legumes. Juntar numa panela com os dentes de alho a água e o sal.
-    - Deixar ferver e depois deixar em lume brando durante meia 30 minutos. 
-    - No final, derreter tudo com o método que preferir (costumo usar liquidificadora)
-    - Depois é só juntar a cenoura e a couve e misturar.
+    - Descascar a cebola, batata, courgette e alho. Cortar grosseiramente e colocá-los numa panela.
+    - Juntar a água, o sal e o azeite.
+    - Deixar ferver e depois deixar em lume brando durante cerca de 30 minutos até que tudo fique bem cozinhado.
+    - Enquanto isso, ralar a couve finamente, assim como a cenoura às rodelas. Reservar.
+    - Triturar o preparado que está na panela, com uma liquidificadora ou uma varinha mágica até obter um creme homogéneo.
+    - Por fim, adicionar a cenoura e a couve ao caldo de legumes e misturar. Deixar cozinhar em lume por cerca de 10 min, até a cenoura e a couve estarem cozinhadas.
 note:
-    - Costumo cozer a couve a vapor com o vapor da sopa. Se não conseguir, no final, deixar 5/10 minutos a couve a cozer na sopa.
+    - Costumo cozer a couve a vapor durante o tempo de cozedura da sopa.
 ---
