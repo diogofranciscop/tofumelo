@@ -1,10 +1,10 @@
 ---
 layout: post-2
 title: "Carbonara de Tempeh"
-type: ["Almoço/Jantar"]
+type: ["Almoço","Jantar"]
 serve: 2 porções
 permalink: /carbonara-de-tempeh/
-description: "Carbonara com molho de caju e bacon de tempeh"
+description: "Carbonara cremosa com bacon de tempeh, cheia de sabor e textura"
 image: "/assets/img/carbonara-tempeh.jpeg"
 diet: ["s-frutos-secos"]
 time-total: 35
@@ -16,40 +16,44 @@ lipidos:
 hidratos:
 author: vegan heaven
 ingredients:
+   o acompanhamento:
+        - 200gr | de Esparguete
     o bacon de tempeh:
-        - 1 c.sopa | de azeite
-        - 100 gramas | de tempeh
-        - 1/2 | cebola
-        - 1 c.sopa | de pimentão doce
-        - 1 c.sopa | de paprika fumada
+        - 200 gramas | de Tempeh
+        - 1/2 | Cebola
+        - 2 dentes | de Alho
+        - 1/2 c.sopa | de Cebola Desidratada
+        - 1 c.sopa | de Azeite
+        - 2 c.sopa | de Molho de Soja
+        - 1 c.sopa | de Sriracha
+        - 1 c.sopa | de Pimentão Doce
+        - 1 c.sopa | de Paprika Fumada
         - "| Sal q.b."
-        - 2 c.sopa | de molho de soja
-        - "| Pimenta preta q.b."
-        - 1 c.sopa | de sriracha
-        - 2 | dentes de alho
-        - 1/2 c.sopa | de cebola desidratada
+        - "| Pimenta Preta q.b."   
     o molho da carbonara:
-        - 200 gr | de esparguete
-        - 60 gr | de caju (demolhado em água a fever 30 min)
-        - 240 ml | de bebida vegetal sem açucar 
-        - 1/2 c.sopa | de miso
-        - 2 c.sopa | de levedura nutricional
+        - 60gr | de Caju (demolhado em água a fever por 30 min)
+        - 240ml | de Bebida Vegetal sem açúcar 
+        - 1 dente | de Alho 
+        - 1/2 c.sopa | de Miso
+        - 2 c.sopa | de Levedura Nutricional
         - "| Sal q.b."
-        - "| Pimenta preta q.b."
-        - 1 c.sopa | de salsa fresca (picada)
-        - 1 | dente de alho 
+        - "| Pimenta Preta q.b."
 instructions:
-        o tempeh de bacon:
-        - Temperar o tempeh com o pimentão doce, a paprika fumada, o sal, o molho de soja, a pimenta preta, o sriracha, a cebola desidratada e o dente de alho. (opcional deixar marinar)
-        - Numa frigideira, aquecer o azeite. Depois colocar a cebola e deixar refogar.
-        - Depois de a cebola ganhar côr adicionar o tempeh. Deixar 3/4 minutos e está pronto a servir.
-        o molho de carbonara:
+    a massa:
         - Numa panela, cozer o esparguete de acordo com as instruções de pacote.
-        - Num copo alto, adicionar o resto dos ingredientes e derreter tudo com uma varinha mágica.
-        - Adicionar o liquido do copo alto a uma figideira, deixar engrossar 2/3 minutos. Depois, adicionar a massa cozida e envolver.
-        servir:
-        - Adicionar a massa com o molho a um prato, meter o tempeh por cima e a salsa.
+        - Após a cozedura, escorrer a massa e reservar.
+    o tempeh de bacon:
+        - Desfazer o tempeh em pedaços.
+        - Temperar o tempeh com o pimentão doce, a paprika fumada, o sal, o molho de soja, a pimenta preta, o sriracha, a cebola desidratada e o dente de alho. Deixar marinar (opcional).
+        - Numa frigideira, colocar o azeite e deixar aquecer bem. De seguida, adicionar a cebola picada e deixar refogar até dourar.
+        - Introduzir o tempeh e deixar 3/4 minutos. Reservar.
+    o molho de carbonara:
+        - Num copo alto, adicionar todos os ingredientes e triturar tudo com uma varinha mágica.
+        - Transferir o molho para uma frigideira durante 2/3 minutos até que engrosse.
+        - Posteriormente, adicionar a massa cozida e envolver bem.
+    servir:
+        - Num prato, adicionar a massa envolvida no molho e servir o tempeh por cima.
 
 notes:
-    -&nbsp;Esta receita foi inspirada aqui [Vegan Heaven](https://veganheaven.org/recipe/vegan-tempeh-carbonara/)
+    - Esta receita foi inspirada aqui [Vegan Heaven](https://veganheaven.org/recipe/vegan-tempeh-carbonara/)
 ---
