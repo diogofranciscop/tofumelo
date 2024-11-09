@@ -39,7 +39,7 @@ ingredients:
         - "| Sal q.b."
         - "| Pimenta Preta q.b."
 instructions:
-    a massa:
+    o acompanhamento:
         - Numa panela, cozer o esparguete de acordo com as instruções de pacote.
         - Após a cozedura, escorrer a massa e reservar.
     o tempeh de bacon:
