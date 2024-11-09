@@ -21,8 +21,8 @@ ingredients:
     - 400gr | de Courgette
     - 3 dentes | de Alho
     - 750ml | de Água
-    - 20gr | de Azeite (costumo meter metade)
-     - 1 | Cenoura pequena
+    - 20gr | de Azeite
+    - 1 | Cenoura pequena
     - 100gr | de Couve Ralada finamente
     - "| Sal q.b."
 instructions:
@@ -32,6 +32,6 @@ instructions:
     - Enquanto isso, ralar a couve finamente, assim como a cenoura às rodelas. Reservar.
     - Triturar o preparado que está na panela, com uma liquidificadora ou uma varinha mágica até obter um creme homogéneo.
     - Por fim, adicionar a cenoura e a couve ao caldo de legumes e misturar. Deixar cozinhar em lume por cerca de 10 min, até a cenoura e a couve estarem cozinhadas.
-note:
+notes:
     - Costumo cozer a couve a vapor durante o tempo de cozedura da sopa.
 ---
