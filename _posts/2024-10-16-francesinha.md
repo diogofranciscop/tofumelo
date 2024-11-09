@@ -55,6 +55,6 @@ instructions:
     - Costumo acompanhar com batatas fritas na _air fryer_. Está pronto a servir. 
 notes: 
   - Quanto mais tempo deixar o molho a apurar, mais saboroso fica.
-  - "-&nbsp;O molho desta receita foi inspirado na receita do blog da [omelete sem ovos](https://www.exemplo.com)."
-  - "-&nbsp;O resto da receita foi personalizado por nós, personalizem também com ingredientes que mais gostem."
+  - O molho desta receita foi inspirado na receita do blog da [omelete sem ovos](https://www.exemplo.com).
+  - O resto da receita foi personalizado por nós, personalizem também com ingredientes que mais gostem.
 ---
