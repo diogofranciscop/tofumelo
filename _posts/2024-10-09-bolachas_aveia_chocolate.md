@@ -1,34 +1,33 @@
 ---
 layout: post
-title: "Bolachas de aveia e chocolate"
+title: "Bolachas de Aveia e Chocolate"
 permalink: /bolachas-aveia-chocolate/
-type: ["sobremesa"]
-description: "Bolachas de aveia com pedaços de chocolate negro"
+type: ["Sobremesa","Lanche"]
+description: "Bolachas crocantes de aveia com pedaços de chocolate negro"
 image: "/assets/img/bolachas_aveia.png"
 serve: 15 bolachas
-minutes: 30 min
+minutes: "?"
 diet: ["s-soja", "s-frutos-secos"]
-time-total: 70
-time-prepar: 30
-time-confe: 30
+time-total: "?"
+time-prepar: "?"
+time-confe: "?"
 calorias:
 proteinas:
 lipidos:
 hidratos:
 author: original
 ingredients:
-  - 150gr de farinha de trigo
-  - 150gr de aveia em flocos
-  - 100gr de açucar (acrescentar 50gr se preferir mais doce)
-  - 120gr de manteiga vegan (costumo usar da Alpro)
-  - 50gr de chocolate negro (costumo usar 70%)
+  - 150gr | de Farinha de Trigo
+  - 150gr | de Aveia em flocos
+  - 100gr | de Açúcar Amarelo
+  - 120gr | de Manteiga Vegan (exemplo, Alpro)
+  - 50gr | de Chocolate Negro 70%
 instructions:
-  - Comece por pré-aquecer o forno a 180ºC.
-  - Misturar a aveia, a a farinha e o açucar amarelo.
-  - Partir o chocolate em pedaços pequenos e juntar à mistura.
-  - Derreter a manteira no microondas.
-  - Juntar a manteiga à mistura (aos poucos, pois pode não ser necessária tanta), misturar até conseguir obter uma bola.
-  - Formar bolinhas pequenas.
-  - Meter as bolas num tabuleiro forrado com papel vegetal.
-  - Meter no forno durante 15 minutos (pode durar mais ou menos dependente do forno, estar atento)
+  - Pré-aquecer o forno a 180ºC.
+  - Numa taça, misturar a aveia, a farinha e o açúcar amarelo.
+  - Partir o chocolate em pedaços pequenos e adicionar ao preparado.
+  - Juntar a manteiga aos poucos (pois pode não ser necessária toda). Misturar até conseguir obter uma bola.
+  - Formar bolinhas pequenas em formato de bolachinhas.
+  - Colocá-las num tabuleiro forrado com papel vegetal. Levar ao forno a 180º durante cerca de 15 minutos (dependendo do forno).
+  - Retirar e colocar as bolachinhas numa grelha para que arrefeçam e fiquem crocantes.
 ---
