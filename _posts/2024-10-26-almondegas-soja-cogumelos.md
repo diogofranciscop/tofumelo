@@ -7,9 +7,9 @@ description: "Almôndegas de soja e cogumelos, ricas em sabor e perfeitas com mo
 image: "/assets/img/almondegas.jpeg"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos"]
-time-total: ?
-time-prepar: ?
-time-confe: ?
+time-total: "?"
+time-prepar: "?"
+time-confe: "?"
 calorias:
 proteinas:
 lipidos:
