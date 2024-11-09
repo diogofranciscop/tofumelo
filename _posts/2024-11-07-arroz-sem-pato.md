@@ -23,8 +23,8 @@ ingredients:
     - 500ml | de Água
     - 50ml | de Vinho Tinto
     - 1 | Cebola picada
-    - 4 | dentes de Alho picado
-    - 2 | folhas de Louro
+    - 4  dentes| de Alho picado
+    - 2 folhas | de Louro
     - 1 c. sopa| de Molho de Soja
     - "| Pimentão doce fumado q.b."
     - "| Pimenta-preta q.b."
