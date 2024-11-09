@@ -50,10 +50,18 @@ function positionFilterBox(button) {
 function setupRoleSelection() {
     $('.button-4').on('click', function() {
         const role = $(this).data('role');
+        
+        // Toggle selection of the role
         toggleSelection(role, 'role');
-        filterAndSortPosts(); // Re-filter and sort when role is toggled
+
+        // Toggle the .selected class
+        $(this).toggleClass('selected', selectedRoles.includes(role));
+        
+        // Re-filter and sort when role is toggled
+        filterAndSortPosts(); 
     });
 }
+
 
 function setupDietSelection() {
     $('#filterBox input[data-diet]').on('change', function() {

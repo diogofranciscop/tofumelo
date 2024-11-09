@@ -253,12 +253,12 @@ cursor: default;
 }
 
 .button-3:active {
-background-color: rgba(35, 99, 12, 0.6);
+background-color: rgba(35, 99, 12, 0.6)t;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
-.button-3.selected {
-background-color: rgba(35, 99, 12, 0.6); 
+.selected {
+background-color: rgba(35, 99, 12, 0.5)!important;
 color: black; 
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
