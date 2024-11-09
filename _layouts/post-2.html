@@ -101,9 +101,11 @@ layout: default
                         <h4>Notas</h4>
                         <ul>
                             {% for note in page.notes %}
-                              <li>{{ note | markdownify | strip_newlines | strip }}</li>
+                            <li>
+                                <span>- {{ note | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</span>
+                            </li>
                             {% endfor %}
-                          </ul>                          
+                        </ul>                    
                     </div>
                     {% endif %}
                 </div>
