@@ -2,7 +2,7 @@
 layout: post
 title: ""
 permalink: //
-type: ["Almoço/Jantar", "Pequeno-Almoço", Entrada", "Lanche", "Sobremesa"]
+type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa"]
 description: ""
 image: "/assets/img/"
 serve:
