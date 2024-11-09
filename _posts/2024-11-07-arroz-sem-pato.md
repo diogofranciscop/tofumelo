@@ -1,42 +1,46 @@
 ---
 layout: post
 title: "Arroz Sem Pato"
-permalink: /arros-sem-pato/
-type: ["Almoço"]
-description: "Arroz de forno com chouriço vegetal e cogumelos pleurothus"
+permalink: /arroz-sem-pato/
+type: ["Almoço/Jantar"]
+description: "Arroz de forno com cogumelos pleurothus e chouriço vegetal, aromático e reconfortante"
 image: "/assets/img/arroz-sem-pato.png"
-serve: 2
+serve: 4
 diet: ["s-gluten", "s-frutos-secos"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: "?"
+time-prepar: "?"
+time-confe: "?"
 calorias:
 proteinas:
 lipidos:
 hidratos:
 author: greentastecuisine
 ingredients:
-    - 1 chouriço vegetal
-    - 1 cubo de caldo de legumes
-    - 50ml de vinho tinto
-    - 2 folhas de louro
-    - Pimentão doce fumado q.b.
-    - Pimenta-preta q.b.
-    - 1 colher de sopa de molho de soja
-    - Água 1200 ml
-    - azeite q.b.
-    - 1 cebola picada
-    - 4 dentes de alho picado
-    - 500 gr de cogumelos pleurothus
-    - 500 gr de arroz vaporizado
-    - sal q.b.
+    - 400gr | de Arroz Vaporizado ou Agulha
+    - 500 gr de Cogumelos Pleurothus
+    - 1 | Chouriço Vegetal
+    - 500ml | de Caldo de Legumes
+    - 500ml | de Água
+    - 50ml | de Vinho Tinto
+    - 1 | Cebola picada
+    - 4 | dentes de Alho picado
+    - 2 | folhas de Louro
+    - 1 c. sopa| de Molho de Soja
+    - "| Pimentão doce fumado q.b."
+    - "| Pimenta-preta q.b."
+    - "| Azeite q.b."   
+    - "| Sal q.b."
 instructions:
-    - Num tacho, juntar metado do chouriço vegetal, o cubo de caldo de legumes, o vinho tinto, as folhas de louro, o pimentão doce fumado, a pimenta preta, e o molho de soja. Cubrir com água, quando começar a ferver tapar e deixar cozer durante cerca de 10 minutos. Após esse tempo reserver. Retirar o chouriço e as folhas de louro e reservar. Manter o caldo no tacho.
-    - Num tacho colocar o azeite e deixar aquecer. Depois juntar a cebola e deixar refogar. Depois de 2 minutos, juntar o alho, o louro do caldo e deixar refogar. Depois intruduzir os cogumelos e deixa-los reduzir. Depois introduir o chouriço de caldo, temperar com sal, pimenta e deixar durante 5 minutos.
-    - Colocar o tacho com o caldo no lume. Quando começar a ferver introduzir o arroz. Temperar com sal a gosto e deixar cozer um pouco, mas não muito porque ele depois coze no forno.
+    - Cortar o chouriço em duas metades iguais e reservar uma delas. A outra parte - cortar às rodelas e, posteriormente cortar as rodelas a meio, de forma a ficarem em formato de meias luas.
+    - Num tacho, colocar o chouriço que foi cortado, o caldo de legumes, o vinho tinto, as folhas de louro, o pimentão doce fumado, a pimenta preta, e o molho de soja. Cobrir com água e, quando começar a ferver, tapar e deixar cozinhar durante cerca de 10 minutos. Após esse tempo, reservar. Retirar o chouriço e as folhas de louro e reservar. Manter o caldo no tacho e reservar.
+    - Noutro tacho, colocar o azeite e deixar aquecer. De seguida, adicionar a cebola e refogar por 2 minutos. 
+    - Acrescentar o alho, o louro (que foi retirado do caldo) e deixar refogar. 
+    - Cortar os cogumelos em tiras ou desfiá-los. Introduzir e deixar reduzir. Depois, juntar os pedaços de chouriço (retirados do caldo).
+    - Temperar com sal, pimenta e deixar durante 5 minutos.
+    - Colocar o tacho do caldo ao lume. Quando começar a ferver, colocar o arroz. Temperar com sal a gosto e deixar cozinhar um pouco, mas não totalmente, pois ainda vai ao forno.
     - Misturar os cogumelos no arroz e meter tudo num tabuleiro.
-    - Cortar o resto do chouriço e meter por cima.
-    - Levar ao forno a 200ºC até tostar, cerca de 20 minutos (no meu forno)
+    - Cortar o chouriço que restou em rodelas e dispô-las por cima do arroz.
+    - Levar ao forno a 200ºC cerca de 20 minutos, até tostar.
 notes:
     Receita inspirada na [greentaste.cuisine](https://www.instagram.com/p/CTVBuLosgsV/?igsh=dGxjMWVyb3R4Zzds)
 ---
