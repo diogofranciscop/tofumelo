@@ -154,7 +154,7 @@ function filterAndSortPosts() {
 
     // Apply filters
     filteredPosts = filteredPosts.filter(post => {
-        const matchesRole = selectedRoles.length === 0 || selectedRoles.includes(post.type);
+        const matchesRole = selectedRoles.length === 0 || selectedRoles.some(role => post.type.includes(role));
 
         // Modify the diet filter to check that all selected diets are present in post.diet
         const matchesDiet = selectedDiets.length === 0 || selectedDiets.every(diet => post.diet.includes(diet));
