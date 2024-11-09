@@ -20,10 +20,10 @@ ingredients:
     - 300gr | de Cogumelos aos cubinhos
     - 1/2 | Pimento (aprox. 50 gr) 
     - 1 | Cebola (aprox. 50 gr)
-    - 4 | dentes de Alho
+    - 4 dentes | de Alho
     - 100 gr | de Farinha de Grão-de-Bico
     - 10 gr | de Azeite
-    - 1 | folha de Louro
+    - 1 folha | de Louro
     - "| Curcuma q.b."
     - "| Pimenta Preta q.b."
     - "| Sal q.b."   
