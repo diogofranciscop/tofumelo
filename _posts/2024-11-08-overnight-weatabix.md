@@ -2,7 +2,7 @@
 layout: post
 title: "Overnight Weetabix"
 permalink: /overnight-weetabix/
-type: ["Pequeno-Almoço"]
+type: ["Pequeno-Almoço","Lanche"]
 description: "Weetabix  adormecidos com iogurte e fruta fresca"
 image: "/assets/img/overnight-weetabix.png"
 serve: 1
