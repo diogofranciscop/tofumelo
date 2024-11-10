@@ -22,9 +22,9 @@ ingredients:
     - 1 | Cebola Grande
     - 4 dentes | de Alho
     - 1 folha | de Louro
+    - 1 colher de sopa | de Vinagre de Maçã
     - "| Água a ferver q.b."
     - "| Molho de Soja q.b."
-    - 1 colher de sopa | de Vinagre de Maçã
     - "| Salsa q.b."
     - "| Paprika q.b."
     - "| Mostarda em grão q.b."
