@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-2
 title: "Soja à alentejana"
 permalink: /soja-alentejana/
 type: ["almoço"]
@@ -7,33 +7,38 @@ description: "Soja marinada à alentejana acompanhada de batatas fritas crocante
 image: "/assets/img/soja-alentejana.png"
 serve: 4 refeições
 diet: ["s-gluten", "s-frutos-secos"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: 50
+time-prepar: 25
+time-confe: 25
 calorias:
 proteinas:
 lipidos:
 hidratos:
 author: 
 ingredients:
-    Para a soja:
-    - 200gr de soja grossa
-    - Louro
-    - Cebola e alho picados
-    - Alho em pó
-    - Molho inglês
-    - Vinho branco
-    - Cominhos
-    - Pimentão doce
-    - Vinagre
-    - Limão
     Para as batatas:
-    - 200gr de batata
-    - sal
-    - oleo
+    - 200gr | de Batata
+    - "| Sal q.b."
+    - "| Óleo ou Azeite q.b."
+    Para a soja:
+    - 200gr | de Soja Grossa
+    - 3 folhas | de Louro
+    - 1 | Cebola picada
+    - 3 dentes | de Alho picados
+    - "|Água q.b."
+    - "| Molho Inglês q.b."
+    - "| Vinho branco q.b."
+    - "| Vinagre q.b."
+    - "| Limão q.b."
+    - "| Alho em pó q.b."
+    - "| Cominhos moídos q.b."
+    - "| Pimentão doce q.b."
 instructions:
-    - Cortar as batatas aos cubos. Numa fritadeira, meter o óleo e fritar as batatas
-    - Para a soja, se possivel meta tudo num recipiente e deixa a marinar do dia para a noite. Na própria hora também fica bom, mas com menos sabor.
-    - Depois, juntar um fio de azeite num tacho e fritar a soja até ganhar cor.
-    - Depois é só juntar tudo e servir com azeitonas e pickles (opcional)
+    Para as batatas:
+    - Cortar as batatas aos cubos. Fritar as batatas numa fritadeira ou pulverizá-las com azeite e fazê-las na _Air Fryer_. Reservar.
+    Para a soja:
+    - Colocar a soja numa panela com água, louro, vinagre e sal. Deixar ferver por 3 min. Retirar, passar por água fria e espremer de forma a retirar o máximo de água possível. Reservar.
+    - Numa taça, colocar todos os temperos juntamente com a soja. Mexer bem e deixa a marinar, pelo menos 30min (se conseguir fazer de um dia para o outro, potencia o sabor).    
+    - De seguida, juntar um fio de azeite num tacho e fritar a soja até que ganhe uma cor dourada.
+    - Num prato, servir uma dose de batatas, uma dose de soja e misturar tudo. Finalizar com azeitonas e _pickles_ (opcional) e está pronto!
 ---
