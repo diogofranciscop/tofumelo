@@ -3,7 +3,7 @@ layout: post
 title: "Bolonhesa de Tofu Crocante"
 permalink: /bolonhesa-de-tofu-crocante/
 type: ["Almoço/Jantar"]
-description: ""
+description: "Esparguete com tofu crocante no forno e molho de tomate"
 image: "/assets/img/bolonhesa-tofu.jpeg"
 serve: 4 pessoas
 diet: ["s-frutos-secos"]
