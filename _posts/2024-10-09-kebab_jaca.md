@@ -26,14 +26,14 @@ ingredients:
    - 300gr | de Jaca (ou alternativamente Cogumelos Pleurothus desfiados)
    - 2 folhas | de Alface cortada em juliana
    - 1/2 | Cenoura ralada
-   - 1 colher de café | de Alho em pó
+   - 1 colher de sopa | de Alho em pó
    - 1 colher de sopa | de Água morna
-   - 1 colher de chá | de Cominhos moídos
+   - 1 colher de sobremesa | de Cominhos moídos
    - 2 colheres de sopa | de Sumo de Limão
-   - "| Cebola Crocante q.b."
    - "| Pimenta Preta q.b."
    - "| Sal q.b."
    - "| Açafrão q.b."
+   - "| Cebola Crocante q.b."
    - "| Maionese vegan q.b."
    - "| Sriracha q.b."
    
