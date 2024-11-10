@@ -2,7 +2,7 @@
 layout: post-2
 title: "Tofu Asiático (sticky)"
 permalink: /tofu-sticky/
-type: ["almoço"]
+type: ["Almoço/Jantar"]
 description: "Tofu com molho asiático agridoce e picante, servido com arroz e pepino fresco "
 image: "/assets/img/camera-icon.png"
 serve: 4
