@@ -30,13 +30,13 @@ ingredients:
    - 1 colher de sopa | de Água morna
    - 1 colher de chá | de Cominhos moídos
    - 2 colheres de sopa | de Sumo de Limão
+   - "| Cebola Crocante q.b."
    - "| Pimenta Preta q.b."
    - "| Sal q.b."
    - "| Açafrão q.b."
    - "| Maionese vegan q.b."
    - "| Sriracha q.b."
-   - "| Cebola Crocante q.b."
-    
+   
 instructions:
   o pão pita:
     - Misturar todos os ingredientes numa taça.
@@ -54,6 +54,6 @@ instructions:
     - Pode acompanhar com umas batatas caseiras fritas na _air fryer_, por exemplo.
 
 notes:
-    - Poderá deixar a jaca/os cogumelos de um dia para o outro a marinar nos temperos, para potenciar ainda mais o sabor.
+       - Poderá deixar a jaca/os cogumelos de um dia para o outro a marinar nos temperos, para potenciar ainda mais o sabor.
 
 ---
