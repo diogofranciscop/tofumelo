@@ -4,7 +4,7 @@ title: "Caldo Verde"
 permalink: /caldo-verde/
 type: ["Entrada"]
 description: "Sopa cremosa de legumes com couve e rodelas de cenoura, leve e nutritiva."
-image: "/assets/img/camera-icon.png"
+image: "/assets/img/caldo-verde.png"
 serve: 6 pratos de sopa
 diet: ["s-gluten","s-frutos-secos", "s-soja"]
 time-total: 60
