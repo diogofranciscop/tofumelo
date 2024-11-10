@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: post-2
 title: "Bolonhesa de Tofu Crocante"
 permalink: /bolonhesa-de-tofu-crocante/
 type: ["Almoço/Jantar"]
