@@ -31,7 +31,7 @@ ingredients:
     - 2 colheres de sopa | de Vinagre de Arroz
     - 5 colheres de sopa | de Agave
     - 2 colheres de sopa | de Molho de Soja
-    -"|Água q.b."
+    - "|Água q.b."
 instructions:
     o acompanhamento:
     - Numa panela, adicionar o arroz, a água a ferver e o sal. Levar ao lume e deixar o arroz cozinhar conforme as instruções de embalagem. Quando estiver no ponto, retirar do lume e reservar.
