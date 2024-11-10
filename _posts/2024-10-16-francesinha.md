@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Francesinha"
-type: ["Almoço","Jantar"]
+type: ["Almoço/Jantar"]
 permalink: /Francesinha/
 description: "Francesinha vegana com tofu, pleurothus, linguiça e curgete, regada com um molho delicioso"
 image: "/assets/img/francesinha2.jpeg"
