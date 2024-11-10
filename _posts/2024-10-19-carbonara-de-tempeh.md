@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Carbonara de Tempeh"
-type: ["Almoço","Jantar"]
+type: ["Almoço/Jantar"]
 serve: 2 porções
 permalink: /carbonara-de-tempeh/
 description: "Carbonara cremosa com bacon de tempeh, cheia de sabor e textura"
