@@ -23,7 +23,7 @@ ingredients:
     - 20gr | de Azeite
     - 3-4gr | de Fermento de padeiro seco
   o recheio:
-   - 300gr de jaca (ou alternativamente cogumelos pleurothus desfiados)
+   - 300gr | de Jaca (ou alternativamente Cogumelos Pleurothus desfiados)
    - 2 folhas | de Alface cortada em juliana
    - 1/2 | Cenoura ralada
    - 1 colher de café | de Alho em pó
