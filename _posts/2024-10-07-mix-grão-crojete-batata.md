@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Mix de grão e legumes"
-permalink: /mix-grão-legumes/
-type: ["Almoço"]
-description: "Legumes assados e grão de bico temperados com especiarias"
+title: "Assado de batata, grão e legumes"
+permalink: /assado-grão-legumes/
+type: ["Almoço/Jantar"]
+description: "Assado de legumes, batata e grão-de-bico"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
 diet: ["s-gluten", "s-soja", "s-frutos-secos"]
-time-total: 60
-time-prepar: 30
+time-total: 45
+time-prepar: 15
 time-confe: 30
 calorias:
 proteinas:
@@ -16,18 +16,20 @@ lipidos:
 hidratos:
 author: 
 ingredients:
-    - 1 crojete grande
-    - 3 batatas grandes
-    - 1/2 cebola
-    - 30 tomates cherry
-    - 200 gr de grão de bico
-    - azeite
-    - Pimentão doce q.b.
-    - pimenta-preta q.b.
-    - sal q.b.
+    - 1 | Courgette grande
+    - 3 | Batatas grandes
+    - 1/2 | Cebola
+    - 30 | Tomates Cherry
+    - 200gr | de Grão-de-Bico
+    - "| Azeite q.b."
+    - "| Pimentão doce q.b."
+    - "| Pimenta Preta q.b."
+    - "| Alho em pó q.b."
+    - "| Sal q.b."
 instructions:
-    - Corte a batata, a corgete e a cebola aos cubos.
-    - Meta tudo numa bacia junte o grão de bico e os tomates cherry cortado em metades.
-    - Juntar o azeite a gosto e as especiairias.
-    - Misturar tudo e levar a ayr frier ou forno por 15 minutos a 200ºC
+    - Pré-aquecer o forno ou a _Air Fryer_ a 200º.
+    - Descascar e cortar em cubos a batata, a courgette e a cebola aos cubos. Cortar os tomates cherry em metades.
+    - Colocar os legumes já cortados numa bacia e juntar-lhes o grão-de-bico.
+    - Juntar o azeite a gosto e as especiarias. Misturar bem.
+    - Levar ao forno por 30min, indo mexendo e verificando, pois o tempo de confeção pode variar.
 ---
