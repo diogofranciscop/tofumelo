@@ -2,44 +2,44 @@
 layout: post
 title: "Guisado de soja"
 permalink: /guisado-de-soja/
-type: ["almoço"]
-description: "Guisado reconfortante de soja com cogumelos"
+type: ["Almoço/Jantar"]
+description: "Estufado de soja com cogumelos em molho de tomate temperado"
 image: "/assets/img/camera-icon.png"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: "?"
+time-prepar: "?" 
+time-confe: "?"
 calorias:
 proteinas:
 lipidos:
 hidratos:
 author: be pure inside
 ingredients:
-    - 180 gr de soja grossa
-    - 250 gr de cogumelos marron
-    - 1 cebola grande
-    - 4 dentes de alho
-    - 1 folha de louro
-    - Molho de soja q.b.
-    - 1 c. sopa de vinagre de maçã
-    - estragão q.b.
-    - Salsa q.b.
-    - Paprica q.b.
-    - Mostarda em grão q.b.
-    - Sal q.b.
-    - Água acabada de ferver
-    - 250 ml de polpa de tomate (ou 4 tomates maduros picados)
+    - 180gr | de Soja Grossa
+    - 250gr | de Cogumelos Marron
+    - 250 ml | de Polpa de Tomate (ou 4 tomates maduros picados)
+    - 1 | Cebola Grande
+    - 4 dentes | de Alho
+    - 1 folha | de Louro
+    - "| Água a ferver q.b."
+    - "| Molho de Soja q.b."
+    - 1 colher de sopa | de Vinagre de Maçã
+    - "| Salsa q.b."
+    - "| Paprika q.b."
+    - "| Mostarda em grão q.b."
+    - "| Sal q.b."
 instructions:
-    - Coloca a soja num recipiente e enche com água quente. Deixa hidratar entre 15 a 20 minutos e escorre bem.
-    - Corta os cogumelos em tiras, pica as cebolas e os alhos.
-    - Num tacho aquece o azeite e refoga a cebola e os alhos, juntamente com a folha de louro, até a cebola ficar translúcida.
-    - Adiciona os cogumelos e deixa refogar até ficarem macios.
-    - Quando a soja estiver hidratada, junta ao refogado e antes de envolveres, adiciona o molho de soja e o vinagre, envolve bem. Deixe cozinhar durante 5 minutos.
-    - Tempera com estragão, salsa, paprica, mostarda preta (em grão), sal e pimenta preta.
-    - Adiciona a água e a polpa de tomate (ou os tomates maduros picados) e envolve bem, rectifica os temperos se necessário.
-    - Coloca a tampa e deixa cozinhar durante 20 minutos.
-    - Se for necessário adiciona mais água fervida e rectifica os temperos.
+    - Colocar a soja num recipiente e encher com água quente. Deixa hidratar entre 15 a 20 minutos e escorrer bem. Reservar.
+    - Cortar os cogumelos em tiras, picar as cebolas e os alhos.
+    - Num tacho, aquecer o azeite e refogae a cebola, até ficar translúcida. Adicionar os alhos juntamente com a folha de louro.
+    - Adicionar os cogumelos e deixar refogar até ficarem macios.
+    - Juntar a soja ao refogado, adicionar o molho de soja e o vinagre, e envolver bem. Deixar cozinhar durante 5 minutos.
+    - Temperar com salsa, paprika, mostarda em grão, sal e pimenta preta.
+    - Adicionar a polpa de tomate (ou os tomates maduros picados) e um pouco de água até que a soja fique coberta. Envolver bem.
+    - Retificar os temperos, se necessário.
+    - Colocar a tampa e deixa cozinhar durante 20 minutos em lume brando.
+    - Se for necessário, adicionar mais água a ferver e retificar os temperos.
 note:
     - Esta receita foi inspirada na be [pure inside](https://bepureinside.com/guisado-de-soja-com-cogumelos/)
 ---
