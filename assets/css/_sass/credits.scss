@@ -1,24 +1,75 @@
 .inspiration-table {
     width: 100%;
-    border-collapse: separate; /* Ensure border-spacing takes effect */
-    border-spacing: 20px; /* Adjust the value to control the space between columns */
+    border-collapse: separate; /* Ensures border-spacing takes effect */
+    border-spacing: 20px; /* Adjusts the space between columns */
     text-align: center;
-  }
-  
-  .inspiration-table td {
+    margin-top: 20px; /* Adds spacing above the table */
+}
+
+.inspiration-table td {
     padding: 20px;
     border: 1px solid #ccc;
     font-family: Arial, sans-serif;
-  }
-  
-  .inspiration-table td a {
-    color: green;
-    font-size: 14px;
-    text-decoration: none;
-  }
-  
-  .inspiration-table td {
     font-weight: bold;
     color: green;
     font-size: 16px;
+    background-color: rgba(219, 217, 217, 0.1);
+
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+}
+
+.inspiration-table td a {
+    color: black;
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 30.42px;
+    text-align: center; 
+    text-decoration-skip-ink: none;
+    
+    font-size: 14px; /* Adjust font size if needed */
+    text-decoration: none;
+}
+
+.subtext-creditos {
+    width: 90%;
+    margin: 0 auto; /* Centers the div itself */
+    margin-top: 30px; /* Adds spacing between the subtext and the heading */
+    text-align: center; /* Centers the text within this div */
+}
+
+.center-content {
+    max-width: 800px; /* Adjust width as needed */
+    margin: 0 auto;   /* Centers the container horizontally on the page */
+    text-align: center; /* Centers text and table contents horizontally */
+}
+
+.center-content h2{
+    margin-top: 30px;
+    color: rgba(35, 99, 12, 1);
+
+}
+
+.subtext-creditos br {
+    display: block;
+    margin-top: 10px; /* Adjust spacing if needed */
   }
+  
+  .text-before {
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 30.42px;
+    text-align: center;
+    text-decoration-skip-ink: none;
+    color: rgba(123, 161, 109, 1);
+
+
+  }
+  
+
+  
