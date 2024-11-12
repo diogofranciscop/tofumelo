@@ -1,0 +1,24 @@
+.inspiration-table {
+    width: 100%;
+    border-collapse: separate; /* Ensure border-spacing takes effect */
+    border-spacing: 20px; /* Adjust the value to control the space between columns */
+    text-align: center;
+  }
+  
+  .inspiration-table td {
+    padding: 20px;
+    border: 1px solid #ccc;
+    font-family: Arial, sans-serif;
+  }
+  
+  .inspiration-table td a {
+    color: green;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .inspiration-table td {
+    font-weight: bold;
+    color: green;
+    font-size: 16px;
+  }

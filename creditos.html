@@ -2,20 +2,44 @@
 layout: default
 title: Staff
 ---
+
+
 <h2>Cozinheiros onde nos inspiramos</h2>
 
-<ul>
-  {% for chef in site.chefs %}
-    <li>
-      <h2>{{ chef.name }}</h2>
-      <p>As receitas onde nos inspiramos são:</p>
-      <ul>
-        {% assign filtered_posts = site.posts | where: 'author', chef.short_name %}
-        {% for post in filtered_posts %}
-          <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-        {% endfor %}
-      </ul>
-    </li> 
-  {% endfor %}
-</ul>
+
+
+<table class="inspiration-table">
+    <tr>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+    </tr>
+    <tr>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+      <td colspan="2">BE PURE INSIDE<br><a href="http://www.blablabla.com">www.blablabla.com</a></td>
+    </tr>
+</table>
 
