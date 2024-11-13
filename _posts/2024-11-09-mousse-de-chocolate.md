@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Mousse"
-permalink: /musse/
+title: "Mousse de Chocolate"
+permalink: /musse-chocolate/
 type: ["Sobremesa"]
 description: "Mousse de chocolate vegana com nozes crocantes"
 image: "/assets/img/mousse.png"
