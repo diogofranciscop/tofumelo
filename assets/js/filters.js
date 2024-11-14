@@ -225,10 +225,22 @@ function createPaginationButtons(currentPage, posts) {
     const totalPages = Math.ceil(posts.length / 20);
     $('#pagination-container').empty();
 
-    const $firstPage = $('<button>').text('PRIMEIRA PÁGINA').addClass('pagination-button').on('click', () => loadPage(0, posts));
-    const $lastPage = $('<button>').text('ÚLTIMA PÁGINA').addClass('pagination-button').on('click', () => loadPage(totalPages - 1, posts));
-    const $prevPage = $('<button>').text('←').addClass('pagination-button').on('click', () => loadPage(Math.max(0, currentPage - 1), posts));
-    const $nextPage = $('<button>').text('→').addClass('pagination-button').on('click', () => loadPage(Math.min(totalPages - 1, currentPage + 1), posts));
+    const $firstPage = $('<button>').text('PRIMEIRA PÁGINA').addClass('pagination-button').on('click', () => {
+        loadPage(0, posts);
+        $(window).scrollTop(0); // Scroll to top
+    });
+    const $lastPage = $('<button>').text('ÚLTIMA PÁGINA').addClass('pagination-button').on('click', () => {
+        loadPage(totalPages - 1, posts);
+        $(window).scrollTop(0); // Scroll to top
+    });
+    const $prevPage = $('<button>').text('←').addClass('pagination-button').on('click', () => {
+        loadPage(Math.max(0, currentPage - 1), posts);
+        $(window).scrollTop(0); // Scroll to top
+    });
+    const $nextPage = $('<button>').text('→').addClass('pagination-button').on('click', () => {
+        loadPage(Math.min(totalPages - 1, currentPage + 1), posts);
+        $(window).scrollTop(0); // Scroll to top
+    });
 
     $('#pagination-container').append($firstPage, $prevPage);
 
@@ -238,7 +250,10 @@ function createPaginationButtons(currentPage, posts) {
     for (let i = Math.max(0, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
         const $pageButton = $('<button>').text(i + 1).addClass('pagination-button');
         if (i === currentPage) $pageButton.addClass('active');
-        $pageButton.on('click', () => loadPage(i, posts));
+        $pageButton.on('click', () => {
+            loadPage(i, posts);
+            $(window).scrollTop(0); // Scroll to top
+        });
         $('#pagination-container').append($pageButton);
     }
 
@@ -247,6 +262,7 @@ function createPaginationButtons(currentPage, posts) {
 
     $('#pagination-container').append($nextPage, $lastPage);
 }
+
 $(document).ready(function() {
     $(".informação-nutricional").click(function() {
         $(".InformationBox").toggle();  // Toggles visibility
