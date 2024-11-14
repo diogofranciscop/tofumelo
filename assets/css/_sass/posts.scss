@@ -124,7 +124,6 @@
     width: 40%;
   }
   .ingredients2  {
-    margin-left: 20px;
     margin-top: 30px;
     padding-bottom: 30px;
     font-family: "Archivo Narrow";
@@ -156,7 +155,6 @@
   }
   .ingredients2 ul {
     list-style: none;
-    margin-left: 20px;
     font-family: "Archivo Narrow";
     font-size: 15px;
     font-weight: 400;
@@ -167,27 +165,35 @@
   
   .ingredients2 ul li  {
     margin-bottom: 0px;
+    margin-left: 25px;
   }
   .directions2 ol li {
     margin-bottom: 10px;
-    margin-left: 20px;
-    margin-right: 35px;
+    text-align: justify; /* Aligns text across the width of each line */
+    hyphens: auto;       /* Enables hyphenation at natural breakpoints */
+    overflow-wrap: break-word; /* Forces words to wrap if needed */
+  }
+  .directions2 ol{
+    padding-left: 1.2em;
+    margin-left: 25px;
+    margin-right: 25px;
   }
   
-  .directions2 ol {
-    padding-left: 20px;
-  }
   .notes-footer2{
     margin-top: 40px;
   }
   .notes-footer2 ul{
     list-style: none;
-    margin-left: 20px;
     text-align: left;
+    margin-left: 25px;
+    margin-right: 25px;
   }
 
   .notes-footer2 ul li{
     margin-top: 10px;
+    text-align: justify; /* Aligns text across the width of each line */
+    hyphens: auto;       /* Enables hyphenation at natural breakpoints */
+    overflow-wrap: break-word; /* Forces words to wrap if needed */
   }
   
   .measure3 {
@@ -199,6 +205,10 @@
     color: black;
   }
 
+  .ingredients2 ul li::before {
+    content: "- "; /* Adds a dash before each list item */
+    margin-right: 5px; /* Adjusts spacing if needed */
+}
 /*
 CSS for the information box
 */
