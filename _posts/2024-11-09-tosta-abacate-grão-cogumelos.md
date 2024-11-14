@@ -2,7 +2,7 @@
 layout: post
 title: "Tosta de abacate e cogumelos"
 permalink: /tosta-abacate-cogumelo/
-type: ["Pequeno-Almoço","Lanche"]
+type: ["Pequeno-Almoço", "Lanche"]
 description: "Tosta com pasta de abacate, cogumelos grelhados e tomate"
 image: "/assets/img/tosta-abacate-grão-de-bico-cogumelo.png"
 serve: 1 pessoa

@@ -13,7 +13,15 @@ layout: default
                     <div class="info2">
                         <div class="servings2">
                             <img src="/assets/img/serving.png" alt="Type">
-                            <p><span>{{page.type}}</span> </p>
+                            <p>
+                                {% if page.type.size > 1 %}
+                                    {% for type in page.type %}
+                                        <span>{{ type }}</span>{% if forloop.last == false %}, {% endif %}
+                                    {% endfor %}
+                                {% else %}
+                                    <span>{{ page.type }}</span>
+                                {% endif %}
+                            </p>
                         </div>
                         <div class="time2">
                             <img src="/assets/img/clock.png" alt="Time">
