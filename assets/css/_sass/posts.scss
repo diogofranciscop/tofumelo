@@ -3,7 +3,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'Arial', sans-serif;
+    font-family: "Titillium Web";
   }
   .post-container2{
     width: 100vw;
@@ -199,7 +199,7 @@
   }
 
   .notes-footer2 ul li{
-    margin-top: 10px;
+    margin-bottom: 10px;  
     text-align: justify; /* Aligns text across the width of each line */
     hyphens: auto;       /* Enables hyphenation at natural breakpoints */
     overflow-wrap: break-word; /* Forces words to wrap if needed */
