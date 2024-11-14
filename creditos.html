@@ -23,8 +23,7 @@ title: Staff
         {% endif %}
         
         <td colspan="2">
-          <span class="text-before">{{ chef.name }}</span><br>
-          <a href="{{ chef.site }}" class="text-after">{{ chef.site }}</a>
+          <a class="text-before" href="{{ chef.site }}">{{ chef.name }}</a>
         </td>
         
         {% assign chef_count = chef_count | plus: 1 %}

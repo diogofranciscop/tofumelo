@@ -12,6 +12,9 @@ nav {
     overflow-x: hidden;
     height: 63px;
   }
+  .current {
+    color: rgba(123, 161, 109, 0.77) ;
+  }
   
   nav .logo {
     max-height: 50px;
@@ -45,10 +48,9 @@ nav {
     font-weight: 600;
     line-height: 20.21px;
     text-decoration: none;
-    display: block;
+    display: block; 
     margin-right: 5px;
     text-transform: uppercase;
-    color: rgba(0, 35, 122, 0.5);
   }
   
   nav ul li a:hover {
@@ -103,7 +105,12 @@ nav {
       }
       
      nav ul li {
+        display: flex;
         flex-direction: column;
+        justify-content: center;
+      }
+      nav ul li a{
+        text-align: center;
       }
     /* Show the burger menu */
     .burger-menu {
@@ -117,15 +124,21 @@ nav {
       background-color: white;
       position: absolute;
       top: 50px;
-      right: 20px;
       width: 100%;
       box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
-      z-index: 999;
+      background-color: white;
     }
   
     /* Make nav links visible when the 'active' class is added */
     #nav-links.active {
-      display: block;
+      display: flex;
+      position: fixed; /* Set to fixed for overlay effect only when active */
+      top: 63px;
+      left: 0;
+      width: 100%; /* Take full height to cover the screen */
+      z-index: 10; /* Ensure it overlays other elements */
+      border-top: 1px solid #f6f6f6;
+      border-bottom: 1px solid #f6f6f6;
     }
   
     /* Style for burger button */
@@ -143,5 +156,18 @@ nav {
     .burger:hover {
       color: #7ba16d; /* Change to accent color */
     }
+    nav .contactos-special {
+      background-color: white;
+      color: #7f91bc;
+      box-shadow: none;
+      border-radius: 0px;
+      padding: 18px;
+    }
+    
+    nav .contactos-special:hover{
+      background-color: #bcd0b5;
+      color: white;
+    }
+    
   }
   

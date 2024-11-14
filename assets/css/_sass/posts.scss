@@ -1,230 +1,256 @@
-
 .post-container2 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: "Titillium Web";
-  }
-  .post-container2{
-    width: 100vw;
-  }
-  
-  .post-container2 body {
-    background-color: #fafafa;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-  }
-  
-  .recipe-card2 {
-    width: 60%;
-    background-color: #fff;
-    overflow: hidden;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    position: relative;
-    margin: 0 auto; /* Centers the container horizontally */
-  }
-  
-  .header2 {
-    text-align: center;
-  }
-  
-  .header2 h1 {
-    font-family: "Asap Condensed";
-    font-size: 32px;
-    font-weight: 400;
-    line-height: 36.67px;
-    text-align: center;  
-  }
-  
-  .header2 h2 {
-    font-size: 18px;
-    font-family: "Titillium Web";
-    font-size: 16px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: 24.34px;
-    text-align: center;
-  }
-  
-  .rating2 {
-    font-size: 20px;
-    color: #f4b400;
-    margin-bottom: 20px;
-  }
-  
-  .image-section2 {
-    position: relative;
-    width: 100%;
-    height: 500px;
-    overflow: hidden;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
-  
-  .post-recipe-img2 {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  .overlay2 {
-    position: absolute;
-    bottom: 0;
-    background: rgba(255, 255, 255, 0.9);
-    color: black;
-    width: 100%;
-    padding: 20px;
-    box-sizing: border-box;
-    text-align: center;
-    border-image-source: linear-gradient(0deg, #7BA16D, #7BA16D),
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Titillium Web";
+}
+
+.post-container2 {
+  width: 100vw;
+}
+
+.post-container2 body {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.recipe-card2 {
+  width: 60%;
+  background-color: #fff;
+  overflow: hidden;
+  box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  position: relative;
+  margin: 0 auto;
+  /* Centers the container horizontally */
+}
+
+.header2 {
+  text-align: center;
+}
+
+.header2 h1 {
+  font-family: "Asap Condensed";
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 36.67px;
+  text-align: center;
+}
+
+.header2 h2 {
+  font-size: 18px;
+  font-family: "Titillium Web";
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 24.34px;
+  text-align: center;
+}
+
+.rating2 {
+  font-size: 20px;
+  color: #f4b400;
+  margin-bottom: 20px;
+}
+
+.image-section2 {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.post-recipe-img2 {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.overlay2 {
+  position: absolute;
+  bottom: 0;
+  background: rgba(255, 255, 255, 0.9);
+  color: black;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  border-image-source: linear-gradient(0deg, #7BA16D, #7BA16D),
     linear-gradient(0deg, #7BA16D, #7BA16D);
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
-  
-  .info2 {
-    display: flex;
-    margin-bottom: 20px;
-    justify-content: space-around;
-    margin-top:15px;
-    align-items: center;
-  }
-  
-  .info2 div {
-    display: flex;
-    align-items: center;
-    font-family: "Archivo Narrow";
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 21.55px;
-    text-align: center;
-    justify-content: center;
-  
-  }
-  .servings2, .time2, .porcoes2 {
-    flex: 0 1 auto; /* Allow items to size based on content */
-    text-align: center; 
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
-  
-  .info2 img {
-    width: 20px;
-    margin-right: 8px;
-  }
-  
-  .info2 span{
-    color:rgba(35, 99, 12, 1);  
-  
-  }
-  .content2 {
-    display: flex;
-    justify-content: space-between;
-    width:100%;
-  }
-  
-  .container-ingredients2{
-    background-color:   rgba(245, 245, 245, 1);
-    width: 40%;
-  }
-  .ingredients2  {
-    margin-top: 30px;
-    padding-bottom: 30px;
-    font-family: "Archivo Narrow";
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 26.94px;
-    text-align: left;
-  }
-  .container-directions2{
-    width: 60%;
-  }
-  .directions2{
-    padding-bottom: 30px;
-    margin-top: 30px;
-    font-family: "Archivo Narrow";
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 26.94px;
-    text-align: left;
-  }
-  
-  .ingredients2 h3, .directions2 h3 {
-    font-size: 20px;
-    margin-bottom: 10px;
-    text-align: center;
-  }
-  .ingredients2 h4, .directions2 h4 {
-    margin-bottom: 10px;
-  }
-  .ingredients2 ul {
-    list-style: none;
-    font-family: "Archivo Narrow";
-    font-size: 15px;
-    font-weight: 400;
-    line-height: 26.94px;
-    text-align: left;
-  
-  }
-  
-  .ingredients2 ul li  {
-    margin-bottom: 10px;  
-    margin-left: 25px;
-  }
-  .directions2 ol li {
-    margin-bottom: 10px;
-    text-align: justify; /* Aligns text across the width of each line */
-    hyphens: auto;       /* Enables hyphenation at natural breakpoints */
-    overflow-wrap: break-word; /* Forces words to wrap if needed */
-  }
-  .directions2 ol{
-    padding-left: 1.2em;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
-  .InformationBox .note {
-    font-family: "Archivo Narrow";
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 8.08px;
-    text-align: center;
-    margin-top: 20px;
-  }
-  .notes-footer2{
-    margin-top: 30px;
-  }
-  .notes-footer2 ul{
-    list-style: none;
-    text-align: left;
-    margin-left: 25px;
-    margin-right: 25px;
-  }
 
-  .notes-footer2 ul li{
-    margin-bottom: 10px;  
-    text-align: justify; /* Aligns text across the width of each line */
-    hyphens: auto;       /* Enables hyphenation at natural breakpoints */
-    overflow-wrap: break-word; /* Forces words to wrap if needed */
-  }
-  
-  .measure3 {
-    color: rgba(35, 99, 12, 1);
-    font-weight: bold;
-  }
-  
-  .ingredient3 {
-    color: black;
-  }
-
-  .ingredients2 ul li::before {
-    content: "- "; 
+.info2 {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-around;
+  margin-top: 15px;
+  align-items: center;
 }
+
+.info2 div {
+  display: flex;
+  align-items: center;
+  font-family: "Archivo Narrow";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21.55px;
+  text-align: center;
+  justify-content: center;
+
+}
+
+.servings2,
+.time2,
+.porcoes2 {
+  flex: 0 1 auto;
+  /* Allow items to size based on content */
+  text-align: center;
+}
+
+.info2 img {
+  width: 20px;
+  margin-right: 8px;
+}
+
+.info2 span {
+  color: rgba(35, 99, 12, 1);
+
+}
+
+.content2 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-ingredients2 {
+  background-color: rgba(245, 245, 245, 1);
+  width: 40%;
+}
+
+.ingredients2 {
+  margin-top: 30px;
+  padding-bottom: 30px;
+  font-family: "Archivo Narrow";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.94px;
+  text-align: left;
+}
+
+.container-directions2 {
+  width: 60%;
+}
+
+.directions2 {
+  padding-bottom: 30px;
+  margin-top: 30px;
+  font-family: "Archivo Narrow";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.94px;
+  text-align: left;
+}
+
+.ingredients2 h3,
+.directions2 h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.ingredients2 h4,
+.directions2 h4 {
+  margin-bottom: 10px;
+}
+
+.ingredients2 ul {
+  list-style: none;
+  font-family: "Archivo Narrow";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26.94px;
+  text-align: left;
+
+}
+
+.ingredients2 ul li {
+  margin-bottom: 10px;
+  margin-left: 25px;
+}
+
+.directions2 ol li {
+  margin-bottom: 10px;
+  text-align: justify;
+  /* Aligns text across the width of each line */
+  hyphens: auto;
+  /* Enables hyphenation at natural breakpoints */
+  overflow-wrap: break-word;
+  /* Forces words to wrap if needed */
+}
+
+.directions2 ol {
+  padding-left: 1.2em;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.InformationBox .note {
+  font-family: "Archivo Narrow";
+  font-size: 10px;
+  font-weight: 700;
+  line-height: 8.08px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.notes-footer2 {
+  margin-top: 30px;
+}
+
+.notes-footer2 ul {
+  list-style: none;
+  text-align: left;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.notes-footer2 ul li {
+  margin-bottom: 10px;
+  text-align: justify;
+  /* Aligns text across the width of each line */
+  hyphens: auto;
+  /* Enables hyphenation at natural breakpoints */
+  overflow-wrap: break-word;
+  /* Forces words to wrap if needed */
+}
+
+.measure3 {
+  color: rgba(35, 99, 12, 1);
+  font-weight: bold;
+}
+
+.ingredient3 {
+  color: black;
+}
+
+.ingredients2 ul li::before {
+  content: "- ";
+}
+
 .notes-footer2 ul li::before {
-  content: "- "; 
+  content: "- ";
 }
+
 /*
 CSS for the information box
 */
-  
-.informação-nutricional{
+
+.informação-nutricional {
   font-family: "Titillium Web";
   font-size: 14px;
   font-style: italic;
@@ -233,29 +259,33 @@ CSS for the information box
   text-align: right;
   color: rgba(75, 82, 73, 1);
 }
-.informação-nutricional:hover{
+
+.informação-nutricional:hover {
   cursor: pointer;
 }
 
-.fa-caret-down{
+.fa-caret-down {
   margin-left: 5px;
 }
 
-.InformationBox 
-  {
-    display: none; /* Initially hide the filter box */
-    background-color: rgba(244, 243, 243, 1);
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    padding: 10px; /* Padding for aesthetics */
-    z-index: 1000;
-    position: absolute;
-    right: 2%;
-  }
+.InformationBox {
+  display: none;
+  /* Initially hide the filter box */
+  background-color: rgba(244, 243, 243, 1);
+  border-radius: 8px;
+  /* Rounded corners */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding: 10px;
+  /* Padding for aesthetics */
+  z-index: 1000;
+  position: absolute;
+  right: 2%;
+}
 
 
 .InformationBox.visible {
-  display: block;  /* Displayed when visible class is added */
+  display: block;
+  /* Displayed when visible class is added */
 }
 
 #InformationBox {
@@ -264,9 +294,11 @@ CSS for the information box
   border-radius: 10px;
   width: auto;
   color: #333;
-    flex-direction: column; /* Stack children vertically */
-    align-items: center;    /* Center horizontally */
-    justify-content: center; 
+  flex-direction: column;
+  /* Stack children vertically */
+  align-items: center;
+  /* Center horizontally */
+  justify-content: center;
   text-align: center;
 }
 
@@ -278,22 +310,22 @@ CSS for the information box
 }
 
 .information-row {
-  display: flex!important;
-  align-items: center!important;
-  justify-content: space-between!important;
-  margin: 10px 0!important;
-  
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin: 10px 0 !important;
+
 }
 
 .nutrition-item {
   display: flex;
-  justify-content: center; 
+  justify-content: center;
   align-items: center;
   margin-top: 10px;
-  border-radius: 2px; 
+  border-radius: 2px;
   background-color: #d9e9d9;
   position: relative;
-  padding:9px;
+  padding: 9px;
   clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 1% 50%);
   height: 16px;
 }
@@ -329,19 +361,25 @@ CSS for the information box
   width: 100px;
 }
 
-.por-porcao{
+.por-porcao {
   font-family: "Archivo Narrow";
   font-size: 11px;
   font-weight: 700;
   line-height: 14.82px;
-  text-align: center!important;
+  text-align: center !important;
 
 }
 
-.informacao-title{
+.informacao-title {
   font-family: "Archivo Narrow";
   font-size: 11px;
   font-weight: 700;
   line-height: 14.82px;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .recipe-card2{
+    width: 100%;
+  }
 }
