@@ -166,6 +166,7 @@
 .ingredients2 h4,
 .directions2 h4 {
   margin-bottom: 10px;
+  margin-left: 25px;
 }
 
 .ingredients2 ul {
@@ -376,6 +377,11 @@ CSS for the information box
   font-weight: 700;
   line-height: 14.82px;
   text-align: center;
+}
+.post-2-ol{
+  padding-left: 0px!important;
+  margin-left: 0px!important;
+  margin-right: 0px!important;
 }
 
 @media (max-width: 768px) {

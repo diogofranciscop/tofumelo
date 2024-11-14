@@ -71,10 +71,10 @@ layout: default
                         {% for ingredient in section[1] %}
                         {% assign parts = ingredient | split: "|" %}
                         <li>
-                            - <span class="measure3"> {{ parts[0] }}</span>
-                            {% if parts[1] %}
-                            <span class="ingredient3">{{ parts[1]}}</span>
-                            {% endif %}
+                            <span class="measure3"> {{ parts[0] }}</span>
+                                {% if parts[1] %}
+                                <span class="ingredient3">{{ parts[1]}}</span>
+                                {% endif %}
                         </li>
                         {% endfor %}
                     </ul>
@@ -84,7 +84,7 @@ layout: default
             <div class="container-directions2">
                 <div class="directions2">
                     <h3 style="text-align: center;">INSTRUÇÕES</h3>
-                    <ol>
+                    <ol class="post-2-ol">
                         {% assign sections = page.instructions %}
                         {% for section in sections %}
                         <h4>Para {{ section[0] }}</h4>
@@ -102,7 +102,7 @@ layout: default
                         <ul>
                             {% for note in page.notes %}
                             <li>
-                                <span>- {{ note | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</span>
+                                <span>{{ note | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</span>
                             </li>
                             {% endfor %}
                         </ul>                    
