@@ -15,61 +15,31 @@ title: Staff
   </div>
 
   <table class="inspiration-table">
-      <tr>
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
+    <table class="inspiration-table">
+      {% assign chef_count = 0 %}
+      {% for chef in site.chefs %}
+        {% if chef_count == 0 %}
+          <tr>
+        {% endif %}
         
         <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
+          <span class="text-before">{{ chef.name }}</span><br>
+          <a href="{{ chef.site }}" class="text-after">{{ chef.site }}</a>
         </td>
         
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
+        {% assign chef_count = chef_count | plus: 1 %}
         
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
-        
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
-      </tr>
-      <tr>
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
-        
-        <td colspan="2">
-          <span class="text-before">BE PURE INSIDE</span><br>
-          <a href="http://www.blablabla.com" class="text-after">www.blablabla.com</a>
-        </td>
-        
-      </tr>
+        {% if chef_count == 2 %}
+          </tr>
+          {% assign chef_count = 0 %}
+        {% endif %}
+      {% endfor %}
+      
+      <!-- Close any open row in case of an odd number of chefs -->
+      {% if chef_count != 0 %}
+        </tr>
+      {% endif %}
+    </table>
+    
   </table>
 </div>
