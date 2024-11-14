@@ -76,10 +76,10 @@ layout: default
                         {% for ingredient in page.ingredients %}
                         {% assign parts = ingredient | split: "|" %}
                         <li>
-                            <span class="measure3"> {{ parts[0] }}</span>
-                            {% if parts[1] %}
-                            <span class="ingredient3">{{ parts[1]}}</span>
-                            {% endif %}
+                                <span class="measure3"> {{ parts[0] }}</span>
+                                {% if parts[1] %}
+                                <span class="ingredient3">{{ parts[1]}}</span>
+                                {% endif %}
                         </li>
                         {% endfor %}
                     </ul>
@@ -102,7 +102,7 @@ layout: default
                         <ul>
                             {% for note in page.notes %}
                             <li>
-                                <span>- {{ note | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</span>
+                                <span>{{ note | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</span>
                             </li>
                             {% endfor %}
                         </ul>

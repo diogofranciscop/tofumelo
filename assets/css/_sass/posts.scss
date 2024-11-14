@@ -215,8 +215,10 @@
   }
 
   .ingredients2 ul li::before {
-    content: "- "; /* Adds a dash before each list item */
-    margin-right: 5px; /* Adjusts spacing if needed */
+    content: "- "; 
+}
+.notes-footer2 ul li::before {
+  content: "- "; 
 }
 /*
 CSS for the information box
