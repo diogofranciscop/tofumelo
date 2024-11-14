@@ -180,7 +180,14 @@
     margin-left: 25px;
     margin-right: 25px;
   }
-  
+  .InformationBox .note {
+    font-family: "Archivo Narrow";
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 8.08px;
+    text-align: center;
+    margin-top: 20px;
+  }
   .notes-footer2{
     margin-top: 30px;
   }
@@ -284,11 +291,9 @@ CSS for the information box
   border-radius: 2px; 
   background-color: #d9e9d9;
   position: relative;
-  padding:8px;
-  clip-path: polygon(5% 0%, 90% 0%, 90% 100%, 5% 100%, 0% 50%);
-  width: 180px;
+  padding:9px;
+  clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 1% 50%);
   height: 16px;
-  margin-left: 10px;
 }
 
 .nutrition-item .value {
@@ -304,6 +309,7 @@ CSS for the information box
   font-style: italic;
   font-weight: 700;
   line-height: 12px;
+  left: -2px;
   position: relative;
 }
 
