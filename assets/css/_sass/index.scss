@@ -405,6 +405,7 @@ display: none;
     margin-top: 10px; /* Add some spacing for small screens */
     grid-template-columns: repeat(2, 1fr);
     gap:0px;
+    margin-bottom: 2vh;
 }
 
 .card {
@@ -439,4 +440,32 @@ display: none;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15); /* Adjusted shadow for smaller size */
   max-width: 90%; /* Ensure title fits well */
 }
+@media screen and (max-width: 768px) {
+  .pagination {
+    margin-top: 10px; 
+    gap:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .pagination-button,
+  .pagination-ellipsis {
+    padding: 4px 8px; /* Reduce padding */
+    font-size: 12px; /* Decrease font size */
+    border-radius: 20px; /* Adjust border radius */ 
+    margin-left: 0px;
+  }
+
+  .pagination-button.active,
+  .pagination-button:hover {
+    border-radius: 40%; /* Adjust radius for active or hovered state */
+  }
+
+  .pagination-button:first-of-type,
+  .pagination-button:last-of-type {
+    padding: 4px 12px; /* Adjust padding for the first and last buttons */
+    border-radius: 10px; /* Smaller border radius for specific buttons */
+  }
+}
+
 }
