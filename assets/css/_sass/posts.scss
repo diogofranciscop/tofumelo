@@ -444,5 +444,21 @@ CSS for the information box
   .info2{
     flex-direction: column;
   }
+  .filter-buttons {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 buttons per row */
+    column-gap: -200px; /* Reduced space between buttons in the same row */
+    row-gap: 10px; /* Maintain the same gap between rows */
+    justify-items: center; /* Center align buttons */
+}
+
+.filter-buttons .button-3 {
+    width: 80%; /* Adjust width to fit nicely within the grid */
+    text-align: center; /* Center the text inside buttons */
+    margin-right: 0px;
+}
+.searchTerm::placeholder {
+  font-size: 11px; /* Smaller placeholder text size */
+}
 }
 
