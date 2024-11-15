@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Bolachas de Aveia e Chocolate"
+keywords: ""
 permalink: /bolachas-aveia-chocolate/
 type: ["Sobremesa","Lanche"]
 description: "Bolachas crocantes de aveia com pedaços de chocolate negro"

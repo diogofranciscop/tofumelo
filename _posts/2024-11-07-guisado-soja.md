@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Guisado de soja"
+keywords: ""
 permalink: /guisado-de-soja/
 type: ["Almoço/Jantar"]
 description: "Estufado de soja com cogumelos em molho de tomate temperado"

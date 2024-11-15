@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tofu no forno com batatas e pimentos"
+keywords: ""
 permalink: /tofu-com-batatas-pimentos/
 type: ["almoço"]
 description: "Tofu assado com batatas e pimentos coloridos."

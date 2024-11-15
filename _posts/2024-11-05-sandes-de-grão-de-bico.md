@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sandes de Grão-de-Bico"
+keywords: ""
 permalink: /sandes-grão-de-bico/
 type: ["Almoço/Jantar"]
 description: "Sanduíche de grão-de-bico picante e cogumelos grelhados, com uma salada cremosa de couve e cenoura"

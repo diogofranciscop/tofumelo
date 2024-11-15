@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Overnight Weetabix"
+keywords: ""
 permalink: /overnight-weetabix/
 type: ["Pequeno-Almoço","Lanche"]
 description: "Weetabix  adormecidos com iogurte e fruta fresca"

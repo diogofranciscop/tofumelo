@@ -26,3 +26,5 @@ defaults:
       path: ""
     values:
       layout: "default"
+plugins:
+  - jekyll-sitemap

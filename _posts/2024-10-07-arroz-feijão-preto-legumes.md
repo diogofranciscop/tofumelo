@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Arroz com Legumes e feijão"
+keywords: ""
 permalink: /arroz-integral-com-legumes-e-feijao-preto/
 type: ["almoço"]
 description: "Arroz integral em molho de tomate com legumes grelhados e feijão preto"

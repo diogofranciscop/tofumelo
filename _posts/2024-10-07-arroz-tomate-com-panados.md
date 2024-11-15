@@ -1,6 +1,7 @@
 ---
 layout: post-2
 title: "Arroz de tomate com panados"
+keywords: ""
 permalink: /arroz-tomate-com-panados/
 type: ["Almoço"]
 description: "Arroz de tomate aromático acompanhado por panados crocantes de seitan caseiro."

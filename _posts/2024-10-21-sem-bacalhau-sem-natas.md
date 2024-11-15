@@ -1,6 +1,7 @@
 ---
 layout: post-2
 title: "Sem Bacalhu Sem Natas"
+keywords: ""
 type: ["Almoço/Jantar"]
 serve: 4 porções
 permalink: /sem-bacalhau-sem-natas/

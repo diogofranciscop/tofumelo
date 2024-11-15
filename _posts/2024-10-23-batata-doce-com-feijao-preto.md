@@ -1,6 +1,7 @@
 ---
 layout: post-2
 title: "Batata doce assada com feijão preto"
+keywords: ""
 type: ["Almoço/Jantar"]
 serve: 4 porções
 permalink: /batata-doce-com-feijao-preto/

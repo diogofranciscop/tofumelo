@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Sopa de feijão e couve"
+keywords: ""
 permalink: /sopa-feijao-couve/
 type: ["entrada"]
 description: ""

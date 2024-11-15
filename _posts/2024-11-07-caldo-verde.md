@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Caldo Verde"
+keywords: ""
 permalink: /caldo-verde/
 type: ["Entrada"]
 description: "Sopa cremosa de legumes com couve e rodelas de cenoura, leve e nutritiva."

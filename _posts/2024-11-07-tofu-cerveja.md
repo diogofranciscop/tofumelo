@@ -1,6 +1,7 @@
 ---
 layout: post-2
 title: "Tofu na cerveja"
+keywords: ""
 permalink: /tofu-na-cerveja/
 type: ["Almoço"]
 description: "Tofu marinado assado com batatas e cebola na cerveja"

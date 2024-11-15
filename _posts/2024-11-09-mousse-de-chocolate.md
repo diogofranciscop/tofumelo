@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Mousse de Chocolate"
+keywords: ""
 permalink: /musse-chocolate/
 type: ["Sobremesa"]
 description: "Mousse de chocolate vegana com nozes crocantes"

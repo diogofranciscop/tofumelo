@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Arroz Sem Pato"
+keywords: ""
 permalink: /arroz-sem-pato/
 type: ["Almoço/Jantar"]
 description: "Arroz de forno com cogumelos pleurothus e chouriço vegetal, aromático e reconfortante"

@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Tofu Mexido"
+keywords: ""
 permalink: /tofu-mexido/
 type: ["pequeno-almoço"]
 description: "Tosta recheado com tofu mexido e cogumelos"

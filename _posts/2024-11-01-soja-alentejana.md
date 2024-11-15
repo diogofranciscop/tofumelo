@@ -1,6 +1,7 @@
 ---
 layout: post-2
 title: "Soja à alentejana"
+keywords: ""
 permalink: /soja-alentejana/
 type: ["almoço"]
 description: "Soja marinada à alentejana acompanhada de batatas fritas crocantes"

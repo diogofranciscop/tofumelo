@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Assado de batata, grão e legumes"
+keywords: ""
 permalink: /assado-grão-legumes/
 type: ["Almoço/Jantar"]
 description: "Assado de legumes, batata e grão-de-bico"

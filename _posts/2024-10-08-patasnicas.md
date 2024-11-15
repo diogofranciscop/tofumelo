@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Pataniscas de Legumes"
+keywords: ""
 permalink: /pataniscas-legumes/
 type: ["almoço", "snack"]
 description: "pataniscas de legumes fritas e crocantes"

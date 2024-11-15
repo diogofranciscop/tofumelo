@@ -1,6 +1,7 @@
 ---
 layout: post-2
 title: "Kebab de Jaca/Pleurothus"
+keywords: ""
 permalink: /kebab-jaca/
 type: ["Almoço/Jantar"]
 description: "Pão pita caseiro recheado com jaca temperada, legumes frescos e maionese picante"
