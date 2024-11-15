@@ -71,12 +71,12 @@ layout: default
         <div class="content2">
             <div class="container-ingredients2">
                 <div class="ingredients2">
-                    <h3>INGREDIENTES</h3>
+                    <h3 class="ingredient-title">INGREDIENTES</h3>
                     <ul>
                         {% for ingredient in page.ingredients %}
                         {% assign parts = ingredient | split: "|" %}
                         <li>
-                                <span class="measure3"> {{ parts[0] }}</span>
+                                    <span class="measure3"> {{ parts[0] }}</span>
                                 {% if parts[1] %}
                                 <span class="ingredient3">{{ parts[1]}}</span>
                                 {% endif %}
@@ -87,7 +87,7 @@ layout: default
             </div>
             <div class="container-directions2">
                 <div class="directions2">
-                    <h3 style="text-align: center;">INSTRUÇÕES</h3>
+                    <h3 class="instruction-title"style="text-align: center;">INSTRUÇÕES</h3>
                     <ol>
                         {% for pass in page.instructions %}
                         <li>

@@ -305,4 +305,46 @@ $(document).ready(function() {
       handleBurgerMenu();
     });
   });
+  $(document).ready(function () {
+    function adjustVisibility() {
+      const $ingredientsContainer = $('.container-ingredients2');
+      const $directionsContainer = $('.container-directions2');
+  
+      // Mobile screen behavior
+      if ($(window).width() <= 768) {
+        // Add toggle buttons if not already added
+        const $ingredientsButton = $('.ingredient-title').addClass('toggle-button ingredients-btn');
+        const $instructionsButton = $('.instruction-title').addClass('toggle-button instructions-btn');
+  
+        // Append buttons to the content2 section if not already appended
+        $('.content2').append($ingredientsButton).append($instructionsButton);
+  
+        // Default: Show ingredients and hide instructions
+        $ingredientsContainer.addClass('visible');
+        $directionsContainer.removeClass('visible');
+  
+        // Toggle visibility with animation
+        $ingredientsButton.on('click', function () {
+          $ingredientsContainer.addClass('visible');
+          $directionsContainer.removeClass('visible');
+        });
+  
+        $instructionsButton.on('click', function () {
+          $directionsContainer.addClass('visible');
+          $ingredientsContainer.removeClass('visible');
+        });
+      } else {
+        // Desktop behavior: Show both sections and remove buttons
+        $ingredientsContainer.addClass('visible').css('height', 'auto');
+        $directionsContainer.addClass('visible').css('height', 'auto');
+        $('.toggle-button').remove(); // Remove buttons on desktop
+      }
+    }
+  
+    // Run on page load
+    adjustVisibility();
+  
+    // Run on window resize
+    $(window).resize(adjustVisibility);
+  });
   
