@@ -3,7 +3,7 @@ layout: post
 title: "Bowl de quinoa, tofu e legumes"
 description: ""
 keywords: ""
-permalink: //
+permalink: /bowl-quinoa/
 type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa"]
 image: "/assets/img/bowl.quinoa.png"
 serve: 4 refeições
