@@ -1,0 +1,29 @@
+
+.sobre-container {
+    max-width: 700px; /* Set a max width to control line length */
+    margin: 0 auto; /* Centers the container horizontally */
+    text-align: center; /* Centers text within the container */
+    padding: 20px; /* Optional padding for spacing */
+  }
+  
+  .sobre-container h1 {
+    font-family: "Asap Condensed";
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 36.67px;
+    text-align: center;
+    color:rgba(35, 99, 12, 1);
+    margin-bottom: 10px; /* Adds space between the h1 and p */
+  }
+  
+  .sobre-container p {
+    font-family: "Titillium Web";
+    font-size: 24px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36.5px;
+    text-align: center;
+    margin-top: 0; /* Optional: ensure no extra top margin */
+  }
+  
