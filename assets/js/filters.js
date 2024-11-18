@@ -16,9 +16,10 @@ $(document).ready(function () {
 });
 
 function loadOriginalPosts() {
-    originalOrder = allPosts; // Save the original order of posts
+    originalOrder = JSON.parse(JSON.stringify(allPosts)); // Create a deep copy of the original posts
     loadPage(0, originalOrder); // Load the original posts
 }
+
 
 function setupFilterButton() {
     $('.filter-button').on('click', function (event) {
@@ -66,9 +67,22 @@ function setupDietSelection() {
 function setupSorting() {
     $('#toggleOrdemAZ, #toggleOrdemZA, #toggleTempoMenor, #toggleTempoMaior').on('change', function () {
         const id = $(this).attr('id');
-        selectedTitleSort = id === 'toggleOrdemAZ' || id === 'toggleOrdemZA' ? id : '';
-        selectedTimeSort = id === 'toggleTempoMenor' || id === 'toggleTempoMaior' ? id : '';
-        $('input[type="checkbox"][name="sort"]').not(this).prop('checked', false);
+        
+        // Check if the current checkbox is being deselected
+        if (!$(this).is(':checked')) {
+            if (id === 'toggleOrdemAZ' || id === 'toggleOrdemZA') {
+                selectedTitleSort = ""; // Clear title sort
+            } else if (id === 'toggleTempoMenor' || id === 'toggleTempoMaior') {
+                selectedTimeSort = ""; // Clear time sort
+            }
+        } else {
+            // If selected, update the sort state and uncheck other sorting options
+            selectedTitleSort = id === 'toggleOrdemAZ' || id === 'toggleOrdemZA' ? id : "";
+            selectedTimeSort = id === 'toggleTempoMenor' || id === 'toggleTempoMaior' ? id : "";
+            $('input[type="checkbox"][name="sort"]').not(this).prop('checked', false);
+        }
+
+        console.log("Selected Sorts:", selectedTitleSort, selectedTimeSort); // Debugging log
         filterAndSortPosts();
     });
 }
@@ -86,19 +100,32 @@ function toggleSelection(value, type) {
     if (index === -1) array.push(value);
     else array.splice(index, 1);
 }
-
 function filterAndSortPosts() {
-    const noFiltersOrSorting = selectedRoles.length === 0 &&
-        selectedDiets.length === 0 &&
-        searchTerm === "" &&
-        !selectedTitleSort &&
-        !selectedTimeSort;
+    const noSortSelected = !selectedTitleSort && !selectedTimeSort;
 
-    if (noFiltersOrSorting) {
-        loadPage(0, originalOrder);
+    console.log("No Sort Selected:", noSortSelected); // Debugging log
+    console.log("Selected Sorts:", selectedTitleSort, selectedTimeSort);
+
+    // If no sort is selected, reset to the original order
+    if (noSortSelected) {
+        console.log("Restoring Original Order");
+        let filteredPosts = originalOrder;
+
+        // Apply filters if needed
+        if (selectedRoles.length > 0 || selectedDiets.length > 0 || searchTerm) {
+            filteredPosts = filteredPosts.filter(post => {
+                const matchesRole = selectedRoles.length === 0 || selectedRoles.some(role => post.type.includes(role));
+                const matchesDiet = selectedDiets.length === 0 || selectedDiets.every(diet => post.diet.includes(diet));
+                const matchesSearchTerm = post.title.toLowerCase().includes(searchTerm);
+                return matchesRole && matchesDiet && matchesSearchTerm;
+            });
+        }
+
+        loadPage(0, filteredPosts);
         return;
     }
 
+    // Filter and sort logic as before
     let filteredPosts = originalOrder.filter(post => {
         const matchesRole = selectedRoles.length === 0 || selectedRoles.some(role => post.type.includes(role));
         const matchesDiet = selectedDiets.length === 0 || selectedDiets.every(diet => post.diet.includes(diet));
@@ -112,7 +139,7 @@ function filterAndSortPosts() {
         );
     } else if (selectedTimeSort) {
         filteredPosts.sort((a, b) =>
-            selectedTimeSort === 'TempoMenor' ? parseInt(a.time) - parseInt(b.time) : parseInt(b.time) - parseInt(a.time)
+            selectedTimeSort === 'toggleTempoMenor' ? parseInt(a.time) - parseInt(b.time) : parseInt(b.time) - parseInt(a.time)
         );
     }
 
