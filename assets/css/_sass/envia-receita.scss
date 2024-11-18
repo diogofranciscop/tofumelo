@@ -336,4 +336,84 @@
     width:150px !important;
     flex-grow: 0!important;
   }
+  @media (max-width: 768px) {
+    .form-container {
+      padding: 20px;
+      max-width: 95%;
+    }
   
+    .form-container h2 {
+      font-size: 24px;
+      line-height: 1.2;
+    }
+  
+    .form-container p {
+      font-size: 12px;
+    }
+  
+    .form-container fieldset {
+      padding: 10px;
+    }
+  
+    .form-container .form-group.inline {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .form-container .form-group.inline label {
+      margin-bottom: 5px;
+    }
+  
+    .form-container .contactos-special {
+      width: 100%;
+      justify-content: center;
+    }
+  
+    .form-container .button-container {
+      justify-content: center;
+    }
+  
+    .form-container .switch {
+      width: 30px;
+      height: 15px;
+    }
+  
+    .form-container .slider:before {
+      height: 12px;
+      width: 12px;
+    }
+  
+    .form-container .time input {
+      width: 100%;
+    }
+    .form-container .form-group.inline input {
+        flex-grow: 1;
+        width: 100%;
+      }
+      /* Stack toggle-group items vertically */
+  .form-container .toggle-group {
+    flex-direction: column;
+  }
+
+  /* Ensure each filter item occupies a single row */
+  .form-container .toggle-row {
+    flex-direction: column; /* Stack items vertically */
+    align-items: flex-start; /* Align items to the start */
+    margin-bottom: 10px; /* Add spacing between rows */
+  }
+
+  /* Make each filter-item take full width */
+  .form-container .filter-item {
+    width: 100%; /* Make the item span the full width of the container */
+    margin-bottom: 10px; /* Add spacing between items */
+  }
+
+  /* Adjust label and switch alignment */
+  .form-container .filter-item label.switch {
+    margin-right: 10px; /* Add space between the switch and the text */
+  }
+
+  .form-container .filter-item span {
+    display: inline-block; /* Ensure text flows naturally next to the switch */
+  }
+  }
