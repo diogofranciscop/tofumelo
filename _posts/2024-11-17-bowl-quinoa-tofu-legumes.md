@@ -7,7 +7,7 @@ permalink: /bowl-quinoa/
 type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa"]
 image: "/assets/img/bowl-quinoa.png"
 serve: 4 refeições
-diet: ["s-soja","s-frutos-secos","s-gluten"]
+diet: ["s-frutos-secos","s-gluten"]
 time-total: 
 time-prepar: 
 time-confe: 
