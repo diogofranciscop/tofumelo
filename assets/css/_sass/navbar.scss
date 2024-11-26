@@ -1,87 +1,79 @@
 nav {
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin: 0 auto;
-    background-color: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
-    position: fixed; /* Fixes the navbar to the top */
-    top: 0; /* Ensures it is at the top of the viewport */
-    left:0;
-    z-index: 1000; /* Ensures it appears above other elements */
-    overflow-x: hidden;
-    height: 63px;
-  }
-  .current {
-    color: rgba(123, 161, 109, 0.77) ;
-  }
-  
-  nav .logo {
-    max-height: 50px;
-    position: absolute;
-    top: 5px;
-    left: 40px;
-  }
-  
-  nav ul {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    list-style-type: none;
-    margin-top: 0;
-    margin-bottom: 0;
-    flex-grow: 1;
-    margin-right: 50px;
-    width: 100%;
-  }
-  
-  nav ul li {
-    display: inline-block;
-  }
-  
-  nav ul li a {
-    padding: 18px;
-    text-transform: uppercase;
-    color: rgba(0, 35, 122, 0.5);
-    font-family: 'Archivo Narrow', sans-serif;
-    font-size: 15px;
-    font-weight: 600;
-    line-height: 20.21px;
-    text-decoration: none;
-    display: block; 
-    margin-right: 5px;
-    text-transform: uppercase;
-  }
-  
-  nav ul li a:hover {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
-    background: rgba(255, 255, 255, 0.1);
-    color: rgba(0, 35, 122, 0.7);
-  }
-  
-  nav .contactos-special {
-    background-color: #7BA16D;
-    color: white;
-    border-radius: 1000px;
-    padding: 7px 15px 7px 15px;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  }
-  
-  nav .contactos-special:hover{
-    background-color: #bcd0b5;
-    color: white;
-  }
-  
-  .image-link {
-    display: inline; /* Prevents block display */
-    padding: 0; /* Removes padding */
-    text-decoration: none; /* Removes underline */
-    /* Add any other styles you want specifically for the image link */
-  }
-  
-  .image-link img {
-    display: block; /* Ensures the image behaves as a block */
-  }
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures space between left and right sections */
+  width: 100%;
+  margin: 0 auto;
+  background-color: white;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Shadow effect */
+  position: fixed; /* Fixes the navbar to the top */
+  top: 0; /* Ensures it is at the top of the viewport */
+  left: 0;
+  z-index: 1000; /* Ensures it appears above other elements */
+  height: 63px;
+  padding: 0 20px; /* Adds horizontal padding */
+}
+
+nav .logo-container {
+  display: flex;
+  align-items: center; /* Vertically aligns the logo and title */
+}
+
+nav .logo {
+  max-height: 50px;
+  margin-right: 10px; /* Space between logo and title */
+}
+
+nav .logo-title {
+  font-size: 40px; /* Adjust title size as needed */
+  font-family: "Fredericka the Great";
+  font-weight: 500;
+  line-height: 24.51px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+nav .nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav .nav-links li {
+  margin: 0 10px; /* Space between links */
+}
+
+nav .nav-links li a {
+  padding: 10px;
+  text-transform: uppercase;
+  color: rgba(0, 35, 122, 0.5);
+  font-family: 'Archivo Narrow', sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+nav .nav-links li a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), inset 0 0 1px rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.1);
+  color: rgba(0, 35, 122, 0.7);
+}
+
+nav .contactos-special {
+  background-color: #7BA16D;
+  color: white!important;
+  border-radius: 1000px;
+  padding: 7px 15px 7px 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+nav .contactos-special:hover{
+  background-color: #bcd0b5;
+  color: white;
+}
 
 /* Mobile Styles */
 @media (max-width: 768px) {

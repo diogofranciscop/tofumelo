@@ -1,24 +1,22 @@
 <nav>
-  <ul>
+  <!-- Left Section: Logo and Title -->
+  <div class="logo-container">
+    <a href="/" class="image-link">
+      <img src="/assets/img/new-logo.png" alt="Website Logo" class="logo">
+    </a>
+    <h1 class="logo-title">tofumelo</h1>
+  </div>
+
+  <!-- Right Section: Navigation Links -->
+  <ul class="nav-links">
+    {% for item in site.data.navigation %}
     <li>
-      <a href="/" class="image-link">
-        <img src="/assets/img/logo_name.png" alt="Website Logo" class="logo">
+      <a href="{{ item.link }}" 
+         class="{% if page.url==item.link %}current{% endif %} 
+                {% if item.name=='Envia a tua receita' %}contactos-special{% endif %}">
+        {{ item.name }}
       </a>
     </li>
-    <!-- Burger Menu Icon -->
-    <li class="burger-menu">
-      <button id="burger-toggle" class="burger">&#9776;</button> <!-- Icon for the burger menu -->
-    </li>
-    <!-- Navigation Links (Initially hidden on mobile) -->
-    <div id="nav-links">
-      {% for item in site.data.navigation %}
-      <li>
-        <a href="{{ item.link }}" {% if page.url==item.link %}class="current" {% endif %} {% if item.name=="Envia a tua receita"
-          %}class="contactos-special" {% endif %}>
-          {{ item.name }}
-        </a>
-      </li>
-      {% endfor %}
-    </div>
+    {% endfor %}
   </ul>
 </nav>
