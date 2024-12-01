@@ -3,8 +3,8 @@ layout: post
 title: "Sopa de feijão e couve"
 keywords: ""
 permalink: /sopa-feijao-couve/
-type: ["entrada"]
-description: ""
+type: ["Entrada"]
+description: "Sopa cremosa de legumes, couve e feijão-manteiga"
 image: "/assets/img/sopa-feijão-couve.png"
 serve: 2
 diet: ["s-gluten", "s-soja", "s-frutos-secos"]
