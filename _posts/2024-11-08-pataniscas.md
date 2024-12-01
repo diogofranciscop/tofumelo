@@ -4,7 +4,7 @@ title: "Pataniscas de Legumes"
 keywords: ""
 permalink: /pataniscas-legumes/
 type: ["almoço", "snack"]
-description: "pataniscas de legumes fritas e crocantes"
+description: "Pataniscas de legumes fritas e crocantes"
 image: "/assets/img/pataniscas.png"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos", "s-soja"]
@@ -17,29 +17,28 @@ lipidos:
 hidratos:
 author: evagoodlife
 ingredients:
-    Geral:
-    - 2 | cebolas
-    - 1 | cenouras
-    - 1 | croujete
-    - 250 gr | de cogumelos pleurothus
-    - 1 molho | de salsa
-    - "azeite q.b."
-
-    POLME:
-    - 270gr | de farinha de grão-de-bico
-    - 2 chávenas | de água com gás
-    - 1 c.chá | de caril
-    - 1 c.chá | de curcuma
-    - " | pimenta preta q.b."
-    - " | alho em pó q.b."
-    - "| sal q.b."
+    - 2 | Cebolas
+    - 1 | Cenouras
+    - 1 | Courjette
+    - 250 gr | de Cogumelos Pleurothus
+    - 1 molho | de Salsa
+    - 270gr | de Farinha de Grão-de-bico
+    - 2 chávenas | de Água com Gás
+    - 1 c.chá | de Caril
+    - 1 c.chá | de Curcuma em pó
+    - " | Pimenta Preta q.b."
+    - " | Alho em pó q.b."
+    - "| Sal q.b."
+    - "| Azeite q.b."
 
 instructions:
-    - Comece por picar a cebola e a salsa, ralar a cenoura e a courgete, juntando tudo numa taça.
-    - Depois corte os cugumelos às tiras. Aquecer uma frigideira, e meter os cogumelos até reduzirem. Juntar os cogumelos à taça.
-    - Prepare o polme, junte a farinha, o caril, a curcuma, o alho em pó, a pimenta preta e o sal. Misturar, de seguida adicionar água com gás aos poucos até obter uma consistência nem demasiado líquida nem demasiado grossa (não precisa de meter a àgua toda se não for preciso).
-    - Misture os vegetais no polme e tire colheradas para fritar em azeite.
+    - Comece por picar a cebola e a salsa, ralar a cenoura e a courgette, juntando tudo numa taça.
+    - De seguida, corte os cogumelos às tiras. Numa frigideira, aquecer um fio de azeite e refogar os cogumelos até reduzirem. Juntar os cogumelos à taça.
+    - Prepare o polme - junte a farinha, o caril, a curcuma, o alho em pó, a pimenta preta e o sal. Misturar muito bem e, de seguida adicionar a água com gás aos poucos até obter uma consistência nem demasiado líquida nem demasiado grossa (não precisa de meter a água toda se não for preciso).
+    - Misture os vegetais no polme.
+    - Colocar novamente azeite na frigideira (o suficiente para fritar as pataniscas) - normalmente cada patanisca equivale a uma colher de sopa, mas o tamanho é a gosto. Vire as pataniscas de forma a que os dois lados fiquem dourados.
 notes:
     - Esta receita foi inspirada na [evagoodlife](https://www.youtube.com/watch?v=h9YYuktF6D4&ab_channel=evagoodlife)
+    - Costumo deixar as pataniscas a arrefecer um pouco em papel absorvente, para que não fiquem muito gordurosas.
     - Costumo acompanhar esta receita com uma arroz de tomate e com salada.
 ---
