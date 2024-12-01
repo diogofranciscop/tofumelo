@@ -19,7 +19,7 @@ author: original
 ingredients:
     - 200gr| de Tofu
     - 4 | fatias de Pão
-    - 4 | Cogumelos _Marron_
+    - 4 | Cogumelos Marron
     - 1 c.chá | de Mostarda Dijon
     - 1 fio | de Azeite
     - "| Aal q.b."
