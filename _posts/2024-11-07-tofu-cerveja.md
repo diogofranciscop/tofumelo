@@ -1,6 +1,6 @@
 ---
 layout: post-2
-title: "Tofu na cerveja"
+title: "Tofu na Cerveja"
 keywords: ""
 permalink: /tofu-na-cerveja/
 type: ["Almoço/Jantar"]
