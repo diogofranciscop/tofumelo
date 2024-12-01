@@ -50,7 +50,7 @@ instructions:
     - De seguida, colocar o tofu na air fryer a 180 graus durante 15 minutos. Se não tiver air fryer, pode fritar numa frigideira até o tofu ganhar cor de todos os lados.
     a receita:
     - Começar por meter a quinoa de molho durante 4-8 horas.
-    - Depois da quinoa demolhada, colocá-la num tacho, e cobrir de água. Juntar a hortelã, o sal a gosto e a casca de limão. Cozer até não haver água (+- 10 minutos).
+    - Depois da quinoa demolhada, colocá-la num tacho, e cobrir de água. Juntar a hortelã, o sal a gosto e a casca de limão. Cozer até não haver água (aproximadamente 10 minutos).
     - Enquanto a quinoa coze, cortar aos cubos a courgette, a cenoura e o pepino. Cortar em juliana a couve rouxa. Cortar às tiras os cogumelos.
     - Numa frigideira meter um fio de azeite e deixar aquecer. Colocar os cogumelos na frigideira, temperar com pimenta e sal, deixar até reduzirem. Reservar.
     - Na mesma frigideira, colocar a courgette e temperar com sal e pimenta preta. Reservar quando estiver pronta.
