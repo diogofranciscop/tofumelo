@@ -34,3 +34,4 @@ instructions:
     - Enquanto isso, ralar a couve branca finamente. Reservar.
     - Triturar o preparado que está na panela, com uma liquidificadora ou uma varinha mágica até obter um creme homogéneo.
     - Por fim, adicionar a couve ao caldo de legumes e misturar. Deixar cozinhar em lume por cerca de 10 min, até a couve estar cozinhada. Por fim, adicionar o feijão-manteiga e deixar cozinhar um pouco. Quando tudo estiver cozinhado, está pronto a servir.
+---
