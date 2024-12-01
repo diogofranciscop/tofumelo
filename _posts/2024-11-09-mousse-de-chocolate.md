@@ -17,14 +17,14 @@ lipidos:
 hidratos:
 author: fitgreenmind
 ingredients: 
-  - 150ml | aquafaba (água da cozedura do grão de bico)
-  - 150gr de chocolate negro (70%)
+  - 150ml | Aquafaba (água da cozedura do grão de bico)
+  - 150gr | de Chocolate Negro (70%)
   - Nozes a gosto 
 instructions:
-  - Bater em castelo as aquafaba (como se fosse clara de ovo). Estará pronto quando virar a taça e já não cair.
+  - Bater a aquafaba em castelo (como se fosse clara de ovo). Estará pronto quando for possível virar a taça sem que o conteúdo caia.
   - Derreter o chocolate em banho maria.
-  - Depois do chocolate estar derretido, verter devagarinho para a tassa onde a aquafaba foi batida. Ir envolvendo.
-  - Quando já tiver tudo bem envolvido, divida a musse por várias tassas.
-  - Depois, é só picar numas nozes e meter por cima.
-  - Levar ao frio, e estará pronto a comer.
+  - Depois do chocolate estar derretido, verter devagarinho para a taça onde a aquafaba foi batida. Ir envolvendo.
+  - Quando tudo estiver bem envolvido, divida a mousse por várias taçinhas.
+  - De seguida, é só picar umas nozes e dispô-las por cima da mousse.
+  - Levar ao frio durante umas horas, e estará pronto a servir.
 ---
