@@ -3,8 +3,8 @@ layout: post
 title: "Tofu Mexido"
 keywords: ""
 permalink: /tofu-mexido/
-type: ["pequeno-almoço"]
-description: "Tosta recheado com tofu mexido e cogumelos"
+type: ["Pequeno-Almoço","Lanche"]
+description: "Torradas com tofu mexido e cogumelos"
 image: "/assets/img/tofu-mexido.jpeg"
 serve: 2 pessoas
 diet: ["s-frutos-secos"]
@@ -17,25 +17,25 @@ lipidos:
 hidratos: 
 author: original
 ingredients:
-    - 200gr| de tofu
-    - 2 pães
-    - 4 | cogumelos marron
-    - 1 c.chá | de mostarda Dijon
-    - 1 fio | de azeite
-    - "| sal q.b."
-    - "| cúrcuma q.b."
-    - "| pimenta preta q.b."
-    - "| alho em pó q.b."
-    - "| leite vegetal q.b."
+    - 200gr| de Tofu
+    - 4 | Fatias de pão
+    - 4 | Cogumelos _Marron_
+    - 1 c.chá | de Mostarda Dijon
+    - 1 fio | de Azeite
+    - "| Aal q.b."
+    - "| Cúrcuma q.b."
+    - "| Pimenta preta q.b."
+    - "| Alho em pó q.b."
+    - "| Bebida vegetal q.b."
 
 instructions:
-    - Começar por torrar os dois pães.
-    - Enquanto os pães torram, aquecer numa frigideira um fio de azeite.
-    - Quando o azeite tiver quente, desfazer o tofu diretamente para a frigideira. Deixar ganhar côr.
-    - Depois adicionar os cogumelos marron, costumo desfazer à mão. Podem optar por cortar às fatias numa tábua.
-    - Acrescentar o sal, a pimenta preta, a curcuma e o alho em pó a gosto.
-    - Num copo colocar a c.chá de mostarda e acrescentar um pouco de leite. Quanto mais leite acrescentar mais cremoso vai ficar depois. Por isso, acrescente a gosto.
-    - Colocar esta misturar na frigideira e deixar mais um minuto.
-    - Depois é só servir por cima das torradas, e opcionalmente colocar umas folhas de mangericão por cima.
+    - Começar por torrar as fatias de pão.
+    - Enquanto o pão torra, aquecer numa frigideira um fio de azeite.
+    - Desfazer bem o tofu diretamente para a frigideira até ganhar cor.
+    - Depois, adicionar os cogumelos marron fatiados e mexer.
+    - Temperar com sal, pimenta preta, curcuma e alho em pó a gosto.
+    - Num copo, dissolver a mostarda num pouco de bebida vegetal.
+    - Adicionar esta mistura ao preparado da frigideira, misturar bem e deixar cozinhar um pouco.
+    - Por fim, é só servir o preparado de tofu mexido por cima das torradas, e poderá optar por finalizar com umas folhas de mangericão por cima.
 ---
 
