@@ -18,7 +18,7 @@ hidratos:
 author: original
 ingredients:
     - 200gr| de Tofu
-    - 4 | Fatias de pão
+    - 4 | fatias de Pão
     - 4 | Cogumelos _Marron_
     - 1 c.chá | de Mostarda Dijon
     - 1 fio | de Azeite
