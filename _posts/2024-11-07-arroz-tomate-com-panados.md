@@ -36,7 +36,7 @@ ingredients:
         - 1 colher de chá | de Sal
         - 40gr de | Farinha de Trigo 
         - 60gr | de Glúten de Trigo.
-        - | "Caldo de Legumes q.b."
+        - "| Caldo de Legumes q.b."
     os Panados:
         - 1 colher de sopa | de Polpa de Tomate
         - 50 ml | de Cerveja
