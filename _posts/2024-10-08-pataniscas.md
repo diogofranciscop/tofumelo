@@ -5,7 +5,7 @@ keywords: ""
 permalink: /pataniscas-legumes/
 type: ["almoço", "snack"]
 description: "pataniscas de legumes fritas e crocantes"
-image: "/assets/img/camera-icon.png"
+image: "/assets/img/pataniscas.png"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos", "s-soja"]
 time-total: 60
