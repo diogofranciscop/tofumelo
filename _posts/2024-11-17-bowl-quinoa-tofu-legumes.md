@@ -4,7 +4,7 @@ title: "Bowl de quinoa, tofu e legumes"
 description: ""
 keywords: ""
 permalink: /bowl-quinoa/
-type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa"]
+type: ["Almoço/Jantar"]
 image: "/assets/img/bowl-quinoa.png"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]

@@ -37,14 +37,13 @@
   }
   
   .form-container p {
-    text-align: center;
     font-family: "Titillium Web";
-    font-size: 14px;
+    font-size: 18px;
     font-style: italic;
     font-weight: 400;
-    line-height: 27.38px;
+    line-height: 36.5px;
     text-align: center;
-  
+    margin-top: 0;
     margin-bottom: 20px;
   }
   
@@ -141,7 +140,7 @@
     margin-right: 10px;
     flex-shrink: 0;
     font-family: "Titillium Web";
-    font-size: 14px;
+    font-size: 15px;
     font-style: italic;
     font-weight: 400;
     line-height: 27.38px;
@@ -336,6 +335,19 @@
     width:150px !important;
     flex-grow: 0!important;
   }
+
+  input::placeholder, textarea::placeholder {
+    font-family: "Titillium Web";
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+  }
+
+
   @media (max-width: 768px) {
     .form-container {
       padding: 20px;
