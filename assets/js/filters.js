@@ -7,14 +7,46 @@ let selectedTitleSort = "";
 let selectedTimeSort = "";
 
 $(document).ready(function () {
+    resetFilters(); 
     loadOriginalPosts();
     setupFilterButton();
     setupRoleSelection();
     setupDietSelection();
     setupSorting();
     setupSearch();
+    $(window).on('pageshow', function () {
+        reapplyFilters(); // Reapply the filters when returning to the page
+    });
 });
 
+function reapplyFilters() {
+    if (selectedRoles.length > 0 || selectedDiets.length > 0 || searchTerm || selectedTitleSort || selectedTimeSort) {
+        // If filters are selected, reapply the filtering logic
+        filterAndSortPosts();
+    } else {
+        // If no filters are selected, reset to original order
+        loadPage(0, originalOrder);
+    }
+}
+
+
+function resetFilters() {
+    // Reset variables
+    selectedRoles = [];
+    selectedDiets = [];
+    searchTerm = "";
+    selectedTitleSort = "";
+    selectedTimeSort = "";
+
+    // Reset UI elements
+    $('.button-4').removeClass('selected'); // Deselect all role buttons
+    $('#filterBox input[data-diet]').prop('checked', false); // Uncheck all diet checkboxes
+    $('#toggleOrdemAZ, #toggleOrdemZA, #toggleTempoMenor, #toggleTempoMaior').prop('checked', false); // Uncheck sorting checkboxes
+    $('.searchTerm').val(''); // Clear search input
+
+    // Reload original posts
+    loadPage(0, originalOrder);
+}
 function loadOriginalPosts() {
     originalOrder = JSON.parse(JSON.stringify(allPosts)); // Create a deep copy of the original posts
     loadPage(0, originalOrder); // Load the original posts
