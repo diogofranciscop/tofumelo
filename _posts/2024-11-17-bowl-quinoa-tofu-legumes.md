@@ -35,6 +35,7 @@ ingredients:
     - 1 casca | de Limão 
     - 4 folhas | de Hortelã
     - "|Sal q.b."
+    - "| Sementes de Sésamo q.b."
     o molho:
     - 2 c.sopa | de Tahini
     - 2 c.sopa | de Miso
@@ -56,6 +57,6 @@ instructions:
     - Cozer o edamame de acordo com as indicações da embalagem e descascá-lo. Reservar
     o molho:
     - Numa taça pequena, misturar o miso e o tahini. Juntar o sriracha e misturar. Depois, acrescente o molho de soja devagar, para não ganhar grumos. Juntar o sumo de limão e alho em pó. Misturar tudo muito bem. Reservar.
-    - Para a montagem da Bowl - colocar a quinoa como base e, por cima, o pepino, a cenoura, a couve roxa, os cogumelos, a courgette, o tofu e o edamame. Finalizar com o molho e está pronto a servir.
+    - Para a montagem da Bowl - colocar a quinoa como base e, por cima, o pepino, a cenoura, a couve roxa, os cogumelos, a courgette, o tofu e o edamame. Finalizar com o molho e as sementes de sésamo e está pronto a servir.
 ---
 
