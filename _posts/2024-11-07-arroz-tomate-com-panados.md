@@ -26,7 +26,7 @@ ingredients:
         - 5 folhas | de Mangericão fresco
         - "| Azeite q.b."
         - "| Oregãos q.b."
-        - "| Pimenta Preta q.b.
+        - "| Pimenta Preta q.b."
         - "| Sal q.b."        
     o Seitan de Grão-de-Bico:
         - 200gr | de Grão-de-bico 
