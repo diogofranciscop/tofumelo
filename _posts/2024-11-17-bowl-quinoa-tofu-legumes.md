@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Bowl de quinoa, tofu e legumes"
-description: ""
+description: "Bowl colorida, com quinoa, tofu, legumes, edamame e um molho cremoso de tahini e miso"
 keywords: ""
 permalink: /bowl-quinoa/
 type: ["Almoço/Jantar"]
@@ -17,37 +17,45 @@ lipidos:
 hidratos:
 author: 
 ingredients:
+    o tofu:
+    - 400gr | de Tofu
+    - 1 c.sopa | de Molho Sriracha
+    - 1 c.sopa | de Sumo de Limão
+    - 3 c.sopa | de Molho de Soja
+    - "| Alho em pó q.b."
+    - "| Sal q.b."
     a receita:
-    - 200 gr | de quinoa
-    - 400 gr | de tofu
-    - 500 gr | cogumelos pleurothus
-    - 100 gr | de edamame
-    - 50 gr | de couve rouxa
-    - 1 | cenoura
-    - 1 | pepino
-    - 1 | croujete
-    - "|sal q.b."
-    - 1 casca | de limão 
-    - 4 folhas | de hortelã
+    - 200gr | de Quinoa
+    - 500gr | Cogumelos Pleurothus
+    - 100gr | de Edamame
+    - 50gr | de Couve Roxa
+    - 1 | Cenoura
+    - 1 | Pepino
+    - 1 | Courgete
+    - 1 casca | de Limão 
+    - 4 folhas | de Hortelã
+    - "|Sal q.b."
     o molho:
-    - 2 c.sopa | de tahini
-    - 2 c.sopa | de miso
-    - 1 c.sopa | de sriracha
-    - 4 c.sopa | de molho de soja
-    - 1 c.sopa | de sumo de limão
-    - "|alho q.b."
-
+    - 2 c.sopa | de Tahini
+    - 2 c.sopa | de Miso
+    - 1 c.sopa | de Molho Sriracha
+    - 4 c.sopa | de Molho de Soja
+    - 1 c.sopa | de Sumo de Limão
+    - "|Alho em pó q.b."
 instructions:
+    o tofu:
+    - Começar por cortar o tofu aos cubos. Colocar num recipiente com tampa.
+    - Juntar o molho de soja, o sriracha, o sumo de limão, o alho em pó e o sal. Fechar o taparuer e abanar de forma a que fique tudo be misturado. Deixar a marinar quanto tempo quiser. Quanto mais tempo tiver, mais sabor o tofu vai absorver.
+    - De seguida, colocar o tofu na air fryer a 180 graus durante 15 minutos. Se não tiver air fryer, pode fritar numa frigideira até o tofu ganhar cor de todos os lados.
     a receita:
     - Começar por meter a quinoa de molho durante 4-8 horas.
-    - Na hora, colocar a quinoa num tacho, e cobrir de água. Juntar a hortelã, sal a gosto e a casca de limão. Cozer até não haver água (+- 10 minutos).
-    - Enquanto a quinoa coze, cortar aos cubos, a croujete, a cenoura e o pepino. Cortar em juliana a couve rouxa. Cortar às tiras os cogumelos.
-    - Numa frigideira meter um fio de azeite. Quando o azeite tiver quente, meter os cogumelos, temperar com pimenta e sal, deixar até reduzirem. Guardar num prato os cogumelos.
-    - Na mesma frigideira, colocar a crujete e temperar com sal e pimenta preta. Quando amolecer já está pronto a servir.
-    - O edamame cozer de acordo com as indicações da embalagem.
-    - Colocar a quinoa como base e pode meter o pepino, a cenoura, a couve rouxe, os cogumelos, a crugete e o edamame por cima.
+    - Depois da quinoa demolhada, colocá-la num tacho, e cobrir de água. Juntar a hortelã, o sal a gosto e a casca de limão. Cozer até não haver água (+- 10 minutos).
+    - Enquanto a quinoa coze, cortar aos cubos a courgette, a cenoura e o pepino. Cortar em juliana a couve rouxa. Cortar às tiras os cogumelos.
+    - Numa frigideira meter um fio de azeite e deixar aquecer. Colocar os cogumelos na frigideira, temperar com pimenta e sal, deixar até reduzirem. Reservar.
+    - Na mesma frigideira, colocar a courgette e temperar com sal e pimenta preta. Reservar quando estiver pronta.
+    - Cozer o edamame de acordo com as indicações da embalagem e descascá-lo. Reservar
     o molho:
-    - Numa tacita, misturar o miso e o tahini. Juntar o sriracha e misturar. Depois acrescente o molho de soja de vagar, para não ganhar grumos. Juntar o sumo de limão e alho em pó.
-    - Servir a gosto por cima da bowl.
+    - Numa taça pequena, misturar o miso e o tahini. Juntar o sriracha e misturar. Depois, acrescente o molho de soja devagar, para não ganhar grumos. Juntar o sumo de limão e alho em pó. Misturar tudo muito bem. Reservar.
+    - Para a montagem da Bowl - colocar a quinoa como base e, por cima, o pepino, a cenoura, a couve roxa, os cogumelos, a courgette, o tofu e o edamame. Finalizar com o molho e está pronto a servir.
 ---
 
