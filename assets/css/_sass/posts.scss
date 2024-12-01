@@ -401,15 +401,19 @@ CSS for the information box
     width: 100%;
     opacity: 0;
     visibility: hidden;
-    transition: opacity 0.5s ease, visibility 0.5s ease, height 0.5s ease;
+    transition: opacity 10s ease, visibility 10s ease, margin-top 10s ease;
   }
 
+  .container-directions2{
+    background-color: white;
+  }
   .container-ingredients2.visible,
   .container-directions2.visible {
     display: block;
     opacity: 1;
     visibility: visible;
-    padding-top: 36px;
+    margin-top: 46px;
+    z-index: 200;
   }
 
   .toggle-button {
@@ -421,19 +425,17 @@ CSS for the information box
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
+    width: 51%;
   }
 
   .toggle-button.ingredients-btn {
     left: 0;
     background: #f5f5f5;
-    border-bottom-right-radius: 10%;
-
   }
 
   .toggle-button.instructions-btn {
     right: 0;
     background: white;
-    border-bottom-left-radius: 10%; 
   }
   .image-section2 {
     box-shadow: 0px 0px 0px 0px;
@@ -453,12 +455,37 @@ CSS for the information box
 }
 
 .filter-buttons .button-3 {
-    width: 80%; /* Adjust width to fit nicely within the grid */
+    width: 80%; /* Adjust width to fit nicely within the grid *
     text-align: center; /* Center the text inside buttons */
     margin-right: 0px;
 }
 .searchTerm::placeholder {
   font-size: 11px; /* Smaller placeholder text size */
 }
+.shadow-effect-ingredients {
+  box-shadow: 
+    0px -4px 6px rgba(0, 0, 0, 0.2), /* Top shadow */
+    4px 0px 6px rgba(0, 0, 0, 0.2);  /* Right shadow */
+  transition: box-shadow 0.3s ease;
+  z-index: 100;
+  border-top-right-radius: 10px;
+}
+.shadow-effect-instructions {
+  box-shadow: 
+    0px -4px 6px rgba(0, 0, 0, 0.2), /* Top shadow */
+    -4px 0px 6px rgba(0, 0, 0, 0.2);  /* Right shadow */
+  transition: box-shadow 0.3s ease;
+  z-index: 100;
+  border-top-left-radius: 10px;
+}
+.shadow-effect-ingredients2{
+  box-shadow:inset 0px -4px 5px rgba(0, 0, 0, 0.2);
+  border-bottom-right-radius: 10px;
+}
+.shadow-effect-instructions2 {
+  box-shadow:inset 0px -4px 5px rgba(0, 0, 0, 0.2);
+  border-bottom-left-radius: 10px;
+}
+
 }
 

@@ -113,14 +113,37 @@ nav .contactos-special:hover{
         display: flex;
         flex-direction: column;
         justify-content: center;
+        width: 100%;
       }
       nav ul li a{
         text-align: center;
       }
-    /* Show the burger menu */
-    .burger-menu {
-      display: block;  /* Make the burger menu visible */
-    }
+      .burger-menu {
+        display: flex; /* Enable flexbox for centering */
+        align-items: center; /* Center the content vertically */
+        justify-content: center; /* Center the content horizontally */
+        height: 100%; /* Set to 100% of parent height */
+      }
+      
+      .burger {
+        font-size: 50px; /* Adjust the size of the burger icon */
+        background: none;
+        border: none;
+        color: rgba(85, 85, 85, 0.5); /* 50% opacity */
+ /* Match the theme */
+        cursor: pointer;
+        height: 100%; /* Ensure the button fills the height of the parent */
+        display: flex; /* Ensure the content is flexbox for inner centering */
+        align-items: center; /* Center the text/icon inside the button */
+        justify-content: center; /* Center horizontally inside the button */
+        top: -7px;
+        position: relative;
+      }
+      
+      .burger:hover {
+        color: #7ba16d; /* Accent color on hover */
+      }
+      
   
     /* Hide nav links by default */
     #nav-links {
@@ -141,37 +164,33 @@ nav .contactos-special:hover{
       top: 63px;
       left: 0;
       width: 100%; /* Take full height to cover the screen */
-      z-index: 10; /* Ensure it overlays other elements */
+      z-index: 2000; /* Lower than the navbar */
+      transform: none; /* Remove if applied */
+      filter: none; /* Ensure it overlays other elements */
       border-top: 1px solid #f6f6f6;
       border-bottom: 1px solid #f6f6f6;
+      background-color: rgba(245, 245, 245);
+      box-shadow: inset 0 4px 6px -4px rgba(0, 0, 0, 0.3);
     }
   
     /* Style for burger button */
-    .burger {
-      font-size: 50px;
-      width: 100px;
-      height: 100px;
-      background: none;
-      border: none;
-      color: #00357a;  /* Change the color to match your theme */
-      cursor: pointer;
-    }
-  
-    /* Adjust burger icon color when hovered */
-    .burger:hover {
-      color: #7ba16d; /* Change to accent color */
-    }
+    
     nav .contactos-special {
-      background-color: #fefefe;
-      color: #7f91bc;
+      background-color: rgba(245, 245, 245) !important;
+      color: rgba(0, 35, 122, 0.5) !important;
       box-shadow: none;
       border-radius: 0px;
       padding: 18px;
+      height: 41px !important;
+      margin-left: 0px !important;
     }
     
     nav .contactos-special:hover{
       background-color: #bcd0b5;
       color: white;
+    }
+    nav .logo-title {
+      font-size: 25px;
     }
     
   }

@@ -71,7 +71,7 @@ layout: default
         <div class="content2">
             <div class="container-ingredients2">
                 <div class="ingredients2">
-                    <h3 class="ingredient-title">INGREDIENTES</h3>
+                    <h3 class="ingredient-title shadow-effect-ingredients">INGREDIENTES</h3>
                     <ul>
                         {% for ingredient in page.ingredients %}
                         {% assign parts = ingredient | split: "|" %}
@@ -87,7 +87,7 @@ layout: default
             </div>
             <div class="container-directions2">
                 <div class="directions2">
-                    <h3 class="instruction-title"style="text-align: center;">INSTRUÇÕES</h3>
+                    <h3 class="instruction-title shadow-effect-instructions2"style="text-align: center;">INSTRUÇÕES</h3>
                     <ol>
                         {% for pass in page.instructions %}
                         <li>
@@ -112,10 +112,6 @@ layout: default
                 </div>
             </div>
         </div>
-        <div class="share-buttons">
-            <a href="https://twitter.com/share?url={{ page.url }}&text={{ page.title }}" target="_blank">Twitter</a>
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ page.url }}" target="_blank">Facebook</a>
-          </div>
           
     </div>
 

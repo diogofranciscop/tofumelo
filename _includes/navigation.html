@@ -6,9 +6,11 @@
       <h1 class="logo-title">Tofumelo</h1>
     </a>
   </div>
-
+  <li class="burger-menu">
+    <button id="burger-toggle" class="burger">&#9776;</button> <!-- Icon for the burger menu -->
+  </li>
   <!-- Right Section: Navigation Links -->
-  <ul class="nav-links">
+  <ul class="nav-links" id="nav-links">
     {% for item in site.data.navigation %}
     <li>
       <a href="{{ item.link }}" 

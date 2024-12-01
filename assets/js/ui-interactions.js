@@ -40,11 +40,19 @@ function adjustVisibility() {
         $ingredientsButton.click(() => {
             $ingredientsContainer.addClass('visible');
             $directionsContainer.removeClass('visible');
+            $ingredientsButton.addClass('shadow-effect-ingredients'); // Add shadow effect
+            $instructionsButton.removeClass('shadow-effect-instructions'); // Remove shadow effect
+            $instructionsButton.addClass('shadow-effect-instructions2');
+            $ingredientsButton.removeClass('shadow-effect-ingredients2'); 
         });
 
         $instructionsButton.click(() => {
             $directionsContainer.addClass('visible');
             $ingredientsContainer.removeClass('visible');
+            $instructionsButton.addClass('shadow-effect-instructions'); // Add shadow effect
+            $ingredientsButton.removeClass('shadow-effect-ingredients'); // Remove shadow effect
+            $ingredientsButton.addClass('shadow-effect-ingredients2'); 
+            $instructionsButton.removeClass('shadow-effect-instructions2');
         });
     } else {
         $ingredientsContainer.addClass('visible').css('height', 'auto');
@@ -55,3 +63,5 @@ function adjustVisibility() {
 
 $(document).ready(adjustVisibility);
 $(window).resize(adjustVisibility);
+
+
