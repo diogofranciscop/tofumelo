@@ -19,7 +19,7 @@ author: fitgreenmind
 ingredients: 
   - 150ml | Aquafaba (água da cozedura do grão de bico)
   - 150gr | de Chocolate Negro (70%)
-  - Nozes a gosto 
+  - "| Nozes a gosto"
 instructions:
   - Bater a aquafaba em castelo (como se fosse clara de ovo). Estará pronto quando for possível virar a taça sem que o conteúdo caia.
   - Derreter o chocolate em banho maria.
