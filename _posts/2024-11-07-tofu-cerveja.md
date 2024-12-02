@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Tofu na Cerveja"
-keywords: ""
+keywords: "Receita de tofu na cerveja, Tofu marinado com cerveja, Prato principal vegano, Como fazer tofu com batatas douradas, Tofu assado no forno"
 permalink: /tofu-na-cerveja/
 type: ["Almoço/Jantar"]
 description: "Tofu em marinada de mostarda, alho, e ervas com batatas douradas e um toque de cerveja"

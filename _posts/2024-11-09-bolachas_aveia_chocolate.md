@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bolachas de Aveia e Chocolate"
-keywords: ""
+keywords: "Receita de bolachas de aveia, Bolachas crocantes com chocolate, Como fazer bolachas veganas, Bolachas caseiras sem soja, Sobremesa fácil com aveia"
 permalink: /bolachas-aveia-chocolate/
 type: ["Sobremesa","Lanche"]
 description: "Bolachas crocantes de aveia com pedaços de chocolate negro"

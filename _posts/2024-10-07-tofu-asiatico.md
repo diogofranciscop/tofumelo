@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Tofu Asiático (sticky)"
-keywords: ""
+keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sticky, Tofu vegano com molho asiático, Tofu fácil com arroz"
 permalink: /tofu-sticky/
 type: ["Almoço/Jantar"]
 description: "Tofu com molho asiático agridoce e picante, servido com arroz e pepino fresco "

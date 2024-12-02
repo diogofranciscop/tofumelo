@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tofu Mexido"
-keywords: ""
+keywords: "Receita de tofu mexido, Tofu mexido com cogumelos, Pequeno-almoço vegano, Torradas com tofu, Como fazer tofu mexido"
 permalink: /tofu-mexido/
 type: ["Pequeno-Almoço","Lanche"]
 description: "Torradas com tofu mexido e cogumelos"

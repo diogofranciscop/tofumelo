@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sopa de feijão e couve"
-keywords: ""
+keywords: "Receita de sopa de feijão, Sopa de feijão-manteiga e couve, Sopa vegana saudável, Como fazer sopa de feijão cremosa, Entrada vegana tradicional"
 permalink: /sopa-feijao-couve/
 type: ["Entrada"]
 description: "Sopa cremosa de legumes, couve e feijão-manteiga"

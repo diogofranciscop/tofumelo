@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pataniscas de Legumes"
-keywords: ""
+keywords: "Receita de pataniscas de legumes, Pataniscas veganas crocantes, Como fazer pataniscas sem glúten, Snack saudável com legumes, Pataniscas de farinha de grão-de-bico"
 permalink: /pataniscas-legumes/
 type: ["almoço", "snack"]
 description: "Pataniscas de legumes fritas e crocantes"

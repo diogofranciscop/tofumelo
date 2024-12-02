@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Sem Bacalhu Sem Natas"
-keywords: ""
+keywords: "Receita de gratinado vegano, Bacalhau com natas vegano, Gratinado de batatas com cogumelos, Como fazer bacalhau vegano, Prato principal sem lactose"
 type: ["Almoço/Jantar"]
 serve: 4 porções
 permalink: /sem-bacalhau-sem-natas/

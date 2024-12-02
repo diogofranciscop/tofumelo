@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Kebab de Jaca/Pleurothus"
-keywords: ""
+keywords: "Receita de kebab vegano, Kebab com jaca e cogumelos, Pão pita caseiro, Kebab vegano fácil, Como fazer kebab sem carne"
 permalink: /kebab-jaca/
 type: ["Almoço/Jantar"]
 description: "Pão pita caseiro recheado com jaca temperada, legumes frescos e maionese picante"

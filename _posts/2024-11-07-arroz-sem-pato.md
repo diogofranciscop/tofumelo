@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Arroz Sem Pato"
-keywords: ""
+keywords: "Receita de arroz sem pato, Arroz de forno vegano, Arroz com cogumelos e chouriço vegetal, Prato principal vegano, Como fazer arroz sem pato"
 permalink: /arroz-sem-pato/
 type: ["Almoço/Jantar"]
 description: "Arroz de forno com cogumelos pleurothus e chouriço vegetal, aromático e reconfortante"

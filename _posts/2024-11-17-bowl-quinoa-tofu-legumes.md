@@ -2,7 +2,7 @@
 layout: post-2
 title: "Bowl de quinoa, tofu e legumes"
 description: "Bowl colorida, com quinoa, tofu, legumes, edamame e um molho cremoso de tahini e miso"
-keywords: ""
+keywords: "Receita de bowl vegana, Bowl de quinoa e tofu, Bowl saudável com legumes, Como fazer bowl de quinoa, Prato vegano com molho de tahini e miso"
 permalink: /bowl-quinoa/
 type: ["Almoço/Jantar"]
 image: "/assets/img/bowl-quinoa.png"
