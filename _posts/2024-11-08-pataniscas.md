@@ -8,9 +8,9 @@ description: "Pataniscas de legumes fritas e crocantes"
 image: "/assets/img/pataniscas.png"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos", "s-soja"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: 35
+time-prepar: 20
+time-confe: 15
 calorias:
 proteinas:
 lipidos:

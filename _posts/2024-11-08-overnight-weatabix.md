@@ -8,9 +8,9 @@ description: "Weetabix  adormecidos com iogurte e fruta fresca"
 image: "/assets/img/overnight-weetabix.png"
 serve: 1
 diet: ["s-gluten","s-soja"]
-time-total: 5
-time-prepar: 5
-time-confe: 0
+time-total: 10
+time-prepar: 5 
+time-confe: 5
 calorias:
 proteinas:
 lipidos:

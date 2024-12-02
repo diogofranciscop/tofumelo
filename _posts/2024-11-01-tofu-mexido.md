@@ -8,9 +8,9 @@ description: "Torradas com tofu mexido e cogumelos"
 image: "/assets/img/tofu-mexido.jpeg"
 serve: 2 pessoas
 diet: ["s-frutos-secos"]
-time-total: 6
-time-prepar: 1 
-time-confe: 5
+time-total: 10
+time-prepar: 5  
+time-confe: 5 
 calorias: 
 proteinas: 
 lipidos: 

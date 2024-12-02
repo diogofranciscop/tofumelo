@@ -8,9 +8,9 @@ permalink: /sem-bacalhau-sem-natas/
 description: "Gratinado cremoso de batatas, cogumelos e tofu com molho branco"
 image: "/assets/img/sem-bacalhau-sem-natas.jpeg"
 diet: ["s-frutos-secos"]
-time-total: "?"
-time-prepar: "?"
-time-confe: "?"
+time-total: 85
+time-prepar: 20
+time-confe: 65
 calorias:
 proteinas:
 lipidos:

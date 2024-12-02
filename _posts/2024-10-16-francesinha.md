@@ -8,9 +8,9 @@ description: "Francesinha vegana com tofu, pleurothus, linguiça e curgete, rega
 image: "/assets/img/francesinha2.jpeg"
 serve: 2 refeições
 diet: ["s-frutos-secos"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: 85
+time-prepar: 25
+time-confe: 60
 calorias:
 proteinas:
 lipidos:
@@ -41,7 +41,7 @@ ingredients:
     - 8 fatias | de Courgette
 instructions:
   o Molho:
-    - Juntar os ingredientes todos numa panela, misturar bem. Levar a lume e deixar apurar bem durante, pelo menos, trinta minutos. 
+    - Juntar os ingredientes todos numa panela, misturar bem. Levar a lume e deixar apurar bem durante, pelo menos, 1 hora (se tiver tempo, se não tiver pode ser menos tempo). 
   a Francesinha:
     - Cortar o tofu em duas metades, horizontalmente. Marinar o tofu em molho de soja, alho em pó, sriracha e limão.
     - Numa frigideira, meter um fio de azeite e deixar aquecer bem. 

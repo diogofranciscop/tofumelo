@@ -8,9 +8,9 @@ description: "Arroz de tomate aromático acompanhado por panados crocantes de se
 image: "/assets/img/arroz-tomate-com-panados.png"
 serve: 4 refeições
 diet: ["s-frutos-secos", "s-soja"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: 75
+time-prepar: 20 
+time-confe: 55
 calorias:
 proteinas:
 lipidos:

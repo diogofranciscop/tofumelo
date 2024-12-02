@@ -8,9 +8,9 @@ description: "Tofu em marinada de mostarda, alho, e ervas com batatas douradas e
 image: "/assets/img/tofu-na-cerveja.png"
 serve: 4 refeições
 diet: ["s-frutos-secos", "s-gluten"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: 55
+time-prepar: 15
+time-confe: 40
 calorias:
 proteinas:
 lipidos:

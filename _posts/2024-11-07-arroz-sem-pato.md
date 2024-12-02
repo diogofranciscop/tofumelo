@@ -8,9 +8,9 @@ description: "Arroz de forno com cogumelos pleurothus e chouriço vegetal, arom�
 image: "/assets/img/arroz-sem-pato.png"
 serve: 4 porções
 diet: ["s-gluten", "s-frutos-secos"]
-time-total: "?"
-time-prepar: "?"
-time-confe: "?"
+time-total: 60
+time-prepar: 10
+time-confe: 50
 calorias:
 proteinas:
 lipidos:

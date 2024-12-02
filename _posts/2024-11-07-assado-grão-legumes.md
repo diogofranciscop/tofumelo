@@ -8,9 +8,9 @@ description: "Assado de legumes, batata e grão-de-bico"
 image: "/assets/img/assado-batata-grao.png"
 serve: 4 refeições
 diet: ["s-gluten", "s-soja", "s-frutos-secos"]
-time-total: 45
-time-prepar: 15
-time-confe: 30
+time-total: 35
+time-prepar: 10
+time-confe: 25
 calorias:
 proteinas:
 lipidos:

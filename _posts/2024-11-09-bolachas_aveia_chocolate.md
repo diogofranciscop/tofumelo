@@ -9,9 +9,9 @@ image: "/assets/img/bolachas_aveia.png"
 serve: 15 bolachas
 minutes: "?"
 diet: ["s-soja", "s-frutos-secos"]
-time-total: "?"
-time-prepar: "?"
-time-confe: "?"
+time-total: 30
+time-prepar: 15
+time-confe: 15
 calorias:
 proteinas:
 lipidos:

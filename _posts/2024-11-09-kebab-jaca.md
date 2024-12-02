@@ -8,9 +8,9 @@ description: "Pão pita caseiro recheado com jaca temperada, legumes frescos e m
 image: "/assets/img/kebab-jaca.png"
 serve: 4 kebabs
 diet: ["s-soja", "s-frutos-secos"]
-time-total: 100
-time-prepar: 90
-time-confe: 10
+time-total: 75
+time-prepar: 50
+time-confe: 25
 calorias:
 proteinas:
 lipidos:

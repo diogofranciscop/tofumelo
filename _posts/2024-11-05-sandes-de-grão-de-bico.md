@@ -9,8 +9,8 @@ image: "/assets/img/sandes-grão-bico.png"
 serve: 4 sandes
 diet: ["s-soja","s-frutos-secos"]
 time-total: 25
-time-prepar: 15
-time-confe: 10
+time-prepar: 10
+time-confe: 15
 calorias:
 proteinas:
 lipidos:

@@ -8,8 +8,8 @@ description: "Sopa cremosa de legumes com couve e rodelas de cenoura, leve e nut
 image: "/assets/img/caldo-verde.png"
 serve: 6 pratos de sopa
 diet: ["s-gluten","s-frutos-secos", "s-soja"]
-time-total: 60
-time-prepar: 20
+time-total: 50
+time-prepar: 10
 time-confe: 40
 calorias:
 proteinas:

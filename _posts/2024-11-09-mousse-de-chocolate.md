@@ -8,9 +8,9 @@ description: "Mousse de chocolate vegana com nozes crocantes"
 image: "/assets/img/mousse.png"
 serve: 6 taças de sobremesa
 diet: ["s-gluten","s-soja"]
-time-total: 50
-time-prepar: 20
-time-confe: 30
+time-total: 20
+time-prepar: 10
+time-confe: 10
 calorias:
 proteinas:
 lipidos:

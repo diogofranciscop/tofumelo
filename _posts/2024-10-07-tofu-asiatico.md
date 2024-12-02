@@ -8,9 +8,9 @@ description: "Tofu com molho asiático agridoce e picante, servido com arroz e p
 image: "/assets/img/camera-icon.png"
 serve: 4
 diet: ["s-frutos-secos","s-gluten"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: 45
+time-prepar: 15
+time-confe: 30 
 calorias:
 proteinas:
 lipidos:

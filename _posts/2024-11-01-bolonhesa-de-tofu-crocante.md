@@ -8,8 +8,8 @@ description: "Esparguete com tofu crocante no forno e molho de tomate"
 image: "/assets/img/bolonhesa-tofu.jpeg"
 serve: 4 pessoas
 diet: ["s-frutos-secos"]
-time-total: 60
-time-prepar: 10
+time-total: 55
+time-prepar: 5
 time-confe: 50
 calorias:
 proteinas:

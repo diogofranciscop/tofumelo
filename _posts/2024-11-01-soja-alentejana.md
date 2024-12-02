@@ -8,8 +8,8 @@ description: "Soja marinada à alentejana acompanhada de batatas fritas crocante
 image: "/assets/img/soja-alentejana.png"
 serve: 4 refeições
 diet: ["s-gluten", "s-frutos-secos"]
-time-total: 50
-time-prepar: 25
+time-total: 40
+time-prepar: 15
 time-confe: 25
 calorias:
 proteinas:

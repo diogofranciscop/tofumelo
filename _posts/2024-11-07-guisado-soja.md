@@ -8,9 +8,9 @@ description: "Estufado de soja com cogumelos em molho de tomate temperado"
 image: "/assets/img/guisado-soja.png"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos"]
-time-total: "?"
-time-prepar: "?" 
-time-confe: "?"
+time-total: 45
+time-prepar: 15
+time-confe: 30
 calorias:
 proteinas:
 lipidos:

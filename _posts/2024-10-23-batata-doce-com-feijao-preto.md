@@ -8,9 +8,9 @@ permalink: /batata-doce-com-feijao-preto/
 description: "Batatas doces assadas com feijão preto refogado"
 image: "/assets/img/batata-doce-feijao-preto.jpeg"
 diet: ["s-soja", "s-frutos-secos", "s-gluten"]
-time-total: "?"
-time-prepar: "?"
-time-confe: "?"
+time-total: 65
+time-prepar: 15
+time-confe: 50
 calorias:
 proteinas:
 lipidos:

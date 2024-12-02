@@ -8,9 +8,9 @@ description: "Tosta com pasta de abacate, cogumelos grelhados e tomate"
 image: "/assets/img/tosta-abacate-grão-de-bico-cogumelo.png"
 serve: 1 pessoa
 diet: ["s-soja","s-frutos-secos"]
-time-total: 
-time-prepar: 
-time-confe: 
+time-total: 20
+time-prepar: 10
+time-confe: 10
 calorias:
 proteinas:
 lipidos:

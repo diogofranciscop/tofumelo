@@ -8,9 +8,9 @@ type: ["Almoço/Jantar"]
 image: "/assets/img/bowl-quinoa.png"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]
-time-total: 
-time-prepar: 
-time-confe: 
+time-total: 40
+time-prepar: 15
+time-confe: 25
 calorias:
 proteinas:
 lipidos:

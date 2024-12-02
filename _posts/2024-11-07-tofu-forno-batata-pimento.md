@@ -8,9 +8,9 @@ description: "Tofu, batatas, pimentos e cebolas assados com ervas frescas, cober
 image: "/assets/img/tofu-forno-batata-pimento.png"
 serve: 4 refeições
 diet: ["s-gluten", "s-frutos-secos"]
-time-total: 60
-time-prepar: 30
-time-confe: 30
+time-total: 55
+time-prepar: 15
+time-confe: 40
 calorias:
 proteinas:
 lipidos:
