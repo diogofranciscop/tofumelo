@@ -7,7 +7,7 @@ type: ["Pequeno-Almoço","Lanche"]
 description: "Torradas com tofu mexido e cogumelos"
 image: "/assets/img/tofu-mexido.jpeg"
 serve: 2 pessoas
-diet: ["s-frutos-secos"]
+diet: ["s-frutos-secos", "s-gluten"]
 time-total: 10
 time-prepar: 5  
 time-confe: 5 
@@ -37,5 +37,7 @@ instructions:
     - Num copo, dissolver a mostarda num pouco de bebida vegetal.
     - Adicionar esta mistura ao preparado da frigideira, misturar bem e deixar cozinhar um pouco.
     - Por fim, é só servir o preparado de tofu mexido por cima das torradas, e poderá optar por finalizar com umas folhas de mangericão por cima.
+notes:
+    - Usar pão sem gluten se for intolerante ao gluten.
 ---
 

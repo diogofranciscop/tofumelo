@@ -7,7 +7,7 @@ type: ["Almoço/Jantar"]
 description: "Esparguete com tofu crocante no forno e molho de tomate"
 image: "/assets/img/bolonhesa-tofu.jpeg"
 serve: 4 pessoas
-diet: ["s-frutos-secos"]
+diet: ["s-frutos-secos", "s-gluten"]
 time-total: 55
 time-prepar: 5
 time-confe: 50
@@ -41,5 +41,6 @@ instructions:
             - Noutra panela, adicionar o tofu. Levar a panela ao lume e, aos poucos, ir adicionando molho de tomate, misturando bem até que fique com uma consistência que lhe agrade. Provar e, se necessário, retificar temperos.
             - Num prato, servir uma porção de esparguete. Por cima, colocar o molho de tomate e tofu. Se gostar, pode colocar folhas de manjericão por cima e está pronto.
 notes:
-        - Esta receita foi inspirada em www.itdoesnttastelikechicken.com 
+        - Esta receita foi inspirada em www.itdoesnttastelikechicken.com
+        - Se for intolerante ao gluten é só usar esparguete sem glúten.
 ---
