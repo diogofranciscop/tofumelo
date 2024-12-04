@@ -334,11 +334,11 @@ CSS for the information box
 .nutrition-item .value {
   background-color: white;
   color: rgb(35, 99, 12);
-  width: 42px;
+  width: 65px;
   text-align: center;
   clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
   border-radius: 2px;
-  height: 12px;
+  height: 14px;
   font-family: "Archivo Narrow";
   font-size: 13px;
   font-style: italic;
@@ -346,6 +346,12 @@ CSS for the information box
   line-height: 12px;
   left: -2px;
   position: relative;
+  display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    line-height: normal; /* Ensure no line-height interference */
+    vertical-align: middle; /* Align text vertically */
+    text-align: center; /* Center text horizontally */
 }
 
 
