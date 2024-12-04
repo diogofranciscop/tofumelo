@@ -63,7 +63,7 @@ layout: default
         <div class="content2">
             <div class="container-ingredients2">
                 <div class="ingredients2">
-                    <h3 class="ingredient-title">INGREDIENTES</h3>
+                    <h3 class="ingredient-title shadow-effect-ingredients">INGREDIENTES</h3>
                     {% assign sections = page.ingredients %}
                     {% for section in sections %}
                     <h4>Para {{ section[0] }}</h4>
@@ -83,7 +83,7 @@ layout: default
             </div>
             <div class="container-directions2">
                 <div class="directions2">
-                    <h3 class="instruction-title"style="text-align: center;">INSTRUÇÕES</h3>
+                    <h3 class="instruction-title shadow-effect-instructions2"style="text-align: center;">INSTRUÇÕES</h3>
                     <ol class="post-2-ol">
                         {% assign sections = page.instructions %}
                         {% for section in sections %}

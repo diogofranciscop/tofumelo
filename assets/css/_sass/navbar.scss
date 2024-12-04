@@ -126,7 +126,7 @@ nav .contactos-special:hover{
       }
       
       .burger {
-        font-size: 50px; /* Adjust the size of the burger icon */
+        font-size: 35px; /* Adjust the size of the burger icon */
         background: none;
         border: none;
         color: rgba(85, 85, 85, 0.5); /* 50% opacity */
@@ -136,7 +136,6 @@ nav .contactos-special:hover{
         display: flex; /* Ensure the content is flexbox for inner centering */
         align-items: center; /* Center the text/icon inside the button */
         justify-content: center; /* Center horizontally inside the button */
-        top: -7px;
         position: relative;
       }
       
@@ -153,7 +152,8 @@ nav .contactos-special:hover{
       position: absolute;
       top: 50px;
       width: 100%;
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+      box-shadow: inset 0 4px 6px -4px rgba(0, 0, 0, 0.3), /* Inset shadow */
+                  0px 6px 4px rgba(0, 0, 0, 0.2) !important;
       background-color: #fefefe;
     }
   
