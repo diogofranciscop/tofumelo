@@ -12,10 +12,10 @@ diet: ["s-soja", "s-frutos-secos"]
 time-total: 30
 time-prepar: 15
 time-confe: 15
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 177
+proteinas: 1.9
+lipidos: 8.4
+hidratos: 22.5
 author: original
 ingredients:
   - 150gr | de Farinha de Trigo

@@ -11,10 +11,10 @@ diet: ["s-frutos-secos", "s-gluten"]
 time-total: 55
 time-prepar: 15
 time-confe: 40
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 417
+proteinas: 16.1
+lipidos: 14.8
+hidratos: 54
 author: original
 ingredients:
     o Tofu Marinado:

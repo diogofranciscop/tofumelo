@@ -11,10 +11,10 @@ diet: ["s-gluten", "s-frutos-secos"]
 time-total: 60
 time-prepar: 10
 time-confe: 50
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 559.5
+proteinas: 14.5
+lipidos: 12.4
+hidratos: 91.8
 author: greentastecuisine
 ingredients:
     - 400gr | de Arroz Vaporizado ou Agulha

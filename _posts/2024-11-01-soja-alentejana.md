@@ -11,10 +11,10 @@ diet: ["s-gluten", "s-frutos-secos"]
 time-total: 40
 time-prepar: 15
 time-confe: 25
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 256.8
+proteinas: 19
+lipidos: 6
+hidratos: 21.9
 author: 
 ingredients:
     Para as batatas:

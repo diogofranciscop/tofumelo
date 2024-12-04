@@ -11,10 +11,10 @@ diet: ["s-gluten", "s-frutos-secos"]
 time-total: 55
 time-prepar: 15
 time-confe: 40
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 709
+proteinas: 19.7
+lipidos: 33.3
+hidratos: 58.5
 author: derek
 ingredients:
     - 800gr | de Batatas pequenas, cortadas ao meio

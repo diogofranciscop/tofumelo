@@ -11,10 +11,10 @@ diet: ["s-frutos-secos"]
 time-total: 35
 time-prepar: 10
 time-confe: 25
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 724
+proteinas: 37.3
+lipidos: 34.4
+hidratos: 68.6
 author: vegan heaven
 ingredients:
     o acompanhamento:

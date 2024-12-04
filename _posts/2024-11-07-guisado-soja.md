@@ -11,10 +11,10 @@ diet: ["s-gluten","s-frutos-secos"]
 time-total: 45
 time-prepar: 15
 time-confe: 30
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 208.5
+proteinas: 18.2
+lipidos: 2.4
+hidratos: 20.5
 author: be pure inside
 ingredients:
     - 180gr | de Soja Grossa

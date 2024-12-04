@@ -11,10 +11,10 @@ diet: ["s-soja", "s-frutos-secos", "s-gluten"]
 time-total: 65
 time-prepar: 15
 time-confe: 50
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 466
+proteinas: 7.5
+lipidos: 13.8
+hidratos: 77
 author: original
 ingredients:
     as batatas assadas:

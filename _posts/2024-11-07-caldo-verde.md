@@ -11,10 +11,10 @@ diet: ["s-gluten","s-frutos-secos", "s-soja"]
 time-total: 50
 time-prepar: 10
 time-confe: 40
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 83.3
+proteinas: 2.4
+lipidos: 3.6
+hidratos: 11.6
 author: original
 ingredients:
     - 280gr | de Cebola

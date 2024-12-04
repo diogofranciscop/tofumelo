@@ -11,10 +11,10 @@ diet: ["s-frutos-secos"]
 time-total: 85
 time-prepar: 20
 time-confe: 65
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 753
+proteinas: 16.9
+lipidos: 45.4
+hidratos: 69.5s
 author: tuga-vegetal
 ingredients:
     as natas:

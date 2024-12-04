@@ -11,10 +11,10 @@ diet: ["s-soja","s-frutos-secos", "s-gluten"]
 time-total: 20
 time-prepar: 10
 time-confe: 10
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 556
+proteinas: 17.2
+lipidos: 25.3
+hidratos: 69.1
 author: 
 ingredients:
     - 2 fatias | de Pão
@@ -36,5 +36,6 @@ instructions:
     - Montar a tosta, começando com uma fatia de pão, seguida  de 3 fatias de tomate. Temperar o tomate (opcional) com um pouco de sal, pimenta preta e oregãos. Por cima, adicionar metade da pasta de abacate e dispor metade dos cogumelos por cima. Finalizar com umas gotas de limão. Repetir o processo e está pronto a servir.
 notes: 
     - Se forem intlorantes ao gluten só usar pão sem gluten.
+    - Valores nutricionais calculados usando o grão-de-bico
 ---
 

@@ -11,10 +11,10 @@ diet: ["s-frutos-secos", "s-gluten"]
 time-total: 55
 time-prepar: 5
 time-confe: 50
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 382.5
+proteinas: 19.7
+lipidos: 14.4
+hidratos: 47.6
 author: itdoesnttastelikechicken
 ingredients:
         o tofu:

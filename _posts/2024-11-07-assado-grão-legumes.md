@@ -11,10 +11,10 @@ diet: ["s-gluten", "s-soja", "s-frutos-secos"]
 time-total: 35
 time-prepar: 10
 time-confe: 25
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 292.5
+proteinas: 8.9
+lipidos: 9.2
+hidratos: 45
 author: 
 ingredients:
     - 1 | Courgette grande

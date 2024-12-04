@@ -11,10 +11,10 @@ diet: ["s-soja","s-frutos-secos"]
 time-total: 25
 time-prepar: 10
 time-confe: 15
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 593
+proteinas: 20
+lipidos: 18.5
+hidratos: 87.75
 author: original
 ingredients: 
     - 4 | Pães de Água

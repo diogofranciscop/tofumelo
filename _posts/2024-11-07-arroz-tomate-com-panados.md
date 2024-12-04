@@ -11,10 +11,10 @@ diet: ["s-frutos-secos", "s-soja"]
 time-total: 75
 time-prepar: 20 
 time-confe: 55
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 450.8
+proteinas: 23.5
+lipidos: 4.7
+hidratos: 73.5
 author: original
 ingredients:
     o Arroz:

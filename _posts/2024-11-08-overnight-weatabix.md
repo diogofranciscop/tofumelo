@@ -11,10 +11,10 @@ diet: ["s-gluten","s-soja"]
 time-total: 10
 time-prepar: 5 
 time-confe: 5
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 281
+proteinas: 7.8
+lipidos: 7.9
+hidratos: 48
 author: original
 ingredients:
     - 1,5 | Bolachas Weetabix
@@ -28,4 +28,6 @@ instructions:
     - Aos poucos, juntar o leite vegetal até ficar uma espécie de  pasta com alguma consistência. A ideia não é que fique líquida.
     - Deixar no frigorifico durante a noite e, no dia a seguir, a bolacha deverá estar numa textura tipo _cheesecake_.
     - No dia a seguir, à tacinha juntar o iogurte. Por cima, dispôr a fruta cortada e finalizar com um fio de manteiga de amendoim e de agave (opcional).
+notes:
+    - A informação nutricional foi calculada considerando os morangos.
 ---

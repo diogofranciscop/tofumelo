@@ -11,10 +11,10 @@ diet: ["s-gluten","s-frutos-secos", "s-soja"]
 time-total: 35
 time-prepar: 20
 time-confe: 15
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 391.8
+proteinas: 21.4
+lipidos: 10.2
+hidratos: 58.7
 author: evagoodlife
 ingredients:
     - 2 | Cebolas

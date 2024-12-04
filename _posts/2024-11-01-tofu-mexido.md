@@ -6,15 +6,15 @@ permalink: /tofu-mexido/
 type: ["Pequeno-Almoço","Lanche"]
 description: "Torradas com tofu mexido e cogumelos"
 image: "/assets/img/tofu-mexido.jpeg"
-serve: 2 pessoas
+serve: 2 refeições
 diet: ["s-frutos-secos", "s-gluten"]
 time-total: 10
 time-prepar: 5  
 time-confe: 5 
-calorias: 
-proteinas: 
-lipidos: 
-hidratos: 
+calorias: 312
+proteinas: 15.6
+lipidos: 13.2
+hidratos: 32.7
 author: original
 ingredients:
     - 200gr| de Tofu

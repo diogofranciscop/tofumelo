@@ -11,10 +11,10 @@ diet: ["s-gluten","s-soja"]
 time-total: 20
 time-prepar: 10
 time-confe: 10
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 386
+proteinas: 8.8
+lipidos: 6.2
+hidratos: 65.1
 author: fitgreenmind
 ingredients: 
   - 150ml | Aquafaba (água da cozedura do grão de bico)

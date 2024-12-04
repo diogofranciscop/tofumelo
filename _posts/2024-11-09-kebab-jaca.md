@@ -11,10 +11,10 @@ diet: ["s-soja", "s-frutos-secos"]
 time-total: 75
 time-prepar: 50
 time-confe: 25
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 386
+proteinas: 8.8
+lipidos: 6.2
+hidratos: 65.1
 author: original
 ingredients: 
   o pão pita:
@@ -56,5 +56,6 @@ instructions:
 
 notes:
        - Poderá deixar a jaca/os cogumelos de um dia para o outro a marinar nos temperos, para potenciar ainda mais o sabor.
+       - A informação nutricional foi calculada com os cogumelos pleurothus.
 
 ---

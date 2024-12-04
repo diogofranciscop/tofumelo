@@ -11,10 +11,10 @@ diet: ["s-frutos-secos"]
 time-total: 85
 time-prepar: 25
 time-confe: 60
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 958
+proteinas: 34.6
+lipidos: 52
+hidratos: 64.7
 author: omeletes-sem-ovos
 ingredients: 
   o Molho:

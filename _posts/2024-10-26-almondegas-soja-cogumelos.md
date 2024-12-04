@@ -11,10 +11,10 @@ diet: ["s-gluten","s-frutos-secos"]
 time-total: 50
 time-prepar: 25
 time-confe: 25
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 260
+proteinas: 18.4
+lipidos: 5.9
+hidratos: 26.2
 author: original
 ingredients:
     - 140gr | de Soja fina

@@ -11,10 +11,10 @@ diet: ["s-frutos-secos","s-gluten"]
 time-total: 45
 time-prepar: 15
 time-confe: 30 
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 464
+proteinas: 14.5
+lipidos: 13.2
+hidratos: 71.6
 author: 
 ingredients:
     o acompanhamento:

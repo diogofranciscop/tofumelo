@@ -6,15 +6,15 @@ permalink: /sopa-feijao-couve/
 type: ["Entrada"]
 description: "Sopa cremosa de legumes, couve e feijão-manteiga"
 image: "/assets/img/sopa-feijão-couve.png"
-serve: 2
+serve: 6 pratos de sopa
 diet: ["s-gluten", "s-soja", "s-frutos-secos"]
 time-total: 40
 time-prepar: 10
 time-confe: 30
-calorias:
-proteinas:
-lipidos:
-hidratos:
+calorias: 101.5
+proteinas: 4.7
+lipidos: 3.5
+hidratos: 13.5
 author: 
 ingredients:
     - 20gr | de Azeite
