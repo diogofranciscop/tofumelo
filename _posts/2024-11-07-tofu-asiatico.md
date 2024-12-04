@@ -1,11 +1,11 @@
 ---
 layout: post-2
-title: "Tofu Asiático (sticky)"
-keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sticky, Tofu vegano com molho asiático, Tofu fácil com arroz"
+title: "Wraps com Tofu Asiático (sticky)"
+keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sticky, Tofu vegano com molho asiático, Tofu fácil com wrap"
 permalink: /tofu-sticky/
 type: ["Almoço/Jantar"]
-description: "Tofu com molho asiático agridoce e picante, servido com arroz e pepino fresco "
-image: "/assets/img/camera-icon.png"
+description: "Tofu com molho asiático agridoce e picante, servido em um wrap e com legumes"
+image: "/assets/img/tofu-sticky.png"
 serve: 4
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 45

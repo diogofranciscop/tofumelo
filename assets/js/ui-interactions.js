@@ -25,20 +25,22 @@ $(document).ready(function () {
             $('.burger-menu').hide();
         }
     }
-
+    
     handleBurgerMenu();
 
-    // Ensure menu state remains consistent during resizing
-    $(window).resize(handleBurgerMenu);
+    if ($(window).width() <= 868) {
+        // Ensure menu state remains consistent during resizing
+        $(window).resize(handleBurgerMenu);
 
-    // Prevent burger menu from closing unintentionally when scrolling
-    $(window).scroll(function () {
-        if ($('#nav-links').hasClass('active')) {
-            $('#nav-links').css('position', 'fixed');
-        } else {
-            $('#nav-links').css('position', 'absolute');
-        }
-    });
+        // Prevent burger menu from closing unintentionally when scrolling
+        $(window).scroll(function () {
+            if ($('#nav-links').hasClass('active')) {
+                $('#nav-links').css('position', 'fixed');
+            } else {
+                $('#nav-links').css('position', 'absolute');
+            }
+        });
+    }
 });
 
 

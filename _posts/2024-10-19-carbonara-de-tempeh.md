@@ -6,7 +6,7 @@ type: ["Almoço/Jantar"]
 serve: 2 porções
 permalink: /carbonara-de-tempeh/
 description: "Carbonara cremosa com bacon de tempeh, cheia de sabor e textura"
-image: "/assets/img/carbonara-tempeh.jpeg"
+image: "/assets/img/carbonara2.png"
 diet: ["s-frutos-secos"]
 time-total: 35
 time-prepar: 10
