@@ -1,3 +1,68 @@
+/*
+CSS do footer
+*/
+
+footer {
+  width: 100vw;
+  padding: 10px;
+  text-align: center;
+  margin-top: 15px;
+  background: #618f50;
+  box-shadow: 0 -2px 1px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  bottom: 0;
+  position:relative;
+}
+
+.direitos-footer{
+  color: rgba(189, 208, 182, 1);
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5)!important;
+  font-family: "Archivo Narrow";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.86px;
+  text-align: center;
+}
+
+
+
+footer ul {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  list-style-type: none;
+  margin-top: 0;
+  margin-bottom: 0;
+  flex-grow: 1;
+  margin-right: 50px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+footer ul li {
+  display: inline-block;
+}
+
+footer ul li a {
+  padding-left: 35px;
+  padding-right: 35px;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 1);
+  text-decoration: none;
+  display: block;
+  margin-right: 5px;
+  text-transform: uppercase;
+  font-family: "Archivo Narrow";
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18.86px;
+  text-align: center;
+  text-shadow: 0px 2px 2px rgba(0, 0, 0, 0.5)!important;
+  
+}
+
 @media (max-width: 768px) {
   footer{
     margin-top: 0px;

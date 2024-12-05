@@ -6,150 +6,158 @@ layout: default
   <h2>Envia-nos a tua receita</h2>
   <p class="paragraph">Vamos experimentar a tua receita e se gostarmos, teremos todo o gosto em publicá-la no site com os devidos
     créditos.</p>
-
-  <form>
-    <!-- Personal Information -->
-    <fieldset class="personal-info">
-      <h3>INFORMAÇÃO PESSOAL</h3>
-      <div class="form-group inline">
-        <label for="nome" class="type-name">Nome</label>
-        <input type="text" id="nome" placeholder="O teu nome completo">
-      </div>
-      <div class="form-group inline">
-        <label for="email" class="type-name">E-mail</label>
-        <input type="email" id="email" placeholder="O teu e-mail">
-      </div>
-      <div class="form-group inline credits">
-        <label class="type-name">Créditos</label>
-        <div class="radio-group">
-          <input type="radio" id="sim" name="credits" value="sim">
-          <label for="sim">SIM</label>
-          <input type="radio" id="nao" name="credits" value="nao">
-          <label for="nao">NÃO</label>
-        </div>
-        <input type="text" id="credit-name" placeholder="Se sim, qual o nome/site que queres que apareça?">
-      </div>
-    </fieldset>
-
-    <!-- Recipe Details -->
-    <fieldset class="recipe-info">
-      <h3>ENQUADRAMENTO DA RECEITA</h3>
-      <div class="form-group inline">
-        <label for="title" class="type">Título</label>
-        <input type="text" id="title" placeholder="O título da receita">
-      </div>
-      <div class="form-group inline">
-        <label class="type">Tipo de Refeição</label>
-        <div class="toggle-group column">
-          <div class="toggle-row">
-            <div class="filter-item">
-              <label class="switch"for="almoco">
-                <input type="checkbox" id="almoco" value="almoco-jantar">
-                <span class="slider"></span>
-              </label>
-              <span>ALMOÇO/JANTAR</span>
-            </div>
-
-            <div class="filter-item">
-
-              <label class="switch"for="pequeno-almoco">
-                <input type="checkbox" id="pequeno-almoco" value="pequeno-almoco">
-                <span class="slider"></span>
-              </label>
-              <span>PEQUENO-ALMOÇO</span>
-            </div>
-
-            <div class="filter-item">
-
-              <label class="switch"for="entradas">
-                <input type="checkbox" id="entradas" value="entradas">
-                <span class="slider"></span>
-              </label>
-              <span>ENTRADAS</span>
-            </div>
-
-
+    <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScG02oQp3REnNfyF8dolRLIgUk5S_RUwv-DAKTqsYafEFM90Q/formResponse">
+      <!-- Personal Information -->
+      <fieldset class="personal-info">
+          <h3>INFORMAÇÃO PESSOAL</h3>
+          <div class="form-group inline">
+              <label for="nome" class="type-name">Nome</label>
+              <input type="text" id="nome" name="entry.714340655" placeholder="O teu nome completo" required>
           </div>
-          <div class="toggle-row">
-            <div class="filter-item">
-
-              <label class="switch"for="sobremesas">
-                <input type="checkbox" id="sobremesas" value="sobremesas">
-                <span class="slider"></span>
-              </label>
-              <span>SOBREMESAS</span>
-            </div>
-
-            <div class="filter-item">
-              <label class="switch"for="lanches">
-                <input type="checkbox" id="lanches" value="lanches">
-                <span class="slider"></span>
-              </label>
-              <span>LANCHES</span>
-            </div>
-
+          <div class="form-group inline">
+              <label for="email" class="type-name">E-mail</label>
+              <input type="email" id="email" name="entry.1075749776" placeholder="O teu e-mail" required>
           </div>
-
-        </div>
-      </div>
-      <div class="form-group inline">
-        <label class="type">Tipo de Dieta</label>
-        <div class="toggle-group ">
-          <div class="toggle-row">
-            <div class="filter-item">
-              <label class="switch" for="sem-gluten">
-                <input type="checkbox" id="sem-gluten" value="sem-gluten">
-                <span class="slider"></span>
-              </label>
-              <span>SEM GLÚTEN</span>
-            </div>
-
-            <div class="filter-item"><label class="switch" for="sem-soja">
-                <input type="checkbox" id="sem-soja" value="sem-soja">
-                <span class="slider"></span></label>
-              <span>SEM SOJA</span>
-            </div>
-            <div class="filter-item"><label class="switch" for="sem-frutos-secos">
-                <input type="checkbox" id="sem-frutos-secos" value="sem-frutos-secos">
-                <span class="slider"></span>
-              </label>
-              <span>SEM FRUTOS SECOS</span>
-            </div>
-
+          <div class="form-group inline credits">
+              <label class="type-name">Créditos</label>
+              <div class="radio-group">
+                  <input type="radio" id="sim" name="entry.1227523485" value="SIM">
+                  <label for="sim">SIM</label>
+                  <input type="radio" id="nao" name="entry.1227523485" value="NÃO">
+                  <label for="nao">NÃO</label>
+              </div>
+              <input type="text" id="credit-name" name="entry.469997194" placeholder="Se sim, qual o nome/site que queres que apareça?">
           </div>
-        </div>
+      </fieldset>
+  
+      <!-- Recipe Details -->
+      <fieldset class="recipe-info">
+          <h3>ENQUADRAMENTO DA RECEITA</h3>
+          <div class="form-group inline">
+              <label for="title" class="type">Título</label>
+              <input type="text" id="title" name="entry.658950878" placeholder="O título da receita" required>
+          </div>
+          <div class="form-group inline">
+              <label class="type">Tipo de Refeição</label>
+              <div class="toggle-group column">
+                  <div class="toggle-row">
+                      <div class="filter-item">
+                          <label class="switch" for="almoco">
+                              <input type="checkbox" id="almoco" name="entry.2114407444" value="Almoço/Jantar">
+                              <span class="slider"></span>
+                          </label>
+                          <span>ALMOÇO/JANTAR</span>
+                      </div>
+  
+                      <div class="filter-item">
+                          <label class="switch" for="pequeno-almoco">
+                              <input type="checkbox" id="pequeno-almoco" name="entry.2114407444" value="Pequeno-Almoço">
+                              <span class="slider"></span>
+                          </label>
+                          <span>PEQUENO-ALMOÇO</span>
+                      </div>
+  
+                      <div class="filter-item">
+                          <label class="switch" for="entradas">
+                              <input type="checkbox" id="entradas" name="entry.2114407444" value="Entradas">
+                              <span class="slider"></span>
+                          </label>
+                          <span>ENTRADAS</span>
+                      </div>
+                  </div>
+                  <div class="toggle-row">
+                      <div class="filter-item">
+                          <label class="switch" for="sobremesas">
+                              <input type="checkbox" id="sobremesas" name="entry.2114407444" value="Sobremesas">
+                              <span class="slider"></span>
+                          </label>
+                          <span>SOBREMESAS</span>
+                      </div>
+  
+                      <div class="filter-item">
+                          <label class="switch" for="lanches">
+                              <input type="checkbox" id="lanches" name="entry.2114407444" value="Lanches">
+                              <span class="slider"></span>
+                          </label>
+                          <span>LANCHES</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="form-group inline">
+              <label class="type">Tipo de Dieta</label>
+              <div class="toggle-group">
+                  <div class="toggle-row">
+                      <div class="filter-item">
+                          <label class="switch" for="sem-gluten">
+                              <input type="checkbox" id="sem-gluten" name="entry.699137761" value="Sem gluten">
+                              <span class="slider"></span>
+                          </label>
+                          <span>SEM GLÚTEN</span>
+                      </div>
+  
+                      <div class="filter-item">
+                          <label class="switch" for="sem-soja">
+                              <input type="checkbox" id="sem-soja" name="entry.699137761" value="Sem soja">
+                              <span class="slider"></span>
+                          </label>
+                          <span>SEM SOJA</span>
+                      </div>
+                      <div class="filter-item">
+                          <label class="switch" for="sem-frutos-secos">
+                              <input type="checkbox" id="sem-frutos-secos" name="entry.699137761" value="Sem frutos secos">
+                              <span class="slider"></span>
+                          </label>
+                          <span>SEM FRUTOS SECOS</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </fieldset>
+  
+      <!-- Recipe Description -->
+      <fieldset class="recipe-description">
+          <h3>DESCRIÇÃO DA RECEITA</h3>
+          <div class="form-group time inline">
+              <label class="type-descrição">Tempo</label>
+              <label>PREPARAÇÃO</label>
+              <input type="number" name="entry.46318755" placeholder="0">
+              <label>CONFEÇÃO</label>
+              <input type="number" name="entry.1316089135" placeholder="0">
+              <label>TOTAL</label>
+              <input type="number" name="entry.613014372" placeholder="0">
+          </div>
+          <div class="form-group inline">
+              <label for="porcoes" class="type-descrição">Porções</label>
+              <input type="number" id="porcoes" name="entry.934127508">
+          </div>
+          <div class="form-group inline">
+              <label for="ingredientes" class="type-descrição">Ingredientes</label>
+              <textarea id="ingredientes" name="entry.743506935" rows="4" placeholder="Escreve cada ingrediente separado por vírgulas"></textarea>
+          </div>
+          <div class="form-group inline">
+              <label for="instrucoes" class="type-descrição">Instruções</label>
+              <textarea id="instrucoes" name="entry.1097854610" rows="4"
+                  placeholder="Escreve o passo-a-passo de forma clara de toda a receita"></textarea>
+          </div>
+      </fieldset>
+      <div class="button-container">
+          <button type="submit" class="contactos-special">ENVIAR A RECEITA <i class="fas fa-arrow-right"></i></button>
       </div>
-    </fieldset>
-
-    <!-- Recipe Description -->
-    <fieldset class="recipe-description">
-      <h3>DESCRIÇÃO DA RECEITA</h3>
-      <div class="form-group time inline">
-        <label class="type-descrição">Tempo</label>
-        <label>PREPARAÇÃO</label>
-        <input type="number" placeholder="0">
-        <label>CONFEÇÃO</label>
-        <input type="number" placeholder="0">
-        <label>TOTAL</label>
-        <input type="number" placeholder="0">
-      </div>
-      <div class="form-group inline">
-        <label for="porcoes" class="type-descrição">Porções</label>
-        <input type="number" id="porcoes">
-      </div>
-      <div class="form-group inline">
-        <label for="ingredientes" class="type-descrição">Ingredientes</label>
-        <textarea id="ingredientes" rows="4" placeholder="Escreve cada ingrediente separado por vírgulas"></textarea>
-      </div>
-      <div class="form-group inline">
-        <label for="instrucoes" class="type-descrição">Instruções</label>
-        <textarea id="instrucoes" rows="4"
-          placeholder="Escreve o passo-a-passo de forma clara de toda a receita"></textarea>
-      </div>
-    </fieldset>
-    <div class="button-container">
-      <button type="submit" class="contactos-special">ENVIAR A RECEITA <i class="fas fa-arrow-right"></i></button>
-    </div>
-
   </form>
+  
 </div>
+<script>
+  document.querySelector("form").addEventListener("submit", function () {
+      alert("A tua receita foi enviada com sucesso!");
+  });
+</script>
+<script>
+  document.querySelector("form").addEventListener("submit", function (event) {
+      event.preventDefault(); // Prevent default form submission
+      setTimeout(() => {
+          window.location.href = "obrigado.html"; // Replace with your thank-you page
+      }, 1000); // Wait for 1 second before redirect
+  });
+</script>
+
