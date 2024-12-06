@@ -6,7 +6,7 @@ layout: default
   <h2>Envia-nos a tua receita</h2>
   <p class="paragraph">Vamos experimentar a tua receita e se gostarmos, teremos todo o gosto em publicá-la no site com os devidos
     créditos.</p>
-    <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScG02oQp3REnNfyF8dolRLIgUk5S_RUwv-DAKTqsYafEFM90Q/formResponse">
+    <form method="POST" action="https://docs.google.com/forms/d/e/1FAIpQLScG02oQp3REnNfyF8dolRLIgUk5S_RUwv-DAKTqsYafEFM90Q/formResponse"id="recipeForm">
       <!-- Personal Information -->
       <fieldset class="personal-info">
           <h3>INFORMAÇÃO PESSOAL</h3>
@@ -18,16 +18,16 @@ layout: default
               <label for="email" class="type-name">E-mail</label>
               <input type="email" id="email" name="entry.1075749776" placeholder="O teu e-mail" required>
           </div>
-          <div class="form-group inline credits">
-              <label class="type-name">Créditos</label>
-              <div class="radio-group">
-                  <input type="radio" id="sim" name="entry.1227523485" value="SIM">
-                  <label for="sim">SIM</label>
-                  <input type="radio" id="nao" name="entry.1227523485" value="NÃO">
-                  <label for="nao">NÃO</label>
-              </div>
-              <input type="text" id="credit-name" name="entry.469997194" placeholder="Se sim, qual o nome/site que queres que apareça?">
-          </div>
+            <div class="form-group inline credits">
+                <label class="type-name">Créditos</label>
+                <div class="radio-group">
+                    <input type="radio" id="sim" name="entry.1227523485" value="SIM">
+                    <label for="sim">SIM</label>
+                    <input type="radio" id="nao" name="entry.1227523485" value="NÃO">
+                    <label for="nao">NÃO</label>
+                </div>
+                <input type="text" id="credit-name" name="entry.469997194" placeholder="Se sim, qual o nome/site que queres que apareça?">
+            </div>
       </fieldset>
   
       <!-- Recipe Details -->
@@ -159,5 +159,55 @@ layout: default
           window.location.href = "obrigado.html"; // Replace with your thank-you page
       }, 1000); // Wait for 1 second before redirect
   });
+</script>
+<script>
+    // Add custom validation messages for each field
+    document.querySelectorAll("#recipeForm input, #recipeForm textarea").forEach(input => {
+        input.addEventListener("invalid", function (event) {
+            event.preventDefault(); // Prevent the default message from showing
+
+            // Set custom message based on input type
+            if (input.type === "text") {
+                input.setCustomValidity("Por favor, preencha este campo corretamente.");
+            } else if (input.type === "email") {
+                input.setCustomValidity("Por favor, insira um e-mail válido.");
+            } else if (input.type === "number") {
+                input.setCustomValidity("Por favor, insira um valor numérico.");
+            } else {
+                input.setCustomValidity("Este campo é obrigatório.");
+            }
+
+            input.reportValidity(); // Show the custom validation message
+        });
+
+        // Clear custom messages on input
+        input.addEventListener("input", function () {
+            input.setCustomValidity(""); // Clear the custom message
+        });
+    });
+</script>
+<script>
+    // Get the radio buttons and the input field
+    const simRadio = document.getElementById("sim");
+    const naoRadio = document.getElementById("nao");
+    const creditNameInput = document.getElementById("credit-name");
+
+    // Function to toggle the required attribute
+    function toggleRequired() {
+        if (simRadio.checked) {
+            creditNameInput.required = true;
+            creditNameInput.setAttribute("aria-required", "true"); // For accessibility
+        } else {
+            creditNameInput.required = false;
+            creditNameInput.setAttribute("aria-required", "false"); // For accessibility
+        }
+    }
+
+    // Add event listeners to the radio buttons
+    simRadio.addEventListener("change", toggleRequired);
+    naoRadio.addEventListener("change", toggleRequired);
+
+    // Initial check on page load
+    toggleRequired();
 </script>
 
