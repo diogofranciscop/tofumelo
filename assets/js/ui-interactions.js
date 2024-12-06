@@ -101,4 +101,27 @@ $(window).resize(() => {
 $(document).ready(adjustVisibility);
 
 
+function updateHeights() {
+    const navbar = document.getElementById('nav');
+    const footer = document.getElementById('footer');
+
+    // Get heights of navbar and footer
+    const navbarHeight = navbar.offsetHeight + 'px'; // Height including padding and borders
+    const footerHeight = footer.offsetHeight; // Height including padding and borders
+
+    // Get computed margins of the footer
+    const footerStyles = window.getComputedStyle(footer);
+    const footerMargin = parseInt(footerStyles.marginTop) + parseInt(footerStyles.marginBottom);
+
+    // Calculate total footer height (including margins)
+    const totalFooterHeight = footerHeight + footerMargin + 'px';
+
+    // Set CSS variables dynamically
+    document.documentElement.style.setProperty('--navbar-height', navbarHeight);
+    document.documentElement.style.setProperty('--footer-height', totalFooterHeight);
+}
+
+// Adjust heights on page load and window resize
+window.addEventListener('load', updateHeights);
+window.addEventListener('resize', updateHeights);
 

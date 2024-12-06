@@ -4,6 +4,7 @@
     margin: 0 auto; /* Centers the container horizontally */
     text-align: center; /* Centers text within the container */
     padding: 20px; /* Optional padding for spacing */
+    height: calc(100vh - var(--navbar-height) - var(--footer-height))
   }
   
   .sobre-container h1 {

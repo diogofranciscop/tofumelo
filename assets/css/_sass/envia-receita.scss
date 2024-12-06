@@ -358,7 +358,12 @@
     text-decoration-skip-ink: none;
 
   }
-
+  input[type=number] {
+    text-align: center;
+  }
+  input[type=number]::placeholder {
+    text-align: center;
+  }
 
   @media (max-width: 768px) {
     .form-container {
