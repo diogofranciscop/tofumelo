@@ -1,0 +1,27 @@
+.error-container{
+    height: calc(100vh - var(--navbar-height) - var(--footer-height));
+    justify-content: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.error-title{
+    font-family: "Asap Condensed";
+    font-size: 35px;
+    font-style: italic;
+    font-weight: 800;
+    line-height: 36.67px;
+    text-align: center;
+    color:rgba(35, 99, 12, 1);
+    margin-bottom: 10px; /* Adds space between the h1 and p */
+}
+.error-p{
+    font-family: "Titillium Web";
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 36.5px;
+    text-align: center;
+    margin-top: 0; /* Optional: ensure no extra top margin */
+}

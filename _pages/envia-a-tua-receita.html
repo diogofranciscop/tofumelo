@@ -1,5 +1,6 @@
 ---
 layout: default
+permalink: envia-a-tua-receita
 ---
 
 <div class="form-container">
@@ -148,25 +149,18 @@ layout: default
   
 </div>
 <script>
-  document.querySelector("form").addEventListener("submit", function () {
-      alert("A tua receita foi enviada com sucesso!");
-  });
-</script>
-<script>
-  document.querySelector("form").addEventListener("submit", function (event) {
-      event.preventDefault(); // Prevent default form submission
-      setTimeout(() => {
-          window.location.href = "/envia-a-tua-receita/obrigado/"; // Replace with your thank-you page
-      }, 1000); // Wait for 1 second before redirect
-  });
-</script>
-<script>
-    // Add custom validation messages for each field
-    document.querySelectorAll("#recipeForm input, #recipeForm textarea").forEach(input => {
-        input.addEventListener("invalid", function (event) {
-            event.preventDefault(); // Prevent the default message from showing
+    document.querySelector("form").addEventListener("submit", function (event) {
+    // Prevent default form submission
+    event.preventDefault();
 
-            // Set custom message based on input type
+    let isValid = true;
+
+    // Validate inputs and set custom messages
+    document.querySelectorAll("#recipeForm input, #recipeForm textarea").forEach(input => {
+        if (!input.checkValidity()) {
+            isValid = false;
+
+            // Set custom validation messages
             if (input.type === "text") {
                 input.setCustomValidity("Por favor, preencha este campo corretamente.");
             } else if (input.type === "email") {
@@ -177,37 +171,43 @@ layout: default
                 input.setCustomValidity("Este campo é obrigatório.");
             }
 
-            input.reportValidity(); // Show the custom validation message
-        });
-
-        // Clear custom messages on input
-        input.addEventListener("input", function () {
-            input.setCustomValidity(""); // Clear the custom message
-        });
-    });
-</script>
-<script>
-    // Get the radio buttons and the input field
-    const simRadio = document.getElementById("sim");
-    const naoRadio = document.getElementById("nao");
-    const creditNameInput = document.getElementById("credit-name");
-
-    // Function to toggle the required attribute
-    function toggleRequired() {
-        if (simRadio.checked) {
-            creditNameInput.required = true;
-            creditNameInput.setAttribute("aria-required", "true"); // For accessibility
+            input.reportValidity(); // Display the custom validation message
         } else {
-            creditNameInput.required = false;
-            creditNameInput.setAttribute("aria-required", "false"); // For accessibility
+            input.setCustomValidity(""); // Clear any previous custom messages
         }
+    });
+
+    // Stop form submission if validation fails
+    if (!isValid) {
+        return;
     }
 
-    // Add event listeners to the radio buttons
-    simRadio.addEventListener("change", toggleRequired);
-    naoRadio.addEventListener("change", toggleRequired);
+    // Show success alert
+    alert("A tua receita foi enviada com sucesso!");
 
-    // Initial check on page load
-    toggleRequired();
+    // Redirect after a short delay
+    setTimeout(() => {
+        window.location.href = "/envia-a-tua-receita/obrigado/"; // Replace with your thank-you page
+    }, 1000); // Wait for 1 second before redirect
+});
+
+// Radio button logic for setting 'required' dynamically
+const simRadio = document.getElementById("sim");
+const naoRadio = document.getElementById("nao");
+const creditNameInput = document.getElementById("credit-name");
+
+function toggleRequired() {
+    if (simRadio.checked) {
+        creditNameInput.required = true;
+    } else {
+        creditNameInput.required = false;
+    }
+}
+
+simRadio.addEventListener("change", toggleRequired);
+naoRadio.addEventListener("change", toggleRequired);
+
+// Initial check on page load
+toggleRequired();
+
 </script>
-

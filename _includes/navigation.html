@@ -14,8 +14,8 @@
     {% for item in site.data.navigation %}
     <li>
       <a href="{{ item.link }}" 
-         class="{% if page.url==item.link %}current{% endif %} 
-                {% if item.name=='Envia a tua receita' %}contactos-special{% endif %}">
+         class="{% if page.url == item.link %}current{% endif %} 
+                {% if item.name == 'Envia a tua receita' %}contactos-special{% endif %}">
         {{ item.name }}
       </a>
     </li>

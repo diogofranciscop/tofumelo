@@ -2,29 +2,38 @@ title: "Puro Prazer"
 description: "A collection of vegan recipes"
 baseurl: "" # the subpath of your site, e.g. /blog 
 url: "https://diogofranciscop.github.io" # the base hostname & protocol for your site
+
 collections:
   authors:
     output: true
   chefs:
-      output: true # Ensures the pages from the _chefs collection are generated
+    output: true # Ensures the pages from the _chefs collection are generated
+  pages:
+    output: true
 
 permalink: pretty 
 markdown: kramdown
 
 defaults:
   - scope:
+      path: "_pages"
+      type: "pages"
+    values:
+      layout: "default" # Applies the default layout for all pages in `_pages`
+  - scope:
       path: ""
       type: "authors"
     values:
-      layout: "author"
+      layout: "author" # Applies the author layout to authors
   - scope:
       path: ""
       type: "posts"
     values:
-      layout: "post"
+      layout: "post" # Applies the post layout to blog posts
   - scope:
       path: ""
     values:
-      layout: "default"
+      layout: "default" # Catch-all default layout
+
 plugins:
   - jekyll-sitemap
