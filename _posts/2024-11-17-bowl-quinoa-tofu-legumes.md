@@ -12,8 +12,8 @@ time-total: 40
 time-prepar: 15
 time-confe: 25
 calorias: 477-5
-proteinas: 29.5
-lipidos: 16.7
+proteinas: 29.4
+lipidos: 16.6
 hidratos: 51.3
 author: 
 ingredients:
