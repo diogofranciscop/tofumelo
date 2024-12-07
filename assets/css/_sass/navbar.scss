@@ -123,6 +123,7 @@ nav .contactos-special:hover{
         align-items: center; /* Center the content vertically */
         justify-content: center; /* Center the content horizontally */
         height: 100%; /* Set to 100% of parent height */
+        visibility: visible !important;
       }
       
       .burger {
