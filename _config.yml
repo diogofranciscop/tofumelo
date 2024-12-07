@@ -15,7 +15,8 @@ permalink: pretty
 markdown: kramdown
 
 sass:
-  sass_dir: _sass
+  sass_dir: assets/css/_sass
+
 
 defaults:
   - scope:
