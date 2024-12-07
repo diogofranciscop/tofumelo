@@ -1,7 +1,7 @@
 title: "Puro Prazer"
 description: "A collection of vegan recipes"
 baseurl: "" # the subpath of your site, e.g. /blog 
-url: "https://diogofranciscop.github.io" # the base hostname & protocol for your site
+url: "https://tofumelo.pt" # the base hostname & protocol for your site
 
 collections:
   authors:
