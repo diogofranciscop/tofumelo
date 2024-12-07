@@ -166,14 +166,14 @@ nav .contactos-special:hover{
       filter: none; /* Ensure it overlays other elements */
       border-top: 1px solid #f6f6f6;
       border-bottom: 1px solid #f6f6f6;
-      background-color: rgba(245, 245, 245,0);
+      background-color: rgba(245, 245, 245,1);
       box-shadow: inset 0 4px 6px -4px rgba(0, 0, 0, 0.3);
     }
   
     /* Style for burger button */
     
     nav .contactos-special {
-      background-color: rgba(245, 245, 245,0) !important;
+      background-color: rgba(245, 245, 245,1) !important;
       color: rgba(0, 35, 122, 0.5) !important;
       box-shadow: none;
       border-radius: 0px;
