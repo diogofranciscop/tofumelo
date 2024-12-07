@@ -5,7 +5,7 @@ keywords: "Receita de francesinha vegana, Francesinha sem carne, Francesinha com
 type: ["Almoço/Jantar"]
 permalink: /Francesinha/
 description: "Francesinha vegana com tofu, pleurothus, linguiça e curgete, regada com um molho delicioso"
-image: "/assets/img/francesinha2.webp"
+image: "/assets/img/francesinha.webp"
 serve: 2 refeições
 diet: ["s-frutos-secos"]
 time-total: 85
