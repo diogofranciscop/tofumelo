@@ -5,7 +5,7 @@ keywords: "Receita de tofu na cerveja, Tofu marinado com cerveja, Prato principa
 permalink: /tofu-na-cerveja/
 type: ["Almoço/Jantar"]
 description: "Tofu em marinada de mostarda, alho, e ervas com batatas douradas e um toque de cerveja"
-image: "/assets/img/tofu-na-cerveja.png"
+image: "/assets/img/tofu-na-cerveja.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos", "s-gluten"]
 time-total: 55

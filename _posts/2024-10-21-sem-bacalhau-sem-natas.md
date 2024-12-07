@@ -6,7 +6,7 @@ type: ["Almoço/Jantar"]
 serve: 4 porções
 permalink: /sem-bacalhau-sem-natas/
 description: "Gratinado cremoso de batatas, cogumelos e tofu com molho branco"
-image: "/assets/img/sem-bacalhau-sem-natas.jpeg"
+image: "/assets/img/sem-bacalhau-sem-natas.webp"
 diet: ["s-frutos-secos"]
 time-total: 85
 time-prepar: 20

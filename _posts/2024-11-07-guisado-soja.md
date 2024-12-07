@@ -5,7 +5,7 @@ keywords: "Receita de guisado de soja, Estufado de soja com cogumelos, Guisado v
 permalink: /guisado-de-soja/
 type: ["Almoço/Jantar"]
 description: "Estufado de soja com cogumelos em molho de tomate temperado"
-image: "/assets/img/guisado-soja.png"
+image: "/assets/img/guisado-soja.webp"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos"]
 time-total: 45

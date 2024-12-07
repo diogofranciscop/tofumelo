@@ -5,7 +5,7 @@ keywords: "Receita de almôndegas veganas, Almôndegas de soja e cogumelos, Alm�
 permalink: /almondegas-soja-cogumelos/
 type: ["Almoço/Jantar"]
 description: "Almôndegas de soja e cogumelos, ricas em sabor e perfeitas com molho."
-image: "/assets/img/almondegas.jpeg"
+image: "/assets/img/almondegas.webp"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos"]
 time-total: 50

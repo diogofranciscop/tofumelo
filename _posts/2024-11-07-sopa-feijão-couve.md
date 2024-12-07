@@ -5,7 +5,7 @@ keywords: "Receita de sopa de feijão, Sopa de feijão-manteiga e couve, Sopa ve
 permalink: /sopa-feijao-couve/
 type: ["Entrada"]
 description: "Sopa cremosa de legumes, couve e feijão-manteiga"
-image: "/assets/img/sopa-feijão-couve.png"
+image: "/assets/img/sopa-feijão-couve.webp"
 serve: 6 pratos de sopa
 diet: ["s-gluten", "s-soja", "s-frutos-secos"]
 time-total: 40

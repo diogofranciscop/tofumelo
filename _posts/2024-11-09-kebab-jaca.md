@@ -5,7 +5,7 @@ keywords: "Receita de kebab vegano, Kebab com jaca e cogumelos, Pão pita caseir
 permalink: /kebab-jaca/
 type: ["Almoço/Jantar"]
 description: "Pão pita caseiro recheado com jaca temperada, legumes frescos e maionese picante"
-image: "/assets/img/kebab-jaca.png"
+image: "/assets/img/kebab-jaca.webp"
 serve: 4 kebabs
 diet: ["s-soja", "s-frutos-secos"]
 time-total: 75

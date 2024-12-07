@@ -5,7 +5,7 @@ keywords: "Receita de bolachas de aveia, Bolachas crocantes com chocolate, Como 
 permalink: /bolachas-aveia-chocolate/
 type: ["Sobremesa","Lanche"]
 description: "Bolachas crocantes de aveia com pedaços de chocolate negro"
-image: "/assets/img/bolachas_aveia.png"
+image: "/assets/img/bolachas_aveia.webp"
 serve: 15 bolachas
 minutes: "?"
 diet: ["s-soja", "s-frutos-secos"]

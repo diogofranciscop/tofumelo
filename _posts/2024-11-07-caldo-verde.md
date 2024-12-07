@@ -5,7 +5,7 @@ keywords: "Receita de caldo verde, Sopa vegana tradicional, Caldo verde com couv
 permalink: /caldo-verde/
 type: ["Entrada"]
 description: "Sopa cremosa de legumes com couve e rodelas de cenoura, leve e nutritiva."
-image: "/assets/img/caldo-verde.png"
+image: "/assets/img/caldo-verde.webp"
 serve: 6 pratos de sopa
 diet: ["s-gluten","s-frutos-secos", "s-soja"]
 time-total: 50

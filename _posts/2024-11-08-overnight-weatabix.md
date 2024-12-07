@@ -5,7 +5,7 @@ keywords: "Receita de overnight weetabix, Pequeno-almoço saudável com weetabix
 permalink: /overnight-weetabix/
 type: ["Pequeno-Almoço","Lanche"]
 description: "Weetabix  adormecidos com iogurte e fruta fresca"
-image: "/assets/img/overnight-weetabix.png"
+image: "/assets/img/overnight-weetabix.webp"
 serve: 1
 diet: ["s-gluten","s-soja"]
 time-total: 10

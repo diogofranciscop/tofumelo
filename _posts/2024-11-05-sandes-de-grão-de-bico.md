@@ -5,7 +5,7 @@ keywords: "Receita de sandes vegana, Sandes de grão-de-bico, Sandes saudável c
 permalink: /sandes-grão-de-bico/
 type: ["Almoço/Jantar"]
 description: "Sanduíche de grão-de-bico picante e cogumelos grelhados, com uma salada cremosa de couve e cenoura"
-image: "/assets/img/sandes-grão-bico.png"
+image: "/assets/img/sandes-grão-bico.webp"
 serve: 4 sandes
 diet: ["s-soja","s-frutos-secos"]
 time-total: 25

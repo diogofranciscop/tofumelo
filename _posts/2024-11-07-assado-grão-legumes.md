@@ -5,7 +5,7 @@ keywords: "Receita de assado vegano, Assado de batata e grão-de-bico, Legumes a
 permalink: /assado-grão-legumes/
 type: ["Almoço/Jantar"]
 description: "Assado de legumes, batata e grão-de-bico"
-image: "/assets/img/assado-batata-grao.png"
+image: "/assets/img/assado-batata-grao.webp"
 serve: 4 refeições
 diet: ["s-gluten", "s-soja", "s-frutos-secos"]
 time-total: 35

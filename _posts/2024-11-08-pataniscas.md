@@ -5,7 +5,7 @@ keywords: "Receita de pataniscas de legumes, Pataniscas veganas crocantes, Como 
 permalink: /pataniscas-legumes/
 type: ["almoço", "snack"]
 description: "Pataniscas de legumes fritas e crocantes"
-image: "/assets/img/pataniscas.png"
+image: "/assets/img/pataniscas.webp"
 serve: 4 refeições
 diet: ["s-gluten","s-frutos-secos", "s-soja"]
 time-total: 35

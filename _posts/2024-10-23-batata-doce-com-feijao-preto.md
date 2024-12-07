@@ -6,7 +6,7 @@ type: ["Almoço/Jantar"]
 serve: 4 porções
 permalink: /batata-doce-com-feijao-preto/
 description: "Batatas doces assadas com feijão preto refogado"
-image: "/assets/img/batata-doce-feijao-preto.jpeg"
+image: "/assets/img/batata-doce-feijao-preto.webp"
 diet: ["s-soja", "s-frutos-secos", "s-gluten"]
 time-total: 65
 time-prepar: 15

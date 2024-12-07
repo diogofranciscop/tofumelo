@@ -5,7 +5,7 @@ keywords: "Receita de soja à alentejana, Soja marinada com batatas, Prato vegan
 permalink: /soja-alentejana/
 type: ["almoço"]
 description: "Soja marinada à alentejana acompanhada de batatas fritas crocantes"
-image: "/assets/img/soja-alentejana.png"
+image: "/assets/img/soja-alentejana.webp"
 serve: 4 refeições
 diet: ["s-gluten", "s-frutos-secos"]
 time-total: 40

@@ -5,7 +5,7 @@ keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sti
 permalink: /tofu-sticky/
 type: ["Almoço/Jantar"]
 description: "Tofu com molho asiático agridoce e picante, servido em um wrap e com legumes"
-image: "/assets/img/tofu-sticky.png"
+image: "/assets/img/tofu-sticky.webp"
 serve: 4
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 45

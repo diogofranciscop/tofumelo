@@ -5,7 +5,7 @@ keywords: "Receita de tofu mexido, Tofu mexido com cogumelos, Pequeno-almoço ve
 permalink: /tofu-mexido/
 type: ["Pequeno-Almoço","Lanche"]
 description: "Torradas com tofu mexido e cogumelos"
-image: "/assets/img/tofu-mexido.jpeg"
+image: "/assets/img/tofu-mexido.webp"
 serve: 2 refeições
 diet: ["s-frutos-secos", "s-gluten"]
 time-total: 10

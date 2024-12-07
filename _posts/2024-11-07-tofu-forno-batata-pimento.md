@@ -5,7 +5,7 @@ keywords: "Receita de tofu no forno, Tofu assado com batatas e pimentos, Prato v
 permalink: /tofu-com-batatas-pimentos/
 type: ["Almoço/Jantar"]
 description: "Tofu, batatas, pimentos e cebolas assados com ervas frescas, cobertos por um molho cremoso"
-image: "/assets/img/tofu-forno-batata-pimento.png"
+image: "/assets/img/tofu-forno-batata-pimento.webp"
 serve: 4 refeições
 diet: ["s-gluten", "s-frutos-secos"]
 time-total: 55
