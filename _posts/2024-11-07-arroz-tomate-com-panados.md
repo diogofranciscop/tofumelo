@@ -4,7 +4,7 @@ title: "Arroz de tomate com Panados"
 keywords: "Receita de arroz de tomate, Arroz de tomate com panados veganos, Panados de seitan caseiro, Prato principal vegano, Como fazer panados crocantes"
 permalink: /arroz-tomate-com-panados/
 type: ["Almoço/Jantar"]
-description: "Arroz de tomate aromático acompanhado por panados crocantes de seitan caseiro."
+description: "Arroz de tomate aromático acompanhado por panados crocantes de seitan caseiro"
 image: "/assets/img/arroz-tomate-com-panados.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos", "s-soja"]
