@@ -84,16 +84,20 @@ function setupRoleSelection() {
         const role = $(this).data('role');
         toggleSelection(role, 'role');
         
-        // Ensure the `selected` class reflects the state in `selectedRoles`
+        // Update the `selected` class based on the state
         if (selectedRoles.includes(role)) {
             $(this).addClass('selected');
         } else {
             $(this).removeClass('selected');
         }
 
+        // Blur the button to remove lingering focus/active styles
+        $(this).blur();
+
         filterAndSortPosts();
     });
 }
+
 
 
 function setupDietSelection() {
