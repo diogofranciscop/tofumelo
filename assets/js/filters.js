@@ -83,10 +83,18 @@ function setupRoleSelection() {
     $('.button-4').on('click', function () {
         const role = $(this).data('role');
         toggleSelection(role, 'role');
-        $(this).toggleClass('selected', selectedRoles.includes(role));
+        
+        // Ensure the `selected` class reflects the state in `selectedRoles`
+        if (selectedRoles.includes(role)) {
+            $(this).addClass('selected');
+        } else {
+            $(this).removeClass('selected');
+        }
+
         filterAndSortPosts();
     });
 }
+
 
 function setupDietSelection() {
     $('#filterBox input[data-diet]').on('change', function () {
