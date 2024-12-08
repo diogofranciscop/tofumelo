@@ -24,8 +24,10 @@ function loadRecipes(posts) {
 
     const $postContainer = $('#post-container');
 
-    // Clear any existing content
-    $postContainer.empty();
+    if ($postContainer.children().length > 0) {
+        return; // Prevent re-rendering if the content is already loaded
+    }
+    
 
     // Add a placeholder card with a green spinner for each post
     posts.forEach(post => {
@@ -86,9 +88,10 @@ function loadRecipes(posts) {
                 display: flex;
                 justify-content: center;
                 align-items: center;
-                height: 200px; /* Adjust height as per your card design */
+                height: 270px; /* Adjust height as per your card design */
                 border: 1px solid #ddd; /* Optional for card outline */
                 margin: 10px;
+                width:200px;
             }
             .card__spinner {
                 display: flex;
@@ -100,8 +103,8 @@ function loadRecipes(posts) {
             .spinner {
                 width: 40px;
                 height: 40px;
-                border: 4px solid rgba(0, 255, 0, 0.2); /* Light green border */
-                border-top: 4px solid #00ff00; /* Solid green for spinning */
+                border: 4px solid rgba(84, 130, 76, 0.2); /* Light green border */
+                border-top: 4px solid #54824c; /* Solid green for spinning */
                 border-radius: 50%;
                 animation: spin 1s linear infinite;
             }
