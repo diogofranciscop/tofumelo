@@ -79,24 +79,23 @@ function positionFilterBox(button) {
     });
 }
 
-function setupRoleSelection() {
-    $('.button-4').on('click', function () {
-        const role = $(this).data('role');
-        toggleSelection(role, 'role');
-        
-        // Update the `selected` class based on the state
-        if (selectedRoles.includes(role)) {
-            $(this).addClass('selected');
-        } else {
-            $(this).removeClass('selected');
-        }
+$('.button-4').on('click', function (event) {
+    event.preventDefault();
+    event.stopPropagation();
 
-        // Blur the button to remove lingering focus/active styles
-        $(this).blur();
+    const role = $(this).data('role');
+    toggleSelection(role, 'role');
 
-        filterAndSortPosts();
-    });
-}
+    if (selectedRoles.includes(role)) {
+        $(this).addClass('selected');
+    } else {
+        $(this).removeClass('selected');
+    }
+
+    $(this).blur();
+
+    filterAndSortPosts();
+});
 
 
 
