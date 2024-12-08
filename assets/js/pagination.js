@@ -24,9 +24,8 @@
 
         const $postContainer = $('#post-container');
 
-        if ($postContainer.children().length > 0) {
-            return; // Prevent re-rendering if the content is already loaded
-        }
+        $('#post-container').empty(); // Clear previous posts
+
         
 
         // Add a placeholder card with a green spinner for each post
