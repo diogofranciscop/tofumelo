@@ -1,5 +1,5 @@
 .obrigado-container{
-    height: calc(100vh - var(--navbar-height) - var(--footer-height));
+    min-height: calc(100vh - var(--navbar-height) - var(--footer-height));
     justify-content: center;
   display: flex;
   flex-direction: column;

@@ -81,7 +81,17 @@ nav .contactos-special:hover{
   background: rgb(250, 250, 250); 
   color: rgba(0, 35, 122, 0.7) !important;
 }
+@media (max-width: 800px) {
+  .burger-menu {
+      display: block !important;
+  }
+}
 
+@media (min-width: 801px) {
+  .burger-menu {
+      display: none !important;
+  }
+}
 /* Mobile Styles */
 @media (max-width: 768px) {
     body{

@@ -15,7 +15,7 @@ $(document).ready(function () {
 
     // Handle burger menu functionality
     function handleBurgerMenu() {
-        if ($(window).width() <= 768) {
+        if ($(window).width() <= 800) {
             $('.burger-menu').show();
             $('#burger-toggle').off('click').on('click', function () {
                 $('#nav-links').toggleClass('active');
