@@ -1,9 +1,9 @@
 function loadPage(page, posts) {
-    const postsPerPage = 20;
+    const postsPerPage = window.innerWidth <= 768 ? 10 : 20; // 10 for mobile, 20 for desktop
     const start = page * postsPerPage;
     const end = Math.min(start + postsPerPage, posts.length);
     loadRecipes(posts.slice(start, end)); // Load recipes for current page
-    createPaginationButtons(page, posts); // Create pagination
+    createPaginationButtons(page, posts, postsPerPage); // Pass postsPerPage to pagination
 }
 
 function loadRecipes(posts) {
@@ -49,11 +49,8 @@ function loadRecipes(posts) {
     });
 }
 
-
-
-// Function to create pagination buttons based on the filtered list of posts
-function createPaginationButtons(currentPage, posts) {
-    const totalPages = Math.ceil(posts.length / 20);
+function createPaginationButtons(currentPage, posts, postsPerPage) {
+    const totalPages = Math.ceil(posts.length / postsPerPage);
     $('#pagination-container').empty();
 
     const $firstPage = $('<button>').text('PRIMEIRA PÁGINA').addClass('pagination-button').on('click', () => {
