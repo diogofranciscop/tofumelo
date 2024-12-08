@@ -91,8 +91,7 @@ permalink: /
       <p>{{ post.description }}</p> <!-- Add a description here -->
     </div>
     <div class="card__img-container">
-      <img src="{{ post.image }}" class="card__img" alt="Recipe Image">
-
+      <img src="{{ post.image | split: '.' | first }}-180px.{{ post.image | split: '.' | last }}" class="card__img" alt="Recipe Image">
     </div>
     <div class="card__footer">
       <span class="title-card">{{ post.title | upcase}}</span>
