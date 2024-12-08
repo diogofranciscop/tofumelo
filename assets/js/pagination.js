@@ -22,32 +22,102 @@ function loadRecipes(posts) {
         '/assets/img/soja-alentejana-180px.webp'
     ];
 
-    $('#post-container').empty(); // Clear previous posts
+    const $postContainer = $('#post-container');
 
+    // Clear any existing content
+    $postContainer.empty();
+
+    // Add a placeholder card with a green spinner for each post
     posts.forEach(post => {
-        const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, '-180px.$1'); // Append '-180px' before the extension
-
-        // Check if the imagePath is in the lazyLoadImages list
-        const lazyLoadAttribute = lazyLoadImages.includes(imagePath) ? 'loading="lazy"' : '';
-
-        const $postElement = $('<a>')
-            .attr('href', post.url)
-            .addClass('card')
-            .html(`
-                <div class="card__overlay">
-                    <p>${post.description}</p>
+        const $loadingCard = $(`
+            <div class="card loading-card">
+                <div class="card__spinner">
+                    <div class="spinner"></div>
                 </div>
-                <div class="card__img-container">
-                    <img src="${imagePath}" class="card__img" alt="${post.title}" ${lazyLoadAttribute}> <!-- Use post.title as alt -->
-                </div>
-                <div class="card__footer">
-                    <span class="title-card">${post.title.toUpperCase()}</span>
-                </div>
-            `);
+            </div>
+        `);
 
-        $('#post-container').append($postElement); // Add post to container
+        $postContainer.append($loadingCard);
+
+        // Preload the image
+        const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, '-180px.$1');
+        const img = new Image();
+        img.src = imagePath;
+
+        img.onload = () => {
+            // Ensure the spinner is only removed once
+            if ($loadingCard.parent().length) {
+                const lazyLoadAttribute = lazyLoadImages.includes(imagePath) ? 'loading="lazy"' : '';
+
+                const $postElement = $(`
+                    <a href="${post.url}" class="card">
+                        <div class="card__overlay">
+                            <p>${post.description}</p>
+                        </div>
+                        <div class="card__img-container">
+                            <img src="${imagePath}" class="card__img" alt="${post.title}" ${lazyLoadAttribute}>
+                        </div>
+                        <div class="card__footer">
+                            <span class="title-card">${post.title.toUpperCase()}</span>
+                        </div>
+                    </a>
+                `);
+
+                $loadingCard.replaceWith($postElement);
+            }
+        };
+
+        img.onerror = () => {
+            // Handle image loading error
+            if ($loadingCard.parent().length) {
+                $loadingCard.replaceWith(`
+                    <div class="card error-card">
+                        <p>Failed to load the recipe image.</p>
+                    </div>
+                `);
+            }
+        };
     });
+
+    // Add spinner styles
+    const spinnerStyles = `
+        <style>
+            .loading-card {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 200px; /* Adjust height as per your card design */
+                border: 1px solid #ddd; /* Optional for card outline */
+                margin: 10px;
+            }
+            .card__spinner {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                height: 100%;
+                width: 100%;
+            }
+            .spinner {
+                width: 40px;
+                height: 40px;
+                border: 4px solid rgba(0, 255, 0, 0.2); /* Light green border */
+                border-top: 4px solid #00ff00; /* Solid green for spinning */
+                border-radius: 50%;
+                animation: spin 1s linear infinite;
+            }
+            @keyframes spin {
+                from {
+                    transform: rotate(0deg);
+                }
+                to {
+                    transform: rotate(360deg);
+                }
+            }
+        </style>
+    `;
+    $('head').append(spinnerStyles);
 }
+
 
 function createPaginationButtons(currentPage, posts, postsPerPage) {
     const totalPages = Math.ceil(posts.length / postsPerPage);
