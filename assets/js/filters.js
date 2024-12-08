@@ -51,6 +51,29 @@ function loadOriginalPosts() {
     originalOrder = JSON.parse(JSON.stringify(allPosts)); // Create a deep copy of the original posts
     loadPage(0, originalOrder); // Load the original posts
 }
+function setupRoleSelection() {
+    $('.button-4').on('click', function (event) {
+        const role = $(this).data('role');
+        toggleSelection(role, 'role');
+
+        if (selectedRoles.includes(role)) {
+            $(this).addClass('selected');
+        } else {
+            $(this).removeClass('selected');
+
+            // Manually reset focus and active states
+            $(this).css({
+                'background-color': 'rgba(35, 99, 12, 0.3)', // Reset to default
+                'box-shadow': '0px 4px 4px 0px rgba(0, 0, 0, 0.2)' // Reset shadow
+            });
+        }
+
+        // Blur the button
+        $(this).blur();
+
+        filterAndSortPosts();
+    });
+}
 
 
 function setupFilterButton() {
