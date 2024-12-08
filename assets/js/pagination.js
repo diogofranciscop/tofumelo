@@ -9,6 +9,7 @@ function loadPage(page, posts) {
 function loadRecipes(posts) {
     $('#post-container').empty(); // Clear previous posts
     posts.forEach(post => {
+        const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, '-180px.$1'); // Append '-180px' before the extension
         const $postElement = $('<a>')
             .attr('href', post.url)
             .addClass('card')
@@ -17,7 +18,7 @@ function loadRecipes(posts) {
                     <p>${post.description}</p>
                 </div>
                 <div class="card__img-container">
-                    <img src="${post.image}" class="card__img" alt="Recipe Image">
+                    <img src="${imagePath}" class="card__img" alt="${post.title}"> <!-- Use post.title as alt -->
                 </div>
                 <div class="card__footer">
                     <span class="title-card">${post.title.toUpperCase()}</span>
@@ -26,6 +27,7 @@ function loadRecipes(posts) {
         $('#post-container').append($postElement); // Add post to container
     });
 }
+
 
 // Function to create pagination buttons based on the filtered list of posts
 function createPaginationButtons(currentPage, posts) {

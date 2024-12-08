@@ -84,20 +84,7 @@ permalink: /
 
 
 <div class="posts" id="post-container">
-  {% for post in site.posts %}
-  <a href="{{ post.url }}" class="card" data-type="{{ post.type | join: ',' }}" data-role="{{post.title | join: ','}}"
-    data-time="{{ post.time-total | join: ',' }}" data-diet="{{ post.diet  | join: ',' }}">
-    <div class="card__overlay">
-      <p>{{ post.description }}</p> <!-- Add a description here -->
-    </div>
-    <div class="card__img-container">
-      <img src="{{ post.image | split: '.' | first }}-180px.{{ post.image | split: '.' | last }}" class="card__img" alt="Recipe Image">
-    </div>
-    <div class="card__footer">
-      <span class="title-card">{{ post.title | upcase}}</span>
-    </div>
-  </a>
-  {% endfor %}
+
 </div>
 <div id="pagination-container" class="pagination"></div>
 <script>
@@ -124,15 +111,3 @@ permalink: /
     });
     {% endfor %}
 </script>
-<!--
-PLAY BUTTON 
-<svg viewBox="0 0 448 512" title="play">
-        <path d="M424.4 214.7L72.4 6.6C43.8-10.3 0 6.1 0 47.9V464c0 37.5 40.7 60.1 72.4 41.3l352-208c31.4-18.5 31.5-64.1 0-82.6z" />
-      </svg>>
-
-INFO BUTTON
-<div class="info-button">
-    <span>ℹ️</span>
-    <div class="info-tooltip">Here is some information about this feature.</div>
-  </div>
--->
