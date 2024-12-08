@@ -7,9 +7,29 @@ function loadPage(page, posts) {
 }
 
 function loadRecipes(posts) {
+    const lazyLoadImages = [
+        '/assets/img/tofu-forno-batata-pimento-180px.webp',
+        '/assets/img/tofu-na-cerveja-180px.webp',
+        '/assets/img/tofu-sticky-180px.webp',
+        '/assets/img/sopa-feijão-couve-180px.webp',
+        '/assets/img/guisado-soja-180px.webp',
+        '/assets/img/caldo-verde-180px.webp',
+        '/assets/img/assado-batata-grao-180px.webp',
+        '/assets/img/arroz-tomate-com-panados-180px.webp',
+        '/assets/img/arroz-sem-pato-180px.webp',
+        '/assets/img/sandes-grão-bico-180px.webp',
+        '/assets/img/tofu-mexido-180px.webp',
+        '/assets/img/soja-alentejana-180px.webp'
+    ];
+
     $('#post-container').empty(); // Clear previous posts
+
     posts.forEach(post => {
         const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, '-180px.$1'); // Append '-180px' before the extension
+
+        // Check if the imagePath is in the lazyLoadImages list
+        const lazyLoadAttribute = lazyLoadImages.includes(imagePath) ? 'loading="lazy"' : '';
+
         const $postElement = $('<a>')
             .attr('href', post.url)
             .addClass('card')
@@ -18,15 +38,17 @@ function loadRecipes(posts) {
                     <p>${post.description}</p>
                 </div>
                 <div class="card__img-container">
-                    <img src="${imagePath}" class="card__img" alt="${post.title}"> <!-- Use post.title as alt -->
+                    <img src="${imagePath}" class="card__img" alt="${post.title}" ${lazyLoadAttribute}> <!-- Use post.title as alt -->
                 </div>
                 <div class="card__footer">
                     <span class="title-card">${post.title.toUpperCase()}</span>
                 </div>
             `);
+
         $('#post-container').append($postElement); // Add post to container
     });
 }
+
 
 
 // Function to create pagination buttons based on the filtered list of posts
