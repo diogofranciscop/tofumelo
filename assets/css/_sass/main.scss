@@ -41,4 +41,16 @@ body {
   place-items: center;
   margin-top: 0px;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
+@font-face {
+  font-family: 'Holen Vintage';
+  src: url('/assets/fonts/holen_vintage/Holen Vintage.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
 
