@@ -83,25 +83,22 @@ function setupRoleSelection() {
     $('.button-4').on('click', function () {
         const role = $(this).data('role');
         toggleSelection(role, 'role');
-        
-        // Update the `selected` class based on the state
+
+        // Update the `selected` class
         if (selectedRoles.includes(role)) {
             $(this).addClass('selected');
         } else {
             $(this).removeClass('selected');
         }
 
-        // Blur the button to remove lingering focus/active styles
-        setTimeout(() => {
-            $(this).blur();
-            $('body').focus(); // Force focus away from the button
-        }, 0);
-         // Delay ensures Safari processes focus reset
-
+        // Force focus removal by recreating the button
+        const button = $(this).detach(); // Remove from DOM
+        $(button).appendTo('.filter-buttons'); // Reattach to DOM
 
         filterAndSortPosts();
     });
 }
+
 
 
 
