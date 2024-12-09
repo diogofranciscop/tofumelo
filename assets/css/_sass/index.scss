@@ -469,7 +469,7 @@ display: none;
 .button-3:active:not(.selected) {
   background-color: rgba(35, 99, 12, 0.3) !important;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2) !important;
-  outline: none;
+  outline: none !important;
 }
 
 /* Ensure proper layering */
