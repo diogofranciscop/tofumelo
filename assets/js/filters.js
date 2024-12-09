@@ -80,22 +80,21 @@ function positionFilterBox(button) {
 }
 
 function setupRoleSelection() {
-    $('.button-4').on('click', function () {
+    $('.button-4').on('click touchend', function (e) {
+        e.preventDefault(); // Prevent default behavior for touch events
         const role = $(this).data('role');
         toggleSelection(role, 'role');
 
-        // Update the `selected` class
+        // Update the `selected` class based on the state
         if (selectedRoles.includes(role)) {
             $(this).addClass('selected');
         } else {
             $(this).removeClass('selected');
         }
 
-        // Create a temporary focusable element
-        const tempElement = $('<input style="opacity:0;position:absolute;">');
-        $('body').append(tempElement);
-        tempElement.focus(); // Shift focus to the temporary element
-        tempElement.remove(); // Remove the element after focus shift
+        // Explicitly remove focus to handle iOS Safari
+        $(this).blur(); // Remove focus
+        $('body').focus(); // Force focus away from the button
 
         filterAndSortPosts();
     });
