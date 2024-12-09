@@ -92,7 +92,8 @@ function setupRoleSelection() {
         }
 
         // Blur the button to remove lingering focus/active styles
-        $(this).blur();
+        setTimeout(() => $(this).blur(), 0); // Delay ensures Safari processes focus reset
+
 
         filterAndSortPosts();
     });
