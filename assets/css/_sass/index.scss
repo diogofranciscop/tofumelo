@@ -267,11 +267,6 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
 
-.button-3:focus:not(.selected) {
-  background-color: rgba(35, 99, 12, 0.3)!important; 
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2)!important; 
-}
-
 
 .selected {
 background-color: rgba(35, 99, 12, 0.5)!important;
@@ -459,25 +454,6 @@ display: none;
   font-size: 1rem; /* Further reduced title size */
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15); /* Adjusted shadow for smaller size */
   max-width: 90%; /* Ensure title fits well */
-  /* Ensure proper tap targets */
-.button-3 {
-  -webkit-tap-highlight-color: transparent; /* Remove tap highlight */
-}
-
-/* Reset focus/active states for mobile Safari */
-.button-3:focus:not(.selected),
-.button-3:active:not(.selected) {
-  background-color: rgba(35, 99, 12, 0.3) !important;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2) !important;
-  outline: none !important;
-}
-
-/* Ensure proper layering */
-.button-3 {
-  position: relative;
-  z-index: 1;
-}
-
 }
 @media screen and (max-width: 768px) {
   .pagination {
@@ -512,14 +488,8 @@ display: none;
   @supports (-webkit-appearance: none) {
       .button-3:focus:not(.selected),
       .button-3:active:not(.selected) {
-          background-color: transparent !important; /* Fully reset */
-          box-shadow: none !important; /* Remove shadow */
-          outline: none !important; /* Clear any focus outline */
+          background-color: rgba(35, 99, 12, 0.3) !important; /* Reset background */
+          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2) !important; /* Reset shadow */
       }
   }
-}
-
-
-button, .button-3 {
-  -webkit-tap-highlight-color: transparent;
 }
