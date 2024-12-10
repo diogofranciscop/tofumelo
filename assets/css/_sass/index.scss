@@ -225,49 +225,21 @@ background-color: #d9d9d9 !important;
 margin-right: 0; 
 }
 
-.button-3:focus:not(:focus-visible):not(.focus-visible) {
-box-shadow: none;
-outline: none;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Slightly smaller shadow size */
-}
 
-.button-3:hover {
-background-color: rgba(35, 99, 12, 0.5); /* Softer hover background */
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
-}
 
+
+
+@media(min-width:800px){
 .button-3:focus {
 box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
 outline: none;
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
 }
-.filter-button:active {
-background-color: #d9d9d9 !important;
-}
-
-.button-3:disabled {
-background-color: #94d3a2;
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
-border-color: rgba(27, 31, 35, .1);
-color: rgba(255, 255, 255, .8);
-cursor: default;
-}
-
-.button-3:active {
-background-color: rgba(35, 99, 12, 0.6);
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
-}
-.button-3:focus, .button-3:active {
-  background-color: rgba(35, 99, 12, 0.3); /* Reset to default background */
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2); /* Reset shadow */
-}
-
-.button-3.selected:focus, .button-3.selected:active {
-  background-color: rgba(35, 99, 12, 0.5) !important;
+.button-3:hover {
+  background-color: rgba(35, 99, 12, 0.5); /* Softer hover background */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
+  }
 }
-
-
 .selected {
 background-color: rgba(35, 99, 12, 0.5)!important;
 color: black; 
@@ -483,13 +455,4 @@ display: none;
   }
 }
 
-}
-@media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) {
-      .button-3:focus:not(.selected),
-      .button-3:active:not(.selected) {
-          background-color: rgba(35, 99, 12, 0.3) !important; /* Reset background */
-          box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.2) !important; /* Reset shadow */
-      }
-  }
 }
