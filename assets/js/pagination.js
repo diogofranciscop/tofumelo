@@ -92,6 +92,17 @@
                     margin: 10px;
                     width:200px;
                 }
+                @media(max-width:800px){
+                    .loading-card {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    border: 1px solid #ddd; /* Optional for card outline */
+                    margin: 10px;
+                    width: 140px;
+                    height: 190px;
+                }
+                }
                 .card__spinner {
                     display: flex;
                     justify-content: center;
