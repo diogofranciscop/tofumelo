@@ -76,8 +76,10 @@
       }
   
       .hidden {
-        display: none;
-      }
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
     </style>
   </head>
   <body class="body-default">
@@ -93,11 +95,10 @@
     </div>
     {% include footer.html %}
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        const loaderContainer = document.getElementById("loader-container");  
-        loaderContainer.classList.add("hidden"); 
-
-      });
+      window.addEventListener("load", function () {
+  const loaderContainer = document.getElementById("loader-container");
+  loaderContainer.classList.add("hidden"); // Add the "hidden" class to hide the loader
+});
     </script>    
   </body>
 </html>
