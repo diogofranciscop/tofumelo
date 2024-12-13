@@ -24,6 +24,9 @@
 
         const $postContainer = $('#post-container');
 
+        const existingPosts = $postContainer.children('.card');
+        if (existingPosts.length === posts.length) return;
+
         $('#post-container').empty(); // Clear previous posts
 
         
@@ -173,3 +176,9 @@
 
         $('#pagination-container').append($nextPage, $lastPage);
     }
+    
+    document.addEventListener("DOMContentLoaded", function () {
+        const loader = document.getElementById("loader");
+
+      });
+      

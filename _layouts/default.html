@@ -39,8 +39,51 @@
     <script src="/assets/js/pagination.js" defer></script>
     <script src="/assets/js/version.js" defer></script>
     <script src="/assets/js/ui-interaction.min.js" defer></script>
+    <style>
+      /* Grey Background and Loader Styles */
+      #loader-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(200, 200, 200, 1); /* Grey with transparency */
+        z-index: 9998;
+      }
+  
+      .loader {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border: 8px solid rgba(84, 130, 76, 0.2); /* Light green border */
+        border-top: 8px solid #54824c; /* Solid green for spinning */
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+        width: 60px;
+        height: 60px;
+        animation: spin 1s linear infinite;
+        z-index: 9999;
+      }
+  
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+  
+      .hidden {
+        display: none;
+      }
+    </style>
   </head>
   <body class="body-default">
+    <div id="loader-container">
+      <div id="loader" class="loader"></div>
+    </div>    
     {% include navigation.html %}
     <div class="container-default">
         <div class="content-default">
@@ -49,5 +92,12 @@
         </div>
     </div>
     {% include footer.html %}
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const loaderContainer = document.getElementById("loader-container");  
+        loaderContainer.classList.add("hidden"); 
+
+      });
+    </script>    
   </body>
 </html>
