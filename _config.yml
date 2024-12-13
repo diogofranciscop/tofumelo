@@ -49,4 +49,3 @@ defaults:
 
 plugins:
   - jekyll-sitemap
-  - jekyll-minifier
