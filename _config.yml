@@ -1,7 +1,14 @@
-title: "Tofumelo"
-description: "Descubra as melhores receitas vegan fáceis e deliciosas para todas as ocasiões."
+title: "Tofumelo - Receitas Vegan Fáceis e Deliciosas"
+description: "Descubra as melhores receitas vegan para pequenos-almoços, almoços, jantares e sobremesas. Simples, saborosas e saudáveis."
 baseurl: "" # the subpath of your site, e.g. /blog 
 url: "https://tofumelo.pt" # the base hostname & protocol for your site
+
+jekyll-sitemap:
+  changefreq: "weekly"
+  priority: "0.8"
+  enable: true
+  canonical: true
+
 
 collections:
   authors:
@@ -42,3 +49,4 @@ defaults:
 
 plugins:
   - jekyll-sitemap
+  - jekyll-minifier
