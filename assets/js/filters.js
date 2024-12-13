@@ -31,6 +31,9 @@ function reapplyFilters() {
 
 
 function resetFilters() {
+    // Mark filters as reset
+    filtersReset = true;
+
     // Reset variables
     selectedRoles = [];
     selectedDiets = [];
@@ -46,7 +49,13 @@ function resetFilters() {
 
     // Reload original posts
     loadPage(0, originalOrder);
+
+    // Reset the flag after reloading posts
+    setTimeout(() => {
+        filtersReset = false;
+    }, 0);
 }
+
 function loadOriginalPosts() {
     originalOrder = JSON.parse(JSON.stringify(allPosts)); // Create a deep copy of the original posts
     loadPage(0, originalOrder); // Load the original posts

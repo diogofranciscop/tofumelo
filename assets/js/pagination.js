@@ -25,7 +25,11 @@
         const $postContainer = $('#post-container');
 
         const existingPosts = $postContainer.children('.card');
-        if (existingPosts.length === posts.length) return;
+           // Check if any sorting option is applied
+        const isSortingApplied = selectedTitleSort || selectedTimeSort || !selectedTitleSort || !electedTimeSort; // Ensure these variables are defined globally
+
+        // Skip reloading posts only if no sorting is applied and the posts are already loaded
+        if (!isSortingApplied && existingPosts.length === posts.length) return;
 
         $('#post-container').empty(); // Clear previous posts
 
