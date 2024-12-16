@@ -17,11 +17,11 @@ lipidos: 6
 hidratos: 21.9
 author: 
 ingredients:
-    Para as batatas:
+    as batatas:
     - 200gr | de Batata
     - "| Sal q.b."
     - "| Óleo ou Azeite q.b."
-    Para a soja:
+    a soja:
     - 200gr | de Soja Grossa
     - 3 folhas | de Louro
     - 1 | Cebola picada
