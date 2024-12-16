@@ -463,7 +463,7 @@ display: none;
   border-radius: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
 
 .new-tape {
   position: absolute;
@@ -588,7 +588,7 @@ display: none;
   text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15); /* Adjusted shadow for smaller size */
   max-width: 90%; /* Ensure title fits well */
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   .pagination {
     margin-top: 10px; 
     gap:15px;
