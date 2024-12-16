@@ -33,7 +33,7 @@ ingredients:
 instructions:
     - Colocar a soja num recipiente e encher com água quente. Deixa hidratar entre 15 a 20 minutos e escorrer bem. Reservar.
     - Cortar os cogumelos em tiras, picar as cebolas e os alhos.
-    - Num tacho, aquecer o azeite e refogae a cebola, até ficar translúcida. Adicionar os alhos juntamente com a folha de louro.
+    - Num tacho, aquecer o azeite e refogar a cebola, até ficar translúcida. Adicionar os alhos juntamente com a folha de louro.
     - Adicionar os cogumelos e deixar refogar até ficarem macios.
     - Juntar a soja ao refogado, adicionar o molho de soja e o vinagre, e envolver bem. Deixar cozinhar durante 5 minutos.
     - Temperar com salsa, paprika, mostarda em grão, sal e pimenta preta.

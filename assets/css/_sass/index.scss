@@ -233,14 +233,14 @@ margin-right: 0;
 
 .new-tape {
   position: absolute;
-  top: 11%; /* Position relative to parent height */
+  top: 11%;
   left: -17%;
   background: linear-gradient(145deg, #7ba16d, #5f824d);
   color: #fff;
   font-weight: bold;
   padding: 5px 20px;
   transform: rotate(-45deg);
-  z-index: 1;
+  z-index: 1; 
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1) inset;
   overflow: hidden;
   animation: glow 2s infinite;
@@ -620,28 +620,29 @@ display: none;
 @media (min-width: 768px) and (max-width: 1000px) {
   .posts {
     grid-template-columns: repeat(3, 1fr);
-    gap: 10px; /* Adjust gap as needed */
+
     margin-bottom: 3vh; /* Optional spacing */
   }
-
-  .card {
-    width: 160px; /* Adjust card width */
-    height: 220px; /* Adjust card height */
-    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2); /* Optional shadow adjustment */
-    margin-bottom: 20px; /* Spacing between cards */
+  .new-tape {
+    position: absolute;
+    top: 7%;
+    left: -11%;
+    background: linear-gradient(145deg, #7ba16d, #5f824d);
+    color: #fff;
+    font-weight: bold;
+    padding: 5px 20px;
+    transform: rotate(-45deg);
+    z-index: 1;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1) inset;
+    overflow: hidden;
+    animation: glow 2s infinite;
+    font-size: 12px;
+  }
+}
+@media (min-width: 1000px) and (max-width: 1300px) {
+  .new-tape{
+    top: 8%; /* Position relative to parent height */
+    left: -14%;
   }
 
-  .card__img {
-    width: 140px; /* Adjust image width */
-    height: 180px; /* Adjust image height */
-    margin-top: 10px; /* Adjust margin */
-  }
-
-  .card__footer {
-    font-size: 1.1rem; /* Adjust footer font size */
-  }
-
-  .title-card {
-    font-size: 1.1rem; /* Adjust title font size */
-  }
 }
