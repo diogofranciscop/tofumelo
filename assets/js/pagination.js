@@ -56,9 +56,11 @@
                 // Ensure the spinner is only removed once
                 if ($loadingCard.parent().length) {
                     const lazyLoadAttribute = lazyLoadImages.includes(imagePath) ? 'loading="lazy"' : '';
+                    const newTape = post.new === "yes" ? '<div class="new-tape">New Recipe</div>' : '';
 
                     const $postElement = $(`
                         <a href="${post.url}" class="card">
+                            ${newTape ? '<div class="new-tape">Nova Receita</div>' : ''}
                             <div class="card__overlay">
                                 <p>${post.description}</p>
                             </div>

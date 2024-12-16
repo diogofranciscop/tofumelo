@@ -15,7 +15,7 @@ calorias: 477-5
 proteinas: 29.4
 lipidos: 16.6
 hidratos: 51.3
-author: 
+author:     
 ingredients:
     o tofu:
     - 400gr | de Tofu
@@ -58,5 +58,6 @@ instructions:
     o molho:
     - Numa taça pequena, misturar o miso e o tahini. Juntar o sriracha e misturar. Depois, acrescente o molho de soja devagar, para não ganhar grumos. Juntar o sumo de limão e alho em pó. Misturar tudo muito bem. Reservar.
     - Para a montagem da Bowl - colocar a quinoa como base e, por cima, o pepino, a cenoura, a couve roxa, os cogumelos, a courgette, o tofu e o edamame. Finalizar com o molho e as sementes de sésamo e está pronto a servir.
+    
 ---
 

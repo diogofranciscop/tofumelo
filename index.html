@@ -107,7 +107,8 @@ permalink: /
         image: "{{ post.image }}",
         type: "{{ post.type | join: ',' }}",
         time: "{{ post.time-total | join: ',' }}",
-        diet: "{{ post.diet | join: ',' }}"
+        diet: "{{ post.diet | join: ',' }}",
+        new: "{{post.new }}"
     });
     {% endfor %}
 </script>

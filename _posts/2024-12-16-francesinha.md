@@ -16,6 +16,7 @@ proteinas: 34.6
 lipidos: 52
 hidratos: 64.7
 author: omeletes-sem-ovos
+new: "yes"
 ingredients: 
   o Molho:
     - 1 chávena de chá | de Polpa de Tomate
