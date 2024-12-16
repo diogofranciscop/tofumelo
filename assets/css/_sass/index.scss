@@ -230,6 +230,86 @@ margin-right: 0;
 
 
 @media(min-width:800px){
+
+.new-tape {
+  position: absolute;
+  top: 30px;
+  left: -32px;
+  background: linear-gradient(145deg, #7ba16d, #5f824d);
+  color: #fff;
+  font-weight: bold;
+  padding: 5px 20px;
+  transform: rotate(-45deg);
+  z-index: 1;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1) inset;
+  overflow: hidden;
+  animation: glow 2s infinite;
+}
+
+/* Create a pseudo-element for the 3D shadow effect */
+.new-tape::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(145deg, rgba(0, 0, 0, 0.1), rgba(255, 255, 255, 0.2));
+  transform: translate(3px, 3px) rotate(-45deg); /* Adjust offset for 3D illusion */
+  z-index: -1; /* Place behind the tape */
+  filter: blur(2px); /* Subtle blur for depth */
+}
+
+/* Add a shiny effect for the tape */
+.new-tape::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0) 50%);
+  opacity: 0.5;
+  transform: skewX(-30deg); /* Skew for reflective angle */
+  animation: shine 2s infinite;
+}
+
+/* Post card container to ensure it fits properly */
+.post-card {
+  position: relative;
+  overflow: hidden;
+  /* Add other styles for post cards */
+}
+
+/* Animation for the shine effect */
+@keyframes shine {
+  0% {
+    left: -100%; /* Start off-screen */
+  }
+  50% {
+    left: 50%; /* Midway across */
+  }
+  100% {
+    left: 100%; /* End off-screen */
+  }
+}
+
+/* Glow animation for the tape */
+@keyframes glow {
+  0% {
+    box-shadow: 0 0 5px rgba(123, 161, 109, 0.5), 0 0 10px rgba(123, 161, 109, 0.4),
+      0 0 15px rgba(123, 161, 109, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 10px rgba(123, 161, 109, 0.7), 0 0 20px rgba(123, 161, 109, 0.6),
+      0 0 30px rgba(123, 161, 109, 0.5);
+  }
+  100% {
+    box-shadow: 0 0 5px rgba(123, 161, 109, 0.5), 0 0 10px rgba(123, 161, 109, 0.4),
+      0 0 15px rgba(123, 161, 109, 0.3);
+  }
+}
+
 .button-3:focus {
 box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
 outline: none;
@@ -384,88 +464,11 @@ display: none;
 }
 
 @media (max-width: 768px) {
-  .wrap-search{
-    padding-top: 7vw;
-  }
-  body .posts {
-    align-items: center;
-    margin-top: 10px; /* Add some spacing for small screens */
-    grid-template-columns: repeat(2, 1fr);
-    gap:0px;
-    margin-bottom: 2vh;
-}
-
-.card {
-  width: 140px; /* Further reduced width */
-  height: 190px; /* Further reduced height */
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); /* Adjusted shadow for smaller cards */
-  margin-bottom: 15px; /* Reduced spacing between cards */
-}
-
-.card__img {
-  width: 120px; /* Reduced width */
-  height: 140px; /* Reduced height */
-  margin-top: 5px; /* Reduced margin */
-}
-
-.card__overlay {
-  font-size: 0.9rem; /* Slightly smaller font size */
-  padding: 8px; /* Reduced padding */
-}
-
-.card__overlay p {
-  font-size: 0.8rem; /* Further reduced font size for description */
-}
-
-.card__footer {
-  font-size: 1rem; /* Reduced footer font size */
-  line-height: 1.2; /* Adjust line height for compact appearance */
-}
-
-.title-card {
-  font-size: 1rem; /* Further reduced title size */
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15); /* Adjusted shadow for smaller size */
-  max-width: 90%; /* Ensure title fits well */
-  .new-tape{
-    top: 20px;
-    left: -27px;
-    font-size: 11;
-  }
-}
-@media screen and (max-width: 768px) {
-  .pagination {
-    margin-top: 10px; 
-    gap:15px;
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-
-  .pagination-button,
-  .pagination-ellipsis {
-    padding: 4px 8px; /* Reduce padding */
-    font-size: 12px; /* Decrease font size */
-    border-radius: 20px; /* Adjust border radius */ 
-    margin-left: 0px;
-  }
-
-  .pagination-button.active,
-  .pagination-button:hover {
-    border-radius: 40%; /* Adjust radius for active or hovered state */
-  }
-
-  .pagination-button:first-of-type,
-  .pagination-button:last-of-type {
-    padding: 4px 12px; /* Adjust padding for the first and last buttons */
-    border-radius: 10px; /* Smaller border radius for specific buttons */
-  }
-}
-
-}
 
 .new-tape {
   position: absolute;
-  top: 30px;
-  left: -32px;
+  top: 20px;
+  left: -27px;
   background: linear-gradient(145deg, #7ba16d, #5f824d);
   color: #fff;
   font-weight: bold;
@@ -475,6 +478,7 @@ display: none;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1) inset;
   overflow: hidden;
   animation: glow 2s infinite;
+  font-size: 11px;
 }
 
 /* Create a pseudo-element for the 3D shadow effect */
@@ -539,4 +543,77 @@ display: none;
     box-shadow: 0 0 5px rgba(123, 161, 109, 0.5), 0 0 10px rgba(123, 161, 109, 0.4),
       0 0 15px rgba(123, 161, 109, 0.3);
   }
+}
+
+  .wrap-search{
+    padding-top: 7vw;
+  }
+  body .posts {
+    align-items: center;
+    margin-top: 10px; /* Add some spacing for small screens */
+    grid-template-columns: repeat(2, 1fr);
+    gap:0px;
+    margin-bottom: 2vh;
+}
+
+.card {
+  width: 140px; /* Further reduced width */
+  height: 190px; /* Further reduced height */
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); /* Adjusted shadow for smaller cards */
+  margin-bottom: 15px; /* Reduced spacing between cards */
+}
+
+.card__img {
+  width: 120px; /* Reduced width */
+  height: 140px; /* Reduced height */
+  margin-top: 5px; /* Reduced margin */
+}
+
+.card__overlay {
+  font-size: 0.9rem; /* Slightly smaller font size */
+  padding: 8px; /* Reduced padding */
+}
+
+.card__overlay p {
+  font-size: 0.8rem; /* Further reduced font size for description */
+}
+
+.card__footer {
+  font-size: 1rem; /* Reduced footer font size */
+  line-height: 1.2; /* Adjust line height for compact appearance */
+}
+
+.title-card {
+  font-size: 1rem; /* Further reduced title size */
+  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.15); /* Adjusted shadow for smaller size */
+  max-width: 90%; /* Ensure title fits well */
+}
+@media screen and (max-width: 768px) {
+  .pagination {
+    margin-top: 10px; 
+    gap:15px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .pagination-button,
+  .pagination-ellipsis {
+    padding: 4px 8px; /* Reduce padding */
+    font-size: 12px; /* Decrease font size */
+    border-radius: 20px; /* Adjust border radius */ 
+    margin-left: 0px;
+  }
+
+  .pagination-button.active,
+  .pagination-button:hover {
+    border-radius: 40%; /* Adjust radius for active or hovered state */
+  }
+
+  .pagination-button:first-of-type,
+  .pagination-button:last-of-type {
+    padding: 4px 12px; /* Adjust padding for the first and last buttons */
+    border-radius: 10px; /* Smaller border radius for specific buttons */
+  }
+}
+
 }
