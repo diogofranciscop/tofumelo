@@ -233,8 +233,6 @@ margin-right: 0;
 
 .new-tape {
   position: absolute;
-  top: 11%;
-  left: -17%;
   background: linear-gradient(145deg, #7ba16d, #5f824d);
   color: #fff;
   font-weight: bold;
@@ -643,6 +641,13 @@ display: none;
   .new-tape{
     top: 8%; /* Position relative to parent height */
     left: -14%;
+  }
+
+}
+@media (min-width: 1300px) {
+  .new-tape{
+    top: 11%; /* Position relative to parent height */
+    left: -17%;
   }
 
 }
