@@ -7,6 +7,7 @@
     <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
     <meta name="author" content="Tofumelo">
     <title>Tofumelo</title>
+    {{ page.head | safe }}
     <link rel="icon" href="/assets/img/logo-fav-icon.webp" type="image/webp" sizes="64x64">
 
     <!-- Stylesheets -->
@@ -101,6 +102,6 @@
   const loaderContainer = document.getElementById("loader-container");
   loaderContainer.classList.add("hidden"); // Add the "hidden" class to hide the loader
 });
-    </script>    
+    </script>      
   </body>
 </html>

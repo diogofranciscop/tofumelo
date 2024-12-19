@@ -1,9 +1,9 @@
 ---
 layout: post-2
 title: "Francesinha"
-keywords: "Receita de francesinha vegana, Francesinha sem carne, Francesinha com tofu e cogumelos, Como fazer francesinha vegana, Molho de francesinha caseiro"
+keywords: "Receita de francesinha vegana, Francesinha sem carne, Francesinha com tofu e cogumelos, Como fazer francesinha vegana, Molho de francesinha caseiro, Francesinha vegan"
 type: ["Almoço/Jantar"]
-permalink: /Francesinha/
+permalink: /francesinha/
 description: "Francesinha vegana com tofu, pleurothus, linguiça e curgete, regada com um molho delicioso"
 image: "/assets/img/francesinha.webp"
 serve: 2 refeições
