@@ -1,15 +1,23 @@
 $(document).ready(function () {
     // Toggle information box
     $(".informação-nutricional").click(function () {
-        $(".InformationBox").toggle();
+        const infoBox = $(".InformationBox");
+
+        // Add 'visible' and remove 'hidden'
+        if (infoBox.hasClass("visible")) {
+            infoBox.removeClass("visible").addClass("hidden");
+        } else {
+            infoBox.removeClass("hidden").addClass("visible");
+        }
     });
 
     // Close information box when clicking outside
     $(document).on('click', function (event) {
         const infoBox = $('.InformationBox');
         const button = $('.informação-nutricional');
+
         if (!infoBox.is(event.target) && infoBox.has(event.target).length === 0 && !button.is(event.target)) {
-            infoBox.hide();
+            infoBox.removeClass("visible").addClass("hidden");
         }
     });
 
