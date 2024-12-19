@@ -1,0 +1,14 @@
+{
+  "name": "Tofumelo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+  "purge-css": "postcss _site/assets/css/styles.css -o assets/css/styles.min.css",
+  "build": "npm run purge-css && bundle exec jekyll build",
+  "serve": "npm run build && bundle exec jekyll serve --host 0.0.0.0"
+},
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "postcss-cli": "^11.0.0"
+  }
+}

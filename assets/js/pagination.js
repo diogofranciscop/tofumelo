@@ -19,7 +19,14 @@
             '/assets/img/arroz-sem-pato-180px.webp',
             '/assets/img/sandes-grão-bico-180px.webp',
             '/assets/img/tofu-mexido-180px.webp',
-            '/assets/img/soja-alentejana-180px.webp'
+            '/assets/img/soja-alentejana-180px.webp',
+            '/assets/img/carbonara2-180px.webp',
+            '/assets/img/bowl-quinoa-180px.webp',
+            '/assets/img/yakisoba-180px.webp',
+            '/assets/img/tosta-abacate-grão-de-bico-cogumelo-180px.webp',
+            '/assets/img/mousse-180px.webp',
+            '/assets/img/kebab-jaca-180px.webp',
+            '/assets/img/bolachas_aveia-180px.webp'
         ];
 
         const $postContainer = $('#post-container');
