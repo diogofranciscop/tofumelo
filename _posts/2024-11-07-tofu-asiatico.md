@@ -2,7 +2,7 @@
 layout: post-2
 title: "Wraps com Tofu Asiático (sticky)"
 keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sticky, Tofu vegano com molho asiático, Tofu fácil com wrap"
-permalink: /tofu-sticky/
+permalink: /tofu-asiatico/
 type: ["Almoço/Jantar"]
 description: "Tofu com molho asiático agridoce e picante, servido em um wrap e com legumes"
 image: "/assets/img/tofu-sticky.webp"

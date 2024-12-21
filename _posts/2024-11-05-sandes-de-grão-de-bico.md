@@ -2,7 +2,7 @@
 layout: post
 title: "Sandes de Grão-de-Bico"
 keywords: "Receita de sandes vegana, Sandes de grão-de-bico, Sandes saudável com cogumelos, Como fazer sandes vegana, Sanduíche sem soja"
-permalink: /sandes-grão-de-bico/
+permalink: /sandes-grao-de-bico/
 type: ["Almoço/Jantar"]
 description: "Sanduíche de grão-de-bico picante e cogumelos grelhados, com uma salada cremosa de couve e cenoura"
 image: "/assets/img/sandes-grão-bico.webp"

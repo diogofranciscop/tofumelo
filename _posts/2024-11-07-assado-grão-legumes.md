@@ -2,7 +2,7 @@
 layout: post
 title: "Assado de batata, grão e legumes"
 keywords: "Receita de assado vegano, Assado de batata e grão-de-bico, Legumes assados no forno, Prato principal saudável, Como fazer assado de legumes"
-permalink: /assado-grão-legumes/
+permalink: /assado-grao-legumes/
 type: ["Almoço/Jantar"]
 description: "Assado de legumes, batata e grão-de-bico"
 image: "/assets/img/assado-batata-grao.webp"

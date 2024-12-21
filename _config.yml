@@ -15,6 +15,7 @@ collections:
     output: true
   chefs:
     output: true # Ensures the pages from the _chefs collection are generated
+    sitemap: false
   pages:
     output: true
 
@@ -50,12 +51,12 @@ defaults:
 plugins:
   - jekyll-sitemap
 exclude:
-  - chefs/bepureinside/
-  - chefs/derek-sarno/
-  - chefs/evagoodlife/
-  - chefs/fitgreenmind/
-  - chefs/greentastecuisine/
-  - chefs/omeletes_sem_ovos/
-  - chefs/tuga-vegetal/
+  - _chefs/bepureinside/
+  - _chefs/derek-sarno/
+  - _chefs/evagoodlife/
+  - _chefs/fitgreenmind/
+  - _chefs/greentastecuisine/
+  - _chefs/omeletes_sem_ovos/
+  - _chefs/tuga-vegetal/
 
 
