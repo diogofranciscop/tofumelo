@@ -60,6 +60,6 @@ instructions:
         - Retirar do forno e servir com uma salada.
 
 notes:
-    - Esta receita foi inspirada aqui [Tuga Vegetal](https://tugavegetal.com/bacalhau-com-natas-vegano/)
+    - Esta receita foi inspirada na receita da [Tuga Vegetal](https://tugavegetal.com/bacalhau-com-natas-vegano/)
     
 ---
