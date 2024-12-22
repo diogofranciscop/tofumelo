@@ -16,7 +16,6 @@ proteinas: 18.4
 lipidos: 5.9
 hidratos: 26.2
 author: original
-new: "yes"
 ingredients:
     - 140gr | de Soja fina
     - 300gr | de Cogumelos aos cubinhos

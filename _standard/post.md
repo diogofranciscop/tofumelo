@@ -16,6 +16,7 @@ proteinas:
 lipidos:
 hidratos:
 author: 
+new:
 ingredients:
     - 
 instructions:

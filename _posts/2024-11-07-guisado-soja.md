@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Guisado de soja"
+title: "Guisado de Soja"
 keywords: "Receita de guisado de soja, Estufado de soja com cogumelos, Guisado vegano fácil, Como fazer guisado de soja, Prato principal vegano"
 permalink: /guisado-de-soja/
 type: ["Almoço/Jantar"]

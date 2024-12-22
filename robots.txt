@@ -1,4 +1,6 @@
 User-agent: *
 Disallow: /chefs/
+Disallow: /assets/img/
+
 
 Sitemap: https://tofumelo.pt/sitemap.xml
