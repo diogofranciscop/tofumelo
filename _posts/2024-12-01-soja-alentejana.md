@@ -1,6 +1,6 @@
 ---
 layout: post-2
-title: "Soja à alentejana"
+title: "Soja à Alentejana"
 keywords: "Receita de soja à alentejana, Soja marinada com batatas, Prato vegano tradicional, Soja sem glúten, Como fazer soja à alentejana"
 permalink: /soja-alentejana/
 type: ["almoço"]

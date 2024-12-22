@@ -1,6 +1,6 @@
 ---
 layout: post-2
-title: "Bowl de quinoa, tofu e legumes"
+title: "Bowl de Quinoa, Tofu e Legumes"
 description: "Bowl colorida, com quinoa, tofu, legumes, edamame e um molho cremoso de tahini e miso"
 keywords: "Receita de bowl vegana, Bowl de quinoa e tofu, Bowl saudável com legumes, Como fazer bowl de quinoa, Prato vegano com molho de tahini e miso"
 permalink: /bowl-quinoa/
@@ -11,7 +11,7 @@ diet: ["s-frutos-secos","s-gluten"]
 time-total: 40
 time-prepar: 15
 time-confe: 25
-calorias: 477-5
+calorias: 477.5
 proteinas: 29.4
 lipidos: 16.6
 hidratos: 51.3

@@ -1,6 +1,6 @@
 ---
 layout: post-2
-title: "Batata doce assada com feijão preto"
+title: "Batata Doce Assada com Feijão Preto"
 keywords: "Receita com batata doce, Batata doce assada com feijão preto, Prato vegano fácil, Batata doce saudável, Feijão preto refogado"
 type: ["Almoço/Jantar"]
 serve: 4 porções

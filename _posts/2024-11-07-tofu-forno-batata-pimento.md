@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tofu no forno com batatas e pimentos"
+title: "Tofu no Forno com Batatas e Pimentos"
 keywords: "Receita de tofu no forno, Tofu assado com batatas e pimentos, Prato vegano saudável, Como fazer tofu com legumes, Tofu crocante no forno"
 permalink: /tofu-com-batatas-pimentos/
 type: ["Almoço/Jantar"]

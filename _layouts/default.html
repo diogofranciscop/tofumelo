@@ -6,8 +6,9 @@
     <meta name="description" content="{{ page.description | default: site.description }}">
     <meta name="keywords" content="{{ page.keywords | default: site.keywords }}">
     <meta name="author" content="Tofumelo">
-    <title>Tofumelo</title>
+    <title>{{ page.title }}</title>
     {{ page.head | safe }}
+    <meta name="robots" content="noimageindex">
     <link rel="icon" href="/assets/img/logo-fav-icon.webp" type="image/webp" sizes="64x64">
 
     <!-- Stylesheets -->
