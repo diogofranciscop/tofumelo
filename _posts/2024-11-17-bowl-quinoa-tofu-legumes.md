@@ -7,12 +7,11 @@ permalink: /bowl-quinoa/
 type: ["Almoço/Jantar"]
 image: "/assets/img/bowl-quinoa.webp"
 serve: 4 refeições
-diet: ["s-frutdescription: ""
-keywords: ""os-secos","s-gluten"]
+diet: ["s-frutos-secos","s-gluten"]
 time-total: 40
 time-prepar: 15
 time-confe: 25
-calorias: 477-5
+calorias: 477.5
 proteinas: 29.4
 lipidos: 16.6
 hidratos: 51.3

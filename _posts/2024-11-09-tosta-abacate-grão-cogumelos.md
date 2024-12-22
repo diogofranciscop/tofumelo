@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Tosta de abacate e cogumelos"
+title: "Tosta de Abacate e Cogumelos"
 keywords: "Receita de tosta de abacate, Tosta vegana com cogumelos, Lanche saudável com abacate, Como fazer tosta de cogumelos grelhados, Pequeno-almoço vegano fácil"
 permalink: /tosta-abacate-cogumelo/
 type: ["Pequeno-Almoço", "Lanche"]
