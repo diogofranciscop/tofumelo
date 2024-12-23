@@ -133,9 +133,23 @@ permalink: /
 
 
 <script>
+  function adjustLazyLoading() {
+    const posts = document.querySelectorAll('.card__img');
+    const isMobile = window.innerWidth <= 768; // Adjust breakpoint for mobile as needed
+    const noLazyLoadCount = isMobile ? 4 : 8;
+
+    posts.forEach((img, index) => {
+      if (index < noLazyLoadCount) {
+        img.removeAttribute('loading'); // Disable lazy loading
+      } else {
+        img.setAttribute('loading', 'lazy'); // Enable lazy loading
+      }
+    });
+  }
+
   function adjustPosts() {
     const posts = document.querySelectorAll('.card');
-    const isMobile = window.innerWidth <= 768; // Adjust breakpoint as needed
+    const isMobile = window.innerWidth <= 768;
     const limit = isMobile ? 10 : 20;
 
     posts.forEach((post, index) => {
@@ -144,8 +158,13 @@ permalink: /
   }
 
   // Run on initial load
+  adjustLazyLoading();
   adjustPosts();
 
   // Re-run on window resize
-  window.addEventListener('resize', adjustPosts);
+  window.addEventListener('resize', () => {
+    adjustLazyLoading();
+    adjustPosts();
+  });
 </script>
+
