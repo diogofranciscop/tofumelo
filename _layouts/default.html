@@ -32,6 +32,11 @@
     rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap"
     rel="stylesheet">
+  <!--  Preloading for Optimization -->
+  <link rel="preload" as="image" href="/assets/img/bowl-quinoa.webp">
+  <link rel="preload" as="image" href="/assets/img/francesinha-180px.webp">
+  <link rel="preload" as="image" href="/assets/img/salada-sem-polvo-180px.webp">
+  <link rel="preload" as="image" href="/assets/img/bolo-chocolate-180px.webp">
  
   <link rel="preload" href="/assets/js/pagination.min.js" as="script">
   <link rel="preload" href="/assets/js/version.js" as="script">
@@ -122,32 +127,6 @@
     window.addEventListener("load", function () {
       const loaderContainer = document.getElementById("loader-container");
       loaderContainer.classList.add("hidden"); // Add the "hidden" class to hide the loader
-    });
-  </script>
-  <script>
-    document.addEventListener("DOMContentLoaded", () => {
-      const isMobile = window.innerWidth <= 768; // Define breakpoint for mobile
-      const preloadCount = isMobile ? 4 : 8; // First 4 for mobile, 8 for desktop
-  
-      // Dynamically generate image paths from Jekyll posts
-      const images = [
-        {% for post in site.posts limit: 8 %}
-        "{{ post.image }}",
-        {% endfor %}
-      ];
-  
-      // Get the first `preloadCount` images based on screen size
-      const preloadImages = images.slice(0, preloadCount);
-  
-      // Add <link rel="preload"> elements to the <head> section
-      const head = document.querySelector("head");
-      preloadImages.forEach((image) => {
-        const link = document.createElement("link");
-        link.rel = "preload";
-        link.as = "image";
-        link.href = image;
-        head.appendChild(link);
-      });
     });
   </script>
   
