@@ -65,12 +65,14 @@ function loadPage(page, posts) {
 
 function loadRecipes(posts) {
     const $postContainer = $('#post-container');
-
-    // Clear the old content to replace it
     $postContainer.empty();
 
-    // Add a loading spinner for each post
-    posts.forEach(post => {
+    // Decide how many images will skip lazy loading
+    // If width ≤ 768 → skip first 4, else skip first 8
+    const skipLazyCount = window.innerWidth <= 768 ? 4 : 8;
+
+    // Loop through posts and set up preloading
+    posts.forEach((post, index) => {
         const $loadingCard = $(`
             <div class="card loading-card">
                 <div class="card__spinner">
@@ -78,7 +80,6 @@ function loadRecipes(posts) {
                 </div>
             </div>
         `);
-
         $postContainer.append($loadingCard);
 
         // Preload the image
@@ -87,11 +88,15 @@ function loadRecipes(posts) {
         img.src = imagePath;
 
         img.onload = () => {
-            // Ensure the spinner is replaced only once
+            // Only remove spinner if it still exists in DOM
             if ($loadingCard.parent().length) {
-                const lazyLoadAttribute = 'loading="lazy"';
-                const newTape = post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : '';
+                // Remove lazy loading attribute for the first skipLazyCount images
+                let lazyLoadAttribute = 'loading="lazy"';
+                if (index < skipLazyCount) {
+                    lazyLoadAttribute = '';
+                }
 
+                const newTape = post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : '';
                 const $postElement = $(`
                     <a href="${post.url}" class="card">
                         ${newTape}
@@ -112,7 +117,6 @@ function loadRecipes(posts) {
         };
 
         img.onerror = () => {
-            // Handle image loading errors gracefully
             if ($loadingCard.parent().length) {
                 $loadingCard.replaceWith(`
                     <div class="card error-card">
@@ -121,7 +125,6 @@ function loadRecipes(posts) {
                 `);
             }
         };
-        
     });
 }
 
