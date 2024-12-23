@@ -1,123 +1,22 @@
-    function loadPage(page, posts) {
-        const postsPerPage = window.innerWidth <= 768 ? 10 : 20; // 10 for mobile, 20 for desktop
-        const start = page * postsPerPage;
-        const end = Math.min(start + postsPerPage, posts.length);
-        loadRecipes(posts.slice(start, end)); // Load recipes for current page
-        createPaginationButtons(page, posts, postsPerPage); // Pass postsPerPage to pagination
-    }
-
-    function loadRecipes(posts) {
-        const lazyLoadImages = [
-            '/assets/img/tofu-forno-batata-pimento-180px.webp',
-            '/assets/img/tofu-na-cerveja-180px.webp',
-            '/assets/img/tofu-sticky-180px.webp',
-            '/assets/img/sopa-feijão-couve-180px.webp',
-            '/assets/img/guisado-soja-180px.webp',
-            '/assets/img/caldo-verde-180px.webp',
-            '/assets/img/assado-batata-grao-180px.webp',
-            '/assets/img/arroz-tomate-com-panados-180px.webp',
-            '/assets/img/arroz-sem-pato-180px.webp',
-            '/assets/img/sandes-grão-bico-180px.webp',
-            '/assets/img/tofu-mexido-180px.webp',
-            '/assets/img/soja-alentejana-180px.webp',
-            '/assets/img/carbonara2-180px.webp',
-            '/assets/img/bowl-quinoa-180px.webp',
-            '/assets/img/yakisoba-180px.webp',
-            '/assets/img/tosta-abacate-grão-de-bico-cogumelo-180px.webp',
-            '/assets/img/mousse-180px.webp',
-            '/assets/img/kebab-jaca-180px.webp',
-            '/assets/img/bolachas_aveia-180px.webp'
-        ];
-
-        const $postContainer = $('#post-container');
-
-        const existingPosts = $postContainer.children('.card');
-           // Check if any sorting option is applied
-        const isSortingApplied = selectedTitleSort || selectedTimeSort || !selectedTitleSort || !electedTimeSort; // Ensure these variables are defined globally
-
-        // Skip reloading posts only if no sorting is applied and the posts are already loaded
-        if (!isSortingApplied && existingPosts.length === posts.length) return;
-
-        $('#post-container').empty(); // Clear previous posts
-
-        
-
-        // Add a placeholder card with a green spinner for each post
-        posts.forEach(post => {
-            const $loadingCard = $(`
-                <div class="card loading-card">
-                    <div class="card__spinner">
-                        <div class="spinner"></div>
-                    </div>
-                </div>
-            `);
-
-            $postContainer.append($loadingCard);
-
-            // Preload the image
-            const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, '-180px.$1');
-            const img = new Image();
-            img.src = imagePath;
-
-            img.onload = () => {
-                // Ensure the spinner is only removed once
-                if ($loadingCard.parent().length) {
-                    const lazyLoadAttribute = lazyLoadImages.includes(imagePath) ? 'loading="lazy"' : '';
-                    const newTape = post.new === "yes" ? '<div class="new-tape">New Recipe</div>' : '';
-
-                    const $postElement = $(`
-                        <a href="${post.url}" class="card">
-                            ${newTape ? '<div class="new-tape">Nova Receita</div>' : ''}
-                            <div class="card__overlay">
-                                <p>${post.description}</p>
-                            </div>
-                            <div class="card__img-container">
-                                <img src="${imagePath}" class="card__img" alt="${post.title}" ${lazyLoadAttribute}>
-                            </div>
-                            <div class="card__footer">
-                                <span class="title-card">${post.title.toUpperCase()}</span>
-                            </div>
-                        </a>
-                    `);
-
-                    $loadingCard.replaceWith($postElement);
-                }
-            };
-
-            img.onerror = () => {
-                // Handle image loading error
-                if ($loadingCard.parent().length) {
-                    $loadingCard.replaceWith(`
-                        <div class="card error-card">
-                            <p>Failed to load the recipe image.</p>
-                        </div>
-                    `);
-                }
-            };
-        });
-
-        // Add spinner styles
+document.addEventListener("DOMContentLoaded", function () {
+    // Add spinner styles once
+    if (!$('#spinner-styles').length) {
         const spinnerStyles = `
-            <style>
+            <style id="spinner-styles">
                 .loading-card {
                     display: flex;
                     justify-content: center;
                     align-items: center;
                     height: 270px; /* Adjust height as per your card design */
-                    border: 1px solid #ddd; /* Optional for card outline */
+                    border: 1px solid #ddd;
                     margin: 10px;
-                    width:200px;
+                    width: 200px;
                 }
-                @media(max-width:800px){
+                @media(max-width: 800px) {
                     .loading-card {
-                    display: flex;
-                    justify-content: center;
-                    align-items: center;
-                    border: 1px solid #ddd; /* Optional for card outline */
-                    margin: 10px;
-                    width: 140px;
-                    height: 190px;
-                }
+                        height: 190px;
+                        width: 140px;
+                    }
                 }
                 .card__spinner {
                     display: flex;
@@ -129,8 +28,8 @@
                 .spinner {
                     width: 40px;
                     height: 40px;
-                    border: 4px solid rgba(84, 130, 76, 0.2); /* Light green border */
-                    border-top: 4px solid #54824c; /* Solid green for spinning */
+                    border: 4px solid rgba(84, 130, 76, 0.2);
+                    border-top: 4px solid #54824c;
                     border-radius: 50%;
                     animation: spin 1s linear infinite;
                 }
@@ -146,52 +45,130 @@
         `;
         $('head').append(spinnerStyles);
     }
+});
+
+function loadPage(page, posts) {
+    const postsPerPage = window.innerWidth <= 768 ? 10 : 20;
+    const start = page * postsPerPage;
+    const end = Math.min(start + postsPerPage, posts.length);
+    const newPosts = posts.slice(start, end);
+
+    // Clear the current content in #post-container
+    $('#post-container').empty();
+
+    // Load the new set of recipes for the selected page
+    loadRecipes(newPosts);
+
+    // Update pagination buttons
+    createPaginationButtons(page, posts, postsPerPage);
+}
+
+function loadRecipes(posts) {
+    const $postContainer = $('#post-container');
+
+    // Clear the old content to replace it
+    $postContainer.empty();
+
+    // Add a loading spinner for each post
+    posts.forEach(post => {
+        const $loadingCard = $(`
+            <div class="card loading-card">
+                <div class="card__spinner">
+                    <div class="spinner"></div>
+                </div>
+            </div>
+        `);
+
+        $postContainer.append($loadingCard);
+
+        // Preload the image
+        const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, '-180px.$1');
+        const img = new Image();
+        img.src = imagePath;
+
+        img.onload = () => {
+            // Ensure the spinner is replaced only once
+            if ($loadingCard.parent().length) {
+                const lazyLoadAttribute = 'loading="lazy"';
+                const newTape = post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : '';
+
+                const $postElement = $(`
+                    <a href="${post.url}" class="card">
+                        ${newTape}
+                        <div class="card__overlay">
+                            <p>${post.description}</p>
+                        </div>
+                        <div class="card__img-container">
+                            <img src="${imagePath}" class="card__img" alt="${post.title}" ${lazyLoadAttribute}>
+                        </div>
+                        <div class="card__footer">
+                            <span class="title-card">${post.title.toUpperCase()}</span>
+                        </div>
+                    </a>
+                `);
+
+                $loadingCard.replaceWith($postElement);
+            }
+        };
+
+        img.onerror = () => {
+            // Handle image loading errors gracefully
+            if ($loadingCard.parent().length) {
+                $loadingCard.replaceWith(`
+                    <div class="card error-card">
+                        <p>Failed to load the recipe image.</p>
+                    </div>
+                `);
+            }
+        };
+        
+    });
+}
 
 
-    function createPaginationButtons(currentPage, posts, postsPerPage) {
-        const totalPages = Math.ceil(posts.length / postsPerPage);
-        $('#pagination-container').empty();
+function createPaginationButtons(currentPage, posts, postsPerPage) {
+    const totalPages = Math.ceil(posts.length / postsPerPage);
+    $('#pagination-container').empty();
 
-        const $firstPage = $('<button>').text('PRIMEIRA PÁGINA').addClass('pagination-button').on('click', () => {
-            loadPage(0, posts);
-            $(window).scrollTop(0); // Scroll to top
+    const $firstPage = $('<button>').text('PRIMEIRA PÁGINA').addClass('pagination-button').on('click', () => {
+        loadPage(0, posts);
+        $(window).scrollTop(0); // Scroll to top
+    });
+    const $lastPage = $('<button>').text('ÚLTIMA PÁGINA').addClass('pagination-button').on('click', () => {
+        loadPage(totalPages - 1, posts);
+        $(window).scrollTop(0); // Scroll to top
+    });
+    const $prevPage = $('<button>').text('←').addClass('pagination-button').on('click', () => {
+        loadPage(Math.max(0, currentPage - 1), posts);
+        $(window).scrollTop(0); // Scroll to top
+    });
+    const $nextPage = $('<button>').text('→').addClass('pagination-button').on('click', () => {
+        loadPage(Math.min(totalPages - 1, currentPage + 1), posts);
+        $(window).scrollTop(0); // Scroll to top
+    });
+
+    $('#pagination-container').append($firstPage, $prevPage);
+
+    if (currentPage > 2) $('#pagination-container').append($('<span>').text('1').addClass('pagination-button').on('click', () => loadPage(0, posts)));
+    if (currentPage > 3) $('#pagination-container').append($('<span>').text('...').addClass('pagination-ellipsis'));
+
+    for (let i = Math.max(0, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
+        const $pageButton = $('<button>').text(i + 1).addClass('pagination-button');
+        if (i === currentPage) $pageButton.addClass('active');
+        $pageButton.on('click', () => {
+            loadPage(i, posts);
+            $('html, body').animate({ scrollTop: 0 }, 400, 'linear'); 
         });
-        const $lastPage = $('<button>').text('ÚLTIMA PÁGINA').addClass('pagination-button').on('click', () => {
-            loadPage(totalPages - 1, posts);
-            $(window).scrollTop(0); // Scroll to top
-        });
-        const $prevPage = $('<button>').text('←').addClass('pagination-button').on('click', () => {
-            loadPage(Math.max(0, currentPage - 1), posts);
-            $(window).scrollTop(0); // Scroll to top
-        });
-        const $nextPage = $('<button>').text('→').addClass('pagination-button').on('click', () => {
-            loadPage(Math.min(totalPages - 1, currentPage + 1), posts);
-            $(window).scrollTop(0); // Scroll to top
-        });
-
-        $('#pagination-container').append($firstPage, $prevPage);
-
-        if (currentPage > 2) $('#pagination-container').append($('<span>').text('1').addClass('pagination-button').on('click', () => loadPage(0, posts)));
-        if (currentPage > 3) $('#pagination-container').append($('<span>').text('...').addClass('pagination-ellipsis'));
-
-        for (let i = Math.max(0, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
-            const $pageButton = $('<button>').text(i + 1).addClass('pagination-button');
-            if (i === currentPage) $pageButton.addClass('active');
-            $pageButton.on('click', () => {
-                loadPage(i, posts);
-                $('html, body').animate({ scrollTop: 0 }, 400, 'linear'); 
-            });
-            $('#pagination-container').append($pageButton);
-        }
-
-        if (currentPage < totalPages - 4) $('#pagination-container').append($('<span>').text('...').addClass('pagination-ellipsis'));
-        if (currentPage < totalPages - 3) $('#pagination-container').append($('<span>').text(totalPages).addClass('pagination-button').on('click', () => loadPage(totalPages - 1, posts)));
-
-        $('#pagination-container').append($nextPage, $lastPage);
+        $('#pagination-container').append($pageButton);
     }
-    
-    document.addEventListener("DOMContentLoaded", function () {
-        const loader = document.getElementById("loader");
 
-      });
-      
+    if (currentPage < totalPages - 4) $('#pagination-container').append($('<span>').text('...').addClass('pagination-ellipsis'));
+    if (currentPage < totalPages - 3) $('#pagination-container').append($('<span>').text(totalPages).addClass('pagination-button').on('click', () => loadPage(totalPages - 1, posts)));
+
+    $('#pagination-container').append($nextPage, $lastPage);
+}
+
+document.addEventListener("DOMContentLoaded", function () {
+    const loader = document.getElementById("loader");
+
+  });
