@@ -84,22 +84,7 @@ permalink: /
 
 
 <div class="posts" id="post-container">
-  {% for post in site.posts %}
-  <a href="{{ post.url }}" class="card" style="display: none;" data-index="{{ forloop.index }}">
-    {% if post.new == "yes" %}
-    <div class="new-tape">Nova Receita</div>
-    {% endif %}
-    <div class="card__overlay">
-      <p>{{ post.description }}</p>
-    </div>
-    <div class="card__img-container">
-      <img src="{{ post.image | replace: '.webp', '-180px.webp' }}" class="card__img" alt="{{ post.title }}" loading="lazy">
-    </div>
-    <div class="card__footer">
-      <span class="title-card">{{ post.title | upcase }}</span>
-    </div>
-  </a>
-  {% endfor %}
+
 </div>
 
 
@@ -131,40 +116,4 @@ permalink: /
     {% endfor %}
 </script>
 
-
-<script>
-  function adjustLazyLoading() {
-    const posts = document.querySelectorAll('.card__img');
-    const isMobile = window.innerWidth <= 768; // Adjust breakpoint for mobile as needed
-    const noLazyLoadCount = isMobile ? 4 : 8;
-
-    posts.forEach((img, index) => {
-      if (index < noLazyLoadCount) {
-        img.removeAttribute('loading'); // Disable lazy loading
-      } else {
-        img.setAttribute('loading', 'lazy'); // Enable lazy loading
-      }
-    });
-  }
-
-  function adjustPosts() {
-    const posts = document.querySelectorAll('.card');
-    const isMobile = window.innerWidth <= 768;
-    const limit = isMobile ? 10 : 20;
-
-    posts.forEach((post, index) => {
-      post.style.display = index < limit ? "block" : "none";
-    });
-  }
-
-  // Run on initial load
-  adjustLazyLoading();
-  adjustPosts();
-
-  // Re-run on window resize
-  window.addEventListener('resize', () => {
-    adjustLazyLoading();
-    adjustPosts();
-  });
-</script>
 
