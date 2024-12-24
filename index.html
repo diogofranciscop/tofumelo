@@ -95,7 +95,11 @@ permalink: /
     </div>
     <div class="card__img-container">
       <!-- Optionally handle initial lazy-loading logic as you wish -->
-      <img src="{{ post.image | replace: '.webp', '-180px.webp' }}" class="card__img" alt="{{ post.title }}" loading="auto">
+      <picture>
+        <source srcset="{{ post.image | replace: '.webp', '-126px.webp' }}" media="(max-width: 768px)">
+        <source srcset="{{ post.image | replace: '.webp', '-180px.webp' }}" media="(max-width: 1500px)">
+        <img src="{{ post.image }}" class="card__img" alt="{{ post.title }}" loading="auto">
+      </picture>
     </div>
     <div class="card__footer">
       <span class="title-card">{{ post.title | upcase }}</span>
