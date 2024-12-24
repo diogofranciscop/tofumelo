@@ -49,23 +49,21 @@ document.addEventListener("DOMContentLoaded", function () {
         $('head').append(spinnerStyles);
     }
 
-    // ──────────────────────────────────────────────────────────────────────────
-    // (A) CREATE PAGINATION BUTTONS WITHOUT CALLING loadPage()
-    //     This ensures that the user sees the pagination controls from the start.
-    //     We only do this if we actually have more than one "page" worth of posts.
-    // ──────────────────────────────────────────────────────────────────────────
-    if (typeof allPosts !== 'undefined' && allPosts.length) {
-        const postsPerPage = window.innerWidth <= 768 ? 10 : 20;
-        const totalPages = Math.ceil(allPosts.length / postsPerPage);
+    // Decide how many posts per page based on screen size
+    const postsPerPage = window.innerWidth <= 768 ? 10 : 20;
+    const totalPages = Math.ceil(allPosts.length / postsPerPage);
 
-        // If there is more than one page’s worth of posts, display pagination
-        if (totalPages > 1) {
-            createPaginationButtons(0, allPosts, postsPerPage);
-        }
+    // If there is more than one page of posts, display pagination
+    if (totalPages > 1) {
+        createPaginationButtons(0, allPosts, postsPerPage);
     }
 
+    // IMPORTANT: We do NOT call loadPage(0, allPosts) here.
+    // The first page is already rendered server-side (limited to 10 or 20 posts),
+    // so we avoid double-loading those posts.
+
     // If you need a loader element:
-    const loader = document.getElementById("loader");
+    // const loader = document.getElementById("loader"); 
 });
 
 /****************************************************************************
@@ -85,6 +83,9 @@ function loadPage(page, posts) {
 
     // Update pagination buttons
     createPaginationButtons(page, posts, postsPerPage);
+
+    // Scroll to top for better UX
+    $(window).scrollTop(0);
 }
 
 /****************************************************************************
@@ -100,6 +101,7 @@ function loadRecipes(posts) {
 
     // Loop through posts and set up preloading
     posts.forEach((post, index) => {
+        // Create a placeholder "loading card"
         const $loadingCard = $(`
             <div class="card loading-card">
                 <div class="card__spinner">
@@ -109,15 +111,14 @@ function loadRecipes(posts) {
         `);
         $postContainer.append($loadingCard);
 
-        // Preload the image
+        // Preload the 180px version of the image
         const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, '-180px.$1');
         const img = new Image();
         img.src = imagePath;
 
         img.onload = () => {
-            // Only remove spinner if it still exists in DOM
             if ($loadingCard.parent().length) {
-                // Remove lazy loading attribute for the first skipLazyCount images
+                // Disable lazy loading for the first "skipLazyCount" images
                 let lazyLoadAttribute = 'loading="lazy"';
                 if (index < skipLazyCount) {
                     lazyLoadAttribute = '';
@@ -165,46 +166,30 @@ function createPaginationButtons(currentPage, posts, postsPerPage) {
     const totalPages = Math.ceil(posts.length / postsPerPage);
     $('#pagination-container').empty();
 
-    // ──────────────────────────────────────────────────────────────────────────
     // PAGINATION NAVIGATION CONTROLS
-    // ──────────────────────────────────────────────────────────────────────────
     const $firstPage = $('<button>')
         .text('PRIMEIRA PÁGINA')
         .addClass('pagination-button')
-        .on('click', () => {
-            loadPage(0, posts);
-            $(window).scrollTop(0);
-        });
+        .on('click', () => loadPage(0, posts));
 
     const $lastPage = $('<button>')
         .text('ÚLTIMA PÁGINA')
         .addClass('pagination-button')
-        .on('click', () => {
-            loadPage(totalPages - 1, posts);
-            $(window).scrollTop(0);
-        });
+        .on('click', () => loadPage(totalPages - 1, posts));
 
     const $prevPage = $('<button>')
         .text('←')
         .addClass('pagination-button')
-        .on('click', () => {
-            loadPage(Math.max(0, currentPage - 1), posts);
-            $(window).scrollTop(0);
-        });
+        .on('click', () => loadPage(Math.max(0, currentPage - 1), posts));
 
     const $nextPage = $('<button>')
         .text('→')
         .addClass('pagination-button')
-        .on('click', () => {
-            loadPage(Math.min(totalPages - 1, currentPage + 1), posts);
-            $(window).scrollTop(0);
-        });
+        .on('click', () => loadPage(Math.min(totalPages - 1, currentPage + 1), posts));
 
     $('#pagination-container').append($firstPage, $prevPage);
 
-    // ──────────────────────────────────────────────────────────────────────────
-    // POTENTIAL "SHORTCUT" LINKS FOR FIRST PAGE / ELLIPSIS
-    // ──────────────────────────────────────────────────────────────────────────
+    // Shortcut link for the first page / ellipsis
     if (currentPage > 2) {
         $('#pagination-container').append(
             $('<span>')
@@ -219,9 +204,7 @@ function createPaginationButtons(currentPage, posts, postsPerPage) {
         );
     }
 
-    // ──────────────────────────────────────────────────────────────────────────
-    // PAGE NUMBER BUTTONS AROUND THE CURRENT PAGE
-    // ──────────────────────────────────────────────────────────────────────────
+    // Page number buttons around the current page
     for (let i = Math.max(0, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
         const $pageButton = $('<button>')
             .text(i + 1)
@@ -231,11 +214,7 @@ function createPaginationButtons(currentPage, posts, postsPerPage) {
             $pageButton.addClass('active');
         }
 
-        $pageButton.on('click', () => {
-            loadPage(i, posts);
-            $('html, body').animate({ scrollTop: 0 }, 400, 'linear'); 
-        });
-
+        $pageButton.on('click', () => loadPage(i, posts));
         $('#pagination-container').append($pageButton);
     }
 
@@ -253,13 +232,5 @@ function createPaginationButtons(currentPage, posts, postsPerPage) {
         );
     }
 
-    // ──────────────────────────────────────────────────────────────────────────
-    // FINALLY, APPEND NEXT & LAST PAGE
-    // ──────────────────────────────────────────────────────────────────────────
     $('#pagination-container').append($nextPage, $lastPage);
 }
-
-/****************************************************************************
- * 5) ON DOM CONTENT LOADED (AVOID CALLING loadPage() AUTOMATICALLY)
- ****************************************************************************/
-// Already handled above.
