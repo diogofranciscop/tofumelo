@@ -33,7 +33,7 @@ ingredients:
     - "|Água q.b."
 instructions:
     - Aquecer uma frigideira com um fio de azeite. 
-    - Quando a frigideira estiver quente, juntar o grão-de-bico com sriracha, caril, curcuma, pimenta preta e sal. 
+    - Quando a frigideira estiver quente, juntar o grão-de-bico com sriracha, caril, curcuma, pimenta apreta e sal. 
     - Adicionar um pouco de água e deixar durante 2 minutos. Esmagar tudo com a ajuda de um garfo ou uma colher até criar uma pasta com alguns pedaços. Retirar do fogão e reservar.
     - Reproveitar a frigideira e meter mais um fio de azeite.
     - Juntar os cogumelos pleurothus, temperar com sal, pimenta e limão. Deixar dourar dos dois lados. Retirar do fogão e reservar.
