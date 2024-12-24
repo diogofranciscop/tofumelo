@@ -84,22 +84,24 @@ permalink: /
 
 
 <div class="posts" id="post-container">
-  {% for post in site.posts %}
-  <a href="{{ post.url }}" class="card" style="display: none;" data-index="{{ forloop.index }}">
+  {% assign first_page_count = 20 %}
+{% for post in site.posts limit: first_page_count %}
+  <a href="{{ post.url }}" class="card" data-index="{{ forloop.index }}">
     {% if post.new == "yes" %}
-    <div class="new-tape">Nova Receita</div>
+      <div class="new-tape">Nova Receita</div>
     {% endif %}
     <div class="card__overlay">
       <p>{{ post.description }}</p>
     </div>
     <div class="card__img-container">
-      <img src="{{ post.image | replace: '.webp', '-180px.webp' }}" class="card__img" alt="{{ post.title }}" loading="lazy">
+      <!-- Optionally handle initial lazy-loading logic as you wish -->
+      <img src="{{ post.image | replace: '.webp', '-180px.webp' }}" class="card__img" alt="{{ post.title }}" loading="auto">
     </div>
     <div class="card__footer">
       <span class="title-card">{{ post.title | upcase }}</span>
     </div>
   </a>
-  {% endfor %}
+{% endfor %}
 </div>
 
 

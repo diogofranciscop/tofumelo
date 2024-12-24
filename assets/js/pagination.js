@@ -1,3 +1,6 @@
+/****************************************************************************
+ * 1) SPINNER STYLES ADDED ON DOM CONTENT LOADED
+ ****************************************************************************/
 document.addEventListener("DOMContentLoaded", function () {
     // Add spinner styles once
     if (!$('#spinner-styles').length) {
@@ -45,8 +48,27 @@ document.addEventListener("DOMContentLoaded", function () {
         `;
         $('head').append(spinnerStyles);
     }
+
+    // Decide how many posts per page based on screen size
+    const postsPerPage = window.innerWidth <= 768 ? 10 : 20;
+    const totalPages = Math.ceil(allPosts.length / postsPerPage);
+
+    // If there is more than one page of posts, display pagination
+    if (totalPages > 1) {
+        createPaginationButtons(0, allPosts, postsPerPage);
+    }
+
+    // IMPORTANT: We do NOT call loadPage(0, allPosts) here.
+    // The first page is already rendered server-side (limited to 10 or 20 posts),
+    // so we avoid double-loading those posts.
+
+    // If you need a loader element:
+    // const loader = document.getElementById("loader"); 
 });
 
+/****************************************************************************
+ * 2) LOAD PAGE (CALLED ONLY BY PAGINATION OR FILTER ACTIONS)
+ ****************************************************************************/
 function loadPage(page, posts) {
     const postsPerPage = window.innerWidth <= 768 ? 10 : 20;
     const start = page * postsPerPage;
@@ -61,8 +83,14 @@ function loadPage(page, posts) {
 
     // Update pagination buttons
     createPaginationButtons(page, posts, postsPerPage);
+
+    // Scroll to top for better UX
+    $(window).scrollTop(0);
 }
 
+/****************************************************************************
+ * 3) LOAD RECIPES (SETS UP SPINNERS AND SWAPS IN LOADED IMAGES)
+ ****************************************************************************/
 function loadRecipes(posts) {
     const $postContainer = $('#post-container');
     $postContainer.empty();
@@ -73,6 +101,7 @@ function loadRecipes(posts) {
 
     // Loop through posts and set up preloading
     posts.forEach((post, index) => {
+        // Create a placeholder "loading card"
         const $loadingCard = $(`
             <div class="card loading-card">
                 <div class="card__spinner">
@@ -82,21 +111,23 @@ function loadRecipes(posts) {
         `);
         $postContainer.append($loadingCard);
 
-        // Preload the image
+        // Preload the 180px version of the image
         const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, '-180px.$1');
         const img = new Image();
         img.src = imagePath;
 
         img.onload = () => {
-            // Only remove spinner if it still exists in DOM
             if ($loadingCard.parent().length) {
-                // Remove lazy loading attribute for the first skipLazyCount images
+                // Disable lazy loading for the first "skipLazyCount" images
                 let lazyLoadAttribute = 'loading="lazy"';
                 if (index < skipLazyCount) {
                     lazyLoadAttribute = '';
                 }
 
-                const newTape = post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : '';
+                const newTape = post.new === "yes"
+                  ? '<div class="new-tape">Nova Receita</div>'
+                  : '';
+
                 const $postElement = $(`
                     <a href="${post.url}" class="card">
                         ${newTape}
@@ -128,50 +159,78 @@ function loadRecipes(posts) {
     });
 }
 
-
+/****************************************************************************
+ * 4) CREATE PAGINATION BUTTONS (INVOKES loadPage() ONLY ONCE CLICKED)
+ ****************************************************************************/
 function createPaginationButtons(currentPage, posts, postsPerPage) {
     const totalPages = Math.ceil(posts.length / postsPerPage);
     $('#pagination-container').empty();
 
-    const $firstPage = $('<button>').text('PRIMEIRA PÁGINA').addClass('pagination-button').on('click', () => {
-        loadPage(0, posts);
-        $(window).scrollTop(0); // Scroll to top
-    });
-    const $lastPage = $('<button>').text('ÚLTIMA PÁGINA').addClass('pagination-button').on('click', () => {
-        loadPage(totalPages - 1, posts);
-        $(window).scrollTop(0); // Scroll to top
-    });
-    const $prevPage = $('<button>').text('←').addClass('pagination-button').on('click', () => {
-        loadPage(Math.max(0, currentPage - 1), posts);
-        $(window).scrollTop(0); // Scroll to top
-    });
-    const $nextPage = $('<button>').text('→').addClass('pagination-button').on('click', () => {
-        loadPage(Math.min(totalPages - 1, currentPage + 1), posts);
-        $(window).scrollTop(0); // Scroll to top
-    });
+    // PAGINATION NAVIGATION CONTROLS
+    const $firstPage = $('<button>')
+        .text('PRIMEIRA PÁGINA')
+        .addClass('pagination-button')
+        .on('click', () => loadPage(0, posts));
+
+    const $lastPage = $('<button>')
+        .text('ÚLTIMA PÁGINA')
+        .addClass('pagination-button')
+        .on('click', () => loadPage(totalPages - 1, posts));
+
+    const $prevPage = $('<button>')
+        .text('←')
+        .addClass('pagination-button')
+        .on('click', () => loadPage(Math.max(0, currentPage - 1), posts));
+
+    const $nextPage = $('<button>')
+        .text('→')
+        .addClass('pagination-button')
+        .on('click', () => loadPage(Math.min(totalPages - 1, currentPage + 1), posts));
 
     $('#pagination-container').append($firstPage, $prevPage);
 
-    if (currentPage > 2) $('#pagination-container').append($('<span>').text('1').addClass('pagination-button').on('click', () => loadPage(0, posts)));
-    if (currentPage > 3) $('#pagination-container').append($('<span>').text('...').addClass('pagination-ellipsis'));
+    // Shortcut link for the first page / ellipsis
+    if (currentPage > 2) {
+        $('#pagination-container').append(
+            $('<span>')
+                .text('1')
+                .addClass('pagination-button')
+                .on('click', () => loadPage(0, posts))
+        );
+    }
+    if (currentPage > 3) {
+        $('#pagination-container').append(
+            $('<span>').text('...').addClass('pagination-ellipsis')
+        );
+    }
 
+    // Page number buttons around the current page
     for (let i = Math.max(0, currentPage - 1); i <= Math.min(totalPages - 1, currentPage + 1); i++) {
-        const $pageButton = $('<button>').text(i + 1).addClass('pagination-button');
-        if (i === currentPage) $pageButton.addClass('active');
-        $pageButton.on('click', () => {
-            loadPage(i, posts);
-            $('html, body').animate({ scrollTop: 0 }, 400, 'linear'); 
-        });
+        const $pageButton = $('<button>')
+            .text(i + 1)
+            .addClass('pagination-button');
+
+        if (i === currentPage) {
+            $pageButton.addClass('active');
+        }
+
+        $pageButton.on('click', () => loadPage(i, posts));
         $('#pagination-container').append($pageButton);
     }
 
-    if (currentPage < totalPages - 4) $('#pagination-container').append($('<span>').text('...').addClass('pagination-ellipsis'));
-    if (currentPage < totalPages - 3) $('#pagination-container').append($('<span>').text(totalPages).addClass('pagination-button').on('click', () => loadPage(totalPages - 1, posts)));
+    if (currentPage < totalPages - 4) {
+        $('#pagination-container').append(
+            $('<span>').text('...').addClass('pagination-ellipsis')
+        );
+    }
+    if (currentPage < totalPages - 3) {
+        $('#pagination-container').append(
+            $('<span>')
+                .text(totalPages)
+                .addClass('pagination-button')
+                .on('click', () => loadPage(totalPages - 1, posts))
+        );
+    }
 
     $('#pagination-container').append($nextPage, $lastPage);
 }
-
-document.addEventListener("DOMContentLoaded", function () {
-    const loader = document.getElementById("loader");
-
-  });
