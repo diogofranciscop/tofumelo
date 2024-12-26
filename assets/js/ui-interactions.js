@@ -24,16 +24,16 @@ $(document).ready(function () {
     // Handle burger menu functionality
     function handleBurgerMenu() {
         if ($(window).width() <= 800) {
-            $('.burger-menu').show();
+            $('.burger-menu').show(); // Ensure the div is shown for mobile
             $('#burger-toggle').off('click').on('click', function () {
-                $('#nav-links').toggleClass('active');
+                $('#nav-links').toggleClass('active'); // Toggle the active class
             });
         } else {
             $('#nav-links').removeClass('active').show(); // Reset menu
             $('.burger-menu').hide();
         }
     }
-    
+
     handleBurgerMenu();
 
     if ($(window).width() <= 868) {
