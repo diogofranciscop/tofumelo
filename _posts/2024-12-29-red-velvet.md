@@ -6,7 +6,7 @@ keywords: ["Red Velvet Vegan", "Bolo Red Velvet Sem Lactose", "Bolo Vegan Fácil
 permalink: /red-velvet/
 type: ["Sobremesa"]
 image: "/assets/img/red-velvet.webp"
-serve: 20
+serve: 20 fatias
 diet: ["s-frutos-secos"]
 time-total: 45
 time-prepar: 20
