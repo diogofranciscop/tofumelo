@@ -2,21 +2,21 @@
 layout: post-2
 title: "Red Velvet"
 description: "Bolo Red Velvet vegan, macio e vibrante, com cobertura cremosa de cream cheese"
-keywords: "Red Velvet Vegan", "Bolo Red Velvet Sem Lactose", "Bolo Vegan Fácil", "Receita de Red Velvet Vegan", "Bolo Vermelho Vegan", "Bolo com Cream Cheese Vegan", "Sobremesa Vegan Festiva", "Sobremesa Vegan para Festas", "Receitas Veganas Doces", "Bolo Sem Produtos de Origem Animal", "Red Velvet com Cobertura Vegan"
+keywords: ["Red Velvet Vegan", "Bolo Red Velvet Sem Lactose", "Bolo Vegan Fácil", "Receita de Red Velvet Vegan", "Bolo Vermelho Vegan", "Bolo com Cream Cheese Vegan", "Sobremesa Vegan Festiva", "Sobremesa Vegan para Festas", "Receitas Veganas Doces", "Bolo Sem Produtos de Origem Animal", "Red Velvet com Cobertura Vegan"]
 permalink: /red-velvet/
-type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa"]
+type: ["Sobremesa"]
 image: "/assets/img/red-velvet.webp"
 serve: 20
-diet: ["s-soja","s-frutos-secos","s-gluten"]
-time-total: 
-time-prepar: 
-time-confe: 
-calorias:
-proteinas:
-lipidos:
-hidratos:
+diet: ["s-frutos-secos"]
+time-total: 45
+time-prepar: 20
+time-confe: 25
+calorias: 503
+proteinas: 3.3
+lipidos: 18.9
+hidratos: 63.6
 author: jessicainthekitchen
-new: yes
+new: "yes"
 ingredients:
     o Bolo:
         - 1 colher de sopa | de Vinagre
@@ -63,6 +63,6 @@ instructions:
         - Cubrir todo o bolo com o restante do "Cream Cheese", utilizando uma espátula para obter um acabamento uniforme.
         - Finalizar decorando o bolo com os pedaços de bolo reservados ou outros enfeites de sua preferência.
 notes:
-    - Este bolo foi inspirado em https://jessicainthekitchen.com/
+    - Este bolo foi inspirado no blobe [Jessica In The Kitchen](https://jessicainthekitchen.com/)
 ---
 
