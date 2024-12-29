@@ -11,10 +11,10 @@ diet: []
 time-total: 40
 time-prepar: 10
 time-confe: 30
-calorias: 267.5
-proteinas: 4.03
-lipidos: 18.8
-hidratos: 20.6
+calorias: 80
+proteinas: 2.8
+lipidos: 4.9
+hidratos: 5.3
 author: original
 new: "yes"
 ingredients:
