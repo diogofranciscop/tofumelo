@@ -6,7 +6,7 @@ keywords: "folhados vegan, receitas vegan fáceis, folhados de salsicha vegan, e
 permalink: /folhados-de-salsicha/
 type: ["Entrada"]
 image: "/assets/img/folhados-salsicha.webp"
-serve: 20 folhados
+serve: 20 Folhados
 diet: []
 time-total: 40
 time-prepar: 10
@@ -18,21 +18,22 @@ hidratos: 20.6
 author: original
 new: "yes"
 ingredients:
-    - 1 | massa folhada
-    - 5 | salsichas vegan
+    - 1 | Massa Folhada
+    - 5 | Salsichas Vegan
     - 2 c.sopa | de Mostarda
-    - 2 c.sopa | de Polpa de tomate
-    - "|oregãos q.b."
+    - 2 c.sopa | de Polpa de Tomate
+    - "|Oregãos q.b."
     - "|Pimenta Preta q.b."
     - "|Sal q.b."
-    - "|Sementes de sésamo q.b."
+    - "|Sementes de Sésamo q.b."
 instructions:
-    - Começar por abrir a massa folhada. Cortar com uma faca de pizza a massa em 20 partes. 
-    - Depois, barrar a gosto algumas partes da massa com mostarda. Outras com polpa de tomate temperada com pimenta preta, oregãos e sal.
-    - Cortar as salsichas em 4 partes cada uma. Meter uma salsicha por parte de massa cortada. 
-    - Depois, enrolar a massa folhada. Meter um pouco de sementes de sésamo por cima e levar ao forno de acordo com as indicações da massa folhada (180Cº por 30 minutos geralmente).
-    - Está pronto a servir.
+    - Abrir a massa folhada sobre uma superfície limpa e cortá-la em 20 partes iguais utilizando uma faca ou um cortador de pizza.
+    - Espalhar mostarda a gosto em algumas partes da massa. Em outras, distribuir polpa de tomate temperada com uma pitada de pimenta preta, orégãos e sal.
+    - Cortar cada salsicha em 4 partes iguais. Colocar um pedaço de salsicha sobre cada porção de massa folhada.
+    - Depois, enrolar a massa folhada envolvendo a salsicha. Polvilhar sementes de sésamo por cima para decorar.
+    - Levar ao forno pré-aquecido e assar conforme as instruções da embalagem da massa folhada (geralmente, 180°C por 30 minutos).
+    - Retirar do forno e está pronto a servir.
 notes:
-    - As salsichas vegan que usamos são da Frankfurt Plant-Based.
+    - As salsichas vegan que usamos são da Frankfurt Plant-Based da Better balance.
 ---
 
