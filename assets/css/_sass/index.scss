@@ -159,6 +159,7 @@ text-decoration: none;
 align-items: center;
 justify-content: center;
 display: flex;
+min-height: 56px;
 }
 
 .title-card {
@@ -579,6 +580,7 @@ display: none;
 .card__footer {
   font-size: 1rem; /* Reduced footer font size */
   line-height: 1.2; /* Adjust line height for compact appearance */
+  min-height: 41px !important;
 }
 
 .title-card {
@@ -644,10 +646,17 @@ display: none;
   }
 
 }
-@media (min-width: 1300px) {
+@media (min-width: 1300px) and (max-width: 1400px){
   .new-tape{
     top: 11%; /* Position relative to parent height */
     left: -17%;
+  }
+
+}
+@media (min-width: 1400px){
+  .new-tape{
+    top: 7%; /* Position relative to parent height */
+    left: -15%;
   }
 
 }

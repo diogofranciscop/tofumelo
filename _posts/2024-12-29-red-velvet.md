@@ -63,6 +63,6 @@ instructions:
         - Cubrir todo o bolo com o restante do "Cream Cheese", utilizando uma espátula para obter um acabamento uniforme.
         - Finalizar decorando o bolo com os pedaços de bolo reservados ou outros enfeites de sua preferência.
 notes:
-    - Este bolo foi inspirado no blobe [Jessica In The Kitchen](https://jessicainthekitchen.com/)
+    - Este bolo foi inspirado no blogue [Jessica In The Kitchen](https://jessicainthekitchen.com/)
 ---
 
