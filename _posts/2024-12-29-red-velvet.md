@@ -57,7 +57,7 @@ instructions:
         - Colocar o "cream cheese" num saco de pasteleiro e deixar no frigorífico por, pelo menos, 4 horas antes de usar.
     o Empratamento:
         - Certifique-se de que os bolos estejam completamente frios antes de iniciar a montagem.
-        - Colocar um dos bolos como base no prato ou suporte desejado. Opcionalmente, utilize uma faca de serra para aparar uma fina camada da parte superior do bolo, nivelando-o. Reserve os pedaços removidos para a decoração.
+        - Colocar um dos bolos como base no prato ou suporte desejado. Opcionalmente, utilize uma faca de serra para aparar uma fina camada da parte superior do bolo, nivelando-o. Reservar os pedaços removidos para a decoração.
         - Espalhar uma camada generosa de "Cream Cheese" sobre a base do bolo.
         - Posicionar o segundo bolo sobre a camada de creme, alinhando-o cuidadosamente.
         - Cubrir todo o bolo com o restante do "Cream Cheese", utilizando uma espátula para obter um acabamento uniforme.
