@@ -16,7 +16,6 @@ proteinas: 5.37
 lipidos: 17.38
 hidratos: 42.02
 author: bruna-simoes
-new: "yes"
 ingredients:
     o Bolo de Chocolate:
         - 270gr | de Farinha 
