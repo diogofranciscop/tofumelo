@@ -11,10 +11,10 @@ diet: ["s-frutos-secos"]
 time-total: 45
 time-prepar: 20
 time-confe: 25
-calorias: 503
-proteinas: 3.3
-lipidos: 18.9
-hidratos: 63.6
+calorias: 402.45
+proteinas: 2.64
+lipidos: 15.11
+hidratos: 50.9
 author: jessicainthekitchen
 new: "yes"
 ingredients:
