@@ -11,7 +11,7 @@ diet: ["s-frutos-secos"]
 time-total: 45
 time-prepar: 20
 time-confe: 25
-calorias: 402.45
+calorias: 358
 proteinas: 2.64
 lipidos: 15.11
 hidratos: 50.9
