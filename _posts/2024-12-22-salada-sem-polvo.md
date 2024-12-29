@@ -16,7 +16,6 @@ proteinas: 2.43
 lipidos: 22.72
 hidratos: 8.61
 author: original
-new: "yes"
 ingredients:
   os Cogumelos:
     - 300gr | de Cogumelos Eryngui
