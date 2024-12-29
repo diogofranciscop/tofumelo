@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Folhados de Salsicha"
-description: "Folhados vegan recheados com salsichas plant-based, ideais para qualquer refeição ou ocasião especial"
+description: "Folhados vegan recheados com salsichas plant-based"
 keywords: "folhados vegan, receitas vegan fáceis, folhados de salsicha vegan, entradas vegan, snacks rápidos vegan, folhados rápidos, receitas plant-based, lanches vegan, jantar vegan fácil, almoço vegan, receitas saudáveis, receitas com massa folhada"
 permalink: /folhados-de-salsicha/
 type: ["Entrada"]
