@@ -14,27 +14,23 @@
 
   <!-- Stylesheets -->
   <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
-    integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMj2n8n3r+Fe8A1F+5aI0D9hG0J1P/s8bqImI" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" 
+        integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMj2n8n3r+Fe8A1F+5aI0D9hG0J1P/s8bqImI" crossorigin="anonymous">
 
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Asap+Condensed:wght@200;400;600;700&family=Titillium+Web:wght@200;400;600;900&family=Fredericka+the+Great&display=swap"
-    rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400;700&family=Asap+Condensed:wght@200;400;600;700&family=Titillium+Web:wght@200;400;600;900&family=Fredericka+the+Great&display=swap" 
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" 
+        rel="stylesheet">
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-    rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap"
-    rel="stylesheet">
-  <!--  Preloading for Optimization -->
- 
- 
+  <link href="https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" 
+        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Narrow:ital,wght@0,400..700;1,400..700&display=swap" 
+        rel="stylesheet">
+
+  <!-- Preloading for Optimization -->
   <link rel="preload" as="image" href="/assets/img/salada-sem-polvo-180px.webp">
   <link rel="preload" as="image" href="/assets/img/bolo-chocolate-180px.webp">
   <link rel="preload" as="image" href="/assets/img/francesinha-180px.webp">
@@ -43,24 +39,17 @@
   <link rel="preload" as="image" href="/assets/img/carbonara2-180px.webp">
   <link rel="preload" as="image" href="/assets/img/bowl-quinoa-180px.webp">
   <link rel="preload" as="image" href="/assets/img/yakisoba-180px.webp">
-
-
   <link rel="preload" as="image" href="/assets/img/salada-sem-polvo-126px.webp">
   <link rel="preload" as="image" href="/assets/img/bolo-chocolate-126px.webp">
   <link rel="preload" as="image" href="/assets/img/francesinha-126px.webp">
   <link rel="preload" as="image" href="/assets/img/almondegas-126px.webp">
   <link rel="preload" as="image" href="/assets/img/soja-alentejana-126px.webp">
   <link rel="preload" as="image" href="/assets/img/carbonara2-126px.webp">
-
-
   <link rel="preload" href="/assets/js/version.js" as="script">
-
 
   <!-- Scripts -->
   <script src="/assets/js/beacon.min.js?v=1.0" defer></script>
-
   <script src="https://www.googletagmanager.com/gtag/js?id=G-896CVHSCS7" defer></script>
-
   <script defer>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
@@ -68,10 +57,11 @@
     gtag('config', 'G-896CVHSCS7');
   </script>
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
-  <script src="/assets/js/filters.min.js" defer></script>
-  <script src="/assets/js/pagination.min.js" defer></script>
+  <script src="/assets/js/filters.js" defer></script>
+  <script src="/assets/js/pagination.js" defer></script>
   <script src="/assets/js/version.js" defer></script>
   <script src="/assets/js/ui-interactions.min.js" defer></script>
+
   <style>
     /* Grey Background and Loader Styles */
     #loader-container {
@@ -81,43 +71,26 @@
       width: 100vw;
       height: 100vh;
       background-color: #f6f6f6;
-      /* Grey background */
       z-index: 9998;
       display: flex;
-      /* Enable Flexbox */
       justify-content: center;
-      /* Center horizontally */
       align-items: center;
-      /* Center vertically */
       overflow: hidden;
-      /* Prevent potential scrolling issues */
     }
 
     .loader {
       border: 8px solid rgba(84, 130, 76, 0.2);
-      /* Light green border */
       border-top: 8px solid #54824c;
-      /* Solid green for spinning */
       border-radius: 50%;
-      /* Rounded spinner */
       animation: spin 1s linear infinite;
-      /* Spinner animation */
       width: 60px;
       height: 60px;
       box-sizing: border-box;
-      /* Ensure padding/border don't affect size */
     }
 
-
-
     @keyframes spin {
-      0% {
-        transform: rotate(0deg);
-      }
-
-      100% {
-        transform: rotate(360deg);
-      }
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
     }
 
     .hidden {
@@ -132,21 +105,24 @@
   <div id="loader-container">
     <div id="loader" class="loader"></div>
   </div>
+  
   {% include navigation.html %}
+
   <div class="container-default">
     <div class="content-default">
       <!-- Main content goes here -->
       {{content}}
     </div>
   </div>
+  
   {% include footer.html %}
+  
   <script>
     window.addEventListener("load", function () {
       const loaderContainer = document.getElementById("loader-container");
       loaderContainer.classList.add("hidden"); // Add the "hidden" class to hide the loader
     });
   </script>
-  
 </body>
 
 </html>
