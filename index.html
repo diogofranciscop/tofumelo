@@ -107,8 +107,6 @@ permalink: /
   </a>
 {% endfor %}
 </div>
-
-
 </div>
 <div id="pagination-container" class="pagination"></div>
 <script>
@@ -137,7 +135,22 @@ permalink: /
     {% endfor %}
 </script>
 
-
+<script>$(document).ready(function () {
+  // Populate allPosts from the existing DOM
+  $('#post-container .card').each(function () {
+      allPosts.push({
+          url: $(this).attr('href'),
+          title: $(this).find('.title-card').text(),
+          description: $(this).find('.card__overlay p').text(),
+          image: $(this).find('.card__img').attr('src'),
+          type: $(this).data('type'),
+          time: $(this).data('time'),
+          diet: $(this).data('diet'),
+          new: $(this).find('.new-tape').length > 0 ? "yes" : "no"
+      });
+  });
+});
+</script>
 <script>
   function adjustLazyLoading() {
     const posts = document.querySelectorAll('.card__img');
@@ -174,3 +187,24 @@ permalink: /
   });
 </script>
 
+<script>
+  // Function to adjust the number of visible posts based on screen size
+  function adjustStaticPosts() {
+      const isMobile = window.innerWidth <= 768;
+      const posts = document.querySelectorAll('#post-container .card');
+
+      posts.forEach((post, index) => {
+          if (isMobile && index >= 10) {
+              post.style.display = 'none'; // Hide posts after the 10th on mobile
+          } else {
+              post.style.display = 'block'; // Show all posts on larger screens
+          }
+      });
+  }
+
+  // Run on initial load
+  adjustStaticPosts();
+
+  // Re-run on window resize
+  window.addEventListener('resize', adjustStaticPosts);
+</script>

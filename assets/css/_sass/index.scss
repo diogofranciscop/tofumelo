@@ -660,3 +660,12 @@ display: none;
   }
 
 }
+#post-container .card:nth-child(n+11) {
+  display: none; /* Hide posts after the 10th */
+}
+
+@media (min-width: 769px) {
+  #post-container .card {
+      display: block; /* Show all posts for larger screens */
+  }
+}
