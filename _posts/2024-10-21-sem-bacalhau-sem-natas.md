@@ -17,7 +17,7 @@ lipidos: 45.4
 hidratos: 69.5s
 author: tuga-vegetal
 ingredients:
-    as natas:
+    o Molho Branco:
         - 500ml | de Caldo de Legumes
         - 1 c. sopa | de Levedura Nutricional
         - 2 c. sopa | de Manteiga Vegetal
@@ -25,8 +25,7 @@ ingredients:
         - 2 c. sopa | de Sumo de Limão
         - 400ml de | Natas Vegetais (exemplo, Alpro)
         - "|Sal, alho em pó e pimenta preta q.b."
-
-    o resto:   
+    o Restante:   
     - 1kg | de Batatas cortadas em cubos
     - 400gr | de Cogumelos Pleurotus Frescos desfiados
     - 200gr | de Tofu ralado
@@ -38,15 +37,13 @@ ingredients:
     - "| Sal e pimenta qb"
     - "| Alho em pó q.b."
     - "| Azeite para pincelar"
-
 instructions:
-        o molho branco:
+        o Molho Branco:
         - Num tacho em lume médio-alto, levar a manteiga vegetal a derreter e adicionar a farinha. 
         - Mexendo sempre com uma vara de arames, ir juntando o caldo de legumes aos poucos.
         - Temperar com sal, pimenta e alho em pó e o sumo de limão a gosto.
         - Continuar a mexer e quando começar a ferver, adicionar as natas. Esperar que comece a ferver novamente e desligar o lume. Este molho não deve ficar muito espesso. Reservar.
-
-        o resto:
+        o Restante:
         - Descascar e cortar as batatas em cubos pequenos.
         - Fritar as batatas em óleo de girassol ou na _Air Fryer_.
         - Pré aquecer o forno a 220°C.
@@ -58,8 +55,6 @@ instructions:
         - Retirar o louro, juntar as batatas e  2/3 do molho branco. Envolver bem.
         - Pincelar uma travessa de ir ao forno com azeite, colocar a mistura anterior e espalhar uniformemente. Cobrir com o restante molho branco e levar ao forno pré-aquecido a 220°C cerca de 40 minutos até o topo ficar dourado.
         - Retirar do forno e servir com uma salada.
-
 notes:
-    - Esta receita foi inspirada na receita da [Tuga Vegetal](https://tugavegetal.com/bacalhau-com-natas-vegano/)
-    
+    - Esta receita foi inspirada na receita da [Tuga Vegetal](https://tugavegetal.com/bacalhau-com-natas-vegano/)   
 ---
