@@ -35,9 +35,9 @@ ingredients:
     - "| Cominhos moídos q.b."
     - "| Pimentão doce q.b."
 instructions:
-    Para as batatas:
+    as batatas:
     - Cortar as batatas aos cubos. Fritar as batatas numa fritadeira ou pulverizá-las com azeite e fazê-las na _Air Fryer_. Reservar.
-    Para a soja:
+    a soja:
     - Colocar a soja numa panela com água, louro, vinagre e sal. Deixar ferver por 3 min. Retirar, passar por água fria e espremer de forma a retirar o máximo de água possível. Reservar.
     - Numa taça, colocar todos os temperos juntamente com a soja. Mexer bem e deixa a marinar, pelo menos 30min (se conseguir fazer de um dia para o outro, potencia o sabor).    
     - De seguida, juntar um fio de azeite num tacho e fritar a soja até que ganhe uma cor dourada.
