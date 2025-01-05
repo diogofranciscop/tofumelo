@@ -7,7 +7,7 @@ type: ["Almoço/Jantar"]
 description: "Espetadas vegan grelhadas de tofu, cebola e pimento com marinada rica"
 image:
 serve: 4 espetadas
-diet: [s-frutos-secos]
+diet: ["s-frutos-secos"]
 time-total: 110
 time-prepar: 80
 time-confe: 30
