@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Wraps com Tofu Asiático (sticky)"
-keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sticky, Tofu vegano com molho asiático, Tofu fácil com wrap"
+keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sticky, Tofu vegano com molho asiático, Tofu fácil com wrap, Tofu asiático, Wraps vegan, Receita agridoce, Tofu sticky, Tofu picante, Receita fácil de wraps com tofu asiático, Como fazer tofu agridoce sticky em casa, Wrap vegano com tofu e molho picante, Receita saudável de wraps com tofu e vegetais, Tofu com molho asiático agridoce e picante, Como preparar wraps de tofu vegan para o jantar, Receita sem glúten de wraps com tofu e abacate, Tofu ao forno, Tofu na air fryer, Molho asiático caseiro, Wrap saudável e vegan, Receita vegan sem frutos secos, Almoço ou jantar rápido, Alimentação plant-based, Tofu para iniciantes, Receita económica vegan, Tofu com molho de soja e gengibre"
 permalink: /wraps-tofu-asiatico/
 type: ["Almoço/Jantar"]
 description: "Tofu com molho asiático agridoce e picante, servido em um wrap e com salada"
