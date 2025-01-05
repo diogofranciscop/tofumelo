@@ -27,4 +27,8 @@ instructions:
   - Quando tudo estiver bem envolvido, divida a mousse por várias taçinhas.
   - De seguida, é só picar umas nozes e dispô-las por cima da mousse.
   - Levar ao frio durante umas horas, e estará pronto a servir.
+notes:
+  - Para obter melhores resultados, bata a aquafaba bem fria e adicione um pouco de sumo de limão, o que ajudará a obter uma textura mais firme.
+  - A aquafaba pode demorar entre 10 a 15 minutos a bater até formar picos firmes.
+  - Utilize a aquafaba logo após ser batida para não perder a textura.
 ---
