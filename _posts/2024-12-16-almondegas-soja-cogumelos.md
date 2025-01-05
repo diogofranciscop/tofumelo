@@ -31,7 +31,7 @@ ingredients:
     - "| Pimenta Cayena q.b."
     - "| Cominhos q.b."
 instructions:
-    - Preparar a soja - demolhar por 30min ou cozinhar por 2min em água com limão, louro e sal. Se a sua escolha for a 2ª opção, passar a soja por água fria. Reservar.
+    - Para preparar a soja, pode demolhá-a por 30 minutos. Caso não tenha tempo, pode cozinhá-la por 2 minutos em água com limão, louro e sal e, de seguida, passar a soja por água fria. Reservar.
     - Numa frigideira, aquecer azeite e refogar cebola picada com o louro. Deixar a cebola dourar.
     - De seguida, picar o alho e cortar os pimentos e os cogumelos em cubinhos. Adicionar tudo ao refogado e deixar apurar até a água que os cogumelos forem libertando evaporar.
     - Acrescentar um pouco de sal.
