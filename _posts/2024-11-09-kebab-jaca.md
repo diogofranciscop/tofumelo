@@ -17,13 +17,13 @@ lipidos: 6.2
 hidratos: 65.1
 author: original
 ingredients: 
-  o pão pita:
+  o Pão Pita:
     - 300gr | de Farinha de Trigo
     - 180ml | de Água a temperatura ambiente
     - 6gr | de Sal
     - 20gr | de Azeite
     - 3-4gr | de Fermento de padeiro seco
-  o recheio:
+  o Recheio:
    - 300gr | de Jaca (ou alternativamente Cogumelos Pleurothus desfiados)
    - 2 folhas | de Alface cortada em juliana
    - 1/2 | Cenoura ralada
@@ -39,7 +39,7 @@ ingredients:
    - "| Sriracha q.b."
    
 instructions:
-  o pão pita:
+  o Pão Pita:
     - Misturar todos os ingredientes numa taça.
     - Amassar durante cerca de 20min até que a massa esteja lisa e elástica.
     - Faça uma bola com a massa e deixe-a dentro da taça coberta por um pano. Deixar levedar por cerca de 1H, até que duplique de tamanho.
@@ -47,7 +47,7 @@ instructions:
     - Colocar farinha na bancada e no rolo de massa e abrir cada unidade em discos redondos e finos.
     - Depois dos discos estarem todos esticados, colocá-los sobre papel vegetal, cobrir com um pano e deixar repousar por 30min.
     - Aquecer uma frigideira em lume médio-baixo. Um de cada vez, colocar um disco na frigideira durante, aproximadamente, 30seg (ou até surgirem bolhinhas) e virar. Deixar 30seg do outro lado. Repetir o processo para cada um dos discos. Reservar
-  o recheio:
+  o Recheio:
     - Numa tigela, colocar a jaca (cogumelos, dependendo da escolha) desfiada(o) juntamente com todos os temperos e misturar muito bem
     - Numa frigideira, colocar um fio de azeite, aquecer, e juntar a jaca/cogumelos temparados durante 5 minutos, mexendo de vez em quando.
     - Enquanto cozinha a jaca/cogumelos, preparar o molho - juntar a maionese com um fio de sriracha (conforme o seu gosto).
