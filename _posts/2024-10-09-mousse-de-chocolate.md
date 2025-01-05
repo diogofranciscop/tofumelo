@@ -2,7 +2,7 @@
 layout: post
 title: "Mousse de Chocolate"
 keywords: "Receita de mousse de chocolate vegana, Sobremesa fácil com aquafaba, Mousse de chocolate sem glúten, Como fazer mousse de chocolate vegana, Mousse com nozes crocantes"
-permalink: /musse-chocolate/
+permalink: /mousse-chocolate/
 type: ["Sobremesa"]
 description: "Mousse de chocolate vegana com nozes crocantes"
 image: "/assets/img/mousse.webp"
