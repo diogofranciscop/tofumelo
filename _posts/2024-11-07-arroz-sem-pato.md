@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Arroz Sem Pato"
-keywords: "Receita de arroz sem pato, Arroz de forno vegano, Arroz com cogumelos e chouriço vegetal, Prato principal vegano, Como fazer arroz sem pato"
+keywords: "Receita de arroz sem pato, Arroz de forno vegano, Arroz com cogumelos e chouriço vegetal, Prato principal vegano, Como fazer arroz sem pato, Arroz no Forno com Chouriço Vegetal, Receita Vegana de Arroz com Cogumelos, Arroz de Forno Vegano, Prato Vegano com Cogumelos Pleurotus, Arroz Assado com Chouriço Vegetal e Cogumelos, Receita Saudável de Arroz ao Forno, Arroz com Chouriço Vegano e Caldo de Legumes, Como fazer arroz no forno com cogumelos e chouriço vegetal, Receita vegana de arroz cremoso ao forno, Prato principal vegano com arroz, cogumelos e chouriço, Receita fácil de arroz de forno sem carne, Arroz de cogumelos e chouriço vegetal no forno, Como usar cogumelos Pleurotus em receitas veganas, Arroz no forno com caldo de legumes e vinho tinto,  Receitas veganas para refeições principais, Pratos assados veganos e nutritivos, Como substituir carne em receitas de arroz, Arroz de forno saboroso sem produtos de origem animal, Chouriço vegetal em pratos tradicionais, Como temperar arroz vegano com caldo de legumes, Receitas fáceis para jantares veganos"
 permalink: /arroz-sem-pato/
 type: ["Almoço/Jantar"]
 description: "Arroz de forno com cogumelos pleurothus e chouriço vegetal, aromático e reconfortante"
