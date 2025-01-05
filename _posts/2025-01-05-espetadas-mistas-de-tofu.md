@@ -8,8 +8,8 @@ description: "Espetadas vegan grelhadas de tofu, cebola e pimento com marinada r
 image: "/assets/img/espetada.webp"
 serve: 4 espetadas
 diet: ["s-frutos-secos"]
-time-total: 110
-time-prepar: 80
+time-total: 50
+time-prepar: 20
 time-confe: 30
 calorias: 205.25
 proteinas: 14
