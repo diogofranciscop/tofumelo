@@ -35,7 +35,7 @@ instructions:
     - Cortar os cogumelos em tiras ou em fatias, de acordo com preferência. Aquecer um fio de azeite numa frigideira e adicionar os cogumelos. Temperar com paprika e mexer bem, deixando cozinhar até que toda a água dos cogumelos for libertada. Reservar.
     - Montar a tosta, começando com uma fatia de pão, seguida  de 3 fatias de tomate. Temperar o tomate (opcional) com um pouco de sal, pimenta preta e oregãos. Por cima, adicionar metade da pasta de abacate e dispor metade dos cogumelos por cima. Finalizar com umas gotas de limão. Repetir o processo e está pronto a servir.
 notes: 
-    - Se forem intlorantes ao gluten só usar pão sem gluten.
-    - Valores nutricionais calculados usando o grão-de-bico
+    - Se for intolerantes ao gluten, basta usar pão sem gluten.
+    - Valores nutricionais calculados usando o grão-de-bico.
 ---
 
