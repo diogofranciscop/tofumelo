@@ -4,9 +4,9 @@ title: "Wraps com Tofu Asiático (sticky)"
 keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sticky, Tofu vegano com molho asiático, Tofu fácil com wrap"
 permalink: /wraps-tofu-asiatico/
 type: ["Almoço/Jantar"]
-description: "Tofu com molho asiático agridoce e picante, servido em um wrap e com legumes"
+description: "Tofu com molho asiático agridoce e picante, servido em um wrap e com salada"
 image: "/assets/img/tofu-sticky.webp"
-serve: 4
+serve: 4 Wraps
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 45
 time-prepar: 15
@@ -17,12 +17,12 @@ lipidos: 13.2
 hidratos: 71.6
 author: 
 ingredients:
-    o acompanhamento:
+    o Acompanhamento:
     - 4 | Wraps
     - 8 folhas | de Alface
     - 1| Abacate
     - ⁠4 fatias | de Tomate
-    o tofu:
+    o Tofu:
     - 400gr | de Tofu
     - 15gr | de Amido de Milho
     - 2 colheres de sopa | de Óleo de Sésamo 
@@ -34,9 +34,9 @@ ingredients:
     - 2 colheres de sopa | de Molho de Soja
     - "|Água q.b."
 instructions:
-    o acompanhamento:
+    o Acompanhamento:
     - Cortar o tomate, o abacate e preparar a alface. 
-    o tofu:
+    o Tofu:
     - Dividir o amido de milho - por exemplo colocar uma grande parte do amido num prato e o restante num copo.
     - Cortar o tofu em fatias e passá-lo no amido de milho que está no prato, como se o quiséssemos panar.
     - Levar o tofu ao forno por 12 minutos a 180ºC ou colocá-lo na Air Fryer (normalmente não demora tanto tempo). Ir verificando para que não fique seco.
