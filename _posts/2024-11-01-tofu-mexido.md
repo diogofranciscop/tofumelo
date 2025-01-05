@@ -22,12 +22,11 @@ ingredients:
     - 4 | Cogumelos Marron
     - 1 c.chá | de Mostarda Dijon
     - 1 fio | de Azeite
-    - "| Aal q.b."
+    - "| Sal q.b."
     - "| Cúrcuma q.b."
     - "| Pimenta preta q.b."
     - "| Alho em pó q.b."
     - "| Bebida vegetal q.b."
-
 instructions:
     - Começar por torrar as fatias de pão.
     - Enquanto o pão torra, aquecer numa frigideira um fio de azeite.
@@ -38,6 +37,6 @@ instructions:
     - Adicionar esta mistura ao preparado da frigideira, misturar bem e deixar cozinhar um pouco.
     - Por fim, é só servir o preparado de tofu mexido por cima das torradas, e poderá optar por finalizar com umas folhas de mangericão por cima.
 notes:
-    - Usar pão sem gluten se for intolerante ao gluten.
+    - Usar pão sem glúten, se tiver intolerância.
 ---
 
