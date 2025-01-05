@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Sopa de Feijão e Couve"
-keywords: "Receita de sopa de feijão, Sopa de feijão-manteiga e couve, Sopa vegana saudável, Como fazer sopa de feijão cremosa, Entrada vegana tradicional"
+keywords: "Receita de sopa de feijão, Sopa de feijão-manteiga e couve, Sopa vegana saudável, Como fazer sopa de feijão cremosa, Entrada vegana tradicional, Sopa de feijão, Couve branca, Receita vegan, Sopa cremosa, Feijão-manteiga, Receita saudável de sopa de feijão com couve, Como fazer sopa de feijão-manteiga vegan, Sopa cremosa de legumes com feijão, Receita vegan fácil e nutritiva, Sopa de inverno com feijão e couve branca, Sopa rica em fibras e proteína plant-based, Como preparar sopa caseira de feijão e couve, Sopa reconfortante, Receita económica vegan, Alimentação plant-based, Legumes frescos na sopa, Sopa saudável para o inverno, Receita de sopa sem laticínios, Cozinha sustentável, Sopa rica em nutrientes, Prato vegan para toda a família, Receita sem glúten"
 permalink: /sopa-feijao-couve/
 type: ["Entrada"]
 description: "Sopa cremosa de legumes, couve e feijão-manteiga"
