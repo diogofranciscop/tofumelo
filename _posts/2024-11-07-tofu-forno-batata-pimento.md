@@ -30,7 +30,7 @@ ingredients:
     - 2 c.sopa |de Mostarda Dijon
     - 6 c.sopa | de Levedura Nutricional
     - 8 c.sopa | de Água
-    - "| Aal q.b."
+    - "| Sal q.b."
     - "| Pimenta Preta q.b."
 instructions:
     - Junte as batatas, os pimentos, a cebola, o alho, o azeite, o alecrim, o tomilho e o pimentão doce fumado numa tigela grande e misture bem.
