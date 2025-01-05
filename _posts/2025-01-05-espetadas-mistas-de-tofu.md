@@ -16,6 +16,7 @@ proteinas: 14
 lipidos: 12.6
 hidratos: 16.98
 author: original
+new: "yes"
 ingredients:
         as Espetadas:
             - 200gr | de Tofu Fumado
