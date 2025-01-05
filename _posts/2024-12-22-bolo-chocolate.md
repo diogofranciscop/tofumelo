@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Bolo de Chocolate"
-description: "Bolo de chocolate vegan com cobertura cremosa, avelãs caramelizadas e frutos vermelhos."
+description: "Bolo de chocolate vegan com cobertura cremosa, avelãs caramelizadas e frutos vermelhos"
 keywords: ["bolo de chocolate vegan", "receita de bolo vegan", "bolo de chocolate fácil", "sobremesa vegana", "bolo sem lactose", "receitas de sobremesas saudáveis"]
 permalink: /bolo-de-chocolate/
 type: ["Lanche", "Sobremesa"]
