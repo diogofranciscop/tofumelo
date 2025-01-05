@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Tofu na Cerveja"
-keywords: "Receita de tofu na cerveja, Tofu marinado com cerveja, Prato principal vegano, Como fazer tofu com batatas douradas, Tofu assado no forno"
+keywords: "Receita de tofu na cerveja, Tofu marinado com cerveja, Prato principal vegano, Como fazer tofu com batatas douradas, Tofu assado no forno, Tofu na cerveja, Receita vegana, Tofu marinado, Batatas douradas, Tofu no forno, Como fazer tofu marinado com cerveja no forno, Receita fácil de tofu com batatas douradas, Prato principal vegano com tofu e cerveja, Receita de tofu assado com batatas e marinada de mostarda, Tofu ao forno com molho de cerveja e ervas, Receita vegan sem glúten de tofu e batatas, Receita económica de tofu com cerveja e vegetais, Tofu assado, Marinada para tofu, Cerveja em receitas veganas, Prato principal sem glúten, Almoço vegano, Jantar reconfortante vegan, Receitas veganas económicas, Cozinha sustentável, Batatas douradas ao forno, Receita saudável de tofu"
 permalink: /tofu-na-cerveja/
 type: ["Almoço/Jantar"]
 description: "Tofu em marinada de mostarda, alho, e ervas com batatas douradas e um toque de cerveja"

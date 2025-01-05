@@ -2,7 +2,7 @@
 layout: post-2
 title: "Red Velvet"
 description: "Bolo Red Velvet vegan, macio e vibrante, com cobertura cremosa de cream cheese"
-keywords: ["Red Velvet Vegan", "Bolo Red Velvet Sem Lactose", "Bolo Vegan Fácil", "Receita de Red Velvet Vegan", "Bolo Vermelho Vegan", "Bolo com Cream Cheese Vegan", "Sobremesa Vegan Festiva", "Sobremesa Vegan para Festas", "Receitas Veganas Doces", "Bolo Sem Produtos de Origem Animal", "Red Velvet com Cobertura Vegan"]
+keywords: ["Red Velvet Vegan, Bolo Red Velvet Sem Lactose, Bolo Vegan Fácil, Receita de Red Velvet Vegan, Bolo Vermelho Vegan, Bolo com Cream Cheese Vegan, Sobremesa Vegan Festiva, Sobremesa Vegan para Festas, Receitas Veganas Doces, Bolo Sem Produtos de Origem Animal, Red Velvet com Cobertura Vegan, Red Velvet vegan, Bolo vegan fácil, Sobremesa vegana festiva, Bolo sem lactose, Cream cheese vegan, Receita de Red Velvet vegan com cobertura cremosa, Como fazer bolo Red Velvet sem produtos de origem animal, Bolo vermelho macio e vegan com cream cheese, Sobremesa vegana para festas e ocasiões especiais, Receita de bolo Red Velvet sem lactose e fácil de preparar, Bolo vegan para festas de aniversário ou Natal, Como fazer cobertura de cream cheese vegan para bolos, Bolo vermelho em receitas veganas, Corante alimentar vegan em sobremesas, Cobertura cremosa sem lactose, Sobremesas vegan sofisticadas, Receitas doces plant-based, Uso de buttermilk vegano em bolos, Receitas festivas para dietas veganas, Amido de milho em coberturas veganas, Textura macia em bolos vegan, Bolos sem ovos e sem leite"]
 permalink: /red-velvet/
 type: ["Sobremesa"]
 image: "/assets/img/red-velvet.webp"
@@ -16,7 +16,6 @@ proteinas: 2.64
 lipidos: 15.11
 hidratos: 50.9
 author: jessicainthekitchen
-new: "yes"
 ingredients:
     o Bolo:
         - 1 colher de sopa | de Vinagre

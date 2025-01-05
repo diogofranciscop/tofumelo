@@ -1,9 +1,9 @@
 ---
 layout: post-2
 title: "Soja à Alentejana"
-keywords: "Receita de soja à alentejana, Soja marinada com batatas, Prato vegano tradicional, Soja sem glúten, Como fazer soja à alentejana"
+keywords: "Receita de soja à alentejana, Soja marinada com batatas, Prato vegano tradicional, Soja sem glúten, Como fazer soja à alentejana, Soja à alentejana, Prato vegano tradicional, Receita com soja grossa, Batatas fritas crocantes, Soja marinada, Receita vegana de soja à alentejana com batatas, Como preparar soja marinada à alentejana, Prato vegano fácil com soja e batatas, Receita tradicional portuguesa adaptada para veganos, Como fazer soja grossa com batatas fritas, Prato vegano sem glúten com toque tradicional, Receita prática de soja à alentejana com azeitonas e pickles, Cozinha portuguesa vegana, Soja em pratos tradicionais, Batatas na air fryer, Receita sem frutos secos, Alimentação plant-based, Marinada para soja grossa, Prato principal vegano saudável, Cominhos e pimentão doce em receitas, Receita económica com soja, Adaptação vegana de pratos tradicionais"
 permalink: /soja-alentejana/
-type: ["almoço"]
+type: ["Almoço/Jantar"]
 description: "Soja marinada à alentejana acompanhada de batatas fritas crocantes"
 image: "/assets/img/soja-alentejana.webp"
 serve: 4 refeições
@@ -35,9 +35,9 @@ ingredients:
     - "| Cominhos moídos q.b."
     - "| Pimentão doce q.b."
 instructions:
-    Para as batatas:
+    as batatas:
     - Cortar as batatas aos cubos. Fritar as batatas numa fritadeira ou pulverizá-las com azeite e fazê-las na _Air Fryer_. Reservar.
-    Para a soja:
+    a soja:
     - Colocar a soja numa panela com água, louro, vinagre e sal. Deixar ferver por 3 min. Retirar, passar por água fria e espremer de forma a retirar o máximo de água possível. Reservar.
     - Numa taça, colocar todos os temperos juntamente com a soja. Mexer bem e deixa a marinar, pelo menos 30min (se conseguir fazer de um dia para o outro, potencia o sabor).    
     - De seguida, juntar um fio de azeite num tacho e fritar a soja até que ganhe uma cor dourada.

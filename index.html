@@ -94,6 +94,7 @@ permalink: /
       <p>{{ post.description }}</p>
     </div>
     <div class="card__img-container">
+      
       <!-- Optionally handle initial lazy-loading logic as you wish -->
       <picture>
         <source srcset="{{ post.image | replace: '.webp', '-126px.webp' }}" media="(max-width: 768px)" width="126" height="140">

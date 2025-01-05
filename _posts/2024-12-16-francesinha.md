@@ -1,10 +1,10 @@
 ---
 layout: post-2
 title: "Francesinha"
-keywords: "Receita de francesinha vegana, Francesinha sem carne, Francesinha com tofu e cogumelos, Como fazer francesinha vegana, Molho de francesinha caseiro, Francesinha vegan"
+keywords: "Receita de francesinha vegana, Francesinha sem carne, Francesinha com tofu e cogumelos, Como fazer francesinha vegana, Molho de francesinha caseiro, Francesinha vegan, Francesinha vegana, Molho de francesinha, Francesinha sem carne, Francesinha com tofu, Prato tradicional vegano, Receita completa de francesinha vegana com tofu e cogumelos, Como preparar molho de francesinha caseiro sem carne, Francesinha vegana com linguiça e queijo vegetal, Prato principal vegano inspirado na culinária portuguesa, Receita de francesinha vegana com batatas fritas na air fryer, Francesinha fácil e saborosa para o jantar, Molho de francesinha com cerveja, vinho do Porto e especiarias, Tofu marinado em pratos veganos, Cogumelos pleurothus em receitas tradicionais, Linguiça vegana grelhada, Queijo vegetal derretido, Pão de forma em receitas portuguesas Molho cremoso sem carne, Francesinha económica e vegana, Culinária portuguesa adaptada para veganos, Batatas fritas saudáveis na air fryer, Receita rica em sabor e textura"
 type: ["Almoço/Jantar"]
 permalink: /francesinha/
-description: "Francesinha vegana com tofu, pleurothus, linguiça e curgete, regada com um molho delicioso"
+description: "Francesinha vegana com tofu, pleurothus, linguiça e courgette, regada com um molho delicioso"
 image: "/assets/img/francesinha.webp"
 serve: 2 refeições
 diet: ["s-frutos-secos"]

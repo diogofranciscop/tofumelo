@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tofu no Forno com Batatas e Pimentos"
-keywords: "Receita de tofu no forno, Tofu assado com batatas e pimentos, Prato vegano saudável, Como fazer tofu com legumes, Tofu crocante no forno"
+keywords: "Receita de tofu no forno, Tofu assado com batatas e pimentos, Prato vegano saudável, Como fazer tofu com legumes, Tofu crocante no forno, Tofu no forno, Tofu com batatas, Tofu com pimentos, Receita vegana saudável, Legumes assados, Receita de tofu no forno com batatas e pimentos, Como fazer tofu assado crocante no forno, Prato vegano fácil com tofu e legumes, Receita de tofu com pimentos e molho cremoso, Legumes assados com tofu e ervas frescas, Receita vegan sem glúten e sem frutos secos, Como preparar tofu com batatas no forno, Tofu crocante no forno, Prato principal vegan, Batatas assadas com ervas, Legumes ao forno com pimentão doce, Tofu com maionese vegan, Alimentação plant-based, Receita vegana reconfortante, Prato saudável e económico, Alecrim e tomilho em receitas, Levedura nutricional em pratos vegan"
 permalink: /tofu-com-batatas-pimentos/
 type: ["Almoço/Jantar"]
 description: "Tofu, batatas, pimentos e cebolas assados com ervas frescas, cobertos por um molho cremoso"
@@ -30,7 +30,7 @@ ingredients:
     - 2 c.sopa |de Mostarda Dijon
     - 6 c.sopa | de Levedura Nutricional
     - 8 c.sopa | de Água
-    - "| Aal q.b."
+    - "| Sal q.b."
     - "| Pimenta Preta q.b."
 instructions:
     - Junte as batatas, os pimentos, a cebola, o alho, o azeite, o alecrim, o tomilho e o pimentão doce fumado numa tigela grande e misture bem.

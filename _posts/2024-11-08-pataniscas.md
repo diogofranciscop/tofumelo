@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Pataniscas de Legumes"
-keywords: "Receita de pataniscas de legumes, Pataniscas veganas crocantes, Como fazer pataniscas sem glúten, Snack saudável com legumes, Pataniscas de farinha de grão-de-bico"
+keywords: "Receita de pataniscas de legumes, Pataniscas veganas crocantes, Como fazer pataniscas sem glúten, Snack saudável com legumes, Pataniscas de farinha de grão-de-bico, Pataniscas de legumes, Pataniscas veganas, Receita sem glúten, Farinha de grão-de-bico, Snack saudável, Receita fácil de pataniscas de legumes veganas, Como fazer pataniscas crocantes com farinha de grão, Snack saudável e sem glúten com legumes, Pataniscas vegan de cenoura e cogumelos, Receita de pataniscas sem glúten e sem soja, Como preparar pataniscas veganas para o almoço, Receita económica de pataniscas de vegetais, Pataniscas crocantes, Cozinha plant-based, Legumes em receitas vegan, Fritura saudável com azeite, Snack vegano económico, Receita rápida e prática, Pataniscas sem frutos secos, Curcuma e caril em pratos vegan, Refeição reconfortante e vegana, Cogumelos pleurothus em receitas"
 permalink: /pataniscas-legumes/
 type: ["almoço", "snack"]
 description: "Pataniscas de legumes fritas e crocantes"
@@ -30,7 +30,6 @@ ingredients:
     - " | Alho em pó q.b."
     - "| Sal q.b."
     - "| Azeite q.b."
-
 instructions:
     - Comece por picar a cebola e a salsa, ralar a cenoura e a courgette, juntando tudo numa taça.
     - De seguida, corte os cogumelos às tiras. Numa frigideira, aquecer um fio de azeite e refogar os cogumelos até reduzirem. Juntar os cogumelos à taça.

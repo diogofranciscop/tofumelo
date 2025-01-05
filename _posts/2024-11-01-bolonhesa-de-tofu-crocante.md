@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Bolonhesa de Tofu Crocante"
-keywords: "Receita de bolonhesa vegana, Bolonhesa com tofu crocante, Esparguete com tofu, Bolonhesa sem carne, Como fazer bolonhesa vegana"
+keywords: "Receita de bolonhesa vegana, Bolonhesa com tofu crocante, Esparguete com tofu, Bolonhesa sem carne, Como fazer bolonhesa vegana, Esparguete Vegano com Tofu Crocante, Massa com Molho de Tomate e Tofu, Receita de Esparguete Vegano ao Forno, Tofu Assado Crocante com Esparguete, Prato Principal Vegano com Tofu e Massa, Receita Saudável de Massa com Tofu, Tofu Temperado com Esparguete, Como fazer tofu crocante no forno, Esparguete com molho de tomate e tofu assado, Receita fácil de massa vegana com tofu, Prato vegano de esparguete com proteína vegetal, Receitas de tofu crocante sem fritura, Massa saudável com tofu e manjericão, Tofu ao forno para massas veganas, Pratos veganos simples e rápidos, Esparguete com molho vegano, Receitas sem carne com tofu, Tofu assado ao estilo italiano, Jantares veganos ricos em sabor, Refeições proteicas à base de plantas, Como usar levedura nutricional em receitas"
 permalink: /bolonhesa-de-tofu-crocante/
 type: ["Almoço/Jantar"]
 description: "Esparguete com tofu crocante no forno e molho de tomate"

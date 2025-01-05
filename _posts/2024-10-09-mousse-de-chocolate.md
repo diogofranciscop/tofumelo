@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Mousse de Chocolate"
-keywords: "Receita de mousse de chocolate vegana, Sobremesa fácil com aquafaba, Mousse de chocolate sem glúten, Como fazer mousse de chocolate vegana, Mousse com nozes crocantes"
-permalink: /musse-chocolate/
+keywords: "Receita de mousse de chocolate vegana, Sobremesa fácil com aquafaba, Mousse de chocolate sem glúten, Como fazer mousse de chocolate vegana, Mousse com nozes crocantes, Mousse de Chocolate Vegan, Sobremesa Vegan com Aquafaba, Receita de Mousse sem Ovos, Mousse com Chocolate Negro 70%, Mousse de Chocolate com Nozes, Sobremesa Vegana Fácil e Rápida, Sobremesa sem Lactose e sem Glúten, Como Usar Aquafaba na Cozinha, Como fazer mousse vegan com água do grão de bico, Sobremesas veganas com aquafaba batida, Receitas com chocolate negro e aquafaba, Dicas para mousse vegan firme e cremosa, Receitas veganas para iniciantes com 3 ingredientes, Aquafaba: substituto de claras para sobremesas, Receitas saudáveis e veganas para sobremesa, Sobremesas veganas fáceis, Receitas sem leite e ovos, Receitas de mousse para veganos, Sobremesa saudável com grão de bico, Como bater aquafaba em neve"
+permalink: /mousse-chocolate/
 type: ["Sobremesa"]
 description: "Mousse de chocolate vegana com nozes crocantes"
 image: "/assets/img/mousse.webp"
@@ -27,4 +27,8 @@ instructions:
   - Quando tudo estiver bem envolvido, divida a mousse por várias taçinhas.
   - De seguida, é só picar umas nozes e dispô-las por cima da mousse.
   - Levar ao frio durante umas horas, e estará pronto a servir.
+notes:
+  - Para obter melhores resultados, bata a aquafaba bem fria e adicione um pouco de sumo de limão, o que ajudará a obter uma textura mais firme.
+  - A aquafaba pode demorar entre 10 a 15 minutos a bater até formar picos firmes.
+  - Utilize a aquafaba logo após ser batida para não perder a textura.
 ---
