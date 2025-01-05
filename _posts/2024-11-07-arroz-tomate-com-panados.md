@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Arroz de Tomate com Panados"
-keywords: "Receita de arroz de tomate, Arroz de tomate com panados veganos, Panados de seitan caseiro, Prato principal vegano, Como fazer panados crocantes"
+keywords: "Receita de arroz de tomate, Arroz de tomate com panados veganos, Panados de seitan caseiro, Prato principal vegano, Como fazer panados crocantes, Arroz de tomate com panados veganos, Panados de seitan caseiro, Receita de seitan de grão-de-bico, Arroz de tomate vegano com panados crocantes, Panados veganos fáceis e saborosos, Como fazer panados de seitan, Receita de arroz de tomate simples e delicioso, Panados crocantes sem carne, Seitan caseiro vegano à base de grão-de-bico, Prato principal vegano com seitan e arroz de tomate, Receitas veganas fáceis para o dia a dia, Receitas saudáveis e nutritivas com grão-de-bico, Pratos veganos com seitan e arroz, Como preparar panados veganos crocantes e saborosos, Receitas sustentáveis e práticas para refeições veganas, Arroz de tomate tradicional com um toque vegano moderno"
 permalink: /arroz-tomate-com-panados/
 type: ["Almoço/Jantar"]
 description: "Arroz de tomate aromático acompanhado por panados crocantes de seitan caseiro"
