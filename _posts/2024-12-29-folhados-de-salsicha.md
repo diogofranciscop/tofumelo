@@ -16,7 +16,6 @@ proteinas: 2.8
 lipidos: 4.9
 hidratos: 5.3
 author: original
-new: "yes"
 ingredients:
     - 1 | Massa Folhada
     - 5 | Salsichas Vegan

@@ -16,7 +16,6 @@ proteinas: 2.64
 lipidos: 15.11
 hidratos: 50.9
 author: jessicainthekitchen
-new: "yes"
 ingredients:
     o Bolo:
         - 1 colher de sopa | de Vinagre

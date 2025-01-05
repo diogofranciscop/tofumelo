@@ -82,37 +82,64 @@ function filterAndSortPosts() {
  ****************************************************************************/
 function loadPaginatedPosts(page, posts) {
     const isMobile = window.innerWidth <= 768; // Adjust breakpoint for mobile
-    const postsPerPage = isMobile ? 10 : 20; // 10 for mobile, 20 for larger screens
+    const postsPerPage = isMobile ? 10 : 20;
     const startIndex = (page - 1) * postsPerPage;
     const endIndex = startIndex + postsPerPage;
 
     const paginatedPosts = posts.slice(startIndex, endIndex);
-
     const postContainer = $("#post-container");
     postContainer.empty(); // Clear current posts
 
-    paginatedPosts.forEach(post => {
-        const card = `
-            <a href="${post.url}" class="card" data-index="${posts.indexOf(post) + 1}">
-                ${post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : ""}
-                <div class="card__overlay"><p>${post.description}</p></div>
-                <div class="card__img-container">
-                    <picture>
-                        <source srcset="${post.image.replace('.webp', '-126px.webp')}" media="(max-width: 768px)" width="126" height="140">
-                        <source srcset="${post.image.replace('.webp', '-180px.webp')}" media="(max-width: 1500px)" width="180" height="200">
-                        <img src="${post.image}" class="card__img" alt="${post.title}" loading="auto">
-                    </picture>
-                </div>
-                <div class="card__footer">
-                    <span class="title-card">${post.title.toUpperCase()}</span>
-                </div>
-            </a>
-        `;
-        postContainer.append(card);
+    paginatedPosts.forEach((post, index) => {
+        // Create a loading card placeholder
+        const loadingCard = $(`
+            <div class="card loading-card">
+                <div class="card__spinner"></div>
+            </div>
+        `);
+        postContainer.append(loadingCard);
+
+        // Preload the image
+        const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, "-180px.$1");
+        const img = new Image();
+        img.src = imagePath;
+
+        img.onload = () => {
+            if (loadingCard.parent().length) {
+                const lazyLoadAttribute = index < (isMobile ? 4 : 8) ? "" : 'loading="lazy"';
+
+                const cardHTML = `
+                    <a href="${post.url}" class="card" data-index="${posts.indexOf(post) + 1}">
+                        ${post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : ""}
+                        <div class="card__overlay"><p>${post.description}</p></div>
+                        <div class="card__img-container">
+                            <img src="${imagePath}" class="card__img" alt="${post.title}" ${lazyLoadAttribute}>
+                        </div>
+                        <div class="card__footer">
+                            <span class="title-card">${post.title.toUpperCase()}</span>
+                        </div>
+                    </a>
+                `;
+
+                loadingCard.replaceWith(cardHTML);
+            }
+        };
+
+        img.onerror = () => {
+            if (loadingCard.parent().length) {
+                loadingCard.replaceWith(`
+                    <div class="card error-card">
+                        <p>Failed to load the recipe image.</p>
+                    </div>
+                `);
+            }
+        };
     });
 
     updatePaginationButtons(page, posts.length, postsPerPage);
 }
+
+
 
 
 /****************************************************************************
