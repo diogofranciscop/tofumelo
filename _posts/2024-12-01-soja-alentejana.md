@@ -1,7 +1,7 @@
 ---
 layout: post-2
 title: "Soja à Alentejana"
-keywords: "Receita de soja à alentejana, Soja marinada com batatas, Prato vegano tradicional, Soja sem glúten, Como fazer soja à alentejana"
+keywords: "Receita de soja à alentejana, Soja marinada com batatas, Prato vegano tradicional, Soja sem glúten, Como fazer soja à alentejana, Soja à alentejana, Prato vegano tradicional, Receita com soja grossa, Batatas fritas crocantes, Soja marinada, Receita vegana de soja à alentejana com batatas, Como preparar soja marinada à alentejana, Prato vegano fácil com soja e batatas, Receita tradicional portuguesa adaptada para veganos, Como fazer soja grossa com batatas fritas, Prato vegano sem glúten com toque tradicional, Receita prática de soja à alentejana com azeitonas e pickles, Cozinha portuguesa vegana, Soja em pratos tradicionais, Batatas na air fryer, Receita sem frutos secos, Alimentação plant-based, Marinada para soja grossa, Prato principal vegano saudável, Cominhos e pimentão doce em receitas, Receita económica com soja, Adaptação vegana de pratos tradicionais"
 permalink: /soja-alentejana/
 type: ["Almoço/Jantar"]
 description: "Soja marinada à alentejana acompanhada de batatas fritas crocantes"
