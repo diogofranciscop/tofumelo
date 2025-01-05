@@ -8,8 +8,8 @@ description: "Espetadas vegan grelhadas de tofu, cebola e pimento com marinada r
 image: "/assets/img/espetada.webp"
 serve: 4 espetadas
 diet: ["s-frutos-secos"]
-time-total: 110
-time-prepar: 80
+time-total: 50
+time-prepar: 20
 time-confe: 30
 calorias: 205.25
 proteinas: 14
@@ -49,7 +49,7 @@ instructions:
         a Montagem e Confeção:
             - Utilizar espetos metálicos ou de madeira (se usar espetos de madeira, mergulhá-los em água antes para evitar que queimem).
             - Alternar entre pedaços de tofu fumado, tofu natural, cebola e pimento.
-            - Para grelhar: usar uma fogueira e colocar os espetos em cima de uma grelha. Virar os espetos várias vezes. Sempre que virar, pincelar com o molho da marinada para garantir mais sabor. Quando as espetadas estiverem bem douradinhas e ligeiramente crocantes por fora, estão prontas. Retire-as da grelha e sirva imediatamente, garantindo que o interior esteja suculento e cozido na perfeição.
+            - Para grelhar, pode usar uma fogueira e colocar os espetos em cima de uma grelha. Virar os espetos várias vezes. Sempre que virar, pincelar com o molho da marinada para garantir mais sabor. Quando as espetadas estiverem bem douradinhas e ligeiramente crocantes por fora, estão prontas. Retire-as da grelha e sirva imediatamente, garantindo que o interior esteja suculento e cozido na perfeição.
             - Se estiver a usar morcela vegan, asse-a inteira até que fique bem dourada. Depois de assada, retire cuidadosamente o invólucro e corte a morcela em rodelas grossas antes de servir.
 notes:
         - Para o acompanhamento, pode fazer arroz de cenoura e ervilhas, batatas fritas/assadas e salada fesca, de acordo com a sua preferência.
