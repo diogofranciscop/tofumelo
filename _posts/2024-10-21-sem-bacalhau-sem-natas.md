@@ -14,7 +14,7 @@ time-confe: 65
 calorias: 753
 proteinas: 16.9
 lipidos: 45.4
-hidratos: 69.5s
+hidratos: 69.5
 author: tuga-vegetal
 ingredients:
     o Molho Branco:
