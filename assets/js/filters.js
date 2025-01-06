@@ -24,11 +24,6 @@ $(document).ready(function () {
     setupSorting();
     setupSearch();
 
-    // Reapply filters when returning via the browser's back button
-    $(window).on("pageshow", function () {
-        reapplyFilters();
-    });
-
     // Trigger initial pagination load
     loadPaginatedPosts(1, filteredPosts);
 });
@@ -81,7 +76,7 @@ function filterAndSortPosts() {
  *  LOAD PAGINATED POSTS
  ****************************************************************************/
 function loadPaginatedPosts(page, posts) {
-    const isMobile = window.innerWidth <= 768; // Adjust breakpoint for mobile
+    const isMobile = window.innerWidth <= 768;
     const postsPerPage = isMobile ? 10 : 20;
     const startIndex = (page - 1) * postsPerPage;
     const endIndex = startIndex + postsPerPage;
@@ -90,119 +85,103 @@ function loadPaginatedPosts(page, posts) {
     const postContainer = $("#post-container");
     postContainer.empty(); // Clear current posts
 
-    paginatedPosts.forEach((post, index) => {
-        // Create a loading card placeholder
-        const loadingCard = $(`
-            <div class="card loading-card">
-                <div class="card__spinner"></div>
-            </div>
-        `);
-        postContainer.append(loadingCard);
-
-        // Preload the image
+    paginatedPosts.forEach(post => {
         const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, "-180px.$1");
-        const img = new Image();
-        img.src = imagePath;
 
-        img.onload = () => {
-            if (loadingCard.parent().length) {
-                const lazyLoadAttribute = index < (isMobile ? 4 : 8) ? "" : 'loading="lazy"';
-
-                const cardHTML = `
-                    <a href="${post.url}" class="card" data-index="${posts.indexOf(post) + 1}">
-                        ${post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : ""}
-                        <div class="card__overlay"><p>${post.description}</p></div>
-                        <div class="card__img-container">
-                            <img src="${imagePath}" class="card__img" alt="${post.title}" ${lazyLoadAttribute}>
-                        </div>
-                        <div class="card__footer">
-                            <span class="title-card">${post.title.toUpperCase()}</span>
-                        </div>
-                    </a>
-                `;
-
-                loadingCard.replaceWith(cardHTML);
-            }
-        };
-
-        img.onerror = () => {
-            if (loadingCard.parent().length) {
-                loadingCard.replaceWith(`
-                    <div class="card error-card">
-                        <p>Failed to load the recipe image.</p>
-                    </div>
-                `);
-            }
-        };
+        const cardHTML = `
+            <a href="${post.url}" class="card" data-index="${posts.indexOf(post) + 1}">
+                ${post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : ""}
+                <div class="card__overlay"><p>${post.description}</p></div>
+                <div class="card__img-container">
+                    <img src="${imagePath}" class="card__img" alt="${post.title}">
+                </div>
+                <div class="card__footer">
+                    <span class="title-card">${post.title.toUpperCase()}</span>
+                </div>
+            </a>
+        `;
+        postContainer.append(cardHTML);
     });
 
     updatePaginationButtons(page, posts.length, postsPerPage);
+
+    // Ensure scrolling to the top after DOM update
+    setTimeout(() => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    }, 0);
 }
 
 
 
+function loadPosts(page) {
+    const isMobile = window.innerWidth <= 768;
+    const postsPerPage = isMobile ? 10 : 20;
+    const startIndex = (page - 1) * postsPerPage;
+    const endIndex = startIndex + postsPerPage;
+
+    const paginatedPosts = filteredPosts.slice(startIndex, endIndex);
+    const postContainer = document.getElementById("post-container");
+    postContainer.innerHTML = ""; // Clear existing posts
+
+    paginatedPosts.forEach(post => {
+        const cardHTML = `
+            <a href="${post.url}" class="card">
+                ${post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : ""}
+                <div class="card__overlay"><p>${post.description}</p></div>
+                <div class="card__img-container">
+                    <img src="${post.image}" class="card__img" alt="${post.title}">
+                </div>
+                <div class="card__footer">
+                    <span class="title-card">${post.title.toUpperCase()}</span>
+                </div>
+            </a>
+        `;
+        postContainer.insertAdjacentHTML("beforeend", cardHTML);
+    });
+
+    updatePaginationButtons(page, filteredPosts.length, postsPerPage);
+}   
 
 /****************************************************************************
  *  UPDATE PAGINATION BUTTONS
  ****************************************************************************/
 function updatePaginationButtons(currentPage, totalPosts, postsPerPage) {
     const totalPages = Math.ceil(totalPosts / postsPerPage);
+    const paginationContainer = document.getElementById("pagination-container");
+    paginationContainer.innerHTML = ""; // Clear existing buttons
 
-    const paginationContainer = $("#pagination-container");
-    paginationContainer.empty(); // Clear existing buttons
+    // Create and add "First Page" button
+    const firstPageButton = document.createElement("button");
+    firstPageButton.textContent = "PRIMEIRA PÁGINA";
+    firstPageButton.classList.add("pagination-button");
+    firstPageButton.addEventListener("click", () => {
+        loadPaginatedPosts(1, filteredPosts);
+    });
+    paginationContainer.appendChild(firstPageButton);
 
-    // Add "First Page" button
-    const $firstPage = $('<button>')
-        .text('PRIMEIRA PÁGINA')
-        .addClass('pagination-button')
-        .on('click', function () {
-            loadPaginatedPosts(1, filteredPosts);
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-    paginationContainer.append($firstPage);
-
-    // Add ellipsis before current page range if necessary
-    if (currentPage > 3) {
-        const $ellipsis = $('<span>').text('...').addClass('pagination-ellipsis');
-        paginationContainer.append($ellipsis);
-    }
-
-    // Add page number buttons around the current page
+    // Add page number buttons
     for (let i = Math.max(1, currentPage - 2); i <= Math.min(totalPages, currentPage + 2); i++) {
-        const $pageButton = $('<button>')
-            .text(i)
-            .addClass('pagination-button');
-
+        const pageButton = document.createElement("button");
+        pageButton.textContent = i;
+        pageButton.classList.add("pagination-button");
         if (i === currentPage) {
-            $pageButton.addClass('active'); // Highlight current page
+            pageButton.classList.add("active");
         }
-
-        $pageButton.on('click', function () {
+        pageButton.addEventListener("click", () => {
             loadPaginatedPosts(i, filteredPosts);
-            window.scrollTo({ top: 0, behavior: "smooth" });
         });
-
-        paginationContainer.append($pageButton);
+        paginationContainer.appendChild(pageButton);
     }
 
-    // Add ellipsis after current page range if necessary
-    if (currentPage < totalPages - 2) {
-        const $ellipsis = $('<span>').text('...').addClass('pagination-ellipsis');
-        paginationContainer.append($ellipsis);
-    }
-
-    // Add "Last Page" button
-    const $lastPage = $('<button>')
-        .text('ÚLTIMA PÁGINA')
-        .addClass('pagination-button')
-        .on('click', function () {
-            loadPaginatedPosts(totalPages, filteredPosts);
-            window.scrollTo({ top: 0, behavior: "smooth" });
-        });
-    paginationContainer.append($lastPage);
+    // Create and add "Last Page" button
+    const lastPageButton = document.createElement("button");
+    lastPageButton.textContent = "ÚLTIMA PÁGINA";
+    lastPageButton.classList.add("pagination-button");
+    lastPageButton.addEventListener("click", () => {
+        loadPaginatedPosts(totalPages, filteredPosts);
+    });
+    paginationContainer.appendChild(lastPageButton);
 }
-
-
 
 /****************************************************************************
  *  SETUP EVENT HANDLERS
