@@ -259,6 +259,7 @@ CSS for the information box
   line-height: 21.29px;
   text-align: right;
   color: rgba(75, 82, 73, 1);
+  max-width: 200px;
 }
 
 .informação-nutricional:hover {
@@ -308,6 +309,12 @@ CSS for the information box
   text-align: center;
   font-size: 16px;
   color: #333;
+}
+.container-informacao{
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
 }
 
 .information-row {

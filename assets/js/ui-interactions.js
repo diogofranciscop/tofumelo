@@ -1,15 +1,20 @@
 $(document).ready(function () {
     // Toggle information box
-    $(".informação-nutricional").click(function () {
+    $(".informação-nutricional").click(function (event) {
         const infoBox = $(".InformationBox");
-
-        // Add 'visible' and remove 'hidden'
+    
+        // Toggle classes
         if (infoBox.hasClass("visible")) {
             infoBox.removeClass("visible").addClass("hidden");
         } else {
             infoBox.removeClass("hidden").addClass("visible");
         }
+    
+        // Prevent the event from propagating to document click
+        event.stopPropagation();
     });
+    
+
 
     // Close information box when clicking outside
     $(document).on('click', function (event) {
