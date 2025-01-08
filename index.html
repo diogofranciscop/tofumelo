@@ -13,7 +13,8 @@ permalink: /
 </div>
 <!-- HTML !-->
 <div class="filter-buttons">
-  <button class="button-3 filter-button button-5" data-role="filtros" aria-label="Filtros"><i class="fas fa-sliders-h"></i> FILTROS</button>
+  <button class="button-3 filter-button button-5" data-role="filtros" aria-label="Filtros"><i
+      class="fas fa-sliders-h"></i> FILTROS</button>
   <button class="button-3 button-4" data-role="Almoço/Jantar" aria-label="Almoço/Jantar">ALMOÇO/JANTAR</button>
   <button class="button-3 button-4" data-role="Pequeno-Almoço" aria-label="Pequeno-Almoço">PEQUENO-ALMOÇO</button>
   <button class="button-3 button-4" data-role="Entrada" aria-label="Entrada">ENTRADAS</button>
@@ -83,34 +84,12 @@ permalink: /
 </div>
 
 <div class="posts" id="post-container">
-  {% assign first_page_count = 20 %}
-{% for post in site.posts limit: first_page_count %}
-  <a href="{{ post.url }}" class="card" data-index="{{ forloop.index }}">
-    <div class="skeleton skeleton-card"></div>
-    {% if post.new == "yes" %}
-      <div class="new-tape">Nova Receita</div>
-    {% endif %}
-    <div class="card__overlay">
-      <p>{{ post.description }}</p>
-    </div>
-    <div class="card__img-container">
-      <!-- Optionally handle initial lazy-loading logic as you wish -->
-      <picture>
-        <source srcset="{{ post.image | replace: '.webp', '-126px.webp' }}" media="(max-width: 768px)" width="126" height="140">
-        <source srcset="{{ post.image | replace: '.webp', '-180px.webp' }}" media="(max-width: 1500px)"width="180" height="200">
-        <img src="{{ post.image }}" class="card__img" alt="{{ post.title }}" loading="auto">
-      </picture>
-    </div>
-    <div class="card__footer">
-      <span class="title-card">{{ post.title | upcase }}</span>
-    </div>
-  </a>
-{% endfor %}
+ 
 </div>
 </div>
 <div id="pagination-container" class="pagination"></div>
 <script>
-    const filtrosButton = document.querySelector('.filter-button[data-role="filtros"]');
+  const filtrosButton = document.querySelector('.filter-button[data-role="filtros"]');
   const filterBox = document.getElementById('filterBox');
 
   // Add event listener to toggle 'hidden' class on filterBox when the button is clicked
@@ -121,35 +100,35 @@ permalink: /
 <script>
 
   const allPosts = [];
-    {% for post in site.posts %}
-    allPosts.push({
-        url: "{{ post.url }}",
-        title: "{{ post.title | escape }}",
-        description: "{{ post.description | escape }}",
-        image: "{{ post.image }}",
-        type: "{{ post.type | join: ',' }}",
-        time: "{{ post.time-total | join: ',' }}",
-        diet: "{{ post.diet | join: ',' }}",
-        new: "{{post.new }}"
-    });
-    {% endfor %}
+  {% for post in site.posts %}
+  allPosts.push({
+    url: "{{ post.url }}",
+    title: "{{ post.title | escape }}",
+    description: "{{ post.description | escape }}",
+    image: "{{ post.image }}",
+    type: "{{ post.type | join: ',' }}",
+    time: "{{ post.time-total | join: ',' }}",
+    diet: "{{ post.diet | join: ',' }}",
+    new: "{{post.new }}"
+  });
+  {% endfor %}
 </script>
 
 <script>$(document).ready(function () {
-  // Populate allPosts from the existing DOM
-  $('#post-container .card').each(function () {
+    // Populate allPosts from the existing DOM
+    $('#post-container .card').each(function () {
       allPosts.push({
-          url: $(this).attr('href'),
-          title: $(this).find('.title-card').text(),
-          description: $(this).find('.card__overlay p').text(),
-          image: $(this).find('.card__img').attr('src'),
-          type: $(this).data('type'),
-          time: $(this).data('time'),
-          diet: $(this).data('diet'),
-          new: $(this).find('.new-tape').length > 0 ? "yes" : "no"
+        url: $(this).attr('href'),
+        title: $(this).find('.title-card').text(),
+        description: $(this).find('.card__overlay p').text(),
+        image: $(this).find('.card__img').attr('src'),
+        type: $(this).data('type'),
+        time: $(this).data('time'),
+        diet: $(this).data('diet'),
+        new: $(this).find('.new-tape').length > 0 ? "yes" : "no"
       });
+    });
   });
-});
 </script>
 <script>
   function adjustLazyLoading() {
@@ -190,16 +169,16 @@ permalink: /
 <script>
   // Function to adjust the number of visible posts based on screen size
   function adjustStaticPosts() {
-      const isMobile = window.innerWidth <= 768;
-      const posts = document.querySelectorAll('#post-container .card');
+    const isMobile = window.innerWidth <= 768;
+    const posts = document.querySelectorAll('#post-container .card');
 
-      posts.forEach((post, index) => {
-          if (isMobile && index >= 10) {
-              post.style.display = 'none'; // Hide posts after the 10th on mobile
-          } else {
-              post.style.display = 'block'; // Show all posts on larger screens
-          }
-      });
+    posts.forEach((post, index) => {
+      if (isMobile && index >= 10) {
+        post.style.display = 'none'; // Hide posts after the 10th on mobile
+      } else {
+        post.style.display = 'block'; // Show all posts on larger screens
+      }
+    });
   }
 
   // Run on initial load
