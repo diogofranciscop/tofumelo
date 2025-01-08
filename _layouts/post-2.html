@@ -123,3 +123,54 @@ layout: default
     </div>
 
 </div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+    // Extract serving details from page.serve
+    const servingText = {{ page.serve | jsonify }}; // Example: "4 pratos de sopa"
+    const match = servingText.match(/^(\d+)\s*(.+)$/);
+    const defaultServing = match ? parseFloat(match[1]) : 1; // Default serving count
+    const servingUnit = match ? match[2].trim() : ""; // Serving unit (e.g., "pratos de sopa")
+
+    // Set the serving unit text on page load
+    $('#servings-text').text(servingUnit);
+
+    // Function to format numbers (remove decimals if integer)
+    function formatNumber(value) {
+        return Number.isInteger(value) ? value : value.toFixed(2);
+    }
+
+    // Function to update ingredient measurements dynamically
+    function updateMeasurements(selectedServings) {
+        $('.ingredients2 ul').each(function () {
+            // Loop through each section's ingredient list
+            $(this).find('li').each(function () {
+                const $measureSpan = $(this).find('.measure3'); // Select the measure span
+                const originalMeasure = parseFloat($measureSpan.data('original')); // Get original measure
+                const unit = $measureSpan.data('unit'); // Get the unit dynamically
+                if (originalMeasure) {
+                    // Calculate the new measure based on selected servings
+                    const newMeasure = (originalMeasure / defaultServing) * selectedServings;
+                    $measureSpan.text(`${formatNumber(newMeasure)}${unit ? ` ${unit}` : ''}`); // Update the displayed measure
+                } else {
+                    // Handle cases where there is no numeric value
+                    $measureSpan.text($measureSpan.text().trim());
+                }
+            });
+        });
+    }
+
+    // Event listener for servings input field
+    $('#servings-input').on('input', function () {
+        const selectedServings = parseFloat($(this).val()); // Get the input value
+        if (!isNaN(selectedServings) && selectedServings > 0) {
+            updateMeasurements(selectedServings); // Dynamically update the measurements
+        }
+    });
+
+    // Initial rendering for the default serving size
+    $('#servings-input').val(defaultServing); // Set default servings in input
+    updateMeasurements(defaultServing); // Initialize ingredient measures
+});
+
+</script>
