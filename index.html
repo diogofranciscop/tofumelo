@@ -82,11 +82,11 @@ permalink: /
 
 </div>
 
-
 <div class="posts" id="post-container">
   {% assign first_page_count = 20 %}
 {% for post in site.posts limit: first_page_count %}
   <a href="{{ post.url }}" class="card" data-index="{{ forloop.index }}">
+    <div class="skeleton skeleton-card"></div>
     {% if post.new == "yes" %}
       <div class="new-tape">Nova Receita</div>
     {% endif %}
@@ -94,7 +94,6 @@ permalink: /
       <p>{{ post.description }}</p>
     </div>
     <div class="card__img-container">
-      
       <!-- Optionally handle initial lazy-loading logic as you wish -->
       <picture>
         <source srcset="{{ post.image | replace: '.webp', '-126px.webp' }}" media="(max-width: 768px)" width="126" height="140">

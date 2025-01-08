@@ -83,6 +83,7 @@ function loadPaginatedPosts(page, posts) {
 
     const paginatedPosts = posts.slice(startIndex, endIndex);
     const postContainer = $("#post-container");
+
     postContainer.empty(); // Clear current posts
 
     paginatedPosts.forEach(post => {
@@ -90,17 +91,28 @@ function loadPaginatedPosts(page, posts) {
 
         const cardHTML = `
             <a href="${post.url}" class="card" data-index="${posts.indexOf(post) + 1}">
-                ${post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : ""}
-                <div class="card__overlay"><p>${post.description}</p></div>
+             <div class="skeleton skeleton-card"></div>
                 <div class="card__img-container">
-                    <img src="${imagePath}" class="card__img" alt="${post.title}">
+                    <img src="${imagePath}" class="card__img" alt="${post.title}" style="display: none;">
                 </div>
+                ${post.new === "yes" ? '<div class="new-tape" style="display:none">Nova Receita</div>' : ""}
+                <div class="card__overlay"><p>${post.description}</p></div>
                 <div class="card__footer">
-                    <span class="title-card">${post.title.toUpperCase()}</span>
+                    <span class="title-card" style="display: none;">${post.title.toUpperCase()}</span>
                 </div>
             </a>
         `;
         postContainer.append(cardHTML);
+
+        // Attach load event to the image
+        const imageElement = postContainer.find(`img[src="${imagePath}"]`);
+        imageElement.on("load", function () {
+            const card = $(this).closest(".card");
+            card.find(".skeleton-card").addClass("hidden"); // Hide the skeleton
+            $(this).fadeIn(); // Show the image
+            card.find(".title-card").removeClass("hidden").fadeIn(); // Show the title
+            card.find(".new-tape").removeClass("hidden").fadeIn(); // Show the title
+        });
     });
 
     updatePaginationButtons(page, posts.length, postsPerPage);
@@ -110,8 +122,6 @@ function loadPaginatedPosts(page, posts) {
         window.scrollTo({ top: 0, behavior: "smooth" });
     }, 0);
 }
-
-
 
 function loadPosts(page) {
     const isMobile = window.innerWidth <= 768;
@@ -126,6 +136,7 @@ function loadPosts(page) {
     paginatedPosts.forEach(post => {
         const cardHTML = `
             <a href="${post.url}" class="card">
+             <div class="skeleton skeleton-card"></div> 
                 ${post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : ""}
                 <div class="card__overlay"><p>${post.description}</p></div>
                 <div class="card__img-container">
@@ -140,7 +151,7 @@ function loadPosts(page) {
     });
 
     updatePaginationButtons(page, filteredPosts.length, postsPerPage);
-}   
+}
 
 /****************************************************************************
  *  UPDATE PAGINATION BUTTONS
@@ -279,3 +290,4 @@ function toggleSelection(value, type) {
         array.splice(index, 1);
     }
 }
+

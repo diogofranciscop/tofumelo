@@ -259,6 +259,7 @@ CSS for the information box
   line-height: 21.29px;
   text-align: right;
   color: rgba(75, 82, 73, 1);
+  max-width: 200px;
 }
 
 .informação-nutricional:hover {
@@ -308,6 +309,12 @@ CSS for the information box
   text-align: center;
   font-size: 16px;
   color: #333;
+}
+.container-informacao{
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  align-items: center;
 }
 
 .information-row {
@@ -494,3 +501,20 @@ CSS for the information box
 
 }
 
+.custom-input {
+  width: 50px;
+  height:30px;
+  margin-right: 10px;
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  font-size: 16px; /* Adjust font size */
+  color: green; /* Make the text green */
+  padding: 5px; /* Add padding for a better appearance */
+}
+
+.custom-input:focus {
+  outline: none; /* Remove the blue outline */
+  border-color: #4caf50; /* Green border when focused */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add a glow effect */
+}
