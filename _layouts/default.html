@@ -48,7 +48,7 @@
   <link rel="preload" href="/assets/js/version.js" as="script">
 
   <!-- Scripts -->
-  <script src="https://code.jquery.com/jquery-3.6.0.min.js" defer></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script src="/assets/js/beacon.min.js?v=1.0" defer></script>
   <script src="https://www.googletagmanager.com/gtag/js?id=G-896CVHSCS7" defer></script>
   <script defer>
@@ -124,7 +124,7 @@
     });
   </script>
 
-<script>
+<script defer>
   $(document).ready(function () {
       // Extract serving details from page.serve
       const servingText = {{ page.serve | jsonify }}; // Example: "4 pratos de sopa"
@@ -171,7 +171,7 @@
   });
   
   </script>
-  <script>
+  <script defer> 
     $(document).ready(function () {
     // Extract serving details from page.serve
     const servingText = {{ page.serve | jsonify }}; // Example: "4 pratos de sopa"
