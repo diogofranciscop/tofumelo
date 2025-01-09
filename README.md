@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="assets/img/logo.webp" alt="Tofumelo Banner" width="80%">
+</div>
+
 # Tofumelo
 Static website featuring the recipes I like the most. All the recipes are free from animal products.
 
