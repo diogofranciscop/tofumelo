@@ -1,9 +1,8 @@
 <div align="center">
   <img src="assets/img/logo.webp" alt="Tofumelo Banner" width="50%">
+  <h1>Tofumelo</h1>
+  <h4>Static website featuring the recipes I like the most. All the recipes are free from animal products.</h4>
 </div>
-
-# Tofumelo
-Static website featuring the recipes I like the most. All the recipes are free from animal products.
 
 # Language Integration
 If you would like to have the recipes available in other languages, feel free to fork the repository and translate it.
