@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="assets/img/logo.webp" alt="Tofumelo Banner" width="80%">
+  <img src="assets/img/logo.webp" alt="Tofumelo Banner" width="50%">
 </div>
 
 # Tofumelo
