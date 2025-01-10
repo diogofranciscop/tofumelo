@@ -9,6 +9,7 @@ let searchTerm = "";
 let selectedTitleSort = "";
 let selectedTimeSort = "";
 
+window.paginationTriggered = false;
 /****************************************************************************
  *  ON DOCUMENT READY
  ****************************************************************************/
@@ -27,12 +28,7 @@ $(document).ready(function () {
     // Trigger initial pagination load
     loadPaginatedPosts(1, filteredPosts);
 });
-window.addEventListener('resize', () => {
-    const isMobile = window.innerWidth <= 768;
-    const postsPerPage = isMobile ? 10 : 20;
-    const currentPage = 1; // Reset to the first page on resize
-    loadPaginatedPosts(currentPage, filteredPosts);
-});
+let previousIsMobile = window.innerWidth <= 768;
 
 
 /****************************************************************************
@@ -117,11 +113,16 @@ function loadPaginatedPosts(page, posts) {
 
     updatePaginationButtons(page, posts.length, postsPerPage);
 
-    // Ensure scrolling to the top after DOM update
-    setTimeout(() => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-    }, 0);
+    // Scroll to the top only when triggered by a pagination button
+    if (window.paginationTriggered) {
+        setTimeout(() => {
+            window.scrollTo({ top: 0, behavior: "smooth" });
+            window.paginationTriggered = false; // Reset the flag
+        }, 0);
+    }
+    
 }
+
 
 function loadPosts(page) {
     const isMobile = window.innerWidth <= 768;
@@ -166,6 +167,7 @@ function updatePaginationButtons(currentPage, totalPosts, postsPerPage) {
     firstPageButton.textContent = "PRIMEIRA PÁGINA";
     firstPageButton.classList.add("pagination-button");
     firstPageButton.addEventListener("click", () => {
+        window.paginationTriggered = true;
         loadPaginatedPosts(1, filteredPosts);
     });
     paginationContainer.appendChild(firstPageButton);
@@ -178,9 +180,17 @@ function updatePaginationButtons(currentPage, totalPosts, postsPerPage) {
         if (i === currentPage) {
             pageButton.classList.add("active");
         }
+
+        // Updated event listener for page buttons
         pageButton.addEventListener("click", () => {
-            loadPaginatedPosts(i, filteredPosts);
+            window.paginationTriggered = true;
+
+            // Only load posts if the button clicked is for a different page
+            if (i !== currentPage) {
+                loadPaginatedPosts(i, filteredPosts);
+            }
         });
+
         paginationContainer.appendChild(pageButton);
     }
 
@@ -189,10 +199,13 @@ function updatePaginationButtons(currentPage, totalPosts, postsPerPage) {
     lastPageButton.textContent = "ÚLTIMA PÁGINA";
     lastPageButton.classList.add("pagination-button");
     lastPageButton.addEventListener("click", () => {
+        window.paginationTriggered = true;
         loadPaginatedPosts(totalPages, filteredPosts);
     });
     paginationContainer.appendChild(lastPageButton);
 }
+
+
 
 /****************************************************************************
  *  SETUP EVENT HANDLERS
