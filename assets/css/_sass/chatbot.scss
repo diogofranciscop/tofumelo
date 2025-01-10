@@ -1,0 +1,145 @@
+#chat-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    border: none !important;
+    cursor: pointer;
+    background-color: transparent; /* Main color */
+    z-index: 1200;
+}
+#close-button{
+  position: absolute; 
+  top: 10px; 
+  right: 14px; 
+  border: none; 
+  cursor: pointer; 
+  appearance: none; 
+  background-color: inherit; 
+  color: white
+}
+#chat-icon,
+#chat-icon:focus {
+  outline: none;
+}
+
+button:focus{
+  outline: none;
+}
+#icon,
+#icon:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: 0px dotted !important;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+#chat-message {
+    position: fixed;
+    bottom: 100px;
+    /* Adjust this value as needed */
+    right: 25px;
+    /* Adjust this value as needed */
+    z-index: 1200;
+    /* Ensure the message is on top of other elements */
+    background-color: rgba(0, 61, 102, 0.5); /* Semi-transparent background color from the palette */
+    border-radius: 4px;
+    padding: 10px;
+    /* Space between text and balloon edge */
+    max-width: 200px;
+    /* Maximum width of the balloon */
+    border: 2px solid #003D66; /* Border color from the palette */
+}
+
+#chat-message::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    /* Position of the arrow */
+    left: 80%;
+    /* Center the arrow */
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #003D66; /* Arrow color from the palette */
+    z-index: 1200;
+}
+
+#icon {
+    width: 106%;
+    object-fit: cover;
+    z-index: 1200;
+    position: relative;
+  left: -2%;
+}
+
+#chat-box {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  display: none;
+  padding-top: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  z-index: 1200;
+  display: flex;
+}
+#chat-box-header {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #001829; /* Header background color from the palette */
+    height: 40px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+    font-size: 20px;
+    width: 350px;
+    top: -12px;
+    z-index: 1200;
+    right: 0px;
+}
+
+#iframe-style {
+    width: 358px;
+    height: 516px;
+    bottom: 55px;
+    border: 0;
+    visibility: hidden;
+}
+
+    #persona {
+      position: relative;
+      left: -24%;
+      z-index: 1;
+      vertical-align: center;
+    }
+
+    #persona::before {
+      content: "";
+      position: absolute;
+      z-index: -1;
+      top: 50%;
+      left: -20%;
+      transform: translate(-50%, -50%);
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: green;
+      animation: glow-chatbot 2s infinite;
+    }
+
+    @keyframes glow-chatbot {
+      0% {
+        box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00;
+      }
+
+      100% {
+        box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+      }
+    }
