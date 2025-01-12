@@ -4,7 +4,8 @@ title: Receitas Vegan
 permalink: /
 ---
 <div class="wrap-search">
-  <div class="search">
+  <div class="skeleton skeleton-search"></div>
+  <div class="search hidden">
     <input type="text" class="searchTerm" placeholder="Pesquisa por nome de receita ou ingrediente...">
     <button type="submit" class="searchButton" aria-label="Search">
       <i class="fa fa-search"></i>
@@ -13,13 +14,21 @@ permalink: /
 </div>
 <!-- HTML !-->
 <div class="filter-buttons">
-  <button class="button-3 filter-button button-5" data-role="filtros" aria-label="Filtros"><i
+    <!-- Skeleton placeholders for filter buttons -->
+    <div class="skeleton skeleton-button" style="width: 103.733px;"></div>
+    <div class="skeleton skeleton-button" style="width: 123.767px;"></div>
+    <div class="skeleton skeleton-button" style="width: 135.45px;"></div>
+    <div class="skeleton skeleton-button" style="width: 93.9167px;"></div>
+    <div class="skeleton skeleton-button" style="width: 80.2333px;"></div>
+    <div class="skeleton skeleton-button" style="width: 109.25px;"></div>
+
+  <button class="button-3 filter-button button-5 hidden" data-role="filtros" aria-label="Filtros"><i
       class="fas fa-sliders-h"></i> FILTROS</button>
-  <button class="button-3 button-4" data-role="Almoço/Jantar" aria-label="Almoço/Jantar">ALMOÇO/JANTAR</button>
-  <button class="button-3 button-4" data-role="Pequeno-Almoço" aria-label="Pequeno-Almoço">PEQUENO-ALMOÇO</button>
-  <button class="button-3 button-4" data-role="Entrada" aria-label="Entrada">ENTRADAS</button>
-  <button class="button-3 button-4" data-role="Lanche" aria-label="Lanche">LANCHE</button>
-  <button class="button-3 button-4" data-role="Sobremesa" aria-label="Sobremesa">SOBREMESAS</button>
+  <button class="button-3 button-4 hidden" data-role="Almoço/Jantar" aria-label="Almoço/Jantar">ALMOÇO/JANTAR</button>
+  <button class="button-3 button-4 hidden" data-role="Pequeno-Almoço" aria-label="Pequeno-Almoço">PEQUENO-ALMOÇO</button>
+  <button class="button-3 button-4 hidden" data-role="Entrada" aria-label="Entrada">ENTRADAS</button>
+  <button class="button-3 button-4 hidden" data-role="Lanche" aria-label="Lanche">LANCHE</button>
+  <button class="button-3 button-4 hidden" data-role="Sobremesa" aria-label="Sobremesa">SOBREMESAS</button>
 </div>
 <!-- Hidden filter box that will appear on clicking the FILTROS button -->
 <div id="filterBox" class="filter-box hidden">

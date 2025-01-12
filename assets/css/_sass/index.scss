@@ -435,7 +435,7 @@ transform: translateX(20px); /* Adjust this to match the new slider width */
 }
 
 .hidden {
-display: none;
+display: none !important;
 }
 
 
@@ -695,6 +695,8 @@ display: none;
       background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
       background-size: 200% 100%;
       animation: shimmer 1.5s infinite;
+      z-index: 1000;
+      position: relative;
     }
 
     @keyframes shimmer {
@@ -712,3 +714,16 @@ display: none;
       border-radius: 5px;
       flex-shrink: 0;
     }
+.skeleton-search{
+  max-width: 791px;
+  width: 85%;
+  height:30px;
+  border-radius: 20px;
+  flex-shrink: 0;
+}
+.skeleton-button{
+  display: inline-block; 
+  height:36px;
+  border-radius: 40px;
+  margin-right: 12px; 
+}
