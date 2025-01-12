@@ -18,8 +18,8 @@ lipidos: 5.9
 hidratos: 26.2
 author: original
 ingredients:
-    - 140gr | de Soja fina
-    - 300gr | de Cogumelos aos cubinhos
+    - 140 gr | de Soja fina
+    - 300 gr | de Cogumelos aos cubinhos
     - 1/2 | Pimento (aprox. 50 gr) 
     - 1 | Cebola (aprox. 50 gr)
     - 4 dentes | de Alho

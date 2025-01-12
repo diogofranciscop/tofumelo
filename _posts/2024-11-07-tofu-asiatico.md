@@ -24,15 +24,15 @@ ingredients:
     - 1| Abacate
     - ⁠4 fatias | de Tomate
     o Tofu:
-    - 400gr | de Tofu
-    - 15gr | de Amido de Milho
-    - 2 colheres de sopa | de Óleo de Sésamo 
+    - 400 gr | de Tofu
+    - 15 gr | de Amido de Milho
+    - 2 c.sopa | de Óleo de Sésamo 
     - 1 dente de | Alho
-    - 0,5cm de | raíz de Gengibre
-    - 1 colher de chá | de Sriracha
-    - 2 colheres de sopa | de Vinagre de Arroz
-    - 3 colheres de sopa | de Agave
-    - 2 colheres de sopa | de Molho de Soja
+    - 0,5 cm de | raíz de Gengibre
+    - 1 c.chá | de Sriracha
+    - 2 c.sopa | de Vinagre de Arroz
+    - 3 c.sopa | de Agave
+    - 2 c.sopa | de Molho de Soja
     - "|Água q.b."
 instructions:
     o Acompanhamento:

@@ -18,8 +18,8 @@ lipidos: 6.2
 hidratos: 65.1
 author: fitgreenmind
 ingredients: 
-  - 150ml | Aquafaba (água da cozedura do grão de bico)
-  - 150gr | de Chocolate Negro (70%)
+  - 150 ml | Aquafaba (água da cozedura do grão de bico)
+  - 150 gr | de Chocolate Negro (70%)
   - "| Nozes a gosto"
 instructions:
   - Bater a aquafaba em castelo (como se fosse clara de ovo). Estará pronto quando for possível virar a taça sem que o conteúdo caia.

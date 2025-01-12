@@ -19,28 +19,28 @@ hidratos: 42.02
 author: bruna-simoes
 ingredients:
     o Bolo de Chocolate:
-        - 270gr | de Farinha 
-        - 130gr | de Açúcar Mascavado 
-        - 130gr | de Açúcar branco 
-        - 100gr | de Cacau em pó 
-        - 1 colher de sopa | de Fermento para bolos 
-        - 1 colher de chá | de Bicarbonato de Sódio
-        - 100ml | de Óleo 
-        - 300ml | de Bebida Vegetal de Aveia 
-        - 1 colher de sopa | de Vinagre de Sidra 
-        - 1 colher de sopa | de Linhaça moída
-        - 3 colheres de sopa | de Água
+        - 270 gr | de Farinha 
+        - 130 gr | de Açúcar Mascavado 
+        - 130 gr | de Açúcar branco 
+        - 100 gr | de Cacau em pó 
+        - 1 c.sopa | de Fermento para bolos 
+        - 1 c.chá | de Bicarbonato de Sódio
+        - 100 ml | de Óleo 
+        - 300 ml | de Bebida Vegetal de Aveia 
+        - 1 c.sopa | de Vinagre de Sidra 
+        - 1 c.sopa | de Linhaça moída
+        - 3 c.sopa | de Água
         - "| Manteiga vegetal para untar q.b."
         - "|Sal Q.b"
     a Avelã Caramelizada:
-        - 120gr | de Avelã torrada 
-        - 80gr | de Açúcar
-        - 2 colheres de sopa | de Água
-        - 1 colher de chá | de Manteiga Vegetal 
+        - 120 gr | de Avelã torrada 
+        - 80 gr | de Açúcar
+        - 2 c.sopa | de Água
+        - 1 c.chá | de Manteiga Vegetal 
     a Cobertura de Chocolate:
-        - 200gr | de Chocolate de barra 52%cacau 
-        - 50ml | de Bebida Vegetal de Aveia 
-        - 50ml | Natas Vegetais 
+        - 200 gr | de Chocolate de barra 52%cacau 
+        - 50 ml | de Bebida Vegetal de Aveia 
+        - 50 ml | Natas Vegetais 
     os Toppings:
         - "| Frutos vermelhos q.b."
 instructions:

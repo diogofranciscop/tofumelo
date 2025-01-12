@@ -19,7 +19,7 @@ hidratos: 54
 author: original
 ingredients:
     o Tofu Marinado:
-    - 400gr |  de Tofu
+    - 400 gr |  de Tofu
     - 2 c.sopa | de Orégãos
     - 2 | Cebolas médias
     - 1 c.sopa | de Pimenta Preta

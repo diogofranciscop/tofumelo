@@ -23,8 +23,8 @@ ingredients:
     - 1 | Courjette
     - 250 gr | de Cogumelos Pleurothus
     - 1 molho | de Salsa
-    - 270gr | de Farinha de Grão-de-bico
-    - 2 chávenas | de Água com Gás
+    - 270 gr | de Farinha de Grão-de-bico
+    - 500 ml | de Água com Gás
     - 1 c.chá | de Caril
     - 1 c.chá | de Curcuma em pó
     - " | Pimenta Preta q.b."

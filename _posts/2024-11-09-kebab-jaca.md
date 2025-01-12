@@ -19,19 +19,19 @@ hidratos: 65.1
 author: original
 ingredients: 
   o Pão Pita:
-    - 300gr | de Farinha de Trigo
-    - 180ml | de Água a temperatura ambiente
-    - 6gr | de Sal
-    - 20gr | de Azeite
-    - 3-4gr | de Fermento de padeiro seco
+    - 300 gr | de Farinha de Trigo
+    - 180 ml | de Água a temperatura ambiente
+    - 6 gr | de Sal
+    - 20 gr | de Azeite
+    - 3-4 gr | de Fermento de padeiro seco
   o Recheio:
-   - 300gr | de Jaca (ou alternativamente Cogumelos Pleurothus desfiados)
+   - 300 gr | de Jaca (ou alternativamente Cogumelos Pleurothus desfiados)
    - 2 folhas | de Alface cortada em juliana
    - 1/2 | Cenoura ralada
-   - 1 colher de sopa | de Alho em pó
-   - 1 colher de sopa | de Água morna
-   - 1 colher de sobremesa | de Cominhos moídos
-   - 2 colheres de sopa | de Sumo de Limão
+   - 1 c.sopa | de Alho em pó
+   - 1 c.sopa | de Água morna
+   - 1 c.sobremesa | de Cominhos moídos
+   - 2 c.sopa | de Sumo de Limão
    - "| Pimenta Preta q.b."
    - "| Sal q.b."
    - "| Açafrão q.b."

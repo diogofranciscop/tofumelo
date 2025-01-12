@@ -19,8 +19,8 @@ hidratos: 87.75
 author: original
 ingredients: 
     - 4 | Pães de Água
-    - 2 copos | de Grão-de-bico cozido
-    - 250gr | de Cogumelos Pleurothus
+    - 200 gr | de Grão-de-bico cozido
+    - 250 gr | de Cogumelos Pleurothus
     - 1/4 | Couve Rouxa
     - 1 | Cenoura
     - 5 c.sopa | de Maionese vegan (exemplo, Hellmann's) 

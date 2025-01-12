@@ -19,18 +19,18 @@ hidratos: 8.61
 author: original
 ingredients:
   os Cogumelos:
-    - 300gr | de Cogumelos Eryngui
+    - 300 gr | de Cogumelos Eryngui
     - 1 | Cebola Roxa pequena, picada finamente
     - 1 | Pimento Vermelho, em cubos pequenos
     - 1 colher de sopa | de Azeite
-    - 50ml | de Vinho Branco
+    - 50 ml | de Vinho Branco
     - "| Alho em pó q.b."
     - "| Sal q.b."
     - "| Piri-piri q.b."
     - "| Salsa fresca q.b."
   o Molho:
-    - 4,5 colheres de sopa | de Azeite
-    - 3 colheres de sopa | de Vinagre de Vinho Branco
+    - 4,5 c.sopa | de Azeite
+    - 3 c.sopa | de Vinagre de Vinho Branco
     - 1,5 dentes de | Alho, picado ou esmigalhado
     - "| Sal q.b."
     - "| Pimenta Preta q.b."

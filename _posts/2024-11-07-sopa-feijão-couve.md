@@ -18,15 +18,15 @@ lipidos: 3.5
 hidratos: 13.5
 author: 
 ingredients:
-    - 20gr | de Azeite
-    - 40gr | de Cebola
-    - 120gr | de Courgette
-    - 60gr | de Alho Francês (parte branca)
-    - 80gr | de Abóbora
-    - 80gr | de Couve Branca
-    - 650ml | de Água
-    - 100gr | de Couve Ralada finamente
-    - 300gr | de Feijão-manteiga previamente cozido
+    - 20 gr | de Azeite
+    - 40 gr | de Cebola
+    - 120 gr | de Courgette
+    - 60 gr | de Alho Francês (parte branca)
+    - 80 gr | de Abóbora
+    - 80 gr | de Couve Branca
+    - 650 ml | de Água
+    - 100 gr | de Couve Ralada finamente
+    - 300 gr | de Feijão-manteiga previamente cozido
     - "| Sal q.b."
     - "| Pimenta preta q.b."
 instructions:

@@ -18,13 +18,13 @@ lipidos: 2.4
 hidratos: 20.5
 author: be pure inside
 ingredients:
-    - 180gr | de Soja Grossa
-    - 250gr | de Cogumelos Marron
+    - 180 gr | de Soja Grossa
+    - 250 gr | de Cogumelos Marron
     - 250 ml | de Polpa de Tomate (ou 4 tomates maduros picados)
     - 1 | Cebola Grande
     - 4 dentes | de Alho
     - 1 folha | de Louro
-    - 1 colher de sopa | de Vinagre de Maçã
+    - 1 c.sopa | de Vinagre de Maçã
     - "| Água a ferver q.b."
     - "| Molho de Soja q.b."
     - "| Salsa q.b."

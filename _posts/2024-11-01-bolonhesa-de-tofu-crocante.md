@@ -19,15 +19,15 @@ hidratos: 47.6
 author: itdoesnttastelikechicken
 ingredients:
         o tofu:
-            - 400gr | de Tofu
-            - 4 colheres de sopa | de Levedura Nutricional (opcional)
-            - 2 colheres de sopa | de Molho de Soja
-            - 2 colheres de sopa | de Azeite
-            - 2 colheres de chá | Red Chili Flakes
-            - 2 colheres de chá | de Alho em pó
-            - 2 colheres de chá | de Cominhos moídos
+            - 400 gr | de Tofu
+            - 4 c.sopa | de Levedura Nutricional (opcional)
+            - 2 c.sopa | de Molho de Soja
+            - 2 c.sopa | de Azeite
+            - 2 c.chá | de Red Chili Flakes
+            - 2 c.chá | de Alho em pó
+            - 2 c.chá | de Cominhos moídos
         a massa:
-            - 200gr | de Esparguete
+            - 200 gr | de Esparguete
             - "| Molho de Tomate temperado a gosto"
             - "| Folhas de Manjericão (opcional)"
 instructions:
