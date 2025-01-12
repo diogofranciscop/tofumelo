@@ -8,7 +8,7 @@ layout: default
             <img class="post-recipe-img2" src="{{ page.image }}" loading="lazy">
             <div class="overlay2">
                 <div class="header2">
-                    <div class="title-and-diet"> 
+                    <div class="title-and-diet">
                         <h1>{{page.title | upcase}}</h1>
                         <div class="logo-diets">
                             {% for diet in page.diet %}
@@ -36,19 +36,19 @@ layout: default
                             <img src="/assets/img/serving.webp" alt="Type">
                             <p>
                                 {% if page.type.size > 1 %}
-                                    {% for type in page.type %}
-                                        <span>{{ type }}</span>{% if forloop.last == false %}, {% endif %}
-                                    {% endfor %}
+                                {% for type in page.type %}
+                                <span>{{ type }}</span>{% if forloop.last == false %}, {% endif %}
+                                {% endfor %}
                                 {% else %}
-                                    <span>{{ page.type }}</span>
+                                <span>{{ page.type }}</span>
                                 {% endif %}
                             </p>
                         </div>
                         <div class="time2">
                             <img src="/assets/img/clock.webp" alt="Time">
                             <p>Total: <span>{{page.time-total}}min |</span> Preparação: <span>{{page.time-prepar}}min
-                                |</span> Confeção: <span>{{page.time-confe}}min</span></p>
-                            </div>
+                                    |</span> Confeção: <span>{{page.time-confe}}min</span></p>
+                        </div>
                         <div class="porcoes2">
                             <img src="/assets/img/porcoes.webp" alt="Serves">
                             <input type="number" id="servings-input" value="4" min="1" class="custom-input">
@@ -67,7 +67,7 @@ layout: default
             </div>
         </div>
         <div id="InformationBox" class="InformationBox hidden">
-            
+
             <h2 class="informacao-title">Informação nutricional*</h2>
             <h2 class="por-porcao">(por porção)</h2>
             <div class="nutrition-item">
@@ -90,7 +90,7 @@ layout: default
             <h2 class="note">* valores calculados através de IA</h2>
         </div>
         <!-- First LAYOUT FOR INSTRUCTIONS AND DIRECTIONS -->
-        {if page.layout == "post"}
+        {% if page.layout-type == 1 %}
         <div class="content2">
             <div class="container-ingredients2">
                 <div class="ingredients2">
@@ -102,14 +102,12 @@ layout: default
                         {% assign measure_value = measure_parts[0] %}
                         {% assign measure_unit = measure_parts[1] %}
                         <li>
-                            <span class="measure3" 
-                            data-original="{{ measure_value }}" 
-                            data-unit="{{ measure_unit }}">
-                            {{ parts[0] }}
-                      </span>
-                                {% if parts[1] %}
-                                <span class="ingredient3">{{ parts[1]}}</span>
-                                {% endif %}
+                            <span class="measure3" data-original="{{ measure_value }}" data-unit="{{ measure_unit }}">
+                                {{ parts[0] }}
+                            </span>
+                            {% if parts[1] %}
+                            <span class="ingredient3">{{ parts[1]}}</span>
+                            {% endif %}
                         </li>
                         {% endfor %}
                     </ul>
@@ -117,7 +115,8 @@ layout: default
             </div>
             <div class="container-directions2">
                 <div class="directions2">
-                    <h3 class="instruction-title shadow-effect-instructions2"style="text-align: center;">INSTRUÇÕES</h3>
+                    <h3 class="instruction-title shadow-effect-instructions2" style="text-align: center;">INSTRUÇÕES
+                    </h3>
                     <ol>
                         {% for pass in page.instructions %}
                         <li>
@@ -136,7 +135,7 @@ layout: default
                             </li>
                             {% endfor %}
                         </ul>
-                        
+
                     </div>
                     {% endif %}
                 </div>
@@ -144,7 +143,7 @@ layout: default
         </div>
         {% endif %}
         <!-- SECOND LAYOUT FOR INSTRUCTIONS AND DIRECTIONS -->
-        {% if page.layout == "post-2" %} 
+        {% if page.layout-type == 2 %}
         <div class="content2">
             <div class="container-ingredients2">
                 <div class="ingredients2">
@@ -168,49 +167,51 @@ layout: default
                         </li>
                         {% endfor %}
                     </ul>
-                    
+
                     {% endfor %}
                 </div>
-        </div>
-        <div class="container-directions2">
-            <div class="directions2">
-                <h3 class="instruction-title shadow-effect-instructions2"style="text-align: center;">INSTRUÇÕES</h3>
-                <ol class="post-2-ol">
-                    {% assign sections = page.instructions %}
-                    {% for section in sections %}
-                    <h4>Para {{ section[0] }}</h4>
-                    <ol>
-                        {% for ingredient in section[1] %}
-                        <li>{{ ingredient | markdownify}}</li>
+            </div>
+            <div class="container-directions2">
+                <div class="directions2">
+                    <h3 class="instruction-title shadow-effect-instructions2" style="text-align: center;">INSTRUÇÕES
+                    </h3>
+                    <ol class="post-2-ol">
+                        {% assign sections = page.instructions %}
+                        {% for section in sections %}
+                        <h4>Para {{ section[0] }}</h4>
+                        <ol>
+                            {% for ingredient in section[1] %}
+                            <li>{{ ingredient | markdownify}}</li>
+                            {% endfor %}
+                        </ol>
                         {% endfor %}
                     </ol>
-                    {% endfor %}
-                </ol>
-                <!-- Notes Section (Footer) -->
-                {% if page.notes %}
-                <div class="notes-footer2">
-                    <h3>Notas</h3>
-                    <ul>
-                        {% for note in page.notes %}
-                        <li>
-                            <span>{{ note | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</span>
-                        </li>
-                        {% endfor %}
-                    </ul>                    
+                    <!-- Notes Section (Footer) -->
+                    {% if page.notes %}
+                    <div class="notes-footer2">
+                        <h3>Notas</h3>
+                        <ul>
+                            {% for note in page.notes %}
+                            <li>
+                                <span>{{ note | markdownify | replace: "<p>", "" | replace: "</p>", "" }}</span>
+                            </li>
+                            {% endfor %}
+                        </ul>
+                    </div>
+                    {% endif %}
                 </div>
-                {% endif %}
             </div>
         </div>
-    </div>
         {% endif %}
     </div>
 
 </div>
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-$(document).ready(function () {
-    // Extract serving details from page.serve
-    const servingText = {{ page.serve | jsonify }}; // Example: "4 pratos de sopa"
+    $(document).ready(function () {
+        // Extract serving details from page.serve
+        const servingText = {{ page.serve | jsonify
+    }}; // Example: "4 pratos de sopa"
     const match = servingText.match(/^(\d+)\s*(.+)$/);
     const defaultServing = match ? parseFloat(match[1]) : 1; // Default serving count
     const servingUnit = match ? match[2].trim() : ""; // Serving unit (e.g., "pratos de sopa")

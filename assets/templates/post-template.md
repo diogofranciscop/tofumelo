@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type:
 title: ""
 description: ""
 keywords: ""

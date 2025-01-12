@@ -1,9 +1,11 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Pão Recheado"
 keywords: "Pão recheado vegan, Receita vegan, Maionese caseira vegan, Bacon de tofu, Vuna, Pão recheado saudável, Como fazer pão recheado vegan, Receita de bacon de tofu crocante, Como preparar maionese caseira com bebida de soja, Pão recheado vegan com tofu ou vuna, Pão recheado vegan para festas e ocasiões especiais, Receita de pão recheado com maionese vegan e tofu crocante, Como fazer tofu crocante no forno, Alternativas veganas ao bacon, Receitas veganas simples, Snacks veganos para partilhar, Pão recheado saudável e fácil, Maionese de soja, Queijo vegetal, Receitas inspiradas na Bruna Simões, Pão crocante recheado, Pratos vegan para grupos, Vegan comfort food"
 serve: 6 pessoas
 permalink: /pao-recheado/
+type: ["Entrada"]
 description: "Pão recheado vegan, com maionese caseira e opções saborosas de tofu crocante ou Vuna"
 image: "/assets/img/pao-recheado.webp"
 diet: ["s-frutos-secos"]

@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Folhados de Salsicha"
 description: "Folhados vegan recheados com salsichas plant-based"
 keywords: "folhados vegan, receitas vegan fáceis, folhados de salsicha vegan, entradas vegan, snacks rápidos vegan, folhados rápidos, receitas plant-based, lanches vegan, jantar vegan fácil, almoço vegan, receitas saudáveis, receitas com massa folhada, Folhados vegan, Receitas com massa folhada, Snacks rápidos vegan, Folhados de salsicha, Entradas vegan, Receita fácil de folhados de salsicha vegan, Como fazer folhados plant-based com massa folhada, Snacks rápidos e veganos para festas, Entradas veganas com salsichas plant-based, Folhados vegan com sementes de sésamo e mostarda, Receita prática de folhados para jantares e lanches, Folhados simples e rápidos para um almoço vegan, Massa folhada em receitas veganas, Receitas de lanches plant-based, Snacks veganos para festas e encontros, Salsichas vegan em receitas práticas, Pratos rápidos e fáceis sem carne, Como usar massa folhada em receitas salgadas, Polpa de tomate em entradas veganas, Receita económica de snacks vegan, Pimenta e orégãos em pratos veganos, Receitas rápidas com ingredientes acessíveis"

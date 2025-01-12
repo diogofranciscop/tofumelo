@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Bolachas de Aveia e Chocolate"
 keywords: "Receita de bolachas de aveia, Bolachas crocantes com chocolate, Como fazer bolachas veganas, Bolachas caseiras sem soja, Sobremesa fácil com aveia, Bolachas de aveia, Bolachas veganas, Receita com chocolate negro, Sobremesa caseira, Lanche saudável, Receita fácil de bolachas de aveia com chocolate, Como fazer bolachas crocantes veganas em casa, Bolachas caseiras sem soja e sem frutos secos, Lanche saudável com aveia e chocolate, Bolachas veganas de aveia com pedaços de chocolate negro, Sobremesa rápida com ingredientes simples, Receita económica de bolachas para lanche, Bolachas crocantes e saudáveis, Manteiga vegan em receitas doces, Aveia em sobremesas caseiras, Receita sem lactose, Snack prático e vegano, Bolachas sem ovos e sem leite, Pedaços de chocolate negro em receitas, Sobremesas rápidas para o dia-a-dia, Lanche vegano fácil, Como assar bolachas perfeitas"
 permalink: /bolachas-aveia-chocolate/
