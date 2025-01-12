@@ -18,7 +18,7 @@ lipidos: 13.2
 hidratos: 32.7
 author: original
 ingredients:
-    - 200gr| de Tofu
+    - 200 gr| de Tofu
     - 4 | fatias de Pão
     - 4 | Cogumelos Marron
     - 1 c.chá | de Mostarda Dijon

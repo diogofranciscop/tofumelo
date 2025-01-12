@@ -18,15 +18,15 @@ lipidos: 33.3
 hidratos: 58.5
 author: derek
 ingredients:
-    - 800gr | de Batatas pequenas, cortadas ao meio
+    - 800 gr | de Batatas pequenas, cortadas ao meio
     - 3-4 | Pimentos, em cubos
     - 2 | Cebolas, em cubos grandes
     - 4 dentes | de Alho, picados
     - 4 c.sopa | de Azeite
     - 3 c.sopa | de Alecrim fresco, picado (2 colheres se for seco)
     - 3 c.sopa | de Tomilho fresco, picado (2 colheres se for seco)
-    - 2 de c.chá | de Pimentão Doce fumado
-    - 400gr | de Tofu
+    - 2 c.chá | de Pimentão Doce fumado
+    - 400 gr | de Tofu
     - 4 c.sopa | de Maionese vegan (usei hellmans)
     - 2 c.sopa |de Mostarda Dijon
     - 6 c.sopa | de Levedura Nutricional

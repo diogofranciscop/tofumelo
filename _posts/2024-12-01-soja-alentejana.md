@@ -19,11 +19,11 @@ hidratos: 21.9
 author: 
 ingredients:
     as batatas:
-    - 200gr | de Batata
+    - 200 gr | de Batata
     - "| Sal q.b."
     - "| Óleo ou Azeite q.b."
     a soja:
-    - 200gr | de Soja Grossa
+    - 200 gr | de Soja Grossa
     - 3 folhas | de Louro
     - 1 | Cebola picada
     - 3 dentes | de Alho picados

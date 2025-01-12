@@ -24,7 +24,7 @@ ingredients:
     - 2 c.sopa | de Alecrim fresco
     - "| Sal q.b."
     o feijão:
-    - 240gr | de Feijão preto
+    - 240 gr | de Feijão preto
     - 1 | Cebola
     - 3 dentes | de Alho
     - 1 folha | de Louro

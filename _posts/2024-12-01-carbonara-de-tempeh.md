@@ -19,9 +19,9 @@ hidratos: 68.6
 author: vegan heaven
 ingredients:
     o acompanhamento:
-        - 200gr | de Esparguete
+        - 200 gr | de Esparguete
     o bacon de tempeh:
-        - 200 gramas | de Tempeh
+        - 200 gr | de Tempeh
         - 1/2 | Cebola
         - 2 dentes | de Alho
         - 1/2 c.sopa | de Cebola Desidratada
@@ -33,8 +33,8 @@ ingredients:
         - "| Sal q.b."
         - "| Pimenta Preta q.b."   
     o molho da carbonara:
-        - 60gr | de Caju (demolhado em água a fever por 30 min)
-        - 240ml | de Bebida Vegetal sem açúcar 
+        - 60 gr | de Caju (demolhado em água a fever por 30 min)
+        - 240 ml | de Bebida Vegetal sem açúcar 
         - 1 dente | de Alho 
         - 1/2 c.sopa | de Miso
         - 2 c.sopa | de Levedura Nutricional

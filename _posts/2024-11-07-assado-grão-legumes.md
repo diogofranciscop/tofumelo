@@ -22,7 +22,7 @@ ingredients:
     - 3 | Batatas grandes
     - 1/2 | Cebola
     - 30 | Tomates Cherry
-    - 200gr | de Grão-de-Bico
+    - 200 gr | de Grão-de-Bico
     - "| Azeite q.b."
     - "| Pimentão doce q.b."
     - "| Pimenta Preta q.b."

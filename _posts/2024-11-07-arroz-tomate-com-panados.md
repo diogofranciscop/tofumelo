@@ -30,18 +30,18 @@ ingredients:
         - "| Pimenta Preta q.b."
         - "| Sal q.b."        
     o Seitan de Grão-de-Bico:
-        - 200gr | de Grão-de-bico 
-        - 60ml | de Água
-        - 2 colher de sopa | de Molho de Soja
-        - 1 colher de chá | de Mostarda Dijon
-        - 1 colher de chá | de Sal
-        - 40gr de | Farinha de Trigo 
-        - 60gr | de Glúten de Trigo.
+        - 200 gr | de Grão-de-bico 
+        - 60 ml | de Água
+        - 2 c.sopa | de Molho de Soja
+        - 1 c.chá | de Mostarda Dijon
+        - 1 c.chá | de Sal
+        - 40 gr de | Farinha de Trigo 
+        - 60 gr | de Glúten de Trigo.
         - "| Caldo de Legumes q.b."
     os Panados:
-        - 1 colher de sopa | de Polpa de Tomate
+        - 1 c.sopa | de Polpa de Tomate
         - 50 ml | de Cerveja
-        - 3 colheres de sopa | de Água
+        - 3 c.sopa | de Água
         - "| Cebola desidratada q.b."
         - "| Alho em pó q.b."
         - "| Farinha de trigo q.b."

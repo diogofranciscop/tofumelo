@@ -19,17 +19,17 @@ hidratos: 69.5
 author: tuga-vegetal
 ingredients:
     o Molho Branco:
-        - 500ml | de Caldo de Legumes
-        - 1 c. sopa | de Levedura Nutricional
-        - 2 c. sopa | de Manteiga Vegetal
-        - 3 c. sopa | de Farinha
-        - 2 c. sopa | de Sumo de Limão
-        - 400ml de | Natas Vegetais (exemplo, Alpro)
+        - 500 ml | de Caldo de Legumes
+        - 1 c.sopa | de Levedura Nutricional
+        - 2 c.sopa | de Manteiga Vegetal
+        - 3 c.sopa | de Farinha
+        - 2 c.sopa | de Sumo de Limão
+        - 400 ml de | Natas Vegetais (exemplo, Alpro)
         - "|Sal, alho em pó e pimenta preta q.b."
     o Restante:   
-    - 1kg | de Batatas cortadas em cubos
-    - 400gr | de Cogumelos Pleurotus Frescos desfiados
-    - 200gr | de Tofu ralado
+    - 1 kg | de Batatas cortadas em cubos
+    - 400 gr | de Cogumelos Pleurotus Frescos desfiados
+    - 200 gr | de Tofu ralado
     - 2 | Alhos Franceses fatiados
     - 2 | Cebolas fatiadas
     - 3 dentes | de Alho picados

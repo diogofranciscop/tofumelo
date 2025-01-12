@@ -20,17 +20,17 @@ new: "yes"
 author: bruna-simoes
 ingredients:
       a Maionese:
-        - 200ml | Óleo
-        - 100ml | de Bebida Vegetal de Soja sem açúcar
+        - 200 ml | Óleo
+        - 100 ml | de Bebida Vegetal de Soja sem açúcar
         - 1 dente | de Alho
-        - 1 c. chá | de Mostarda Dijon
-        - 2 c. sopa | de Sumo de Limão
-        - 1 c. sopa | de Vinagre
-        - 10gr | de Salsa fresca
+        - 1 c.chá | de Mostarda Dijon
+        - 2 c.sopa | de Sumo de Limão
+        - 1 c.sopa | de Vinagre
+        - 10 gr | de Salsa fresca
         - "| Sal q.b."
         - "| Pimenta Preta q.b."
       a Versão 1 - "Bacon":
-        - 200gr | de Tofu Natural
+        - 200 gr | de Tofu Natural
         - "|Molho de Soja, Molho Sriracha e Paprika fumada q.b."
       a Versão 2 - Vuna:
         - 175 gr| de Vuna
@@ -38,8 +38,8 @@ ingredients:
         - 1 | Pão Grande
         - 1 | Cebola picada
         - 2 dentes | de Alho picados
-        - 1 c. chá | de Alho em pó
-        - 1 c. sopa | de Pimentão Doce
+        - 1 c.chá | de Alho em pó
+        - 1 c.sopa | de Pimentão Doce
         - "|Azeite q.b."
         - "|Sal q.b."
         - "|Pimenta Preta q.b."

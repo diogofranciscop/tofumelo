@@ -19,11 +19,11 @@ lipidos: 8.4
 hidratos: 22.5
 author: original
 ingredients:
-  - 150gr | de Farinha de Trigo
-  - 150gr | de Aveia em flocos
-  - 100gr | de Açúcar Amarelo
-  - 120gr | de Manteiga Vegan (exemplo, Alpro)
-  - 50gr | de Chocolate Negro 70%
+  - 150 gr | de Farinha de Trigo
+  - 150 gr | de Aveia em flocos
+  - 100 gr | de Açúcar Amarelo
+  - 120 gr | de Manteiga Vegan (exemplo, Alpro)
+  - 50 gr | de Chocolate Negro 70%
 instructions:
   - Pré-aquecer o forno a 180ºC.
   - Numa taça, misturar a aveia, a farinha e o açúcar amarelo.

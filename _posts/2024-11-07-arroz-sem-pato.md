@@ -18,16 +18,16 @@ lipidos: 12.4
 hidratos: 91.8
 author: greentastecuisine
 ingredients:
-    - 400gr | de Arroz Vaporizado ou Agulha
+    - 400 gr | de Arroz Vaporizado ou Agulha
     - 500 gr | de Cogumelos Pleurothus
     - 1 | Chouriço Vegetal
-    - 500ml | de Caldo de Legumes
-    - 500ml | de Água
-    - 50ml | de Vinho Tinto
+    - 500 ml | de Caldo de Legumes
+    - 500 ml | de Água
+    - 50 ml | de Vinho Tinto
     - 1 | Cebola picada
     - 4  dentes| de Alho picado
     - 2 folhas | de Louro
-    - 1 c. sopa| de Molho de Soja
+    - 1 c.sopa| de Molho de Soja
     - "| Pimentão doce fumado q.b."
     - "| Pimenta-preta q.b."
     - "| Azeite q.b."   

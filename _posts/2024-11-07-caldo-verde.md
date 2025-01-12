@@ -18,14 +18,14 @@ lipidos: 3.6
 hidratos: 11.6
 author: original
 ingredients:
-    - 280gr | de Cebola
-    - 100gr | de Batata
-    - 400gr | de Courgette
+    - 280 gr | de Cebola
+    - 100 gr | de Batata
+    - 400 gr | de Courgette
     - 3 dentes | de Alho
-    - 750ml | de Água
-    - 20gr | de Azeite
+    - 750 ml | de Água
+    - 20 gr | de Azeite
     - 1 | Cenoura pequena
-    - 100gr | de Couve Ralada finamente
+    - 100 gr | de Couve Ralada finamente
     - "| Sal q.b."
 instructions:
     - Descascar a cebola, batata, courgette e alho. Cortar grosseiramente e colocá-los numa panela.

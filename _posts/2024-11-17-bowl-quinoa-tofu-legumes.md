@@ -19,17 +19,17 @@ hidratos: 51.3
 author:     
 ingredients:
     o tofu:
-    - 400gr | de Tofu
+    - 400 gr | de Tofu
     - 1 c.sopa | de Molho Sriracha
     - 1 c.sopa | de Sumo de Limão
     - 3 c.sopa | de Molho de Soja
     - "| Alho em pó q.b."
     - "| Sal q.b."
     a receita:
-    - 200gr | de Quinoa
-    - 500gr | Cogumelos Pleurothus
-    - 100gr | de Edamame
-    - 50gr | de Couve Roxa
+    - 200 gr | de Quinoa
+    - 500 gr | Cogumelos Pleurothus
+    - 100 gr | de Edamame
+    - 50 gr | de Couve Roxa
     - 1 | Cenoura
     - 1 | Pepino
     - 1 | Courgete
