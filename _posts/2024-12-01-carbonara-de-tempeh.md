@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Carbonara de Tempeh"
 keywords: "Receita de carbonara vegana, Carbonara com tempeh, Carbonara cremosa sem lactose, Como fazer carbonara vegana, Carbonara fácil e saborosa, Carbonara vegana, Carbonara com tempeh, Molho cremoso sem lactose, Receita de esparguete vegano, Tempeh crocante, Receita fácil de carbonara vegana com tempeh, Como fazer carbonara cremosa sem laticínios, Carbonara vegana com bacon de tempeh e molho de caju, Receita saudável de carbonara sem frutos secos, Carbonara saborosa com molho de miso e levedura nutricional, Como preparar esparguete vegano com molho cremoso, Receita prática de carbonara para almoço ou jantar vegano, Tempeh em receitas veganas, Molho de carbonara plant-based, Esparguete com molho vegano, Pimentão doce e paprika em pratos vegan, Receita rica em proteína vegana, Alimentação sem lactose, Prato principal vegano e saboroso, Levedura nutricional em molhos cremosos, Tempeh temperado e crocante, Cozinha sustentável e plant-based"
 type: ["Almoço/Jantar"]

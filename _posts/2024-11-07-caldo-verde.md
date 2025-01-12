@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Caldo Verde"
 keywords: "Receita de caldo verde, Sopa vegana tradicional, Caldo verde com couve e cenoura, Como fazer caldo verde saudável, Sopa cremosa de legumes, Sopa vegana cremosa, Sopa de legumes com couve, Receita de sopa fácil e saudável, Sopa de cenoura e courgette, Sopa de legumes caseira, Receita de sopa de couve e batata, Sopa de legumes simples e nutritiva, Sopa vegana sem creme, Como fazer sopa cremosa de legumes, Sopa rápida com couve e cenoura, Sopa detox de legumes, Refeições veganas reconfortantes, Receitas de sopas leves e saudáveis, Como fazer sopa cremosa de legumes com varinha mágica, Dicas para sopas de inverno, caldo verde sem gordura animal, sopa com Couve Galega, Sopa tradicional, Sopa caseira, Sopa sem gordura animal, Sopa Vegetariana"
 permalink: /caldo-verde/

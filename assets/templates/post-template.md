@@ -1,9 +1,10 @@
 ---
 layout: post
+layout-type:
 title: ""
 description: ""
 keywords: ""
-permalink: //
+permalink: 
 type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa"]
 image: "/assets/img/"
 serve:

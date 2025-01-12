@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Salada Sem Polvo"
 description: "Salada sem Polvo fresca, com cogumelos, pimentos e um molho aromático"
 keywords: "salada sem polvo, salada vegan, salada fresca de cogumelos, receita vegana saudável, salada fácil sem carne, salada com pimentos e cogumelos, salada de peixe, salada de peixe vegan, salada do mar vegan, Salada sem polvo, Salada vegan, Receita de salada fresca, Salada com cogumelos, Salada com pimentos, Receita de salada sem polvo com cogumelos e pimentos, Como fazer salada vegan com cogumelos eryngui, Salada do mar vegan fácil e saudável, Entrada fria vegan com cogumelos e molho aromático, Receita saudável de salada sem carne ou glúten, Salada vegan inspirada em pratos de peixe, Salada refrescante com azeite e vinagre, Cogumelos eryngui em receitas veganas, Entrada vegana fria, Salada do mar sem peixe, Salada com vinagre e alho, Pratos veganos sem glúten e sem soja, Cozinha plant-based para entradas, Azeite e pimentos em saladas veganas, Receita fresca e saudável para o verão, Substitutos veganos para pratos tradicionais, Salada leve e aromática"

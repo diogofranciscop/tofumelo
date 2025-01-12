@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Tofu Mexido"
 keywords: "Receita de tofu mexido, Tofu mexido com cogumelos, Pequeno-almoço vegano, Torradas com tofu, Como fazer tofu mexido, Torradas Veganas com Tofu Mexido, Receita de Brunch Vegano com Tofu, Torradas Saudáveis com Tofu e Cogumelos, Tofu Mexido Cremoso para Torradas, Receita Vegana de Café da Manhã, Tofu Mexido ao Estilo Vegano, Como fazer tofu mexido vegano para torradas, Receita fácil de torradas com tofu e cogumelos, Café da manhã saudável com tofu e pão torrado, Tofu mexido cremoso com mostarda Dijon, Receitas veganas rápidas com tofu, Torradas veganas com cogumelos marron, Tofu mexido temperado com cúrcuma e alho em pó, Brunch vegano fácil e delicioso, Refeições rápidas com tofu, Como usar cúrcuma em receitas veganas, Torradas saudáveis e proteicas, Tofu mexido sem ovos, Cogumelos salteados para pratos veganos, Receitas de café da manhã veganas e nutritivas"
 permalink: /tofu-mexido/

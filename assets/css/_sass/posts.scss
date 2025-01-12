@@ -85,7 +85,7 @@
 
 .info2 {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
   justify-content: space-around;
   margin-top: 15px;
   align-items: center;
@@ -517,4 +517,58 @@ CSS for the information box
   outline: none; /* Remove the blue outline */
   border-color: #4caf50; /* Green border when focused */
   box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add a glow effect */
+}
+
+.logo-diets{
+  display:flex;
+  flex-direction: row;
+  justify-content: right;
+}
+.logo-diets {
+  position: absolute; /* Positions the logo container within the parent */
+  right: 0; /* Aligns it to the right edge */
+  top: 50%; /* Vertically centers it relative to the parent */
+  transform: translateY(-50%); /* Adjusts for vertical centering */
+  display: flex; /* Makes the logos align horizontally */
+  gap: 10px; /* Adds space between the logos */
+}
+.title-and-diet {
+  position: relative; /* Allows positioning of .logo-diets */
+  text-align: center; /* Centers the h1 text horizontally */
+  padding: 10px; /* Optional padding for better layout */
+}
+
+.title-and-diet h1 {
+  margin: 0; /* Removes default margin */
+} 
+
+.diet-item {
+  position: relative;
+}
+
+.diet-item::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: -25px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s;
+}
+
+.diet-item:hover::after,
+.diet-item:focus::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+.diet-item img{
+  width:35px;
 }
