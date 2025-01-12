@@ -531,7 +531,6 @@ CSS for the information box
   transform: translateY(-50%); /* Adjusts for vertical centering */
   display: flex; /* Makes the logos align horizontally */
   gap: 10px; /* Adds space between the logos */
-  width: 75px;
 }
 .title-and-diet {
   position: relative; /* Allows positioning of .logo-diets */
@@ -568,4 +567,8 @@ CSS for the information box
 .diet-item:focus::after {
   opacity: 1;
   visibility: visible;
+}
+
+.diet-item img{
+  width:35px;
 }

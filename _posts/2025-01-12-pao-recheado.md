@@ -5,7 +5,7 @@ keywords: "Pão recheado vegan, Receita vegan, Maionese caseira vegan, Bacon de 
 serve: 6 pessoas
 permalink: /pao-recheado/
 description: "Pão recheado vegan, com maionese caseira e opções saborosas de tofu crocante ou Vuna"
-image: "/assets/img/???.webp"
+image: "/assets/img/pao-recheado.webp"
 diet: ["s-frutos-secos"]
 time-total: 45
 time-prepar: 20
@@ -14,7 +14,7 @@ calorias: 490
 proteinas: 12.5
 lipidos: 37.9
 hidratos: 28.7
-new: "yes"
+new: "yes"  
 author: bruna-simoes
 ingredients:
       a Maionese:
@@ -67,5 +67,5 @@ notes:
     - A Maionese pode-se guardar no frigorífico, aguentando um longo período de tempo, sem se deteriorar.
     - O tempo de confeção indicado não inclui o preparo do "bacon" de tofu, que pode variar conforme o tempo de marinada e forno.
     - Os valores nutricionais apresentados nesta receita são com base na versão do Vuna, contudo os valores entre as duas versões não variam muito.
-    - Esta receita foi inspirada na receita da Bruna Simões. 
+    - Esta receita foi inspirada na receita da [Bruna Simões](https://www.instagram.com/p/DDd93DBsPB8/). 
 ---
