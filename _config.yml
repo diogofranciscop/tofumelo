@@ -35,11 +35,6 @@ defaults:
       layout: "default" # Applies the default layout for all pages in `_pages`
   - scope:
       path: ""
-      type: "authors"
-    values:
-      layout: "author" # Applies the author layout to authors
-  - scope:
-      path: ""
       type: "posts"
     values:
       layout: "post" # Applies the post layout to blog posts
