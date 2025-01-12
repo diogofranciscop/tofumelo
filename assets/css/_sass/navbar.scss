@@ -9,7 +9,7 @@ nav {
   position: fixed; /* Fixes the navbar to the top */
   top: 0; /* Ensures it is at the top of the viewport */
   left: 0;
-  z-index: 1000; /* Ensures it appears above other elements */
+  z-index: 5000; /* Ensures it appears above other elements */
   height: 63px;
   padding: 0 20px; /* Adds horizontal padding */
 }
