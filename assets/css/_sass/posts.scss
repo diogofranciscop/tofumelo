@@ -546,6 +546,10 @@ CSS for the information box
   position: relative;
 }
 
+.logo-diets{
+  margin-right: 25px;
+}
+
 .diet-item::after {
   content: attr(data-tooltip);
   position: absolute;
