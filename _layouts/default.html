@@ -77,34 +77,49 @@
   {% include footer.html %}
   
   <script>
-window.addEventListener("load", function () {
-  // Remove skeletons and show real elements
-  const skeletonsearch = document.querySelectorAll(".skeleton-search");
-  const search = document.querySelectorAll(".search");
-  const skeletonbutton = document.querySelectorAll(".skeleton-button");
-  const buttons = document.querySelectorAll(".button-3");
+    document.addEventListener("DOMContentLoaded", function () {
+        // Handle skeletons for search and buttons
+        const skeletonsearch = document.querySelectorAll(".skeleton-search");
+        const search = document.querySelectorAll(".search");
+        const skeletonbutton = document.querySelectorAll(".skeleton-button");
+        const buttons = document.querySelectorAll(".button-3");
+    
+        // Hide all skeletons for search and buttons
+        skeletonsearch.forEach(skeleton => skeleton.classList.add("hidden"));
+        search.forEach(element => element.classList.remove("hidden"));
+    
+        skeletonbutton.forEach(skeleton => skeleton.classList.add("hidden"));
+        buttons.forEach(element => element.classList.remove("hidden"));
+    
+        // Handle skeletons for images in cards
+        const images = document.querySelectorAll(".card__img");
+    
+        images.forEach(img => {
+            img.addEventListener("load", function () {
+                const card = img.closest(".card");
+    
+                // Hide the skeleton loader
+                const skeleton = card.querySelector(".skeleton-card");
+                if (skeleton) skeleton.classList.add("hidden");
+    
+                // Show the title
+                const title = card.querySelector(".title-card");
+                if (title) title.style.display = "block";
+    
+                // Show the "new tape" if it exists
+                const newTape = card.querySelector(".new-tape");
+                if (newTape) newTape.style.display = "block";
+            });
+    
+            // Handle cached images (browser may not trigger 'load' for cached images)
+            if (img.complete) {
+                img.dispatchEvent(new Event("load"));
+            }
+        });
+    });
+    </script>
+    
 
-  // Hide all skeletons
-  skeletonsearch.forEach(skeleton => {
-    skeleton.classList.add("hidden"); // Add "hidden" to skeletons
-  });
-
-  // Show all real elements
-  search.forEach(element => {
-    element.classList.remove("hidden"); // Remove "hidden" from real elements
-  });
-
-  skeletonbutton.forEach(skeleton => {
-    skeleton.classList.add("hidden"); // Add "hidden" to skeletons
-  });
-
-  // Show all real elements
-  buttons.forEach(element => {
-    element.classList.remove("hidden"); // Remove "hidden" from real elements
-  });
-});
-
-  </script>
 </body>
 
 </html>
