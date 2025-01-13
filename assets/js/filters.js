@@ -77,17 +77,27 @@ function loadPaginatedPosts(page, posts) {
     const startIndex = (page - 1) * postsPerPage;
     const endIndex = startIndex + postsPerPage;
 
-    const paginatedPosts = posts.slice(startIndex, endIndex);
     const postContainer = $("#post-container");
 
-    postContainer.empty(); // Clear current posts
+    // Skip reloading for the first page only on the initial load
+    if (page === 1 && !window.firstPageNavigated) {
+        window.firstPageNavigated = true; // Mark that page 1 has been navigated
+        updatePaginationButtons(page, posts.length, postsPerPage);
+        return;
+    }
+
+    // Clear current posts for all subsequent loads
+    postContainer.empty();
+
+    // Load paginated posts dynamically
+    const paginatedPosts = posts.slice(startIndex, endIndex);
 
     paginatedPosts.forEach(post => {
         const imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, "-180px.$1");
 
         const cardHTML = `
             <a href="${post.url}" class="card" data-index="${posts.indexOf(post) + 1}">
-             <div class="skeleton skeleton-card"></div>
+                <div class="skeleton skeleton-card"></div>
                 <div class="card__img-container">
                     <img src="${imagePath}" class="card__img" alt="${post.title}" style="display: none;">
                 </div>
@@ -120,38 +130,6 @@ function loadPaginatedPosts(page, posts) {
             window.paginationTriggered = false; // Reset the flag
         }, 0);
     }
-    
-}
-
-
-function loadPosts(page) {
-    const isMobile = window.innerWidth <= 768;
-    const postsPerPage = isMobile ? 10 : 20;
-    const startIndex = (page - 1) * postsPerPage;
-    const endIndex = startIndex + postsPerPage;
-
-    const paginatedPosts = filteredPosts.slice(startIndex, endIndex);
-    const postContainer = document.getElementById("post-container");
-    postContainer.innerHTML = ""; // Clear existing posts
-
-    paginatedPosts.forEach(post => {
-        const cardHTML = `
-            <a href="${post.url}" class="card">
-             <div class="skeleton skeleton-card"></div> 
-                ${post.new === "yes" ? '<div class="new-tape">Nova Receita</div>' : ""}
-                <div class="card__overlay"><p>${post.description}</p></div>
-                <div class="card__img-container">
-                    <img src="${post.image}" class="card__img" alt="${post.title}">
-                </div>
-                <div class="card__footer">
-                    <span class="title-card">${post.title.toUpperCase()}</span>
-                </div>
-            </a>
-        `;
-        postContainer.insertAdjacentHTML("beforeend", cardHTML);
-    });
-
-    updatePaginationButtons(page, filteredPosts.length, postsPerPage);
 }
 
 /****************************************************************************
@@ -166,6 +144,7 @@ function updatePaginationButtons(currentPage, totalPosts, postsPerPage) {
     const firstPageButton = document.createElement("button");
     firstPageButton.textContent = "PRIMEIRA PÁGINA";
     firstPageButton.classList.add("pagination-button");
+    firstPageButton.disabled = currentPage === 1;
     firstPageButton.addEventListener("click", () => {
         window.paginationTriggered = true;
         loadPaginatedPosts(1, filteredPosts);
@@ -181,7 +160,6 @@ function updatePaginationButtons(currentPage, totalPosts, postsPerPage) {
             pageButton.classList.add("active");
         }
 
-        // Updated event listener for page buttons
         pageButton.addEventListener("click", () => {
             window.paginationTriggered = true;
 
@@ -198,6 +176,7 @@ function updatePaginationButtons(currentPage, totalPosts, postsPerPage) {
     const lastPageButton = document.createElement("button");
     lastPageButton.textContent = "ÚLTIMA PÁGINA";
     lastPageButton.classList.add("pagination-button");
+    lastPageButton.disabled = currentPage === totalPages;
     lastPageButton.addEventListener("click", () => {
         window.paginationTriggered = true;
         loadPaginatedPosts(totalPages, filteredPosts);
