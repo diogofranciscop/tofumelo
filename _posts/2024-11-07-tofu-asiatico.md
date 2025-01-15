@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Wraps com Tofu Asiático (sticky)"
 keywords: "Receita de tofu asiático, Tofu agridoce picante, Como fazer tofu sticky, Tofu vegano com molho asiático, Tofu fácil com wrap, Tofu asiático, Wraps vegan, Receita agridoce, Tofu sticky, Tofu picante, Receita fácil de wraps com tofu asiático, Como fazer tofu agridoce sticky em casa, Wrap vegano com tofu e molho picante, Receita saudável de wraps com tofu e vegetais, Tofu com molho asiático agridoce e picante, Como preparar wraps de tofu vegan para o jantar, Receita sem glúten de wraps com tofu e abacate, Tofu ao forno, Tofu na air fryer, Molho asiático caseiro, Wrap saudável e vegan, Receita vegan sem frutos secos, Almoço ou jantar rápido, Alimentação plant-based, Tofu para iniciantes, Receita económica vegan, Tofu com molho de soja e gengibre"
 permalink: /wraps-tofu-asiatico/
@@ -23,15 +24,15 @@ ingredients:
     - 1| Abacate
     - ⁠4 fatias | de Tomate
     o Tofu:
-    - 400gr | de Tofu
-    - 15gr | de Amido de Milho
-    - 2 colheres de sopa | de Óleo de Sésamo 
+    - 400 gr | de Tofu
+    - 15 gr | de Amido de Milho
+    - 2 c.sopa | de Óleo de Sésamo 
     - 1 dente de | Alho
-    - 0,5cm de | raíz de Gengibre
-    - 1 colher de chá | de Sriracha
-    - 2 colheres de sopa | de Vinagre de Arroz
-    - 3 colheres de sopa | de Agave
-    - 2 colheres de sopa | de Molho de Soja
+    - 0,5 cm de | raíz de Gengibre
+    - 1 c.chá | de Sriracha
+    - 2 c.sopa | de Vinagre de Arroz
+    - 3 c.sopa | de Agave
+    - 2 c.sopa | de Molho de Soja
     - "|Água q.b."
 instructions:
     o Acompanhamento:

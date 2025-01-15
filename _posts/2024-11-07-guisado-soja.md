@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Guisado de Soja"
 keywords: "Receita de guisado de soja, Estufado de soja com cogumelos, Guisado vegano fácil, Como fazer guisado de soja, Prato principal vegano, Soja grossa, Receita vegan, Cogumelos marron, Prato principal vegan, Como preparar soja grossa com cogumelos, Receita saudável de soja e cogumelos marron, Prato vegan fácil com soja e tomate, Como cozinhar soja grossa de forma deliciosa, Jantar vegan económico e saboroso, Receita vegan sem glúten e rica em proteína, Vegan proteico, Receita sem carne, Cozinha sustentável, Alimentação plant-based, Temperos caseiros vegan, Comida reconfortante vegan, Refeição económica vegan, Soja para iniciantes, Cogumelos na cozinha vegan, Receitas saudáveis para o dia-a-dia"
 permalink: /guisado-de-soja/
@@ -17,13 +18,13 @@ lipidos: 2.4
 hidratos: 20.5
 author: be pure inside
 ingredients:
-    - 180gr | de Soja Grossa
-    - 250gr | de Cogumelos Marron
+    - 180 gr | de Soja Grossa
+    - 250 gr | de Cogumelos Marron
     - 250 ml | de Polpa de Tomate (ou 4 tomates maduros picados)
     - 1 | Cebola Grande
     - 4 dentes | de Alho
     - 1 folha | de Louro
-    - 1 colher de sopa | de Vinagre de Maçã
+    - 1 c.sopa | de Vinagre de Maçã
     - "| Água a ferver q.b."
     - "| Molho de Soja q.b."
     - "| Salsa q.b."

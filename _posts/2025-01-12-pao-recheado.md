@@ -1,11 +1,13 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Pão Recheado"
 keywords: "Pão recheado vegan, Receita vegan, Maionese caseira vegan, Bacon de tofu, Vuna, Pão recheado saudável, Como fazer pão recheado vegan, Receita de bacon de tofu crocante, Como preparar maionese caseira com bebida de soja, Pão recheado vegan com tofu ou vuna, Pão recheado vegan para festas e ocasiões especiais, Receita de pão recheado com maionese vegan e tofu crocante, Como fazer tofu crocante no forno, Alternativas veganas ao bacon, Receitas veganas simples, Snacks veganos para partilhar, Pão recheado saudável e fácil, Maionese de soja, Queijo vegetal, Receitas inspiradas na Bruna Simões, Pão crocante recheado, Pratos vegan para grupos, Vegan comfort food"
 serve: 6 pessoas
 permalink: /pao-recheado/
+type: ["Entrada"]
 description: "Pão recheado vegan, com maionese caseira e opções saborosas de tofu crocante ou Vuna"
-image: "/assets/img/???.webp"
+image: "/assets/img/pao-recheado.webp"
 diet: ["s-frutos-secos"]
 time-total: 45
 time-prepar: 20
@@ -14,21 +16,21 @@ calorias: 490
 proteinas: 12.5
 lipidos: 37.9
 hidratos: 28.7
-new: "yes"
+new: "yes"  
 author: bruna-simoes
 ingredients:
       a Maionese:
-        - 200ml | Óleo
-        - 100ml | de Bebida Vegetal de Soja sem açúcar
+        - 200 ml | Óleo
+        - 100 ml | de Bebida Vegetal de Soja sem açúcar
         - 1 dente | de Alho
-        - 1 c. chá | de Mostarda Dijon
-        - 2 c. sopa | de Sumo de Limão
-        - 1 c. sopa | de Vinagre
-        - 10gr | de Salsa fresca
+        - 1 c.chá | de Mostarda Dijon
+        - 2 c.sopa | de Sumo de Limão
+        - 1 c.sopa | de Vinagre
+        - 10 gr | de Salsa fresca
         - "| Sal q.b."
         - "| Pimenta Preta q.b."
       a Versão 1 - "Bacon":
-        - 200gr | de Tofu Natural
+        - 200 gr | de Tofu Natural
         - "|Molho de Soja, Molho Sriracha e Paprika fumada q.b."
       a Versão 2 - Vuna:
         - 175 gr| de Vuna
@@ -36,8 +38,8 @@ ingredients:
         - 1 | Pão Grande
         - 1 | Cebola picada
         - 2 dentes | de Alho picados
-        - 1 c. chá | de Alho em pó
-        - 1 c. sopa | de Pimentão Doce
+        - 1 c.chá | de Alho em pó
+        - 1 c.sopa | de Pimentão Doce
         - "|Azeite q.b."
         - "|Sal q.b."
         - "|Pimenta Preta q.b."
@@ -67,5 +69,5 @@ notes:
     - A Maionese pode-se guardar no frigorífico, aguentando um longo período de tempo, sem se deteriorar.
     - O tempo de confeção indicado não inclui o preparo do "bacon" de tofu, que pode variar conforme o tempo de marinada e forno.
     - Os valores nutricionais apresentados nesta receita são com base na versão do Vuna, contudo os valores entre as duas versões não variam muito.
-    - Esta receita foi inspirada na receita da Bruna Simões. 
+    - Esta receita foi inspirada na receita da [Bruna Simões](https://www.instagram.com/p/DDd93DBsPB8/). 
 ---

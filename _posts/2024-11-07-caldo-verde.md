@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Caldo Verde"
 keywords: "Receita de caldo verde, Sopa vegana tradicional, Caldo verde com couve e cenoura, Como fazer caldo verde saudável, Sopa cremosa de legumes, Sopa vegana cremosa, Sopa de legumes com couve, Receita de sopa fácil e saudável, Sopa de cenoura e courgette, Sopa de legumes caseira, Receita de sopa de couve e batata, Sopa de legumes simples e nutritiva, Sopa vegana sem creme, Como fazer sopa cremosa de legumes, Sopa rápida com couve e cenoura, Sopa detox de legumes, Refeições veganas reconfortantes, Receitas de sopas leves e saudáveis, Como fazer sopa cremosa de legumes com varinha mágica, Dicas para sopas de inverno, caldo verde sem gordura animal, sopa com Couve Galega, Sopa tradicional, Sopa caseira, Sopa sem gordura animal, Sopa Vegetariana"
 permalink: /caldo-verde/
@@ -17,14 +18,14 @@ lipidos: 3.6
 hidratos: 11.6
 author: original
 ingredients:
-    - 280gr | de Cebola
-    - 100gr | de Batata
-    - 400gr | de Courgette
+    - 280 gr | de Cebola
+    - 100 gr | de Batata
+    - 400 gr | de Courgette
     - 3 dentes | de Alho
-    - 750ml | de Água
-    - 20gr | de Azeite
+    - 750 ml | de Água
+    - 20 gr | de Azeite
     - 1 | Cenoura pequena
-    - 100gr | de Couve Ralada finamente
+    - 100 gr | de Couve Ralada finamente
     - "| Sal q.b."
 instructions:
     - Descascar a cebola, batata, courgette e alho. Cortar grosseiramente e colocá-los numa panela.

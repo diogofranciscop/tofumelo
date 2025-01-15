@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Batata Doce Assada com Feijão Preto"
 keywords: "Receita com batata doce, Batata doce assada com feijão preto, Prato vegano fácil, Batata doce saudável, Feijão preto refogado, Batatas Doces Assadas Veganas, Receita com Feijão Preto e Batata Doce, Batata Doce com Alecrim ao Forno, Prato Principal Vegano com Feijão Preto, Batatas Doces ao Forno com Legumes, Receita Saudável de Batatas e Feijão, Jantar Vegano com Batata Doce e Feijão Preto, Como fazer batatas doces assadas crocantes, Receita vegana com feijão preto e legumes, Pratos fáceis com batata doce e feijão preto, Batatas doces assadas perfeitas com alecrim, Como temperar feijão preto para pratos veganos, Receitas sem glúten com batata doce e feijão, Pratos veganos saudáveis e cheios de sabor, Receitas veganas ao forno, Pratos principais veganos fáceis, Refeições nutritivas com feijão preto, Acompanhamentos veganos com batata doce, Como assar batatas doces de forma perfeita, Receitas sem lactose e saudáveis, Feijão preto refogado com legumes"
 type: ["Almoço/Jantar"]
@@ -23,7 +24,7 @@ ingredients:
     - 2 c.sopa | de Alecrim fresco
     - "| Sal q.b."
     o feijão:
-    - 240gr | de Feijão preto
+    - 240 gr | de Feijão preto
     - 1 | Cebola
     - 3 dentes | de Alho
     - 1 folha | de Louro

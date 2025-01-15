@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Sandes de Grão-de-Bico"
 keywords: "Receita de sandes vegana, Sandes de grão-de-bico, Sandes saudável com cogumelos, Como fazer sandes vegana, Sanduíche sem soja, Sanduíche Vegana com Grão-de-Bico, Receita de Sanduíche Vegana com Cogumelos, Pão Recheado Vegano com Grão e Couve-Roxa, Sanduíche Saudável com Pasta de Grão-de-Bico, Refeição Vegana com Cogumelos Pleurotus, Sanduíche de Grão-de-Bico Cremoso, Sanduíche Vegana com Maionese e Sriracha, Como fazer uma sanduíche vegana de grão-de-bico e cogumelos, Receita fácil de sanduíche saudável com legumes e maionese, Pão recheado vegano com grão e cogumelos salteados, Sanduíche deliciosa com couve-roxa e cenoura ralada, Sanduíche deliciosa com couve-roxa e cenoura ralada, Receitas veganas de sanduíches nutritivas e saborosas, Sanduíche vegana com maionese Hellmann’s e sriracha, Prato rápido com grão-de-bico e cogumelos pleurotus, Receitas veganas para lanches rápidos, Sanduíche com proteína vegetal, Como temperar cogumelos pleurotus, Sanduíche sem carne e cheia de sabor, Grão-de-bico como substituto de proteína, Lanche vegano com legumes frescos, Receitas de maionese vegana para sanduíches"
 permalink: /sandes-grao-de-bico/
@@ -18,8 +19,8 @@ hidratos: 87.75
 author: original
 ingredients: 
     - 4 | Pães de Água
-    - 2 copos | de Grão-de-bico cozido
-    - 250gr | de Cogumelos Pleurothus
+    - 200 gr | de Grão-de-bico cozido
+    - 250 gr | de Cogumelos Pleurothus
     - 1/4 | Couve Rouxa
     - 1 | Cenoura
     - 5 c.sopa | de Maionese vegan (exemplo, Hellmann's) 

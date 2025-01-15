@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Espetadas Mistas de Tofu"
 keywords: "Espetadas vegan, Espetadas de tofu, Receita de espetadas veganas, Tofu grelhado, Espetadas fáceis vegan, Espetadas vegetarianas, Marinada para tofu, Receita vegan com morcela, Espetadas saudáveis vegan, Grelhados vegan, Como fazer espetadas de tofu, Tofu marinado, Espetadas no forno vegan, Grelhados na fogueira, Espetadas vegan com pimento, Marinada caseira para espetadas, Espetadas sem carne, Pratos principais vegan, Jantar vegan fácil, Espetadas para churrasco vegan, Receita de espetadas vegan com tofu e pimentos, Espetadas vegan saudáveis e fáceis de preparar, Como grelhar espetadas vegan na chapa ou fogueira, Marinada saborosa para espetadas de tofu, Espetadas vegan com morcela e tofu para churrasco"
 permalink: /espetadas-mistas-de-tofu/
@@ -16,19 +17,18 @@ proteinas: 14
 lipidos: 12.6
 hidratos: 16.98
 author: original
-new: "yes"
 ingredients:
         as Espetadas:
-            - 200gr | de Tofu Fumado
-            - 200gr | de Tofu Natural
+            - 200 gr | de Tofu Fumado
+            - 200 gr | de Tofu Natural
             - 1 | Cebola média
             - 1 | Pimento (de qualquer cor, ou misto)
             - 1 | Morcela Vegan (opcional, usada do Fumeiro Vegano)
         a Marinada:
-            - 2 colheres de sopa | de Polpa de Tomate
-            - 1 colher de sopa | de Massa de Pimentão
-            - 1 colher de sobremesa | de Massa de Alho
-            - 1 colher de sobremesa | de  Mostarda Dijon
+            - 2 c.sopa | de Polpa de Tomate
+            - 1 c.sopa | de Massa de Pimentão
+            - 1 c.sobremesa | de Massa de Alho
+            - 1 c.sobremesa | de  Mostarda Dijon
             - 3 dentes | de Alho esmagado
             - 3 folhas | de Louro
             - 1 colher de café | de Cominhos moídos

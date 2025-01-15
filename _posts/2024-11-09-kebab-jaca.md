@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Kebab de Jaca/Pleurothus"
 keywords: "Receita de kebab vegano, Kebab com jaca e cogumelos, Pão pita caseiro, Kebab vegano fácil, Como fazer kebab sem carne, Kebab vegano, Pão pita caseiro, Recheio de jaca, Receita vegana fácil, Kebab com cogumelos, Receita de kebab vegano com jaca e pão pita, Como fazer pão pita caseiro fácil, Kebab de cogumelos pleurothus e legumes frescos, Recheio vegano para kebab com jaca marinada, Receita saudável e sem soja de kebab vegano, Kebab sem carne com maionese picante e vegetais, Receita completa de pão pita com recheio vegano, Jaca em receitas veganas, Cogumelos pleurothus marinados, Pão pita na frigideira, Prato principal vegano, Snack vegano saudável, Comida de rua plant-based, Marinada para recheio de kebab, Legumes frescos em receitas vegan, Maionese vegana com sriracha, Receita económica sem glúten"
 permalink: /kebab-jaca/
@@ -18,19 +19,19 @@ hidratos: 65.1
 author: original
 ingredients: 
   o Pão Pita:
-    - 300gr | de Farinha de Trigo
-    - 180ml | de Água a temperatura ambiente
-    - 6gr | de Sal
-    - 20gr | de Azeite
-    - 3-4gr | de Fermento de padeiro seco
+    - 300 gr | de Farinha de Trigo
+    - 180 ml | de Água a temperatura ambiente
+    - 6 gr | de Sal
+    - 20 gr | de Azeite
+    - 3-4 gr | de Fermento de padeiro seco
   o Recheio:
-   - 300gr | de Jaca (ou alternativamente Cogumelos Pleurothus desfiados)
+   - 300 gr | de Jaca (ou alternativamente Cogumelos Pleurothus desfiados)
    - 2 folhas | de Alface cortada em juliana
    - 1/2 | Cenoura ralada
-   - 1 colher de sopa | de Alho em pó
-   - 1 colher de sopa | de Água morna
-   - 1 colher de sobremesa | de Cominhos moídos
-   - 2 colheres de sopa | de Sumo de Limão
+   - 1 c.sopa | de Alho em pó
+   - 1 c.sopa | de Água morna
+   - 1 c.sobremesa | de Cominhos moídos
+   - 2 c.sopa | de Sumo de Limão
    - "| Pimenta Preta q.b."
    - "| Sal q.b."
    - "| Açafrão q.b."

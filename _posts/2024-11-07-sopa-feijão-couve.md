@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Sopa de Feijão e Couve"
 keywords: "Receita de sopa de feijão, Sopa de feijão-manteiga e couve, Sopa vegana saudável, Como fazer sopa de feijão cremosa, Entrada vegana tradicional, Sopa de feijão, Couve branca, Receita vegan, Sopa cremosa, Feijão-manteiga, Receita saudável de sopa de feijão com couve, Como fazer sopa de feijão-manteiga vegan, Sopa cremosa de legumes com feijão, Receita vegan fácil e nutritiva, Sopa de inverno com feijão e couve branca, Sopa rica em fibras e proteína plant-based, Como preparar sopa caseira de feijão e couve, Sopa reconfortante, Receita económica vegan, Alimentação plant-based, Legumes frescos na sopa, Sopa saudável para o inverno, Receita de sopa sem laticínios, Cozinha sustentável, Sopa rica em nutrientes, Prato vegan para toda a família, Receita sem glúten"
 permalink: /sopa-feijao-couve/
@@ -17,15 +18,15 @@ lipidos: 3.5
 hidratos: 13.5
 author: 
 ingredients:
-    - 20gr | de Azeite
-    - 40gr | de Cebola
-    - 120gr | de Courgette
-    - 60gr | de Alho Francês (parte branca)
-    - 80gr | de Abóbora
-    - 80gr | de Couve Branca
-    - 650ml | de Água
-    - 100gr | de Couve Ralada finamente
-    - 300gr | de Feijão-manteiga previamente cozido
+    - 20 gr | de Azeite
+    - 40 gr | de Cebola
+    - 120 gr | de Courgette
+    - 60 gr | de Alho Francês (parte branca)
+    - 80 gr | de Abóbora
+    - 80 gr | de Couve Branca
+    - 650 ml | de Água
+    - 100 gr | de Couve Ralada finamente
+    - 300 gr | de Feijão-manteiga previamente cozido
     - "| Sal q.b."
     - "| Pimenta preta q.b."
 instructions:

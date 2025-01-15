@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Sem Bacalhau Sem Natas"
 keywords: "Receita de gratinado vegano, Bacalhau com natas vegano, Gratinado de batatas com cogumelos, Como fazer bacalhau vegano, Prato principal sem lactose, Gratinado de Batatas Vegano, Receita de Batatas no Forno com Cogumelos e Tofu, Prato Principal Vegano ao Forno, Gratinado com Molho Branco Vegan, Batatas Gratinadas com Cogumelos Pleurotus, Receita Vegana com Tofu e Legumes, Prato Vegano com Molho Cremoso, Como fazer gratinado de batatas vegano com molho branco, Receita vegana de forno com cogumelos pleurotus, Prato principal vegano fácil e nutritivo, Batatas assadas com tofu e cogumelos, Molho branco sem lactose para receitas veganas, Como desfiar cogumelos para pratos veganos, Receita de gratinado cremoso sem produtos de origem animal, Pratos veganos de forno, Receitas com batatas e tofu, Pratos quentes veganos para jantares especiais, Como substituir creme de leite por natas vegetais, Receita vegana rica em sabor, Prato principal vegano para partilhar"
 type: ["Almoço/Jantar"]
@@ -18,17 +19,17 @@ hidratos: 69.5
 author: tuga-vegetal
 ingredients:
     o Molho Branco:
-        - 500ml | de Caldo de Legumes
-        - 1 c. sopa | de Levedura Nutricional
-        - 2 c. sopa | de Manteiga Vegetal
-        - 3 c. sopa | de Farinha
-        - 2 c. sopa | de Sumo de Limão
-        - 400ml de | Natas Vegetais (exemplo, Alpro)
+        - 500 ml | de Caldo de Legumes
+        - 1 c.sopa | de Levedura Nutricional
+        - 2 c.sopa | de Manteiga Vegetal
+        - 3 c.sopa | de Farinha
+        - 2 c.sopa | de Sumo de Limão
+        - 400 ml de | Natas Vegetais (exemplo, Alpro)
         - "|Sal, alho em pó e pimenta preta q.b."
     o Restante:   
-    - 1kg | de Batatas cortadas em cubos
-    - 400gr | de Cogumelos Pleurotus Frescos desfiados
-    - 200gr | de Tofu ralado
+    - 1 kg | de Batatas cortadas em cubos
+    - 400 gr | de Cogumelos Pleurotus Frescos desfiados
+    - 200 gr | de Tofu ralado
     - 2 | Alhos Franceses fatiados
     - 2 | Cebolas fatiadas
     - 3 dentes | de Alho picados

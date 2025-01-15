@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Francesinha"
 keywords: "Receita de francesinha vegana, Francesinha sem carne, Francesinha com tofu e cogumelos, Como fazer francesinha vegana, Molho de francesinha caseiro, Francesinha vegan, Francesinha vegana, Molho de francesinha, Francesinha sem carne, Francesinha com tofu, Prato tradicional vegano, Receita completa de francesinha vegana com tofu e cogumelos, Como preparar molho de francesinha caseiro sem carne, Francesinha vegana com linguiça e queijo vegetal, Prato principal vegano inspirado na culinária portuguesa, Receita de francesinha vegana com batatas fritas na air fryer, Francesinha fácil e saborosa para o jantar, Molho de francesinha com cerveja, vinho do Porto e especiarias, Tofu marinado em pratos veganos, Cogumelos pleurothus em receitas tradicionais, Linguiça vegana grelhada, Queijo vegetal derretido, Pão de forma em receitas portuguesas Molho cremoso sem carne, Francesinha económica e vegana, Culinária portuguesa adaptada para veganos, Batatas fritas saudáveis na air fryer, Receita rica em sabor e textura"
 type: ["Almoço/Jantar"]
@@ -20,16 +21,16 @@ ingredients:
   o Molho:
     - 1 chávena de chá | de Polpa de Tomate
     - 2 dl | de Cerveja
-    - 1/2 chávena de chá | de Leite Vegetal
+    - 1/2 chávena | de Leite Vegetal
     - 1 dl | de Natas vegetais
-    - 1 colher de chá | de Alho em pó
+    - 1 c.chá | de Alho em pó
     - 1 folha | de Louro 
     - 1 chávena  | de Caldo de Legumes caseiro
     - 1/2 chávena | de Vinho do Porto
     - 1/2 chávena | de Vinho Branco 
-    - 1 colher de chá | de Mostarda
-    - 1 colher de chá | de Molho de Soja
-    - 1 colher de chá | de Molho Inglês
+    - 1 c.chá | de Mostarda
+    - 1 c.chá | de Molho de Soja
+    - 1 c.chá | de Molho Inglês
     - "|Paprika fumada q.b."
     - "|Sal q.b."
   o Recheio:
@@ -37,7 +38,7 @@ ingredients:
     - 8 fatias | de Queijo Vegetal (exemplo, violife)
     - 100 gr | de Cogumelos Pleurothus
     - 2 | Linguiças Vegan
-    - 200gr | de Tofu
+    - 200 gr | de Tofu
     - 8 fatias | de Courgette
 instructions:
   o Molho:

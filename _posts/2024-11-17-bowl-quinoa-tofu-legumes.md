@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Bowl de Quinoa, Tofu e Legumes"
 description: "Bowl colorida, com quinoa, tofu, legumes, edamame e um molho cremoso de tahini e miso"
 keywords: "Receita de bowl vegana, Bowl de quinoa e tofu, Bowl saudável com legumes, Como fazer bowl de quinoa, Prato vegano com molho de tahini e miso, Bowl vegana, Bowl de quinoa, Receita saudável, Tofu marinado, Molho de tahini e miso, Receita de bowl vegana com quinoa e tofu, Como preparar uma bowl saudável com legumes frescos, Bowl de quinoa com tofu e molho cremoso de miso, Receita completa de bowl vegana sem frutos secos, Como fazer uma bowl com edamame e cogumelos, Prato vegano saudável e rápido para almoço ou jantar, Receita prática de bowl com quinoa demolhada, Quinoa em receitas veganas, Legumes frescos em pratos saudáveis, Molho cremoso de tahini e miso, Tofu na air fryer, Alimentação plant-based, Receita rica em proteína vegana, Bowl colorida e nutritiva, Receita económica sem glúten, Como cozinhar edamame para bowls, Prato vegano fácil e equilibrado"
@@ -18,17 +19,17 @@ hidratos: 51.3
 author:     
 ingredients:
     o tofu:
-    - 400gr | de Tofu
+    - 400 gr | de Tofu
     - 1 c.sopa | de Molho Sriracha
     - 1 c.sopa | de Sumo de Limão
     - 3 c.sopa | de Molho de Soja
     - "| Alho em pó q.b."
     - "| Sal q.b."
     a receita:
-    - 200gr | de Quinoa
-    - 500gr | Cogumelos Pleurothus
-    - 100gr | de Edamame
-    - 50gr | de Couve Roxa
+    - 200 gr | de Quinoa
+    - 500 gr | Cogumelos Pleurothus
+    - 100 gr | de Edamame
+    - 50 gr | de Couve Roxa
     - 1 | Cenoura
     - 1 | Pepino
     - 1 | Courgete

@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Bolonhesa de Tofu Crocante"
 keywords: "Receita de bolonhesa vegana, Bolonhesa com tofu crocante, Esparguete com tofu, Bolonhesa sem carne, Como fazer bolonhesa vegana, Esparguete Vegano com Tofu Crocante, Massa com Molho de Tomate e Tofu, Receita de Esparguete Vegano ao Forno, Tofu Assado Crocante com Esparguete, Prato Principal Vegano com Tofu e Massa, Receita Saudável de Massa com Tofu, Tofu Temperado com Esparguete, Como fazer tofu crocante no forno, Esparguete com molho de tomate e tofu assado, Receita fácil de massa vegana com tofu, Prato vegano de esparguete com proteína vegetal, Receitas de tofu crocante sem fritura, Massa saudável com tofu e manjericão, Tofu ao forno para massas veganas, Pratos veganos simples e rápidos, Esparguete com molho vegano, Receitas sem carne com tofu, Tofu assado ao estilo italiano, Jantares veganos ricos em sabor, Refeições proteicas à base de plantas, Como usar levedura nutricional em receitas"
 permalink: /bolonhesa-de-tofu-crocante/
@@ -18,15 +19,15 @@ hidratos: 47.6
 author: itdoesnttastelikechicken
 ingredients:
         o tofu:
-            - 400gr | de Tofu
-            - 4 colheres de sopa | de Levedura Nutricional (opcional)
-            - 2 colheres de sopa | de Molho de Soja
-            - 2 colheres de sopa | de Azeite
-            - 2 colheres de chá | Red Chili Flakes
-            - 2 colheres de chá | de Alho em pó
-            - 2 colheres de chá | de Cominhos moídos
+            - 400 gr | de Tofu
+            - 4 c.sopa | de Levedura Nutricional (opcional)
+            - 2 c.sopa | de Molho de Soja
+            - 2 c.sopa | de Azeite
+            - 2 c.chá | de Red Chili Flakes
+            - 2 c.chá | de Alho em pó
+            - 2 c.chá | de Cominhos moídos
         a massa:
-            - 200gr | de Esparguete
+            - 200 gr | de Esparguete
             - "| Molho de Tomate temperado a gosto"
             - "| Folhas de Manjericão (opcional)"
 instructions:

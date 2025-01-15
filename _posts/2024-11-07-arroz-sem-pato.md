@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Arroz Sem Pato"
 keywords: "Receita de arroz sem pato, Arroz de forno vegano, Arroz com cogumelos e chouriço vegetal, Prato principal vegano, Como fazer arroz sem pato, Arroz no Forno com Chouriço Vegetal, Receita Vegana de Arroz com Cogumelos, Arroz de Forno Vegano, Prato Vegano com Cogumelos Pleurotus, Arroz Assado com Chouriço Vegetal e Cogumelos, Receita Saudável de Arroz ao Forno, Arroz com Chouriço Vegano e Caldo de Legumes, Como fazer arroz no forno com cogumelos e chouriço vegetal, Receita vegana de arroz cremoso ao forno, Prato principal vegano com arroz, cogumelos e chouriço, Receita fácil de arroz de forno sem carne, Arroz de cogumelos e chouriço vegetal no forno, Como usar cogumelos Pleurotus em receitas veganas, Arroz no forno com caldo de legumes e vinho tinto,  Receitas veganas para refeições principais, Pratos assados veganos e nutritivos, Como substituir carne em receitas de arroz, Arroz de forno saboroso sem produtos de origem animal, Chouriço vegetal em pratos tradicionais, Como temperar arroz vegano com caldo de legumes, Receitas fáceis para jantares veganos"
 permalink: /arroz-sem-pato/
@@ -17,16 +18,16 @@ lipidos: 12.4
 hidratos: 91.8
 author: greentastecuisine
 ingredients:
-    - 400gr | de Arroz Vaporizado ou Agulha
+    - 400 gr | de Arroz Vaporizado ou Agulha
     - 500 gr | de Cogumelos Pleurothus
     - 1 | Chouriço Vegetal
-    - 500ml | de Caldo de Legumes
-    - 500ml | de Água
-    - 50ml | de Vinho Tinto
+    - 500 ml | de Caldo de Legumes
+    - 500 ml | de Água
+    - 50 ml | de Vinho Tinto
     - 1 | Cebola picada
     - 4  dentes| de Alho picado
     - 2 folhas | de Louro
-    - 1 c. sopa| de Molho de Soja
+    - 1 c.sopa| de Molho de Soja
     - "| Pimentão doce fumado q.b."
     - "| Pimenta-preta q.b."
     - "| Azeite q.b."   

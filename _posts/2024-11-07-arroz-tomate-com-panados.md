@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Arroz de Tomate com Panados"
 keywords: "Receita de arroz de tomate, Arroz de tomate com panados veganos, Panados de seitan caseiro, Prato principal vegano, Como fazer panados crocantes, Arroz de tomate com panados veganos, Panados de seitan caseiro, Receita de seitan de grão-de-bico, Arroz de tomate vegano com panados crocantes, Panados veganos fáceis e saborosos, Como fazer panados de seitan, Receita de arroz de tomate simples e delicioso, Panados crocantes sem carne, Seitan caseiro vegano à base de grão-de-bico, Prato principal vegano com seitan e arroz de tomate, Receitas veganas fáceis para o dia a dia, Receitas saudáveis e nutritivas com grão-de-bico, Pratos veganos com seitan e arroz, Como preparar panados veganos crocantes e saborosos, Receitas sustentáveis e práticas para refeições veganas, Arroz de tomate tradicional com um toque vegano moderno"
 permalink: /arroz-tomate-com-panados/
@@ -29,18 +30,18 @@ ingredients:
         - "| Pimenta Preta q.b."
         - "| Sal q.b."        
     o Seitan de Grão-de-Bico:
-        - 200gr | de Grão-de-bico 
-        - 60ml | de Água
-        - 2 colher de sopa | de Molho de Soja
-        - 1 colher de chá | de Mostarda Dijon
-        - 1 colher de chá | de Sal
-        - 40gr de | Farinha de Trigo 
-        - 60gr | de Glúten de Trigo.
+        - 200 gr | de Grão-de-bico 
+        - 60 ml | de Água
+        - 2 c.sopa | de Molho de Soja
+        - 1 c.chá | de Mostarda Dijon
+        - 1 c.chá | de Sal
+        - 40 gr de | Farinha de Trigo 
+        - 60 gr | de Glúten de Trigo.
         - "| Caldo de Legumes q.b."
     os Panados:
-        - 1 colher de sopa | de Polpa de Tomate
+        - 1 c.sopa | de Polpa de Tomate
         - 50 ml | de Cerveja
-        - 3 colheres de sopa | de Água
+        - 3 c.sopa | de Água
         - "| Cebola desidratada q.b."
         - "| Alho em pó q.b."
         - "| Farinha de trigo q.b."

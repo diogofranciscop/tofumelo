@@ -1,5 +1,6 @@
 ---
 layout: post
+layout-type: 1
 title: "Overnight Weetabix"
 keywords: "Receita de overnight weetabix, Pequeno-almoço saudável com weetabix, Weetabix com iogurte e fruta, Como fazer overnight weetabix, Lanche rápido e vegano, Overnight weetabix, Weetabix vegano, Pequeno-almoço saudável, Receita com iogurte vegan, Weetabix com fruta, Receita fácil de overnight weetabix com iogurte, Como preparar weetabix para o pequeno-almoço saudável, Receita de lanche rápido com weetabix e fruta, Pequeno-almoço vegano com weetabix e manteiga de amendoim, Como fazer weetabix tipo cheesecake com iogurte, Receita sem glúten e sem soja com weetabix, Pequeno-almoço nutritivo, Receita rápida com weetabix, Sobremesa saudável com iogurte, Como usar weetabix em receitas, Weetabix com bebida vegetal, Alimentação plant-based, Opção saudável para lanche vegano, Receita prática e económica, Fruta fresca no pequeno-almoço, Manteiga de amendoim em receitas vegan"
 permalink: /overnight-weetabix/
@@ -19,10 +20,10 @@ author: original
 ingredients:
     - 1,5 | Bolachas Weetabix
     - "| Bebida Vegetal de amêndoa/arroz q.b."
-    - 100gr | de Iogurte Vegan natural
+    - 100 gr | de Iogurte Vegan natural
     - "| Fruta a gosto q.b. (costumo usar morango ou banana)"
-    - 1 c. chá | de Manteiga de Amendoim
-    - 1/2 c. chá | de Agave (opcional)
+    - 1 c.chá | de Manteiga de Amendoim
+    - 1/2 c.chá | de Agave (opcional)
 instructions:
     - Desfazer as bolachas weetabix numa tacinha.
     - Aos poucos, juntar o leite vegetal até ficar uma espécie de  pasta com alguma consistência. A ideia não é que fique líquida.

@@ -1,5 +1,6 @@
 ---
-layout: post-2
+layout: post
+layout-type: 2
 title: "Red Velvet"
 description: "Bolo Red Velvet vegan, macio e vibrante, com cobertura cremosa de cream cheese"
 keywords: ["Red Velvet Vegan, Bolo Red Velvet Sem Lactose, Bolo Vegan Fácil, Receita de Red Velvet Vegan, Bolo Vermelho Vegan, Bolo com Cream Cheese Vegan, Sobremesa Vegan Festiva, Sobremesa Vegan para Festas, Receitas Veganas Doces, Bolo Sem Produtos de Origem Animal, Red Velvet com Cobertura Vegan, Red Velvet vegan, Bolo vegan fácil, Sobremesa vegana festiva, Bolo sem lactose, Cream cheese vegan, Receita de Red Velvet vegan com cobertura cremosa, Como fazer bolo Red Velvet sem produtos de origem animal, Bolo vermelho macio e vegan com cream cheese, Sobremesa vegana para festas e ocasiões especiais, Receita de bolo Red Velvet sem lactose e fácil de preparar, Bolo vegan para festas de aniversário ou Natal, Como fazer cobertura de cream cheese vegan para bolos, Bolo vermelho em receitas veganas, Corante alimentar vegan em sobremesas, Cobertura cremosa sem lactose, Sobremesas vegan sofisticadas, Receitas doces plant-based, Uso de buttermilk vegano em bolos, Receitas festivas para dietas veganas, Amido de milho em coberturas veganas, Textura macia em bolos vegan, Bolos sem ovos e sem leite"]
@@ -18,23 +19,23 @@ hidratos: 50.9
 author: jessicainthekitchen
 ingredients:
     o Bolo:
-        - 1 colher de sopa | de Vinagre
+        - 1 c.sopa | de Vinagre
         - 240 ml | de Bebida Vegetal de Soja, à temperatura ambiente
         - 400 gr | de Açúcar Branco 
         - 360 gr | de Farinha de Trigo sem fermento
-        - 2 colheres de sopa | de Cacau em pó sem açúcar 
-        - 2 colheres de chá | de Fermento para bolos 
-        - 1 colher de chá | de Sal
+        - 2 c.sopa | de Cacau em pó sem açúcar 
+        - 2 c.chá | de Fermento para bolos 
+        - 1 c.chá | de Sal
         - 150 gr | de Óleo Vegetal
-        - 1 colher de chá | de Extrato de Baunilha
+        - 1 c.chá | de Extrato de Baunilha
         - 30 ml | de Corante Alimentar Vermelho líquido, Vegan
         - 240 ml | de Bebida Vegetal de Soja, morno
-        - 2 colheres de chá | de Bicarbonato de Sódio
-        - 1 colher de chá| de Vinagre
+        - 2 c.chá | de Bicarbonato de Sódio
+        - 1 c.chá| de Vinagre
     a Cobertura de "Cream Cheese":
        - 226 gr | de "Cream Cheese" vegan, à temperatura ambiente (usei da Violife)
        - 113 gr | de Manteiga vegan, à temperatura ambiente (usei da Alpro)
-       - 1 colher de chá | de Extrato de Baunilha
+       - 1 c.chá | de Extrato de Baunilha
        - 300 gr | de Açúcar em pó, peneirado
        - 32 gr | de Amido de Milho, peneirado
        - "| Sal fino q.b."
