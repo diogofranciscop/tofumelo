@@ -11,14 +11,15 @@
     z-index: 1200;
 }
 #close-button{
-  position: absolute; 
-  top: 10px; 
-  right: 14px; 
+  position: relative;
+  margin-left: auto;
   border: none; 
   cursor: pointer; 
   appearance: none; 
   background-color: inherit; 
-  color: white
+  color: white;
+  font-size:25px;
+  font-weight: bold;
 }
 #chat-icon,
 #chat-icon:focus {
@@ -81,57 +82,72 @@ button:focus {
   position: fixed;
   bottom: 50px;
   right: 20px;
-  display: none;
-  padding-top: 20px;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 20px;
   z-index: 1200;
   display: flex;
+  height: 427px;
+  width: 328px;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
 }
 #chat-box-header {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background: #001829; /* Header background color from the palette */
-    height: 40px;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    color: white;
-    font-size: 20px;
-    width: 350px;
-    top: -12px;
-    z-index: 1200;
-    right: 0px;
+  display: flex;
+  align-items: center;
+  background: rgba(189, 208, 182, 1);
+  height: 45px;
+  padding: 8px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  font-size: 20px;
+  width: 328px;
+  justify-content: flex-start; /* Align items tightly to the left */
 }
 
+#chat-box-header > :not(.chat-box-toggle) {
+  display: flex;
+  align-items: center;
+}
+.chat-box-toggle {
+  margin-left: 135px;/* Pushes it to the right */
+  align-items: center;
+  display: flex;
+}
+
+
 #iframe-style {
-    width: 358px;
-    height: 516px;
-    bottom: 55px;
-    border: 0;
-    visibility: hidden;
+  width: 328px;
+  height: 382px;
+  bottom: 55px;
+  border: 0;
+  visibility: hidden;
+  border-bottom-right-radius: 20px; 
+  border-bottom-left-radius: 20px;
 }
 
     #persona {
-      position: relative;
-      left: -24%;
-      z-index: 1;
+      font-family: "Titillium Web";
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 600;
+      line-height: 15.21px;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
       vertical-align: center;
+      margin-right: 10px; 
     }
 
-    #persona::before {
+    #online{
       content: "";
-      position: absolute;
-      z-index: -1;
       top: 50%;
-      left: -20%;
-      transform: translate(-50%, -50%);
       width: 10px;
       height: 10px;
       border-radius: 50%;
       background-color: green;
       animation: glow-chatbot 2s infinite;
+      margin-left: 20px;
+      margin-right: 10px; 
     }
 
     @keyframes glow-chatbot {
