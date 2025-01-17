@@ -42,7 +42,7 @@ $(document).ready(function () {
         $('#chat-message').show();
         setTimeout(function () {
           $('#chat-message').hide();
-        }, 6000);  // Message will be hidden after 5 seconds
+        }, 3000);  // Message will be hidden after 5 seconds
 
         // Update the time of the last message
         lastMessageTime = currentTime;
@@ -59,6 +59,5 @@ $(document).ready(function () {
     }
   );
 
-  // In your Shopify app
   var iframe = $('#iframe-style')[0];
   iframe.contentWindow.postMessage({ type: 'changeCSS', css: '.st-emotion-cache-139wi93 { padding: 0 !important; padding-bottom: 20px !important; }' }, '*');

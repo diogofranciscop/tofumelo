@@ -9,6 +9,13 @@
     cursor: pointer;
     background-color: transparent; /* Main color */
     z-index: 1200;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+#chatbot-icon{
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 1);
 }
 #close-button{
   position: relative;
@@ -40,19 +47,28 @@ button:focus {
 }
 #chat-message {
     position: fixed;
-    bottom: 100px;
+    bottom: 125px;
     /* Adjust this value as needed */
-    right: 25px;
+    right: 45px;
     /* Adjust this value as needed */
     z-index: 1200;
     /* Ensure the message is on top of other elements */
-    background-color: rgba(0, 61, 102, 0.5); /* Semi-transparent background color from the palette */
-    border-radius: 4px;
+    background: rgba(189, 208, 182, 1);
+ /* Semi-transparent background color from the palette */
+    border-radius: 10px;
     padding: 10px;
     /* Space between text and balloon edge */
     max-width: 200px;
     /* Maximum width of the balloon */
-    border: 2px solid #003D66; /* Border color from the palette */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    font-family: "Titillium Web";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 15.21px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
 }
 
 #chat-message::after {
@@ -64,18 +80,15 @@ button:focus {
     /* Center the arrow */
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 10px solid #003D66; /* Arrow color from the palette */
+    border-left: 15px solid transparent; /* Smaller left border */
+    border-right: 5px solid transparent; 
+    border-top: 10px solid rgb(189, 208, 182); /* Arrow color from the palette */
     z-index: 1200;
 }
 
 #icon {
-    width: 106%;
-    object-fit: cover;
-    z-index: 1200;
-    position: relative;
-  left: -2%;
+  width:100%;
+  object-fit: cover;
 }
 
 #chat-box {
@@ -109,7 +122,7 @@ button:focus {
   align-items: center;
 }
 .chat-box-toggle {
-  margin-left: 135px;/* Pushes it to the right */
+  margin-left: 130px;/* Pushes it to the right */
   align-items: center;
   display: flex;
 }
@@ -146,8 +159,7 @@ button:focus {
       border-radius: 50%;
       background-color: green;
       animation: glow-chatbot 2s infinite;
-      margin-left: 20px;
-      margin-right: 10px; 
+      margin-left:10px;
     }
 
     @keyframes glow-chatbot {
@@ -158,4 +170,11 @@ button:focus {
       100% {
         box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
       }
+    }
+
+
+    .head-bot{
+      width:35px;
+      margin-right: 10px;
+      margin-left:10px;
     }
