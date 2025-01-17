@@ -396,6 +396,23 @@ CSS for the information box
   margin-left: 0px!important;
   margin-right: 0px!important;
 }
+.logo-diets {
+  position: absolute; /* Positions the logo container within the parent */
+  right: 0; /* Aligns it to the right edge */
+  top: 50%; /* Vertically centers it relative to the parent */
+  transform: translateY(-50%); /* Adjusts for vertical centering */
+  display: flex; /* Makes the logos align horizontally */
+  gap: 10px; /* Adds space between the logos */
+}
+.title-and-diet {
+  position: relative; /* Allows positioning of .logo-diets */
+  text-align: center; /* Centers the h1 text horizontally */
+  padding: 10px; /* Optional padding for better layout */
+}
+
+.title-and-diet h1 {
+  margin: 0; /* Removes default margin */
+} 
 
 @media (max-width: 768px) {
   .recipe-card2 {
@@ -525,15 +542,13 @@ CSS for the information box
   justify-content: right;
 }
 .logo-diets {
-  position: absolute;
-  top: 10%;
-  transform: translateY(-50%);
-  display: flex;
-  gap: 10px;
-  justify-content: center;
-  align-content: center;
-  right: 100px;}
-
+  position: absolute; /* Positions the logo container within the parent */
+  right: 0; /* Aligns it to the right edge */
+  top: 50%; /* Vertically centers it relative to the parent */
+  transform: translateY(-50%); /* Adjusts for vertical centering */
+  display: flex; /* Makes the logos align horizontally */
+  gap: 10px; /* Adds space between the logos */
+}
 .title-and-diet {
   position: relative; /* Allows positioning of .logo-diets */
   text-align: center; /* Centers the h1 text horizontally */
@@ -542,7 +557,6 @@ CSS for the information box
 
 .title-and-diet h1 {
   margin: 0; /* Removes default margin */
-  margin-top:15px;
 } 
 
 .diet-item {
