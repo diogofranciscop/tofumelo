@@ -1,0 +1,180 @@
+#chat-icon {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 75px;
+    height: 75px;
+    padding: 0;
+    border: none !important;
+    cursor: pointer;
+    background-color: transparent; /* Main color */
+    z-index: 1200;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.3);
+}
+
+#chatbot-icon{
+  border-radius: 50%;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 1);
+}
+#close-button{
+  position: relative;
+  margin-left: auto;
+  border: none; 
+  cursor: pointer; 
+  appearance: none; 
+  background-color: inherit; 
+  color: white;
+  font-size:25px;
+  font-weight: bold;
+}
+#chat-icon,
+#chat-icon:focus {
+  outline: none;
+}
+
+button:focus{
+  outline: none;
+}
+#icon,
+#icon:focus {
+  outline: none;
+}
+
+button:focus {
+  outline: 0px dotted !important;
+  outline: 0px auto -webkit-focus-ring-color !important;
+}
+#chat-message {
+    position: fixed;
+    bottom: 125px;
+    /* Adjust this value as needed */
+    right: 45px;
+    /* Adjust this value as needed */
+    z-index: 1200;
+    /* Ensure the message is on top of other elements */
+    background: rgba(189, 208, 182, 1);
+ /* Semi-transparent background color from the palette */
+    border-radius: 10px;
+    padding: 10px;
+    /* Space between text and balloon edge */
+    max-width: 200px;
+    /* Maximum width of the balloon */
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+    font-family: "Titillium Web";
+    font-size: 14px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 15.21px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+}
+
+#chat-message::after {
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    /* Position of the arrow */
+    left: 80%;
+    /* Center the arrow */
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent; /* Smaller left border */
+    border-right: 5px solid transparent; 
+    border-top: 10px solid rgb(189, 208, 182); /* Arrow color from the palette */
+    z-index: 1200;
+}
+
+#icon {
+  width:100%;
+  object-fit: cover;
+}
+
+#chat-box {
+  position: fixed;
+  bottom: 50px;
+  right: 20px;
+  border-radius: 20px;
+  z-index: 1200;
+  display: flex;
+  height: 427px;
+  width: 328px;
+  flex-direction: column;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.25);
+}
+#chat-box-header {
+  display: flex;
+  align-items: center;
+  background: rgba(189, 208, 182, 1);
+  height: 45px;
+  padding: 8px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  color: white;
+  font-size: 20px;
+  width: 328px;
+  justify-content: flex-start; /* Align items tightly to the left */
+}
+
+#chat-box-header > :not(.chat-box-toggle) {
+  display: flex;
+  align-items: center;
+}
+.chat-box-toggle {
+  margin-left: 130px;/* Pushes it to the right */
+  align-items: center;
+  display: flex;
+}
+
+
+#iframe-style {
+  width: 328px;
+  height: 382px;
+  bottom: 55px;
+  border: 0;
+  visibility: hidden;
+  border-bottom-right-radius: 20px; 
+  border-bottom-left-radius: 20px;
+}
+
+    #persona {
+      font-family: "Titillium Web";
+      font-size: 20px;
+      font-style: italic;
+      font-weight: 600;
+      line-height: 15.21px;
+      text-align: center;
+      text-underline-position: from-font;
+      text-decoration-skip-ink: none;
+      vertical-align: center;
+      margin-right: 10px; 
+    }
+
+    #online{
+      content: "";
+      top: 50%;
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background-color: green;
+      animation: glow-chatbot 2s infinite;
+      margin-left:10px;
+    }
+
+    @keyframes glow-chatbot {
+      0% {
+        box-shadow: 0 0 5px #00ff00, 0 0 10px #00ff00, 0 0 15px #00ff00, 0 0 20px #00ff00;
+      }
+
+      100% {
+        box-shadow: 0 0 10px #00ff00, 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00;
+      }
+    }
+
+
+    .head-bot{
+      width:35px;
+      margin-right: 10px;
+      margin-left:10px;
+    }
