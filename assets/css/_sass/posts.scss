@@ -518,17 +518,20 @@ CSS for the information box
 
 .logo-diets {
   position: absolute; /* Positions the logo container within the parent */
-  right: 100px !important; /* Aligns it to the right edge */
   top: 10px !important; /* Vertically centers it relative to the parent */
   transform: translateY(-50%); /* Adjusts for vertical centering */
   display: flex; /* Makes the logos align horizontally */
   gap: 10px; /* Adds space between the logos */
   flex-direction: column;
+  justify-content: center !important;
+  margin-right:0px !important;
+  width:100% !important;
 }
 .title-and-diet {
   position: relative; /* Allows positioning of .logo-diets */
   text-align: center; /* Centers the h1 text horizontally */
   padding: 10px; /* Optional padding for better layout */
+  width:100%;
 }
 
 .title-and-diet h1 {
