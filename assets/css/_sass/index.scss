@@ -492,11 +492,14 @@ display: none !important;
   border-radius: 20px;
 }
 
+
 @media (max-width: 768px) {
   .filter-buttons{
     width:100vw;
   }
-
+  .skeleton-button{
+    width:80% !important;
+  }
 
 .new-tape {
   position: absolute;
