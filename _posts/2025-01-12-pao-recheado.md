@@ -58,7 +58,7 @@ instructions:
         - Retirar da embalagem e, se necessário, escorrer o Vuna. Reservar.
       o Restante:
         - Colocar um fio de azeite numa frigideira e deixar aquecer. De seguida, refogar a cebola e o alho picados.
-        - Quando a cebola estiver macia, adicionar a opção escolhida, ou o Vuna ou o Bacon.
+        - Quando a cebola estiver macia, adicionar a opção escolhida, ou o Vuna ou o "Bacon".
         - Adicionar o alho em pó, o pimentão doce, o sal e a pimenta preta. Envolver bem e, se necessário, adicionar um pouco de água caso a mistura esteja seca. Deixar cozinhar durante aproximadamente 3 minutos.
         - Transferir a mistura para uma taça, adicionar a maionese e o queijo vegetal, e misturar tudo até obter uma consistência uniforme.
         - Cortar a parte superior de um pão, formando uma "tampa", e retirar todo o miolo.
