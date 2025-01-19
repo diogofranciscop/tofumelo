@@ -2,9 +2,9 @@
 layout: post
 layout-type: 2
 title: "Coxinhas Sem Frango"
-description: "Coxinhas veganas com recheio cremoso, "frango" desfiado e massa dourada crocante"
+description: "Coxinhas veganas com recheio cremoso, 'frango' desfiado e massa dourada crocante"
 keywords: "Coxinhas veganas, Receita de coxinhas sem frango, Coxinhas com recheio cremoso vegano, Coxinhas de seitan desfiado, Coxinhas crocantes sem carne, Massa para coxinhas veganas, Receita vegana de entrada, Coxinhas fritas veganas, Coxinhas fáceis e saborosas, Recheio vegano para coxinhas"
-permalink: /coxinhas-sem-frango"
+permalink: /coxinhas-sem-frango/
 type: ["Entrada"]
 image: "/assets/img/"
 serve: 25 coxinhas
@@ -46,7 +46,7 @@ ingredients:
     - "| Pimenta Caiena q.b."
     o Recheio:
     - 250 gr | de Seitan desfiado
-    - 0,5 | Cebola picada
+    - 0.5 | Cebola picada
     - 2 | Tomates médios picados
     - 3 dentes | de Alho picados
     - 1 | Malagueta picada (opcional)

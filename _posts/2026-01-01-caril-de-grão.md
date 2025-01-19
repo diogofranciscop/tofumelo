@@ -51,7 +51,7 @@ instructions:
     - Adicionar os cogumelos fatiados ao refogado e deixar cozinhar até que reduzam de tamanho e libertem os seus sucos.
     - Juntar a courgette, a beringela e a cenoura. Misturar bem e deixar cozinhar até que os legumes fiquem macios.
     - Adicionar o leite de coco, mexendo bem para formar um molho cremoso.  
-   - Acrescentar o grão de bico cozido e envolver tudo. Deixar apurar em lume brando por alguns minutos. Provar e ajustar os temperos, se necessário.
+    - Acrescentar o grão de bico cozido e envolver tudo. Deixar apurar em lume brando por alguns minutos. Provar e ajustar os temperos, se necessário.
     o Arroz: 
     - Num tacho, colocar o arroz, a água e o sal. Levar ao lume médio e deixar cozinhar até que a água seja absorvida e o arroz fique macio.
     - Dispôr o caril de grão e legumes num prato e acompanhar com o arroz.
