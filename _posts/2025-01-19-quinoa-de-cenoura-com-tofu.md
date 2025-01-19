@@ -2,7 +2,7 @@
 layout: post
 layout-type: 2
 title: "Quinoa de cenoura com Tofu"
-description: "Quinoa com cenoura e edamame, acompanhada de tofu salteado com couve-roxa."
+description: "Quinoa com cenoura e edamame, acompanhada de tofu salteado com couve-roxa"
 keywords: "Receita de quinoa com tofu e couve-roxa, Como preparar tofu dourado com quinoa, Quinoa de cenoura com edamame para veganos, Refeição vegana saudável e rica em proteínas, Receita fácil de quinoa com vegetais e tofu, Prato vegano equilibrado com quinoa e tofu, Jantar nutritivo com quinoa e couve-roxa, Receita sem glúten com tofu e quinoa, Receita Vegana, Almoço Saudável"
 permalink: /quinoa-de-cenoura-com-tofu/
 type: ["Almoço/Jantar"]
