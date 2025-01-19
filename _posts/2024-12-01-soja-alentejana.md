@@ -27,14 +27,15 @@ ingredients:
     - 3 folhas | de Louro
     - 1 | Cebola picada
     - 3 dentes | de Alho picados
-    - "|Água q.b."
-    - "| Molho Inglês q.b."
-    - "| Vinho branco q.b."
+    - 3 c.sopa | de Molho Inglês
+    - 6 c.sopa | de Molho de Soja
+    - 6 c.sopa | de Vinho Branco
     - "| Vinagre q.b."
-    - "| Limão q.b."
-    - "| Alho em pó q.b."
-    - "| Cominhos moídos q.b."
-    - "| Pimentão doce q.b."
+    - 2 c.sopa | de Sumo de Limão
+    - 2 c.sopa | de Alho em pó
+    - 1 c.chá | de Cominhos moídos
+    - 1 c.chá | de Pimentão doce
+    - "|Água q.b."
 instructions:
     as batatas:
     - Cortar as batatas aos cubos. Fritar as batatas numa fritadeira ou pulverizá-las com azeite e fazê-las na _Air Fryer_. Reservar.

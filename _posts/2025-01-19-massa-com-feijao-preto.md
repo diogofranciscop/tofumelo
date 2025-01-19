@@ -42,7 +42,5 @@ instructions:
     - Regar com o vinho branco e deixar ferver durante 1 minuto.
     - Acrescentar um pouco de água para obter mais molho e reduzir o lume.
     - Cozinhar por 5 minutos e, em seguida, adicionar o feijão. Deixar cozinhar por mais 5 minutos. Está pronto a servir.
-notes:
-    - 
 ---
 
