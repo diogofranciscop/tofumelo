@@ -48,6 +48,4 @@ instructions:
     - Adicionar o molho de tomate à panela, completar com água até cobrir, deixar ferver e juntar as batatas e as cenouras. 
     - Temperar com sal, pimenta preta, piri-piri, mostarda Dijon, massa de pimentão, cominhos moídos, alho em pó e paprika. Misturar bem e tapar a panela. Cozinhar em lume brando por cerca de 30 minutos, verificando o ponto de cozedura das batatas e das cenouras, e ajustar os temperos se necessário.
     - Quando os legumes estiverem cozidos, juntar as ervilhas à panela e cozinhar por mais 5 minutos. Servir quente.  
-notes:
-    - 
 ---

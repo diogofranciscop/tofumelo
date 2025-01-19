@@ -47,7 +47,5 @@ instructions:
     - Juntar a couve-roxa cortada em juliana e deixar cozinhar até que perca a água.
     - Temperar com molho inglês e alho em pó.
     - Deixar cozinhar por mais 5 minutos para incorporar bem os sabores. Está pronto a servir.
-notes:
-    - 
 ---
 

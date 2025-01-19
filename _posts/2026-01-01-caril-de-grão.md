@@ -55,6 +55,4 @@ instructions:
     o Arroz: 
     - Num tacho, colocar o arroz, a água e o sal. Levar ao lume médio e deixar cozinhar até que a água seja absorvida e o arroz fique macio.
     - Dispôr o caril de grão e legumes num prato e acompanhar com o arroz.
-notes:
-    - 
 ---
