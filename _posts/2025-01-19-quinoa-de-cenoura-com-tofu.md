@@ -1,52 +1,52 @@
 ---
 layout: post
 layout-type: 2
-title: "Quinoa de cenoura "
-description: "Quinoa de cenoura e edamame acompanhado de tofu com couve rouxa"
-keywords: ""
+title: "Quinoa de cenoura com Tofu"
+description: "Quinoa com cenoura e edamame, acompanhada de tofu salteado com couve-roxa."
+keywords: "Receita de quinoa com tofu e couve-roxa, Como preparar tofu dourado com quinoa, Quinoa de cenoura com edamame para veganos, Refeição vegana saudável e rica em proteínas, Receita fácil de quinoa com vegetais e tofu, Prato vegano equilibrado com quinoa e tofu, Jantar nutritivo com quinoa e couve-roxa, Receita sem glúten com tofu e quinoa, Receita Vegana, Almoço Saudável"
 permalink: /quinoa-de-cenoura-com-tofu/
 type: ["Almoço/Jantar"]
 image: "/assets/img/quinoa-de-cenoura-com-tofu.webp"
 serve: 4 refeições
-diet: ["s-soja","s-frutos-secos","s-gluten"]
-time-total: 
-time-prepar: 
-time-confe: 
-calorias:
-proteinas:
-lipidos:
-hidratos:
-author: 
+diet: ["s-frutos-secos"]
+time-total: 30
+time-prepar: 10
+time-confe: 20
+calorias: 330
+proteinas: 19.5
+lipidos: 12.5
+hidratos: 35
+author: original
 new: "yes"
 ingredients:
-    a quinoa:
-    - 200 gr | de quinoa
-    - 200 gr | de edamame
-    - 1 | cenoura
-    - 2 dentes | de alho
-    - 2 c.sopa | de azeite
-    - "| sal q.b."
-    o tofu:
-    - 400 gr | de tofu
-    - 1/2 | couve rouxa
-    - 1 c.sopa de azeite
-    - 4 c.sopa | de molho inglês
-    - "| alho em pó q.b."
+    a Quinoa:
+    - 200 gr | de Quinoa
+    - 200 gr | de Edamame
+    - 1 | Cenoura
+    - 2 dentes | de Alho
+    - 2 c.sopa | de Azeite
+    - "| Sal q.b."
+    o Tofu:
+    - 400 gr | de Tofu
+    - 1/2 | Couve Rouxa
+    - 1 c.sopa | de Azeite
+    - 4 c.sopa | de Molho Inglês
+    - "| Alho em Pó q.b."
 instructions:
-    a quinoa:
-    - Numa panela, colocar azeite e deixar aquecer. 
-    - Meter o alho e refogar durante 1 minuto.
-    - Depois, juntar a cenoura e deixar refogar mais 1 minutos.
-    - Colocar, a quinoa mexer e deixar 30 segundos.
-    - Depois juntar a água (o dobro do volume da quinoa)
-    - Deixar cozinhar 8 minutos, e juntar o edamame.
-    - Deixar cozer o resto até já não haver água.
-    o tofu:
-    - Numa frigideira, colocar o azeite, e deixar aquecer.
-    - Depois, colocar o tofu, e deixar ganhar côr.
-    - Juntar a couve rouxa cortada em juliana. e deixar a couve perder a água.
-    - Depois é temperar com o molho inglês e com o alho em pó.
-    - Deixar 5 minutos para envolver bem os sabores e está pronto a servir.
+    a Quinoa:
+    - Numa panela, aquecer o azeite.
+    - Adicionar o alho e refogar durante 1 minuto.
+    - Juntar a cenoura e deixar refogar por mais 1 minuto.
+    - Adicionar a quinoa, mexer e deixar cozinhar por 30 segundos.
+    - Acrescentar a água (o dobro do volume da quinoa).
+    - Cozinhar durante 8 minutos e, em seguida, adicionar o edamame.
+    - Continuar a cozinhar até a água evaporar completamente.
+    o Tofu:
+    - Numa frigideira, aquecer o azeite.
+    - Adicionar o tofu e dourar até ganhar cor.
+    - Juntar a couve-roxa cortada em juliana e deixar cozinhar até que perca a água.
+    - Temperar com molho inglês e alho em pó.
+    - Deixar cozinhar por mais 5 minutos para incorporar bem os sabores. Está pronto a servir.
 notes:
     - 
 ---

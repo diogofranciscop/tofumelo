@@ -2,45 +2,45 @@
 layout: post
 layout-type: 1
 title: "Massa com feijão preto"
-description: "Massa com feijão preto em molho de tomate"
-keywords: ""
+description: "Esparguete com feijão preto e cogumelos num rico molho de tomate temperado."
+keywords: "Jantar saudável, Refeição fácil, Receita de massa vegana com feijão preto, Como fazer esparguete com molho de tomate e cogumelos, Refeição vegana rápida e saudável, Receita simples de esparguete com feijão preto, Prato principal vegano com cogumelos, Massa vegana com molho de tomate caseiro, Jantar vegano fácil e nutritivo, Receita com feijão preto e tomate para veganos"
 permalink: /massa-com-feijao-preto/
 type: ["Almoço/Jantar"]
 image: "/assets/img/massa-com-feijao-preto.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
-time-total: 
-time-prepar: 
-time-confe: 
-calorias:
-proteinas:
-lipidos:
-hidratos:
+time-total: 30
+time-prepar: 10
+time-confe: 20
+calorias: 280
+proteinas: 12.5
+lipidos: 7.5
+hidratos: 45
 author: original
 new: "yes"
 ingredients:
-    - 200 gr | de esparguete
-    - 4 copos | de feijão preto
-    - 250 gr | de cogumelos marron
-    - 3 | tomates maduros
-    - 1 | cebola
-    - 4 dentes | de alho
-    - 2 c.sopa | de azeite
-    - 1/4 chávena | de vinho branco
-    - 1 folha | de louro
-    - "| sal q.b."
-    - "| pimenta preta q.b."
-    - "| oregãos q.b."
+    - 200 gr | de Esparguete
+    - 4 copos | de Feijão Preto
+    - 250 gr | de Cogumelos Marron
+    - 3 | Tomates maduros
+    - 1 | Cebola
+    - 4 dentes | de Alho
+    - 2 c.sopa | de Azeite
+    - 1/4 chávena | de Vinho Branco
+    - 1 folha | de Louro
+    - "| Sal q.b."
+    - "| Pimenta Preta q.b."
+    - "| Oregãos q.b."
 instructions:
-    - Cozer a massa de acordo com as indicações da embalagem enquanto cozinha o resto.
-    - Numa frigideira, colocar o azeite e deixar aquecer. 
-    - Quando tiver quente meter a cebola, o louro e deixar regofar 1/2 minutos, até ganhar côr.
-    - Depois, colocar o alho e deixar mais 1 minuto.
-    - Adicionar os cogumelos e deixar perder a água.
-    - Depois, colocar os tomates picados aos cubos, e adicionar a pimenta preta, o sal e os oregãos.
-    - Depois, colocar o vinho branco e deixar ferver por 1 minuto.
-    - Colocar um pouco de água para ganhar mais molho e reduzir o fogão.
-    - Deixar por 5 minutos, e depois adicionar o feijão. Deixar mais 5 minutos. Está pronto a servir.
+    - Cozinhar a massa conforme as instruções da embalagem enquanto se prepara o restante.
+    - Numa frigideira, aquecer o azeite. 
+    - Quando estiver quente, adicionar a cebola e a folha de louro. Deixar refogar durante 1 a 2 minutos, até ganhar cor.
+    - Acrescentar o alho e cozinhar por mais 1 minuto.
+    - Adicionar os cogumelos e cozinhar até perderem a água.
+    - Juntar os tomates cortados em cubos e temperar com pimenta preta, sal e orégãos.
+    - Regar com o vinho branco e deixar ferver durante 1 minuto.
+    - Acrescentar um pouco de água para obter mais molho e reduzir o lume.
+    - Cozinhar por 5 minutos e, em seguida, adicionar o feijão. Deixar cozinhar por mais 5 minutos. Está pronto a servir.
 notes:
     - 
 ---

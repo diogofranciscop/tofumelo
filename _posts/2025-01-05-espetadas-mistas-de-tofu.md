@@ -2,7 +2,7 @@
 layout: post
 layout-type: 2
 title: "Espetadas Mistas de Tofu"
-keywords: "Espetadas vegan, Espetadas de tofu, Receita de espetadas veganas, Tofu grelhado, Espetadas fáceis vegan, Espetadas vegetarianas, Marinada para tofu, Receita vegan com morcela, Espetadas saudáveis vegan, Grelhados vegan, Como fazer espetadas de tofu, Tofu marinado, Espetadas no forno vegan, Grelhados na fogueira, Espetadas vegan com pimento, Marinada caseira para espetadas, Espetadas sem carne, Pratos principais vegan, Jantar vegan fácil, Espetadas para churrasco vegan, Receita de espetadas vegan com tofu e pimentos, Espetadas vegan saudáveis e fáceis de preparar, Como grelhar espetadas vegan na chapa ou fogueira, Marinada saborosa para espetadas de tofu, Espetadas vegan com morcela e tofu para churrasco"
+keywords: "Espetadas vegan, Espetadas de tofu, Marinada para tofu, Grelhados vegan, Espetadas no forno vegan, Espetadas vegan com pimento, Espetadas sem carne, Jantar vegan fácil, Espetadas para churrasco vegan, Receita de espetadas vegan com tofu e pimentos"
 permalink: /espetadas-mistas-de-tofu/
 type: ["Almoço/Jantar"]
 description: "Espetadas vegan grelhadas de tofu, cebola e pimento com marinada rica"

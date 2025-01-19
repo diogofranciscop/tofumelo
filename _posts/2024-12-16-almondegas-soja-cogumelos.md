@@ -2,7 +2,7 @@
 layout: post
 layout-type: 1
 title: "Almôndegas de Soja e Cogumelos"
-keywords: "Receita de almôndegas veganas, Almôndegas de soja e cogumelos, Almôndegas sem glúten, Como fazer almôndegas veganas, Prato principal saudável, Almôndegas veganas, Almôndegas de soja, Almôndegas de cogumelos, Receita sem glúten, Prato saudável, Receita fácil de almôndegas veganas com soja e cogumelos, Como fazer almôndegas sem glúten com farinha de grão-de-bico, Almôndegas veganas saudáveis na air fryer, Prato principal vegano com almôndegas e molho de tomate, Almôndegas de soja e cogumelos sem frutos secos, Receita prática de almôndegas para acompanhar com esparguete, Almôndegas veganas com toque de pimenta cayena e cominhos, Soja fina em receitas veganas, Cogumelos salteados em pratos veganos, Farinha de grão-de-bico em almôndegas, Air fryer em receitas saudáveis, Alimentação plant-based, Molho de tomate para almôndegas veganas, Receita económica com soja, Almôndegas sem ovos e sem leite, Pimento e curcuma em pratos veganos, Almôndegas crocantes e saborosas"
+keywords: "Almôndegas veganas, Receita de almôndegas veganas, Almôndegas de soja e cogumelos, Almôndegas sem glúten, Prato principal vegano, Receita fácil de almôndegas, Almôndegas saudáveis na air fryer, Almôndegas veganas com molho de tomate, Alimentação plant-based, Receita económica com soja"
 permalink: /almondegas-soja-cogumelos/
 type: ["Almoço/Jantar"]
 description: "Almôndegas de soja e cogumelos, ricas em sabor e perfeitas com molho"

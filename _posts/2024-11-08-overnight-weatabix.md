@@ -2,7 +2,7 @@
 layout: post
 layout-type: 1
 title: "Overnight Weetabix"
-keywords: "Receita de overnight weetabix, Pequeno-almoço saudável com weetabix, Weetabix com iogurte e fruta, Como fazer overnight weetabix, Lanche rápido e vegano, Overnight weetabix, Weetabix vegano, Pequeno-almoço saudável, Receita com iogurte vegan, Weetabix com fruta, Receita fácil de overnight weetabix com iogurte, Como preparar weetabix para o pequeno-almoço saudável, Receita de lanche rápido com weetabix e fruta, Pequeno-almoço vegano com weetabix e manteiga de amendoim, Como fazer weetabix tipo cheesecake com iogurte, Receita sem glúten e sem soja com weetabix, Pequeno-almoço nutritivo, Receita rápida com weetabix, Sobremesa saudável com iogurte, Como usar weetabix em receitas, Weetabix com bebida vegetal, Alimentação plant-based, Opção saudável para lanche vegano, Receita prática e económica, Fruta fresca no pequeno-almoço, Manteiga de amendoim em receitas vegan"
+keywords: "Overnight weetabix, Receita de overnight weetabix, Weetabix com iogurte e fruta, Pequeno-almoço saudável, Weetabix vegano, Lanche rápido e vegano, Receita fácil com weetabix, Como fazer overnight weetabix, Pequeno-almoço nutritivo, Alimentação plant-based"
 permalink: /overnight-weetabix/
 type: ["Pequeno-Almoço","Lanche"]
 description: "Weetabix  adormecidos com iogurte e fruta fresca"
