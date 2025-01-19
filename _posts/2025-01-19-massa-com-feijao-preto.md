@@ -2,7 +2,7 @@
 layout: post
 layout-type: 1
 title: "Massa com feijão preto"
-description: "Esparguete com feijão preto e cogumelos num rico molho de tomate temperado."
+description: "Esparguete com feijão preto e cogumelos num rico molho de tomate temperado"
 keywords: "Jantar saudável, Refeição fácil, Receita de massa vegana com feijão preto, Como fazer esparguete com molho de tomate e cogumelos, Refeição vegana rápida e saudável, Receita simples de esparguete com feijão preto, Prato principal vegano com cogumelos, Massa vegana com molho de tomate caseiro, Jantar vegano fácil e nutritivo, Receita com feijão preto e tomate para veganos"
 permalink: /massa-com-feijao-preto/
 type: ["Almoço/Jantar"]
@@ -23,6 +23,7 @@ ingredients:
     - 4 copos | de Feijão Preto
     - 250 gr | de Cogumelos Marron
     - 3 | Tomates maduros
+    - 1/2 | Pimento
     - 1 | Cebola
     - 4 dentes | de Alho
     - 2 c.sopa | de Azeite
@@ -34,9 +35,9 @@ ingredients:
 instructions:
     - Cozinhar a massa conforme as instruções da embalagem enquanto se prepara o restante.
     - Numa frigideira, aquecer o azeite. 
-    - Quando estiver quente, adicionar a cebola e a folha de louro. Deixar refogar durante 1 a 2 minutos, até ganhar cor.
-    - Acrescentar o alho e cozinhar por mais 1 minuto.
-    - Adicionar os cogumelos e cozinhar até perderem a água.
+    - Quando estiver quente, adicionar a cebola picada e a folha de louro. Deixar refogar durante 1 a 2 minutos, até ganhar cor.
+    - Acrescentar o alho e o pimento picados e cozinhar por mais 1 minuto.
+    - Adicionar os cogumelos fatiados e cozinhar até perderem a água.
     - Juntar os tomates cortados em cubos e temperar com pimenta preta, sal e orégãos.
     - Regar com o vinho branco e deixar ferver durante 1 minuto.
     - Acrescentar um pouco de água para obter mais molho e reduzir o lume.

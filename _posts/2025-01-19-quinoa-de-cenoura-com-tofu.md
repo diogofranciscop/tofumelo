@@ -2,7 +2,7 @@
 layout: post
 layout-type: 2
 title: "Quinoa de cenoura com Tofu"
-description: "Quinoa com cenoura e edamame, acompanhada de tofu salteado com couve-roxa."
+description: "Quinoa com cenoura e edamame, acompanhada de tofu salteado com couve-roxa"
 keywords: "Receita de quinoa com tofu e couve-roxa, Como preparar tofu dourado com quinoa, Quinoa de cenoura com edamame para veganos, Refeição vegana saudável e rica em proteínas, Receita fácil de quinoa com vegetais e tofu, Prato vegano equilibrado com quinoa e tofu, Jantar nutritivo com quinoa e couve-roxa, Receita sem glúten com tofu e quinoa, Receita Vegana, Almoço Saudável"
 permalink: /quinoa-de-cenoura-com-tofu/
 type: ["Almoço/Jantar"]
@@ -35,15 +35,15 @@ ingredients:
 instructions:
     a Quinoa:
     - Numa panela, aquecer o azeite.
-    - Adicionar o alho e refogar durante 1 minuto.
-    - Juntar a cenoura e deixar refogar por mais 1 minuto.
+    - Adicionar o alho picado e refogar durante 1 minuto.
+    - Juntar a cenoura ralada e deixar refogar por mais 1 minuto.
     - Adicionar a quinoa, mexer e deixar cozinhar por 30 segundos.
     - Acrescentar a água (o dobro do volume da quinoa).
     - Cozinhar durante 8 minutos e, em seguida, adicionar o edamame.
     - Continuar a cozinhar até a água evaporar completamente.
     o Tofu:
     - Numa frigideira, aquecer o azeite.
-    - Adicionar o tofu e dourar até ganhar cor.
+    - Adicionar o tofu cortado em fatias e deixar dourar até ganhar cor.
     - Juntar a couve-roxa cortada em juliana e deixar cozinhar até que perca a água.
     - Temperar com molho inglês e alho em pó.
     - Deixar cozinhar por mais 5 minutos para incorporar bem os sabores. Está pronto a servir.
