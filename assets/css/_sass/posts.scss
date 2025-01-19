@@ -396,6 +396,23 @@ CSS for the information box
   margin-left: 0px!important;
   margin-right: 0px!important;
 }
+.logo-diets {
+  position: absolute; /* Positions the logo container within the parent */
+  right: 0; /* Aligns it to the right edge */
+  top: 50%; /* Vertically centers it relative to the parent */
+  transform: translateY(-50%); /* Adjusts for vertical centering */
+  display: flex; /* Makes the logos align horizontally */
+  gap: 10px; /* Adds space between the logos */
+}
+.title-and-diet {
+  position: relative; /* Allows positioning of .logo-diets */
+  text-align: center; /* Centers the h1 text horizontally */
+  padding: 10px; /* Optional padding for better layout */
+}
+
+.title-and-diet h1 {
+  margin: 0; /* Removes default margin */
+} 
 
 @media (max-width: 768px) {
   .recipe-card2 {
@@ -499,24 +516,28 @@ CSS for the information box
   border-bottom-left-radius: 10px;
 }
 
+.logo-diets {
+  position: absolute; /* Positions the logo container within the parent */
+  top: 10px !important; /* Vertically centers it relative to the parent */
+  transform: translateY(-50%); /* Adjusts for vertical centering */
+  display: flex; /* Makes the logos align horizontally */
+  gap: 10px; /* Adds space between the logos */
+  flex-direction: column;
+  justify-content: center !important;
+  margin-right:0px !important;
+  width:100% !important;
+}
+.title-and-diet {
+  position: relative; /* Allows positioning of .logo-diets */
+  text-align: center; /* Centers the h1 text horizontally */
+  padding: 10px; /* Optional padding for better layout */
+  width:100%;
 }
 
-.custom-input {
-  width: 50px;
-  height:30px;
-  margin-right: 10px;
-  border: 2px solid #ccc; /* Light gray border */
-  border-radius: 8px; /* Rounded corners */
-  text-align: center; /* Center the text */
-  font-size: 16px; /* Adjust font size */
-  color: green; /* Make the text green */
-  padding: 5px; /* Add padding for a better appearance */
-}
-
-.custom-input:focus {
-  outline: none; /* Remove the blue outline */
-  border-color: #4caf50; /* Green border when focused */
-  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add a glow effect */
+.title-and-diet h1 {
+  margin: 0; /* Removes default margin */
+  margin-top:15px !important;
+} 
 }
 
 .logo-diets{
@@ -541,6 +562,24 @@ CSS for the information box
 .title-and-diet h1 {
   margin: 0; /* Removes default margin */
 } 
+.custom-input {
+  width: 50px;
+  height:30px;
+  margin-right: 10px;
+  border: 2px solid #ccc; /* Light gray border */
+  border-radius: 8px; /* Rounded corners */
+  text-align: center; /* Center the text */
+  font-size: 16px; /* Adjust font size */
+  color: green; /* Make the text green */
+  padding: 5px; /* Add padding for a better appearance */
+}
+
+.custom-input:focus {
+  outline: none; /* Remove the blue outline */
+  border-color: #4caf50; /* Green border when focused */
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.5); /* Add a glow effect */
+}
+
 
 .diet-item {
   position: relative;

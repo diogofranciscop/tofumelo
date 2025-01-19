@@ -2,7 +2,7 @@
 layout: post
 layout-type: 2
 title: "Pão Recheado"
-keywords: "Pão recheado vegan, Receita vegan, Maionese caseira vegan, Bacon de tofu, Vuna, Pão recheado saudável, Como fazer pão recheado vegan, Receita de bacon de tofu crocante, Como preparar maionese caseira com bebida de soja, Pão recheado vegan com tofu ou vuna, Pão recheado vegan para festas e ocasiões especiais, Receita de pão recheado com maionese vegan e tofu crocante, Como fazer tofu crocante no forno, Alternativas veganas ao bacon, Receitas veganas simples, Snacks veganos para partilhar, Pão recheado saudável e fácil, Maionese de soja, Queijo vegetal, Receitas inspiradas na Bruna Simões, Pão crocante recheado, Pratos vegan para grupos, Vegan comfort food"
+keywords: "Pão recheado vegan, Receita vegan, Maionese caseira vegan, Bacon de tofu, Como fazer pão recheado vegan, Pão recheado vegan com tofu ou vuna, Pão recheado vegan para festas e ocasiões especiais, Como fazer tofu crocante no forno, Alternativas veganas ao bacon, Snacks veganos para partilhar"
 serve: 6 pessoas
 permalink: /pao-recheado/
 type: ["Entrada"]
@@ -16,7 +16,6 @@ calorias: 490
 proteinas: 12.5
 lipidos: 37.9
 hidratos: 28.7
-new: "yes"  
 author: bruna-simoes
 ingredients:
       a Maionese:
@@ -59,7 +58,7 @@ instructions:
         - Retirar da embalagem e, se necessário, escorrer o Vuna. Reservar.
       o Restante:
         - Colocar um fio de azeite numa frigideira e deixar aquecer. De seguida, refogar a cebola e o alho picados.
-        - Quando a cebola estiver macia, adicionar a opção escolhida, ou o Vuna ou o Bacon.
+        - Quando a cebola estiver macia, adicionar a opção escolhida, ou o Vuna ou o "Bacon".
         - Adicionar o alho em pó, o pimentão doce, o sal e a pimenta preta. Envolver bem e, se necessário, adicionar um pouco de água caso a mistura esteja seca. Deixar cozinhar durante aproximadamente 3 minutos.
         - Transferir a mistura para uma taça, adicionar a maionese e o queijo vegetal, e misturar tudo até obter uma consistência uniforme.
         - Cortar a parte superior de um pão, formando uma "tampa", e retirar todo o miolo.

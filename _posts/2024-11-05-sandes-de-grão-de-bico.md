@@ -2,7 +2,7 @@
 layout: post
 layout-type: 1
 title: "Sandes de Grão-de-Bico"
-keywords: "Receita de sandes vegana, Sandes de grão-de-bico, Sandes saudável com cogumelos, Como fazer sandes vegana, Sanduíche sem soja, Sanduíche Vegana com Grão-de-Bico, Receita de Sanduíche Vegana com Cogumelos, Pão Recheado Vegano com Grão e Couve-Roxa, Sanduíche Saudável com Pasta de Grão-de-Bico, Refeição Vegana com Cogumelos Pleurotus, Sanduíche de Grão-de-Bico Cremoso, Sanduíche Vegana com Maionese e Sriracha, Como fazer uma sanduíche vegana de grão-de-bico e cogumelos, Receita fácil de sanduíche saudável com legumes e maionese, Pão recheado vegano com grão e cogumelos salteados, Sanduíche deliciosa com couve-roxa e cenoura ralada, Sanduíche deliciosa com couve-roxa e cenoura ralada, Receitas veganas de sanduíches nutritivas e saborosas, Sanduíche vegana com maionese Hellmann’s e sriracha, Prato rápido com grão-de-bico e cogumelos pleurotus, Receitas veganas para lanches rápidos, Sanduíche com proteína vegetal, Como temperar cogumelos pleurotus, Sanduíche sem carne e cheia de sabor, Grão-de-bico como substituto de proteína, Lanche vegano com legumes frescos, Receitas de maionese vegana para sanduíches"
+keywords: "Sandes vegana, Sandes de grão-de-bico, Sandes saudável com cogumelos, Sanduíche vegana com maionese, Sanduíche sem soja, Pão recheado vegano, Sanduíche com proteína vegetal, Lanche vegano com legumes frescos, Receita de sanduíche saudável, Como fazer sanduíche vegana"
 permalink: /sandes-grao-de-bico/
 type: ["Almoço/Jantar"]
 description: "Sanduíche de grão-de-bico picante e cogumelos grelhados, com uma salada cremosa de couve e cenoura"

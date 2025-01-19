@@ -3,7 +3,7 @@ layout: post
 layout-type: 2
 title: "Bolo de Chocolate"
 description: "Bolo de chocolate vegan com cobertura cremosa, avelãs caramelizadas e frutos vermelhos"
-keywords: ["bolo de chocolate vegan, receita de bolo vegan, bolo de chocolate fácil, sobremesa vegana, bolo sem lactose, receitas de sobremesas saudáveis, Bolo de chocolate vegan, Receita de bolo vegan, Bolo sem lactose, Sobremesa vegana, Bolo de chocolate fácil, Receita de bolo de chocolate vegan com cobertura cremosa, Como fazer bolo vegano com avelãs caramelizadas, Bolo sem ovos e sem leite com chocolate e frutos vermelhos, Receita de sobremesa vegana saudável e deliciosa, Bolo vegano de chocolate para ocasiões especiais, Como preparar bolo de chocolate sem lactose e sem ovos, Receita de bolo com cacau e cobertura brilhante, Sobremesa sem ingredientes de origem animal, Avelãs caramelizadas em receitas veganas, Cobertura de chocolate vegano, Receita económica de bolo de chocolate, Sobremesa vegana para festas, Bolo com linhaça como substituto de ovo, Frutos vermelhos em sobremesas veganas, Como usar bebida vegetal em bolos, Prato vegan inspirado no MasterChef, Textura cremosa em bolos veganos"]
+keywords: ["Bolo de chocolate vegan, Bolo sem lactose, Sobremesa vegana, Como fazer bolo vegano com avelãs caramelizadas, Bolo sem ovos e sem leite com chocolate e frutos vermelhos, Receita de sobremesa vegana saudável e deliciosa, Sobremesa sem ingredientes de origem animal, Cobertura de chocolate vegano, Sobremesa vegana para festas, Bolo com linhaça como substituto de ovo"]
 permalink: /bolo-de-chocolate/
 type: ["Lanche", "Sobremesa"]
 image: "/assets/img/bolo-chocolate.webp"
