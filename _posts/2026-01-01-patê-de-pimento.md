@@ -22,7 +22,7 @@ ingredients:
     - 100 gr | de Sementes de Girassol  
     - 2 | Pimentos Vermelhos grandes
     - 2 | Piri-piris Sino (ajustar conforme a sua preferência por picante)
-    - 125 gr | de Grão-de-Bico 
+    - 200 gr | de Grão-de-Bico 
     - 1  | Cebola
     - 2 dentes | de Alho
     - 2 c.sopa | de Óleo de Girassol
