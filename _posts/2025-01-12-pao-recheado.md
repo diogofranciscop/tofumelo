@@ -16,7 +16,6 @@ calorias: 490
 proteinas: 12.5
 lipidos: 37.9
 hidratos: 28.7
-new: "yes"  
 author: bruna-simoes
 ingredients:
       a Maionese:
