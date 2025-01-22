@@ -69,7 +69,26 @@ layout: default
         <div id="InformationBox" class="InformationBox hidden">
 
             <h2 class="informacao-title">Informação nutricional*</h2>
-            <h2 class="por-porcao">(por porção)</h2>
+            <div class="logo-diets-informação">
+                {% for diet in page.diet %}
+                {% if diet == "s-gluten" %}
+                <div class="diet-item" data-tooltip="Sem Gluten">
+                    <img src="/assets/img/logo-sem-gluten.webp" alt="Sem Gluten">
+                </div>
+                {% endif %}
+                {% if diet == "s-soja" %}
+                <div class="diet-item" data-tooltip="Sem Soja">
+                    <img src="/assets/img/logo-sem-soja.webp" alt="Sem Soja">
+                </div>
+                {% endif %}
+                {% if diet == "s-frutos-secos" %}
+                <div class="diet-item" data-tooltip="Sem Frutos Secos">
+                    <img src="/assets/img/logo-sem-frutos-secos.webp" alt="Sem Frutos Secos">
+                </div>
+                {% endif %}
+                {% endfor %}
+            </div>
+
             <div class="nutrition-item">
                 <span class="value">{{page.calorias}}KCal</span>
                 <span class="label">Calorias</span>
@@ -87,7 +106,7 @@ layout: default
                 <span class="label">Lípidos</span>
             </div>
 
-            <h2 class="note">* valores calculados através de IA</h2>
+            <h2 class="note">* valores <span style="font-weight: bold;">por porção </span>calculados através de IA</h2>
         </div>
         <!-- First LAYOUT FOR INSTRUCTIONS AND DIRECTIONS -->
         {% if page.layout-type == 1 %}
