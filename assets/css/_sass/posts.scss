@@ -260,6 +260,7 @@ CSS for the information box
   text-align: right;
   color: rgba(75, 82, 73, 1);
   max-width: 200px;
+  cursor:pointer;
 }
 
 .informação-nutricional:hover {
@@ -276,7 +277,8 @@ CSS for the information box
   background-color: rgba(244, 243, 243, 1);
   border-radius: 8px;
   /* Rounded corners */
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow:0px 4px 4px 0px rgba(0, 0, 0, 0.25),   /* bottom shadow */
+  0px -2px 4px 0px rgba(0, 0, 0, 0.25); 
   padding: 10px;
   /* Padding for aesthetics */
   z-index: 1000;
@@ -298,10 +300,7 @@ CSS for the information box
   color: #333;
   flex-direction: column;
   /* Stack children vertically */
-  align-items: center;
-  /* Center horizontally */
-  justify-content: center;
-  text-align: center;
+
 }
 
 .title-informaçao {
@@ -314,7 +313,7 @@ CSS for the information box
   display: flex;
   justify-content: flex-end;
   height: 100%;
-  align-items: center;
+
 }
 
 .information-row {
@@ -380,8 +379,11 @@ CSS for the information box
   font-size: 11px;
   font-weight: 700;
   line-height: 14.82px;
-  text-align: center !important;
 
+}
+
+.logo-diets-informação{
+  position:absolute;
 }
 
 .informacao-title {
@@ -389,7 +391,7 @@ CSS for the information box
   font-size: 11px;
   font-weight: 700;
   line-height: 14.82px;
-  text-align: center;
+
 }
 .post-2-ol{
   padding-left: 0px!important;
@@ -471,10 +473,9 @@ CSS for the information box
   }
   .overlay2{
     box-shadow: 0px 0px 0px 0px;
+    padding-top: 0px !important;
   }
-  .info2{
-    flex-direction: column;
-  }
+
   .filter-buttons {
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 buttons per row */
@@ -516,30 +517,49 @@ CSS for the information box
   border-bottom-left-radius: 10px;
 }
 
-.logo-diets {
-  position: absolute; /* Positions the logo container within the parent */
-  top: 10px !important; /* Vertically centers it relative to the parent */
-  transform: translateY(-50%); /* Adjusts for vertical centering */
-  display: flex; /* Makes the logos align horizontally */
-  gap: 10px; /* Adds space between the logos */
-  flex-direction: column;
-  justify-content: center !important;
-  margin-right:0px !important;
-  width:100% !important;
-}
-.title-and-diet {
-  position: relative; /* Allows positioning of .logo-diets */
-  text-align: center; /* Centers the h1 text horizontally */
-  padding: 10px; /* Optional padding for better layout */
-  width:100%;
+.info2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; /* or 'space-around' as needed */
+}                                                       
+
+/* We want .servings2 and .porcoes2 on the first row, side by side */
+.servings2 {
+  order: 1;
+  flex: 1 1 45%; /* Shrinks or grows to ~45% width */
+}                                                                                                                                                                                                                                                                   
+
+.porcoes2 {
+  order: 2;
+  flex: 1 1 45%;
 }
 
-.title-and-diet h1 {
-  margin: 0; /* Removes default margin */
-  margin-top:15px !important;
-} 
+/* We want .time2 below them, spanning full width */
+.time2 {
+  order: 3;
+  flex: 1 1 100%;
+}          
+.logo-diets{
+  display:none !important;
+}
+.diet-item img {
+  width: 20px !important;
 }
 
+}
+.logo-diets-informação {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+  font-size: 10px;
+  margin-right: 10px;
+  gap: 4px;
+}
+.logo-diets-informação img{
+  width: 20px !important;
+}
 .logo-diets{
   display:flex;
   flex-direction: row;
@@ -552,11 +572,6 @@ CSS for the information box
   transform: translateY(-50%); /* Adjusts for vertical centering */
   display: flex; /* Makes the logos align horizontally */
   gap: 10px; /* Adds space between the logos */
-}
-.title-and-diet {
-  position: relative; /* Allows positioning of .logo-diets */
-  text-align: center; /* Centers the h1 text horizontally */
-  padding: 10px; /* Optional padding for better layout */
 }
 
 .title-and-diet h1 {
@@ -583,6 +598,7 @@ CSS for the information box
 
 .diet-item {
   position: relative;
+  z-index: 4000;
 }
 
 .logo-diets{
@@ -604,6 +620,7 @@ CSS for the information box
   opacity: 0;
   visibility: hidden;
   transition: opacity 0.3s;
+  z-index:300000
 }
 
 .diet-item:hover::after,
