@@ -1,8 +1,8 @@
 ---
 layout: post
-layout-type:
+layout-type: 2
 title: "Lasanha de Lentilhas e Cogumelos"
-description: "lasanha vegana com lentilhas, cogumelos e um cremoso bechamel vegano"
+description: "Lasanha vegana com lentilhas, cogumelos e um cremoso bechamel vegano"
 keywords: "Lasanha vegana de lentilhas, Receita de lasanha saudável, Lasanha com cogumelos, Lasanha vegana fácil, Lasanha com bechamel vegano, Prato principal vegano, Lasanha sem lactose, Receita vegana com lentilhas, Lasanha sem frutos secos, Lasanha sem soja"
 permalink: /lasanha-de-lentilhas/
 type: ["Almoço/Jantar"]
@@ -28,7 +28,7 @@ ingredients:
     - 100 ml | de Vinho Tinto
     - 300 gr de | Lentilhas Verdes
     - 300 gr | de Polpa de Tomate
-    - 2 c.sopa |vde Alho em pó
+    - 2 c.sopa |de Alho em pó
     - 2 c.sopa | de Orégãos
     - 1 c.sopa | de Tomilho
     - "| Água q.b."
