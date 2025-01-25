@@ -334,14 +334,7 @@ margin-right: 0;
   }
 }
 
-.button-3:focus,
-.button-3:active {
-  outline: none; /* Remove the default outline */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); /* Match box-shadow for selected state */
-  background-color: rgba(35, 99, 12, 0.5); /* Ensure consistent background */
-  width:80%;
-}
-
+  
 .button-3:hover {
   background-color: rgba(35, 99, 12, 0.5); /* Softer hover background */
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
@@ -352,7 +345,7 @@ margin-right: 0;
 background-color: rgba(35, 99, 12, 0.5)!important;
 color: black; 
 box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3); 
-width:80%;
+
 }
 
 /* Styles for the filter box */
@@ -494,6 +487,9 @@ display: none !important;
 
 
 @media (max-width: 768px) {
+  .selected{
+    width:80%;
+  }
   .filter-buttons{
     width:100vw;
   }
