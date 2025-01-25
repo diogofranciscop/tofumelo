@@ -17,7 +17,7 @@ proteinas: 12.5
 lipidos: 7.5
 hidratos: 45
 author: original
-new: "yes"
+new: 
 ingredients:
     - 200 gr | de Esparguete
     - 4 copos | de Feijão Preto
