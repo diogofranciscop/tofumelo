@@ -17,7 +17,7 @@ proteinas: 19.5
 lipidos: 12.5
 hidratos: 35
 author: original
-new: "yes"
+new: 
 ingredients:
     a Quinoa:
     - 200 gr | de Quinoa

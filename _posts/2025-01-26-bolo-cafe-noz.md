@@ -6,7 +6,7 @@ description: "Bolo vegan macio de café e nozes, com um creme de queijo leve e i
 keywords: "Bolo vegano de café, Receita de bolo com creme de queijo vegano, Bolo vegano com aquafaba, Bolo de café com nozes vegano, Receita fácil de bolo vegano, Bolo sem ovos e sem leite, Sobremesa vegana com café, Bolo vegano com creme leve, Bolo de café vegano saudável, Bolo para veganos com nozes e creme"
 permalink: /bolo-cafe-nozes/
 type: ["Sobremesa"]
-image: "/assets/img/"
+image: "/assets/img/bolo-de-cafe-nos.webp"
 serve: 16 fatias
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 45
@@ -17,7 +17,7 @@ proteinas: 2.5
 lipidos: 7.5
 hidratos: 20
 author: Baked By Clo
-new:
+new: "yes"
 ingredients:
     o Bolo:
     - 3 c.sopa | de Café instantâneo (para um sabor mais intenso, use 4 c.sopa)
