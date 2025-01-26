@@ -81,6 +81,7 @@
   border-image-source: linear-gradient(0deg, #7BA16D, #7BA16D),
     linear-gradient(0deg, #7BA16D, #7BA16D);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  padding-top:0px;
 }
 
 .info2 {
@@ -269,8 +270,16 @@ CSS for the information box
 
 .fa-caret-down {
   margin-left: 5px;
+  align-content: center;
 }
-
+.fa-caret-up {
+  margin-left: 5px;
+  align-content: center;
+}
+.overlay2 {
+  overflow: hidden; /* Optional: to hide content if height is 0 */
+  transition: height 0.3s ease; /* Optional: for smooth transition */
+}
 .InformationBox {
   display: none;
   /* Initially hide the filter box */
@@ -410,6 +419,7 @@ CSS for the information box
   position: relative; /* Allows positioning of .logo-diets */
   text-align: center; /* Centers the h1 text horizontally */
   padding: 10px; /* Optional padding for better layout */
+  display: flex;
 }
 
 .title-and-diet h1 {
@@ -563,11 +573,12 @@ CSS for the information box
 .logo-diets{
   display:flex;
   flex-direction: row;
-  justify-content: right;
+  justify-content: left;
+  margin-left: 10px;
 }
 .logo-diets {
   position: absolute; /* Positions the logo container within the parent */
-  right: 0; /* Aligns it to the right edge */
+  left: 0; /* Aligns it to the right edge */
   top: 50%; /* Vertically centers it relative to the parent */
   transform: translateY(-50%); /* Adjusts for vertical centering */
   display: flex; /* Makes the logos align horizontally */
@@ -576,6 +587,9 @@ CSS for the information box
 
 .title-and-diet h1 {
   margin: 0; /* Removes default margin */
+  flex-grow: 1; /* Allow the title to take up remaining space */
+  text-align: center; /* Center the title text */
+  margin: 0; 
 } 
 .custom-input {
   width: 50px;
