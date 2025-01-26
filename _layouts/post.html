@@ -254,7 +254,13 @@ layout: default
       },
       "recipeIngredient": [
         {% for ingredient in page.ingredients %}
-        "{{ ingredient | escape }}"{% if forloop.last == false %},{% endif %}
+        {% if ingredient[1] %}
+          {% for subingredient in ingredient[1] %}
+          "{{ subingredient | split: '|' | first | strip }} {{ subingredient | split: '|' | last | strip }}"{% if forloop.last == false or forloop.parent.last == false %},{% endif %}
+          {% endfor %}
+        {% else %}
+        "{{ ingredient | split: '|' | first | strip }} {{ ingredient | split: '|' | last | strip }}"{% if forloop.last == false %},{% endif %}
+        {% endif %}
         {% endfor %}
       ],
       "recipeInstructions": [
@@ -277,6 +283,7 @@ layout: default
       ]
     }
     </script>
+    
     
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
