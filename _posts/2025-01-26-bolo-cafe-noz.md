@@ -1,6 +1,7 @@
 ---
 layout: post
 layout-type: 2
+date: 2025-01-26
 title: "Bolo de Café e Nozes"
 description: "Bolo vegan macio de café e nozes, com um creme de queijo leve e irresistível"
 keywords: "Bolo vegano de café, Receita de bolo com creme de queijo vegano, Bolo vegano com aquafaba, Bolo de café com nozes vegano, Receita fácil de bolo vegano, Bolo sem ovos e sem leite, Sobremesa vegana com café, Bolo vegano com creme leve, Bolo de café vegano saudável, Bolo para veganos com nozes e creme"
