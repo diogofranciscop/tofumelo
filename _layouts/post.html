@@ -229,62 +229,55 @@ layout: default
 
 </div>
 <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Recipe",
+  "name": "{{ page.title | escape }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | escape }}"
+  },
+  "description": "{{ page.description | escape }}",
+  "image": "{{ page.image | absolute_url }}",
+  "recipeYield": "{{ page.serve | escape }}",
+  "prepTime": "PT{{ page.time-prepar | escape }}M",
+  "cookTime": "PT{{ page.time-confe | escape }}M",
+  "totalTime": "PT{{ page.time-total | escape }}M",
+  "recipeCategory": "{{ page.type | join: ', ' | escape }}",
+  "keywords": "{{ page.keywords | escape }}",
+  "nutrition": {
+    "@type": "NutritionInformation",
+    "calories": "{{ page.calorias | escape }} kcal",
+    "proteinContent": "{{ page.proteinas | escape }} g",
+    "fatContent": "{{ page.lipidos | escape }} g",
+    "carbohydrateContent": "{{ page.hidratos | escape }} g"
+  },
+  "recipeIngredient": [
+    {% for ingredient in page.ingredients %}
+    "{{ ingredient | escape }}"{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ],
+  "recipeInstructions": [
+    {% for instruction in page.instructions %}
     {
-      "@context": "https://schema.org",
-      "@type": "Recipe",
-      "name": "{{ page.title | escape }}",
-      "author": {
-        "@type": "Person",
-        "name": "{{ page.author | escape }}"
-      },
-      "description": "{{ page.description | escape }}",
-      "image": "{{ page.image | absolute_url }}",
-      "recipeYield": "{{ page.serve | escape }}",
-      "prepTime": "PT{{ page.time-prepar | escape }}M",
-      "cookTime": "PT{{ page.time-confe | escape }}M",
-      "totalTime": "PT{{ page.time-total | escape }}M",
-      "recipeCategory": "{{ page.type | join: ', ' | escape }}",
-      "keywords": "{{ page.keywords | escape }}",
-      "nutrition": {
-        "@type": "NutritionInformation",
-        "calories": "{{ page.calorias | escape }} kcal",
-        "proteinContent": "{{ page.proteinas | escape }} g",
-        "fatContent": "{{ page.lipidos | escape }} g",
-        "carbohydrateContent": "{{ page.hidratos | escape }} g"
-      },
-      "recipeIngredient": [
-        {% for ingredient in page.ingredients %}
-        {% if ingredient[1] %}
-          {% for subingredient in ingredient[1] %}
-          "{{ subingredient | split: '|' | first | strip }} {{ subingredient | split: '|' | last | strip }}"{% if forloop.last == false or forloop.parent.last == false %},{% endif %}
-          {% endfor %}
-        {% else %}
-        "{{ ingredient | split: '|' | first | strip }} {{ ingredient | split: '|' | last | strip }}"{% if forloop.last == false %},{% endif %}
-        {% endif %}
-        {% endfor %}
-      ],
-      "recipeInstructions": [
-        {% for instruction in page.instructions %}
-        {
-          "@type": "HowToStep",
-          "text": "{{ instruction | escape }}"
-        }{% if forloop.last == false %},{% endif %}
-        {% endfor %}
-      ],
-      "suitableForDiet": [
-        {% for diet in page.diet %}
-        "https://schema.org/{{ diet | replace: 's-', '' | capitalize }}Diet"{% if forloop.last == false %},{% endif %}
-        {% endfor %}
-      ],
-      "notes": [
-        {% for note in page.notes %}
-        "{{ note | escape }}"{% if forloop.last == false %},{% endif %}
-        {% endfor %}
-      ]
-    }
-    </script>
-    
-    
+      "@type": "HowToStep",
+      "text": "{{ instruction | escape }}"
+    }{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ],
+  "suitableForDiet": [
+    {% for diet in page.diet %}
+    "https://schema.org/{{ diet | replace: 's-', '' | capitalize }}Diet"{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ],
+  "notes": [
+    {% for note in page.notes %}
+    "{{ note | escape }}"{% if forloop.last == false %},{% endif %}
+    {% endfor %}
+  ]
+}
+</script>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
