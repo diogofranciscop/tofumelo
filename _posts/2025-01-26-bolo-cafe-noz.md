@@ -32,7 +32,7 @@ ingredients:
     - 1 c.chá | de Vinagre
     - 100 gr | de Nozes picadas
     o Creme de "Queijo":
-    - 50 gr | de "Queijo Creme" vegan (usei da Violife)
+    - 50 gr | de 'Queijo Creme' vegan (usei da Violife)
     - 30 gr | de Manteiga vegan (uso da Alpro)
     - 0.5 c.chá | de Extrato de Baunilha
     - 50 gr | de Açúcar
@@ -48,14 +48,14 @@ instructions:
     - Adicionar a bebida vegetal de soja, o café já arrefecido, o óleo, o extrato de baunilha e o vinagre. Misturar bem até obter uma massa homogénea.
     - Envolver delicadamente as nozes picadas na massa. Verter a massa na forma e espalhar uniformemente.
     - Levar ao forno durante 25 minutos ou até que um palito inserido no centro saia limpo. Deixar o bolo arrefecer na forma por 30 minutos, depois desenformar para uma grelha. Deixar arrefecer completamente.
-    o creme de "queijo":
-    - Numa tigela, bater o "queijo" creme vegan, a manteiga vegan e o extrato de baunilha até obter uma mistura lisa e homogénea
+    o creme de 'queijo':
+    - Numa tigela, bater o 'queijo' creme vegan, a manteiga vegan e o extrato de baunilha até obter uma mistura lisa e homogénea
     - Adicionar o açúcar e bater bem até que fique bem incorporado.
     - Acrescentar a bebida vegetal de soja e misturar bem novamente.
     - Noutro recipiente, bater a aquafaba até formar picos suaves e, em seguida, medir 4 colheres de sopa da aquafaba já batida.
-    - Envolver delicadamente a aquafaba batida no creme de "queijo", misturando cuidadosamente para manter a leveza.
+    - Envolver delicadamente a aquafaba batida no creme de 'queijo', misturando cuidadosamente para manter a leveza.
     a decoração:
-    - Depois de frio, espalhar o creme de "queijo" sobre o bolo e decorar com as nozes picadas. Cortar em 16 pedaços e servir.
+    - Depois de frio, espalhar o creme de 'queijo' sobre o bolo e decorar com as nozes picadas. Cortar em 16 pedaços e servir.
 notes:
     - Para obter melhores resultados, bater a aquafaba bem fria e adicionar um pouco de sumo de limão, o que ajudará a obter uma textura mais firme.
     - A aquafaba pode demorar entre 10 a 15 minutos a bater até formar picos firmes.
