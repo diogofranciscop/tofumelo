@@ -252,20 +252,24 @@ layout: default
             "fatContent": "{{ page.lipidos }} g",
             "carbohydrateContent": "{{ page.hidratos }} g"
           },
+        
           "recipeIngredient": [
+            {% if page.layout-type == 2 %}
             {% for section in page.ingredients %}
-            {
-              "@type": "ItemList",
-              "name": "{{ section[0] }}",
-              "itemListElement": [
+            
                 {% for ingredient in section[1] %}
                 "{{ ingredient | split: '|' | join: ' ' | strip }}"{% if forloop.last == false %},{% endif %}
                 {% endfor %}
-              ]
-            }{% if forloop.last == false %},{% endif %}
+            {% if forloop.last == false %},{% endif %}
             {% endfor %}
+            {% else %}
+            {% for ingredient in page.ingredients %}
+            "{{ ingredient | split: '|' | join: ' ' | strip }}"{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+            {% endif %} 
           ],
           "recipeInstructions": [
+            {% if page.layout-type == 2 %}
             {% for section in page.instructions %}
             {
               "@type": "HowToSection",
@@ -280,6 +284,14 @@ layout: default
               ]
             }{% if forloop.last == false %},{% endif %}
             {% endfor %}
+            {% else %}
+            {% for instruction in page.instructions %}
+            {
+              "@type": "HowToStep",
+              "text": "{{ instruction }}"
+            }{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+            {% endif %}
           ],
           "suitableForDiet": [
             "https://schema.org/VeganDiet"
