@@ -1,6 +1,7 @@
 ---
 layout: post
 layout-type: 2
+date: 2025-01-26
 title: "Coxinhas Sem Frango"
 description: "Coxinhas veganas com recheio cremoso, 'frango' desfiado e massa dourada crocante"
 keywords: "Coxinhas veganas, Receita de coxinhas sem frango, Coxinhas com recheio cremoso vegano, Coxinhas de seitan desfiado, Coxinhas crocantes sem carne, Massa para coxinhas veganas, Receita vegana de entrada, Coxinhas fritas veganas, Coxinhas fáceis e saborosas, Recheio vegano para coxinhas"
