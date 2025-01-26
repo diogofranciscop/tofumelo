@@ -1,7 +1,7 @@
 ---
 layout: post
 layout-type: 1
-title: "Massa com feijão preto"
+title: "Massa com Feijão Preto"
 description: "Esparguete com feijão preto e cogumelos num rico molho de tomate temperado"
 keywords: "Jantar saudável, Refeição fácil, Receita de massa vegana com feijão preto, Como fazer esparguete com molho de tomate e cogumelos, Refeição vegana rápida e saudável, Receita simples de esparguete com feijão preto, Prato principal vegano com cogumelos, Massa vegana com molho de tomate caseiro, Jantar vegano fácil e nutritivo, Receita com feijão preto e tomate para veganos"
 permalink: /massa-com-feijao-preto/
@@ -11,7 +11,7 @@ serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
 time-total: 30
 time-prepar: 10
-time-confe: 20
+time-confe: 20\x
 calorias: 280
 proteinas: 12.5
 lipidos: 7.5
