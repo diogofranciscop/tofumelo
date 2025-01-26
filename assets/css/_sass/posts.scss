@@ -427,6 +427,9 @@ CSS for the information box
 } 
 
 @media (max-width: 768px) {
+  .title-and-diet h1 {
+    font-size:26px;
+  } 
   .recipe-card2 {
     width: 100%;
   }

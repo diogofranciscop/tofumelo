@@ -145,7 +145,8 @@ $(document).ready(function() {
             // If the icon is 'fa-caret-down', change it to 'fa-caret-up'
             $(this).removeClass('fa-caret-down').addClass('fa-caret-up');
             // Set the height of .overlay2 to 63px
-            $('.overlay2').css('height', '63px');
+            const h1Height = $('.title-and-diet h1').outerHeight(); // Get the height of the h1
+            $('.overlay2').css('height', h1Height + 20 + 'px'); // Add some padding
         } else {
             // If the icon is 'fa-caret-up', change it to 'fa-caret-down'
             $(this).removeClass('fa-caret-up').addClass('fa-caret-down');
@@ -161,7 +162,8 @@ $(document).ready(function() {
                 // Target the icon element and change its class
                 $('.title-arrow').removeClass('fa-caret-down').addClass('fa-caret-up');
                 // Set the height of .overlay2 to 63px
-                $('.overlay2').css('height', '63px');
+                const h1Height = $('.title-and-diet h1').outerHeight(); // Get the height of the h1
+                $('.overlay2').css('height', h1Height + 20 + 'px'); 
             }
         }
     });
