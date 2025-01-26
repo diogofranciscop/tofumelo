@@ -229,55 +229,66 @@ layout: default
 
 </div>
 <script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Recipe",
-  "name": "{{ page.title | escape }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ page.author | escape }}"
-  },
-  "description": "{{ page.description | escape }}",
-  "image": "{{ page.image | absolute_url }}",
-  "recipeYield": "{{ page.serve | escape }}",
-  "prepTime": "PT{{ page.time-prepar | escape }}M",
-  "cookTime": "PT{{ page.time-confe | escape }}M",
-  "totalTime": "PT{{ page.time-total | escape }}M",
-  "recipeCategory": "{{ page.type | join: ', ' | escape }}",
-  "keywords": "{{ page.keywords | escape }}",
-  "nutrition": {
-    "@type": "NutritionInformation",
-    "calories": "{{ page.calorias | escape }} kcal",
-    "proteinContent": "{{ page.proteinas | escape }} g",
-    "fatContent": "{{ page.lipidos | escape }} g",
-    "carbohydrateContent": "{{ page.hidratos | escape }} g"
-  },
-  "recipeIngredient": [
-    {% for ingredient in page.ingredients %}
-    "{{ ingredient | escape }}"{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ],
-  "recipeInstructions": [
-    {% for instruction in page.instructions %}
-    {
-      "@type": "HowToStep",
-      "text": "{{ instruction | escape }}"
-    }{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ],
-  "suitableForDiet": [
-    {% for diet in page.diet %}
-    "https://schema.org/{{ diet | replace: 's-', '' | capitalize }}Diet"{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ],
-  "notes": [
-    {% for note in page.notes %}
-    "{{ note | escape }}"{% if forloop.last == false %},{% endif %}
-    {% endfor %}
-  ]
-}
-</script>
-
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Recipe",
+          "name": "{{ page.title }}",
+          "author": {
+            "@type": "Person",
+            "name": "{{ page.author }}"
+          },
+          "description": "{{ page.description }}",
+          "image": "{{ page.image | absolute_url }}",
+          "recipeYield": "{{ page.serve }}",
+          "prepTime": "PT{{ page.time-prepar }}M",
+          "cookTime": "PT{{ page.time-confe }}M",
+          "totalTime": "PT{{ page.time-total }}M",
+          "recipeCategory": "{{ page.type | join: ', ' }}",
+          "keywords": "{{ page.keywords }}",
+          "nutrition": {
+            "@type": "NutritionInformation",
+            "calories": "{{ page.calorias }} kcal",
+            "proteinContent": "{{ page.proteinas }} g",
+            "fatContent": "{{ page.lipidos }} g",
+            "carbohydrateContent": "{{ page.hidratos }} g"
+          },
+          "recipeIngredient": [
+            {% for section in page.ingredients %}
+            {
+              "@type": "ItemList",
+              "name": "{{ section[0] }}",
+              "itemListElement": [
+                {% for ingredient in section[1] %}
+                "{{ ingredient | split: '|' | join: ' ' | strip }}"{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+              ]
+            }{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+          ],
+          "recipeInstructions": [
+            {% for section in page.instructions %}
+            {
+              "@type": "HowToSection",
+              "name": "{{ section[0] }}",
+              "itemListElement": [
+                {% for instruction in section[1] %}
+                {
+                  "@type": "HowToStep",
+                  "text": "{{ instruction }}"
+                }{% if forloop.last == false %},{% endif %}
+                {% endfor %}
+              ]
+            }{% if forloop.last == false %},{% endif %}
+            {% endfor %}
+          ],
+          "suitableForDiet": [
+            "https://schema.org/VeganDiet"
+          ]
+        }
+        </script>
+    
+    
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
     $(document).ready(function () {
