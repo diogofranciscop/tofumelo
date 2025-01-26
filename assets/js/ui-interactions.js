@@ -138,3 +138,31 @@ function updateHeights() {
 window.addEventListener('load', updateHeights);
 window.addEventListener('resize', updateHeights);
 
+$(document).ready(function() {
+    // Use event delegation to handle clicks on both icons
+    $(document).on('click', '.fa-caret-down, .fa-caret-up', function() {
+        if ($(this).hasClass('fa-caret-down')) {
+            // If the icon is 'fa-caret-down', change it to 'fa-caret-up'
+            $(this).removeClass('fa-caret-down').addClass('fa-caret-up');
+            // Set the height of .overlay2 to 63px
+            $('.overlay2').css('height', '63px');
+        } else {
+            // If the icon is 'fa-caret-up', change it to 'fa-caret-down'
+            $(this).removeClass('fa-caret-up').addClass('fa-caret-down');
+            // Set the height of .overlay2 to 500px
+            $('.overlay2').css('height', 'auto');
+        }
+    });
+    $(window).on('scroll', function() {
+        // Check if the user is on a mobile device
+        if ($(window).width() <= 768) { // Adjust breakpoint as needed
+            // Check if the user has scrolled down
+            if ($(this).scrollTop() > 50) { // Adjust scroll threshold as needed
+                // Target the icon element and change its class
+                $('.title-arrow').removeClass('fa-caret-down').addClass('fa-caret-up');
+                // Set the height of .overlay2 to 63px
+                $('.overlay2').css('height', '63px');
+            }
+        }
+    });
+});

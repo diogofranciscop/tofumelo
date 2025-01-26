@@ -9,7 +9,6 @@ layout: default
             <div class="overlay2">
                 <div class="header2">
                     <div class="title-and-diet">
-                        <h1>{{page.title | upcase}}</h1>
                         <div class="logo-diets">
                             {% for diet in page.diet %}
                             {% if diet == "s-gluten" %}
@@ -29,6 +28,10 @@ layout: default
                             {% endif %}
                             {% endfor %}
                         </div>
+                        
+                        <h1>{{page.title | upcase}}</h1>
+                        
+                        <i class="fas fa-caret-down title-arrow" data-tooltip="Ocultar Informações"> </i>
                     </div>
                     <h2>{{page.description}}</h2>
                     <div class="info2">
