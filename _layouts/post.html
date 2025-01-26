@@ -256,7 +256,6 @@ layout: default
           "recipeIngredient": [
             {% if page.layout-type == 2 %}
             {% for section in page.ingredients %}
-            
                 {% for ingredient in section[1] %}
                 "{{ ingredient | split: '|' | join: ' ' | strip }}"{% if forloop.last == false %},{% endif %}
                 {% endfor %}
@@ -273,7 +272,7 @@ layout: default
             {% for section in page.instructions %}
             {
               "@type": "HowToSection",
-              "name": "{{ section[0] }}",
+              "name": "Para {{ section[0] }}",
               "itemListElement": [
                 {% for instruction in section[1] %}
                 {
