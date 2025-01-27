@@ -78,7 +78,7 @@ instructions:
     o 'Frango' desfiado:
     - Triturar o grão-de-bico com a água até obter uma pasta uniforme.
     - Adicionar o molho de soja, a mostarda, o sal, a farinha e o glúten. Misturar bem até formar uma massa consistente.
-    - Dividir a massa em 3 porções, moldá-las em formato de "salsichas" e dar um nó em cada uma.
+    - Dividir a massa em 3 porções, moldá-las em formato de 'salsichas' e dar um nó em cada uma.
     - Numa panela, adicionar o caldo de legumes, a cebola, o alho, a salsa, o louro, a paprika e a pimenta. Cozinhar o seitan neste caldo, em lume brando, durante 40 minutos.
     - Retirar o seitan, deixar arrefecer e desfiar grosseiramente (desfiar apenas a quantidade indicada na secção do recheio. O restante pode ser congelado para utilização em outras receitas posteriormente). Reservar o caldo para os próximos passos.
     o Recheio:

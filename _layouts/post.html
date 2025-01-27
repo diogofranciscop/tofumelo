@@ -233,6 +233,7 @@ layout: default
           "@context": "https://schema.org",
           "@type": "Recipe",
           "name": "{{ page.title }}",
+          "url": "{{ page.url | absolute_url }}", 
           "author": {
             "@type": "Person",
             "name": "{{ page.author }}"
