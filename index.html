@@ -106,12 +106,25 @@ permalink: /
     <div class="card__img-container">
       <!-- Optionally handle initial lazy-loading logic as you wish -->
       <picture>
-        <source srcset="{{ post.image | replace: '.webp', '-150px.webp' }}" media="(max-width: 768px)" width="126"
-          height="140">
-        <source srcset="{{ post.image | replace: '.webp', '-180px.webp' }}" media="(max-width: 1500px)" width="180"
-          height="200">
-        <img src="{{ post.image }}" class="card__img" alt="{{ post.title }}" loading="auto">
-      </picture>
+        <!-- Mobile devices (most specific) -->
+        <source 
+            srcset="{{ post.image | replace: '.webp', '-150px.webp' }}" 
+            media="(max-width: 768px)" 
+            width="150"
+            height="167">
+        <!-- Tablets and smaller desktops -->
+        <source 
+            srcset="{{ post.image | replace: '.webp', '-180px.webp' }}" 
+            media="(min-width: 769px) and (max-width: 1500px)" 
+            width="180"
+            height="200">
+        <!-- Default image (least specific) -->
+        <img 
+            src="{{ post.image }}" 
+            class="card__img" 
+            alt="{{ post.title }}" 
+            loading="auto">
+    </picture>
     </div>
     <div class="card__footer">
       <span class="title-card">{{ post.title | upcase }}</span>
