@@ -140,20 +140,23 @@ window.addEventListener('resize', updateHeights);
 
 $(document).ready(function() {
     // Use event delegation to handle clicks on both icons
-    $(document).on('click', '.fa-caret-down, .fa-caret-up', function() {
-        if ($(this).hasClass('fa-caret-down')) {
+    $(document).on('click', '.title-and-diet', function () {
+        const caretIcon = $(this).find('.fa-caret-down, .fa-caret-up'); // Find the icon inside .title-and-diet
+    
+        if (caretIcon.hasClass('fa-caret-down')) {
             // If the icon is 'fa-caret-down', change it to 'fa-caret-up'
-            $(this).removeClass('fa-caret-down').addClass('fa-caret-up');
-            // Set the height of .overlay2 to 63px
-            const h1Height = $('.title-and-diet h1').outerHeight(); // Get the height of the h1
+            caretIcon.removeClass('fa-caret-down').addClass('fa-caret-up');
+            // Set the height of .overlay2 to match the h1 height plus padding
+            const h1Height = $(this).find('h1').outerHeight(); // Get the height of the h1 within .title-and-diet
             $('.overlay2').css('height', h1Height + 20 + 'px'); // Add some padding
         } else {
             // If the icon is 'fa-caret-up', change it to 'fa-caret-down'
-            $(this).removeClass('fa-caret-up').addClass('fa-caret-down');
-            // Set the height of .overlay2 to 500px
+            caretIcon.removeClass('fa-caret-up').addClass('fa-caret-down');
+            // Set the height of .overlay2 to 'auto'
             $('.overlay2').css('height', 'auto');
         }
     });
+    
     $(window).on('scroll', function() {
         // Check if the user is on a mobile device
         if ($(window).width() <= 768) { // Adjust breakpoint as needed
