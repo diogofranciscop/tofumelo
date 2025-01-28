@@ -1,24 +1,20 @@
-# This script serves to extract the recipes md to a json format
-# The json is then used as a retrieval for the chatbot
 import os
 import yaml
 import json
 import re
+from datetime import datetime
 
 # Directory containing the .md files
 MD_FILES_DIRECTORY = "_posts"
 OUTPUT_JSON_FILE = "recipes.json"
 
-# Function to clean and simplify ingredient text
-def clean_ingredient(ingredient):
-    # Remove portions like "de", "à temperatura ambiente", etc., and text in parentheses
-    unwanted_words = ["de", "à temperatura ambiente", "morno", "q.b.", "em pó", "líquido"]
-    ingredient_parts = ingredient.split("|")
-    main_part = ingredient_parts[1] if len(ingredient_parts) > 1 else ingredient_parts[0]
-    # Remove parentheses and their contents
-    main_part = re.sub(r"\([^)]*\)", "", main_part)
-    cleaned = " ".join(word for word in main_part.split() if word.lower() not in unwanted_words)
-    return cleaned.strip()
+# Function to check if the file's date is valid (today or before)
+def is_valid_date(filename):
+    match = re.match(r"(\d{4})-(\d{2})-(\d{2})", filename)
+    if match:
+        file_date = datetime.strptime(match.group(0), "%Y-%m-%d")
+        return file_date <= datetime.today()
+    return False
 
 # Function to extract data from a single .md file
 def parse_md_file(filepath, file_id):
@@ -30,20 +26,36 @@ def parse_md_file(filepath, file_id):
         
         # Prepare the JSON entry
         title = data.get("title", "")
+        print(title)
         ingredients = data.get("ingredients", [])
-        permalink = str('https://tofumelo.pt/') + data.get("permalink", "")
+        permalink = str('https://tofumelo.pt/') + str(data.get("permalink", ""))
         layout = data.get("layout", "")
 
         # Handle ingredients for nested structures in 'post-2'
         if isinstance(ingredients, dict):
             ingredients_text = ""
             for section, items in ingredients.items():
-                section_text = ", ".join([clean_ingredient(item) for item in items])
+                section_items = []
+                for item in items:
+                    if item is None:
+                        # Output title to console when item is None
+                        print(f"Replaced 'None' with title '{title}' (Recipe ID: {file_id})")
+                        section_items.append(title)
+                    else:
+                        section_items.append(item)
+                section_text = ", ".join(section_items)
                 ingredients_text += section_text + ", "
         else:
-            ingredients_text = ", ".join([clean_ingredient(item) for item in ingredients])
-
-        # Format the text field with only ingredients
+            # Handle list of ingredients
+            ingredients_list = []
+            for item in ingredients:
+                if item is None:
+                    # Output title to console when item is None
+                    print(f"Replaced 'None' with title '{title}' (Recipe ID: {file_id})")
+                    ingredients_list.append(title)
+                else:
+                    ingredients_list.append(str(item))
+            ingredients_text = ", ".join(ingredients_list)  # Format the text field with only ingredients
         text = f"{ingredients_text}"
 
         # Return the formatted data
@@ -52,8 +64,7 @@ def parse_md_file(filepath, file_id):
             "ingredients": text,
             "metadata": {
                 "title": title,
-                "link": permalink,
-                "layout": layout
+                "link": permalink
             }
         }
 
@@ -63,7 +74,7 @@ def process_md_files(directory):
     file_id = 1
 
     for filename in os.listdir(directory):
-        if filename.endswith(".md"):
+        if filename.endswith(".md") and is_valid_date(filename):
             filepath = os.path.join(directory, filename)
             recipe = parse_md_file(filepath, file_id)
             recipes.append(recipe)

@@ -32,8 +32,8 @@ ingredients:
         - 240 ml | de Bebida Vegetal de Soja, morno
         - 2 c.chá | de Bicarbonato de Sódio
         - 1 c.chá| de Vinagre
-    a Cobertura de "Cream Cheese":
-       - 226 gr | de "Cream Cheese" vegan, à temperatura ambiente (usei da Violife)
+    a Cobertura de 'Cream Cheese':
+       - 226 gr | de 'Cream Cheese' vegan, à temperatura ambiente (usei da Violife)
        - 113 gr | de Manteiga vegan, à temperatura ambiente (usei da Alpro)
        - 1 c.chá | de Extrato de Baunilha
        - 300 gr | de Açúcar em pó, peneirado
