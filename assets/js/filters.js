@@ -83,13 +83,9 @@ function loadPaginatedPosts(page, posts) {
     postContainer.empty(); // Clear current posts
 
     paginatedPosts.forEach(post => {
-        if (window.innerWidth <= 768) {
-            // Use -150px for smaller screens (mobile)
-            imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, "-150px.$1");
-        } else {
             // Use -180px for larger screens (desktop/tablet)
-            imagePath = post.image.replace(/\.(webp|png|jpg|jpeg)$/, "-180px.$1");
-        }
+            imagePath = post.image;
+
         const cardHTML = `
             <a href="${post.url}" class="card" data-index="${posts.indexOf(post) + 1}">
              <div class="skeleton skeleton-card"></div>
