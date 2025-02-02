@@ -23,9 +23,9 @@ ingredients:
     - 4 copos | de Grão-de-Bico
     - 400 gr | de Tomate Cherry
     - 300 gr | de Cogumelos Pleurothus
-    - 1 | de Cebola
+    - 1 | Cebola
     - 4 dentes | de Alho
-    - 1 bloco | de "queijo feta" da Violife
+    - 1 bloco | de 'Queijo Feta' da Violife
     - 3 c.sopa | de Azeite
     - 2 c.sopa | de Levedura Nutricional
     - "| Sal q.b."

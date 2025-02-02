@@ -29,7 +29,7 @@ ingredients:
     - 1 c.sopa | de Concentrado de Tomate
     - 2 c.sopa | de Sumo de Limão
     - 1 c.chá | de Vinagre
-    - 0.67 c.chá de sal (ajustar a gosto)  
+    - "|sal q.b." 
 instructions:
     - Demolhar as sementes de girassol por 4h ou fervê-las por 10min. Escorrer as sementes e colocá-las num processador de alimentos.
     - No forno ou em fogueira, assar os pimentos, o piri-piri, a cebola e os dentes de alho até ficarem macios e com a pele ligeiramente tostada. Retirar a pele e as sementes.
