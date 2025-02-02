@@ -39,5 +39,5 @@ instructions:
     - Enquanto isso, cozer a massa conforme as instruções da embalagem.
     - No final, juntar a massa cozida ao tabuleiro, misturar tudo cuidadosamente e está pronto a servir.
 notes:
-    - https://www.violife.com/pt-pt/os-nossos-produtos/estilo-grego
+    - O queijo que usamos é da [violife](https://www.violife.com/pt-pt/os-nossos-produtos/estilo-grego)
 ---
