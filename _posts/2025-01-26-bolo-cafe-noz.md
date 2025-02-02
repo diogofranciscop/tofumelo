@@ -18,7 +18,7 @@ proteinas: 2.5
 lipidos: 7.5
 hidratos: 20
 author: Baked By Clo
-new: "yes"
+new: 
 ingredients:
     o Bolo:
     - 3 c.sopa | de Café instantâneo (para um sabor mais intenso, use 4 c.sopa)
