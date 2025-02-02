@@ -1,12 +1,12 @@
 ---
 layout: post
 layout-type: 1
-title: "Gratinado de Fusilli com Cherry, Grão, Cogumelos e Queijo Vegano"
+title: "Gratinado de massa com grão-de-bico"
 description: "Gratinado vegano de fusilli com tomate cherry, grão-de-bico, cogumelos e 'queijo' estilo grego"
 keywords: "Gratinado vegano de fusilli, Receita de gratinado com queijo vegano, Gratinado de grão-de-bico, Receita vegana com cogumelos, Gratinado com tomate cherry, Massa vegana gratinada, Gratinado saudável sem lactose, Prato principal vegano, Receita com queijo estilo grego vegano, Gratinado fácil e rápido"
 permalink: /gratinado-fusilli-cherry-e-queijo/
 type: ["Almoço/Jantar"]
-image: "/assets/img/"
+image: "/assets/img/gratinado-grão-de-bico.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
 time-total: 55
@@ -17,7 +17,7 @@ proteinas: 17.55
 lipidos: 23
 hidratos: 71.5
 author: original
-new:
+new: "yes"
 ingredients:
     - 200 gr | de Massa Fusilli
     - 4 copos | de Grão-de-Bico

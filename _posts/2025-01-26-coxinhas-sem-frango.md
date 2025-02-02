@@ -18,7 +18,7 @@ proteinas: 4
 lipidos: 4.8
 hidratos: 9.6
 author: original
-new: "yes"
+new: 
 ingredients:
     o Recheio Cremoso de 'Queijo':
     - 200 gr | de Cream Cheese (usei da Violife)
