@@ -351,7 +351,8 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 /* Styles for the filter box */
 /* Filter Box Styles */
 #filterBox {
-display: none; /* Initially hide the filter box */
+display:none;
+flex-direction: row;
 background-color: rgba(244, 243, 243, 1);
 /* Background for better visibility */
 border-radius: 8px; /* Rounded corners */
@@ -391,6 +392,7 @@ font-weight: 700;
 line-height: 14.82px;
 text-align: left;
 margin-top: 0px;
+margin-bottom:7px;
 }
 .filter-item span{
 font-family: Archivo Narrow;
@@ -436,6 +438,9 @@ transform: translateX(20px); /* Adjust this to match the new slider width */
 
 .hidden {
 display: none !important;
+}
+.show-flex {
+  display: flex !important;
 }
 
 
@@ -496,7 +501,9 @@ display: none !important;
   .skeleton-button{
     width:80% !important;
   }
-
+  #filterBox{
+    flex-direction: column;
+  }
 .new-tape {
   position: absolute;
   top: 7%;

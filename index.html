@@ -31,65 +31,149 @@ permalink: /
   <button class="button-3 button-4 hidden" data-role="Sobremesa" aria-label="Sobremesa">SOBREMESAS</button>
 </div>
 <!-- Hidden filter box that will appear on clicking the FILTROS button -->
-<div id="filterBox" class="filter-box hidden">
-  <p class="title-filter">Ordenar por:</p>
-  <div class="filter-item">
-    <label class="switch">
-      <input type="checkbox" id="toggleTempoMenor" data-time="TempoMenos" name="sort">
-      <span class="slider"></span>
-    </label>
-    <span>Tempo de confeção menor</span>
-  </div>
+<div id="filterBox" class="filter-box">
+  <div class="filter-box-column" style="margin-right: 10px;">
+    <p class="title-filter">Ordenar por:</p>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleTempoMenor" data-time="TempoMenos" name="sort">
+        <span class="slider"></span>
+      </label>
+      <span>Tempo de confeção menor</span>
+    </div>
 
-  <div class="filter-item">
-    <label class="switch">
-      <input type="checkbox" id="toggleTempoMaior" data-time="toggleTempoMaior" name="sort">
-      <span class="slider"></span>
-    </label>
-    <span>Tempo de confeção maior</span>
-  </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleTempoMaior" data-time="toggleTempoMaior" name="sort">
+        <span class="slider"></span>
+      </label>
+      <span>Tempo de confeção maior</span>
+    </div>
 
-  <div class="filter-item">
-    <label class="switch">
-      <input type="checkbox" id="toggleOrdemAZ" data-title="toggleOrdemAZ" name="sort">
-      <span class="slider"></span>
-    </label>
-    <span>Ordem alfabética A > Z</span>
-  </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleOrdemAZ" data-title="toggleOrdemAZ" name="sort">
+        <span class="slider"></span>
+      </label>
+      <span>Ordem alfabética A > Z</span>
+    </div>
 
-  <div class="filter-item">
-    <label class="switch">
-      <input type="checkbox" id="toggleOrdemZA" data-title="toggleOrdemZA" name="sort">
-      <span class="slider"></span>
-    </label>
-    <span>Ordem alfabética Z > A</span>
-  </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleOrdemZA" data-title="toggleOrdemZA" name="sort">
+        <span class="slider"></span>
+      </label>
+      <span>Ordem alfabética Z > A</span>
+    </div>
 
-  <p class="title-filter">Tipo de dieta:</p>
-  <div class="filter-item">
-    <label class="switch">
-      <input type="checkbox" id="toggleSemGluten" data-diet="s-gluten">
-      <span class="slider"></span>
-    </label>
-    <span>S/Glúten</span>
-  </div>
+    <p class="title-filter">Tipo de dieta:</p>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleSemGluten" data-diet="s-gluten">
+        <span class="slider"></span>
+      </label>
+      <span>S/Glúten</span>
+    </div>
 
-  <div class="filter-item">
-    <label class="switch">
-      <input type="checkbox" id="toggleSemSoja" data-diet="s-soja">
-      <span class="slider"></span>
-    </label>
-    <span>S/Soja</span>
-  </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleSemSoja" data-diet="s-soja">
+        <span class="slider"></span>
+      </label>
+      <span>S/Soja</span>
+    </div>
 
-  <div class="filter-item">
-    <label class="switch">
-      <input type="checkbox" id="toggleSemFrutosSecos" data-diet="s-frutos-secos">
-      <span class="slider"></span>
-    </label>
-    <span>S/Frutos Secos</span>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleSemFrutosSecos" data-diet="s-frutos-secos">
+        <span class="slider"></span>
+      </label>
+      <span>S/Frutos Secos</span>
+    </div>
   </div>
-
+  <div class="filter-box-column" style="margin-right:10px">
+    <p class="title-filter">Proteína:</p>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleFeijao" data-protein="feijao">
+        <span class="slider"></span>
+      </label>
+      <span>Feijão</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleGrao" data-protein="grao">
+        <span class="slider"></span>
+      </label>
+      <span>Grão-de-Bico</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleEdamame" data-protein="edamame">
+        <span class="slider"></span>
+      </label>
+      <span>Edamame</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleSoja" data-protein="soja">
+        <span class="slider"></span>
+      </label>
+      <span>Soja</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleTofu" data-protein="tofu">
+        <span class="slider"></span>
+      </label>
+      <span>Tofu</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleSeitan" data-protein="seitan">
+        <span class="slider"></span>
+      </label>
+      <span>Seitan</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleTempeh" data-protein="tempeh">
+        <span class="slider"></span>
+      </label>
+      <span>Tempeh</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleLentilhas" data-protein="lentilhas">
+        <span class="slider"></span>
+      </label>
+      <span>Lentilhas</span>
+    </div>
+  </div>
+  <div class="filter-box-column">
+    <p class="title-filter">Essenciais e Bases:</p>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleMolhosCaldos" data-role="Molhos/Caldos">
+        <span class="slider"></span>
+      </label>
+      <span>Molhos e Caldos</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="toggleProteinasCaseiras" data-role="Proteinas">
+        <span class="slider"></span>
+      </label>
+      <span>Proteínas Caseiras</span>
+    </div>
+    <div class="filter-item">
+      <label class="switch">
+        <input type="checkbox" id="togglePastasCremes" data-role="Pastas/Cremes">
+        <span class="slider"></span>
+      </label>
+      <span>Pastas e Cremes</span>
+    </div>
+  </div>
 </div>
 
 <div class="posts" id="post-container">
@@ -154,6 +238,7 @@ permalink: /
     description: "{{ post.description | escape }}",
     image: "{{ post.image }}",
     type: "{{ post.type | join: ',' }}",
+    protein:"{{post.protein | join: ','}}",
     time: "{{ post.time-total | join: ',' }}",
     diet: "{{ post.diet | join: ',' }}",
     new: "{{post.new }}"
@@ -170,6 +255,7 @@ permalink: /
         description: $(this).find('.card__overlay p').text(),
         image: $(this).find('.card__img').attr('src'),
         type: $(this).data('type'),
+        protein:$(this).data('protein')
         time: $(this).data('time'),
         diet: $(this).data('diet'),
         new: $(this).find('.new-tape').length > 0 ? "yes" : "no"

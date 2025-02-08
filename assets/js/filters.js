@@ -5,6 +5,7 @@ let originalOrder = [];
 let filteredPosts = [];
 let selectedRoles = [];
 let selectedDiets = [];
+let selectedProtein = [];
 let searchTerm = "";
 let selectedTitleSort = "";
 let selectedTimeSort = "";
@@ -22,6 +23,7 @@ $(document).ready(function () {
     setupFilterButton();
     setupRoleSelection();
     setupDietSelection();
+    setupProteinSelection();
     setupSorting();
     setupSearch();
 
@@ -44,9 +46,11 @@ function filterAndSortPosts() {
             selectedRoles.length === 0 || selectedRoles.some(role => post.type.includes(role));
         const matchesDiet =
             selectedDiets.length === 0 || selectedDiets.every(diet => post.diet.includes(diet));
+        const matchesProtein =
+            selectedProtein.length === 0 || selectedProtein.every(protein => post.protein.includes(protein));
         const matchesSearchTerm = post.title.toLowerCase().includes(searchTerm);
 
-        return matchesRole && matchesDiet && matchesSearchTerm;
+        return matchesRole && matchesDiet && matchesSearchTerm && matchesProtein    ;
     });
 
     // STEP 2: SORT
@@ -214,7 +218,7 @@ function updatePaginationButtons(currentPage, totalPosts, postsPerPage) {
 function setupFilterButton() {
     $(".filter-button").on("click", function (event) {
         event.stopPropagation();
-        $("#filterBox").toggle();
+        $("#filterBox").toggleClass("show-flex");
         positionFilterBox(this);
     });
     function positionFilterBox(button) {
@@ -227,15 +231,9 @@ function setupFilterButton() {
         });
     }
 
-    $(document).on("click", function (event) {
-        const filterBox = $("#filterBox");
-        const filterButton = $(".filter-button");
-        if (
-            !filterBox.is(event.target) &&
-            filterBox.has(event.target).length === 0 &&
-            !filterButton.is(event.target)
-        ) {
-            filterBox.hide();
+    $(document).on("click", function(event) {
+        if (!$(event.target).closest('#filterBox, .filter-button').length) {
+            $("#filterBox").removeClass("show-flex");
         }
     });
 }
@@ -250,12 +248,27 @@ function setupRoleSelection() {
 
         filterAndSortPosts();
     });
+    $("input[type='checkbox'][data-role]").on("change", function () {
+        const role = $(this).data("role");
+        toggleSelection(role, "role");
+        $(this).prop("checked", selectedRoles.includes(role));
+        filterAndSortPosts();
+    });
 }
 
 function setupDietSelection() {
     $("#filterBox input[data-diet]").on("change", function () {
         const diet = $(this).data("diet") || "";
         toggleSelection(diet, "diet");
+
+        filterAndSortPosts();
+    });
+}
+
+function setupProteinSelection(){
+    $("#filterBox input[data-protein]").on("change", function(){
+        const protein = $(this).data("protein") || "";
+        toggleSelection(protein, "protein");
 
         filterAndSortPosts();
     });
@@ -295,13 +308,25 @@ function setupSearch() {
  *  UTILITY FUNCTIONS
  ****************************************************************************/
 function toggleSelection(value, type) {
-    const array = type === "role" ? selectedRoles : selectedDiets;
-    const index = array.indexOf(value);
+    let array;
+    switch(type) {
+        case "role":
+            array = selectedRoles;
+            break;
+        case "diet":
+            array = selectedDiets;
+            break;
+        case "protein":
+            array = selectedProtein;
+            break;
+        default:
+            return;
+    }
 
+    const index = array.indexOf(value);
     if (index === -1) {
         array.push(value);
     } else {
         array.splice(index, 1);
     }
 }
-
