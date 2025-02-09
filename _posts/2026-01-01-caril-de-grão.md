@@ -6,6 +6,7 @@ description: "Caril cremoso e aromático de grão-de-bico com legumes variados, 
 keywords: "Caril de grão vegano, Receita de caril com legumes, Caril cremoso de grão-de-bico, Caril com leite de coco, Caril vegano saudável, Grão-de-bico com legumes, Caril fácil e rápido, Prato principal vegano, Receita vegana com arroz, Comida plant-based"
 permalink: /caril-gao-legumes-arroz/ 
 type: ["Almoço/Jantar"]
+protein: ["Grão"]
 image: "/assets/img/"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos","s-gluten"]

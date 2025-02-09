@@ -6,6 +6,7 @@ description: "Arroz com feijão preto, cogumelos e legumes frescos, aromatizado 
 keywords: "Arroz com feijão preto, Receita de arroz vegano, Arroz com cogumelos e legumes, Receita saudável com arroz, Prato principal vegano, Arroz temperado com especiarias, Arroz com pimento picante, Receita vegana com feijão preto, Arroz nutritivo e fácil, Cozinha plant-based"
 permalink: /arroz-feijao-preto-cogumelos/
 type: ["Almoço/Jantar"]
+protein: ["Feijão"]
 image: "/assets/img/"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos","s-gluten"]

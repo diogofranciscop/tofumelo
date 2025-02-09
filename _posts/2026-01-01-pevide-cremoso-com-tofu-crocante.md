@@ -6,6 +6,7 @@ description: "Massa de Pevide em molho de tomate caseiro com tofu marinado croca
 keywords: "tofu marinado, massa com tomate, refeição vegana, tofu crocante, prato saudável, receita fácil, almoço vegano, jantar equilibrado, tofu com molho, massa apetitosa"
 permalink: /massa-pevide-em-molho-de-tomate/
 type: ["Almoço/Jantar"]
+protein: ["Tofu"]
 image: "/assets/img/"
 serve: 2 refeições
 diet: ["s-frutos-secos"]

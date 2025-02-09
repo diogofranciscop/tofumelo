@@ -203,7 +203,7 @@
 
 .InformationBox .note {
   font-family: "Archivo Narrow";
-  font-size: 10px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 8.08px;
   text-align: center;
@@ -280,6 +280,9 @@ CSS for the information box
   overflow: hidden; /* Optional: to hide content if height is 0 */
   transition: height 0.3s ease; /* Optional: for smooth transition */
 }
+
+
+/* CSS for the elements of the Nutritional information box */
 .InformationBox {
   display: none;
   /* Initially hide the filter box */
@@ -315,7 +318,7 @@ CSS for the information box
 .title-informaçao {
   font-weight: bold;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   color: #333;
 }
 .container-informacao{
@@ -343,19 +346,19 @@ CSS for the information box
   position: relative;
   padding: 9px;
   clip-path: polygon(5% 0%, 100% 0%, 100% 100%, 5% 100%, 1% 50%);
-  height: 16px;
+  height: 20px;
 }
 
 .nutrition-item .value {
   background-color: white;
   color: rgb(35, 99, 12);
-  width: 70px;
+  width: 75px;
   text-align: center;
   clip-path: polygon(10% 0%, 90% 0%, 100% 50%, 90% 100%, 10% 100%, 0% 50%);
   border-radius: 2px;
-  height: 14px;
+  height: 16px;
   font-family: "Archivo Narrow";
-  font-size: 13px;
+  font-size: 15px;
   font-style: italic;
   font-weight: 700;
   line-height: 12px;
@@ -373,19 +376,19 @@ CSS for the information box
 .nutrition-item .label {
   flex: 1;
   text-align: left;
-  color: rgba(0, 0, 0, 1);
+  color: #000;
   font-family: "Titillium Web";
-  font-size: 12px;
+  font-size: 16px;
   font-style: italic;
-  font-weight: 400;
-  line-height: 15.21px;
+  font-weight: 500;
+  line-height: 17.21px;
   text-align: left;
-  width: 100px;
+  width: 130px;
 }
 
 .por-porcao {
   font-family: "Archivo Narrow";
-  font-size: 11px;
+  font-size: 13px;
   font-weight: 700;
   line-height: 14.82px;
 
@@ -397,9 +400,9 @@ CSS for the information box
 
 .informacao-title {
   font-family: "Archivo Narrow";
-  font-size: 11px;
+  font-size: 14px;
   font-weight: 700;
-  line-height: 14.82px;
+  line-height: 15.82px;
 
 }
 .post-2-ol{
@@ -572,7 +575,7 @@ CSS for the information box
   gap: 4px;
 }
 .logo-diets-informação img{
-  width: 20px !important;
+  width: 25px !important;
 }
 .logo-diets{
   display:flex;
@@ -645,6 +648,7 @@ CSS for the information box
 .diet-item:focus::after {
   opacity: 1;
   visibility: visible;
+  z-index:300000
 }
 
 .diet-item img{

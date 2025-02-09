@@ -6,6 +6,7 @@ description: "Lasanha vegana com lentilhas, cogumelos e um cremoso bechamel vega
 keywords: "Lasanha vegana de lentilhas, Receita de lasanha saudável, Lasanha com cogumelos, Lasanha vegana fácil, Lasanha com bechamel vegano, Prato principal vegano, Lasanha sem lactose, Receita vegana com lentilhas, Lasanha sem frutos secos, Lasanha sem soja"
 permalink: /lasanha-de-lentilhas/
 type: ["Almoço/Jantar"]
+protein: ["Lentilhas"]
 image: "/assets/img/"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
