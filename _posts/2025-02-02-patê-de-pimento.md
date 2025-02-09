@@ -6,7 +6,7 @@ description: "Patê cremoso de pimento vermelho com um toque picante, perfeito p
 keywords: "Patê de pimento vegano, Receita de patê vegano, Patê cremoso de pimento vermelho, Patê vegano saudável, Patê de sementes de girassol, Receita fácil de patê vegano, Patê caseiro sem glúten, Patê para entradas veganas, Acompanhamento vegano para tostinhas, Patê vegano picante"
 permalink: /pate-pimento/
 type: ["Entrada"]
-protein: ["grao"]
+protein: ["Grão"]
 image: "/assets/img/pate-pimento.webp"
 serve: 8 pessoas
 diet: ["s-frutos-secos","s-gluten"]

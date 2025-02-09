@@ -5,6 +5,7 @@ title: "Tofu na Cerveja"
 keywords: "Tofu na cerveja, Receita de tofu marinado, Tofu assado no forno, Prato principal vegano, Receita vegana com tofu, Tofu com batatas douradas, Marinada para tofu, Receita económica de tofu, Almoço vegano saudável, Cerveja em receitas veganas"
 permalink: /tofu-na-cerveja/
 type: ["Almoço/Jantar"]
+protein: ["Tofu"]
 description: "Tofu em marinada de mostarda, alho, e ervas com batatas douradas e um toque de cerveja"
 image: "/assets/img/tofu-na-cerveja.webp"
 serve: 4 refeições

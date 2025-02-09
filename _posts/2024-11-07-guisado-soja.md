@@ -5,6 +5,7 @@ title: "Guisado de Soja"
 keywords: "Guisado de soja, Receita de guisado vegano, Estufado de soja com cogumelos, Soja grossa, Prato principal vegano, Receita saudável de soja, Comida reconfortante vegan, Jantar vegan económico, Alimentação plant-based, Receita sem carne"
 permalink: /guisado-de-soja/
 type: ["Almoço/Jantar"]
+protein: ["Soja"]
 description: "Estufado de soja com cogumelos em molho de tomate temperado"
 image: "/assets/img/guisado-soja.webp"
 serve: 4 refeições

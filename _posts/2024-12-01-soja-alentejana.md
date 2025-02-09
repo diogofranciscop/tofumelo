@@ -5,6 +5,7 @@ title: "Soja à Alentejana"
 keywords: "Soja à alentejana, Receita de soja à alentejana, Prato vegano tradicional, Soja marinada com batatas, Receita vegana com soja grossa, Prato vegano sem glúten, Receita prática de soja à alentejana, Cozinha portuguesa vegana, Prato principal vegano saudável, Receita económica com soja"
 permalink: /soja-alentejana/
 type: ["Almoço/Jantar"]
+protein: ["Soja"]
 description: "Soja marinada à alentejana acompanhada de batatas fritas crocantes"
 image: "/assets/img/soja-alentejana.webp"
 serve: 4 refeições

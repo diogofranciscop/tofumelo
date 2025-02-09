@@ -5,6 +5,7 @@ title: "Tosta de Abacate e Cogumelos"
 keywords: "Tosta vegana, Receita de tosta de abacate, Tosta com cogumelos grelhados, Lanche saudável com abacate, Pequeno-almoço vegano fácil, Pão com abacate, Snack saudável e vegano, Tosta rápida e nutritiva, Receita económica de tosta vegana, Alimentação plant-based"
 permalink: /tosta-abacate-cogumelo/
 type: ["Pequeno-Almoço", "Lanche"]
+protein: ["Grão"]
 description: "Tosta com pasta de abacate, cogumelos grelhados e tomate"
 image: "/assets/img/tosta-abacate-grão-de-bico-cogumelo.webp"
 serve: 1 pessoa

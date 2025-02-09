@@ -4,6 +4,7 @@ layout-type: 2
 title: "Batata Doce Assada com Feijão Preto"
 keywords: "Batata doce assada, Receita com feijão preto, Prato vegano fácil, Batata doce saudável, Feijão preto refogado, Batatas doces ao forno com legumes, Prato principal vegano, Receita saudável de batatas e feijão, Jantar vegano com batata doce, Pratos veganos ao forno"
 type: ["Almoço/Jantar"]
+protein: ["Feijão"]
 serve: 4 porções
 permalink: /batata-doce-com-feijao-preto/
 description: "Batatas doces assadas com feijão preto refogado"

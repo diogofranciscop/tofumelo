@@ -5,6 +5,7 @@ title: "Wraps com Tofu Asiático (sticky)"
 keywords: "Tofu asiático, Receita de tofu agridoce, Tofu sticky, Tofu picante, Molho asiático caseiro, Wrap vegano com tofu, Receita saudável de wraps vegan, Tofu com molho de soja e gengibre, Almoço ou jantar rápido, Alimentação plant-based"
 permalink: /wraps-tofu-asiatico/
 type: ["Almoço/Jantar"]
+protein: ["Tofu"]
 description: "Tofu com molho asiático agridoce e picante, servido em um wrap e com salada"
 image: "/assets/img/tofu-sticky.webp"
 serve: 4 Wraps

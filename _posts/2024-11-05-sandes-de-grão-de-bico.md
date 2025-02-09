@@ -5,6 +5,7 @@ title: "Sandes de Grão-de-Bico"
 keywords: "Sandes vegana, Sandes de grão-de-bico, Sandes saudável com cogumelos, Sanduíche vegana com maionese, Sanduíche sem soja, Pão recheado vegano, Sanduíche com proteína vegetal, Lanche vegano com legumes frescos, Receita de sanduíche saudável, Como fazer sanduíche vegana"
 permalink: /sandes-grao-de-bico/
 type: ["Almoço/Jantar"]
+protein: ["Grão"]
 description: "Sanduíche de grão-de-bico picante e cogumelos grelhados, com uma salada cremosa de couve e cenoura"
 image: "/assets/img/sandes-grão-bico.webp"
 serve: 4 sandes

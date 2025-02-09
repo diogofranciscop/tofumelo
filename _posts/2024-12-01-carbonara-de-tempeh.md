@@ -4,6 +4,7 @@ layout-type: 2
 title: "Carbonara de Tempeh"
 keywords: "Carbonara vegana, Receita de carbonara vegana, Carbonara com tempeh, Carbonara cremosa sem lactose, Receita fácil de carbonara, Molho de carbonara plant-based, Esparguete vegano com molho cremoso, Receita saudável sem lactose, Tempeh crocante em receitas veganas, Prato principal vegano e saboroso"
 type: ["Almoço/Jantar"]
+protein: ["Tempeh"]
 serve: 2 porções
 permalink: /carbonara-de-tempeh/
 description: "Carbonara cremosa com bacon de tempeh, cheia de sabor e textura"
