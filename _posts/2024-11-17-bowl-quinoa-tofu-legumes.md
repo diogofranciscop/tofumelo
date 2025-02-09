@@ -6,6 +6,7 @@ description: "Bowl colorida, com quinoa, tofu, legumes, edamame e um molho cremo
 keywords: "Bowl vegana, Receita de bowl vegana, Bowl de quinoa e tofu, Bowl saudável com legumes, Receita prática de bowl vegano, Molho de tahini e miso, Prato vegano saudável e rápido, Bowl de quinoa com tofu, Receita rica em proteína vegana, Alimentação plant-based"
 permalink: /bowl-quinoa/
 type: ["Almoço/Jantar"]
+protein: ["Edamame", "Tofu"]
 image: "/assets/img/bowl-quinoa.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]

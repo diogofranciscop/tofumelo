@@ -4,6 +4,7 @@ layout-type: 2
 title: "Francesinha"
 keywords: "Francesinha vegana, Receita de francesinha sem carne, Francesinha com tofu e cogumelos, Molho de francesinha caseiro, Francesinha vegan fácil, Prato tradicional vegano, Francesinha com linguiça e queijo vegetal, Francesinha portuguesa adaptada para veganos, Molho de francesinha com cerveja e vinho do Porto, Receita de francesinha com batatas fritas na air fryer"
 type: ["Almoço/Jantar"]
+protein: ["Tofu"]
 permalink: /francesinha/
 description: "Francesinha vegana com tofu, pleurothus, linguiça e courgette, regada com um molho delicioso"
 image: "/assets/img/francesinha.webp"

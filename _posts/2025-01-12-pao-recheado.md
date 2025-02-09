@@ -6,6 +6,7 @@ keywords: "Pão recheado vegan, Receita vegan, Maionese caseira vegan, Bacon de 
 serve: 6 pessoas
 permalink: /pao-recheado/
 type: ["Entrada"]
+protein: ["Tofu"]
 description: "Pão recheado vegan, com maionese caseira e opções saborosas de tofu crocante ou Vuna"
 image: "/assets/img/pao-recheado.webp"
 diet: ["s-frutos-secos"]

@@ -5,6 +5,7 @@ title: "Kebab de Jaca/Pleurothus"
 keywords: "Kebab vegano, Receita de kebab vegano, Kebab com jaca e cogumelos, Pão pita caseiro, Recheio vegano para kebab, Kebab sem carne, Receita saudável de kebab vegano, Jaca em receitas veganas, Cogumelos marinados para kebab, Comida de rua plant-based"
 permalink: /kebab-jaca/
 type: ["Almoço/Jantar"]
+protein: []
 description: "Pão pita caseiro recheado com jaca temperada, legumes frescos e maionese picante"
 image: "/assets/img/kebab-jaca.webp"
 serve: 4 kebabs

@@ -5,6 +5,7 @@ title: "Tofu Mexido"
 keywords: "Tofu mexido, Tofu mexido com cogumelos, Torradas veganas com tofu, Pequeno-almoço vegano, Receita de brunch vegano, Tofu mexido cremoso, Torradas saudáveis com tofu, Café da manhã vegano, Tofu temperado com cúrcuma, Refeições rápidas com tofu"
 permalink: /tofu-mexido/
 type: ["Pequeno-Almoço","Lanche"]
+protein: ["Tofu"]
 description: "Torradas com tofu mexido e cogumelos"
 image: "/assets/img/tofu-mexido.webp"
 serve: 2 refeições

@@ -5,7 +5,8 @@ title: ""
 description: ""
 keywords: ""
 permalink: 
-type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa"]
+type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa", "Molhos/Caldos"," Proteinas", "Pastas/Cremes"]
+protein: ["Feijão", "Grão", "Edamame", "Soja", "Tofu", "Seitan", "Tempeh", "Lentilhas"]
 image: "/assets/img/"
 serve:
 diet: ["s-soja","s-frutos-secos","s-gluten"]

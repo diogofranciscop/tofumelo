@@ -4,6 +4,7 @@ layout-type: 1
 title: "Assado de Batata, Grão e Legumes"
 keywords: "Assado vegano, Assado de batata e grão-de-bico, Legumes assados no forno, Receita vegana com grão-de-bico, Prato principal saudável, Legumes assados com especiarias, Prato principal vegano fácil e saudável, Legumes assados na Air Fryer, Refeições saudáveis com legumes assados, Como fazer legumes assados deliciosos"
 permalink: /assado-grao-legumes/
+protein: ["Grão"]
 type: ["Almoço/Jantar"]
 description: "Assado de legumes, batata e grão-de-bico"
 image: "/assets/img/assado-batata-grao.webp"

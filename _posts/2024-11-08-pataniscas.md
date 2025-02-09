@@ -5,6 +5,7 @@ title: "Pataniscas de Legumes"
 keywords: "Pataniscas de legumes, Receita de pataniscas veganas, Pataniscas crocantes, Pataniscas sem glúten, Farinha de grão-de-bico, Snack saudável com legumes, Pataniscas veganas de cenoura e cogumelos, Receita económica de pataniscas, Cozinha plant-based, Receita rápida e prática"
 permalink: /pataniscas-legumes/
 type: ["almoço", "snack"]
+protein: ["Grão"]
 description: "Pataniscas de legumes fritas e crocantes"
 image: "/assets/img/pataniscas.webp"
 serve: 4 refeições

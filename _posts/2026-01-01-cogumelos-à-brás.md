@@ -6,7 +6,8 @@ description: "À Brás com cogumelos suculentos, batatas crocantes e um creme de
 keywords: "Cogumelos à Brás, Receita vegana fácil, Prato principal vegano, À Brás com tofu, Cogumelos Pleurothus, Receita vegana saudável, À Brás sem ovos, Jantar vegano simples, Receita com cogumelos e tofu, Prato vegano sem glúten"
 permalink: /cogumelos-a-bras/
 type: ["Almoço/Jantar"]
-image: "/assets/img/"
+protein: ["Tofu"]
+image: "/assets/img/sem-bacalhau-bras.webp"
 serve: 4 refeições
 diet: ["s-soja", "s-gluten", "s-frutos-secos"]
 time-total: 45

@@ -5,6 +5,7 @@ title: "Mousse de Chocolate"
 keywords: "Mousse de chocolate vegana, Sobremesa fácil com aquafaba, Mousse de chocolate sem glúten, Receita de mousse sem ovos, Mousse com chocolate negro, Sobremesa vegana sem lactose, Como fazer mousse com aquafaba, Sobremesa saudável vegana, Dicas para mousse vegana cremosa, Receitas veganas fáceis"
 permalink: /mousse-chocolate/
 type: ["Sobremesa"]
+protein: []
 description: "Mousse de chocolate vegana com nozes crocantes"
 image: "/assets/img/mousse.webp"
 serve: 6 taças de sobremesa

@@ -6,6 +6,7 @@ description: "Leite vegetal em pó, ideal para armazenar e utilizar em diferente
 keywords: "leite vegetal em pó, leite caseiro, leite desidratado, leite de amêndoa, leite de aveia, leite de coco, receita vegana, preparação prática, alternativa sem lactose, leite vegetal fáciL"
 permalink: /leite-vegetal-em-po/
 type: []
+protein: ["Feijão", "Grão", "Edamame", "Soja", "Tofu", "Seitan", "Tempeh", "Lentilhas"]
 image: "/assets/img/"
 serve: 2 c.sopa
 diet: ["s-gluten"]

@@ -268,6 +268,8 @@ margin-right: 0;
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1) inset;
   overflow: hidden;
   animation: glow 2s infinite;
+  top: 23px;
+  left: -32px;
 }
 
 /* Create a pseudo-element for the 3D shadow effect */
@@ -351,7 +353,8 @@ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 /* Styles for the filter box */
 /* Filter Box Styles */
 #filterBox {
-display: none; /* Initially hide the filter box */
+display:none;
+flex-direction: row;
 background-color: rgba(244, 243, 243, 1);
 /* Background for better visibility */
 border-radius: 8px; /* Rounded corners */
@@ -391,6 +394,7 @@ font-weight: 700;
 line-height: 14.82px;
 text-align: left;
 margin-top: 0px;
+margin-bottom:7px;
 }
 .filter-item span{
 font-family: Archivo Narrow;
@@ -436,6 +440,9 @@ transform: translateX(20px); /* Adjust this to match the new slider width */
 
 .hidden {
 display: none !important;
+}
+.show-flex {
+  display: flex !important;
 }
 
 
@@ -496,11 +503,13 @@ display: none !important;
   .skeleton-button{
     width:80% !important;
   }
-
+  #filterBox{
+    flex-direction: column;
+  }
 .new-tape {
   position: absolute;
-  top: 7%;
-  left: -14%;
+  top: 17px;
+  left: -27px;
   background: linear-gradient(145deg, #7ba16d, #5f824d);
   color: #fff;
   font-weight: bold;
@@ -656,43 +665,8 @@ display: none !important;
 
     margin-bottom: 3vh; /* Optional spacing */
   }
-  .new-tape {
-    position: absolute;
-    top: 7%;
-    left: -11%;
-    background: linear-gradient(145deg, #7ba16d, #5f824d);
-    color: #fff;
-    font-weight: bold;
-    padding: 5px 20px;
-    transform: rotate(-45deg);
-    z-index: 1;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2), 0px 4px 10px rgba(0, 0, 0, 0.1) inset;
-    overflow: hidden;
-    animation: glow 2s infinite;
-    font-size: 12px;
-  }
 }
-@media (min-width: 1000px) and (max-width: 1300px) {
-  .new-tape{
-    top: 8%; /* Position relative to parent height */
-    left: -14%;
-  }
 
-}
-@media (min-width: 1300px) and (max-width: 1400px){
-  .new-tape{
-    top: 11%; /* Position relative to parent height */
-    left: -17%;
-  }
-
-}
-@media (min-width: 1400px){
-  .new-tape{
-    top: 7%; /* Position relative to parent height */
-    left: -15%;
-  }
-
-}
 
 @media (max-width: 769px) {
   #post-container .card:nth-child(n+11) {

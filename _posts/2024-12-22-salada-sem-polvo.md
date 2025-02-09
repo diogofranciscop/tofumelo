@@ -6,6 +6,7 @@ description: "Salada sem Polvo fresca, com cogumelos, pimentos e um molho aromá
 keywords: "salada sem polvo, receita vegana saudável, salada do mar vegan, Salada com pimentos, Como fazer salada vegan com cogumelos eryngui, Entrada fria vegan, Salada vegan inspirada em pratos de peixe, Cozinha plant-based para entradas, Receita fresca e saudável para o verão, Substitutos veganos para pratos tradicionais"
 permalink: /salada-sem-polvo/
 type: ["Entrada"]
+protein: []
 image: "/assets/img/salada-sem-polvo.webp"
 serve: 4 pessoas
 diet: ["s-soja","s-frutos-secos","s-gluten"]

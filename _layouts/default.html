@@ -81,34 +81,63 @@
   {% include footer.html %}
   
   <script>
-window.addEventListener("load", function () {
-  // Remove skeletons and show real elements
-  const skeletonsearch = document.querySelectorAll(".skeleton-search");
-  const search = document.querySelectorAll(".search");
-  const skeletonbutton = document.querySelectorAll(".skeleton-button");
-  const buttons = document.querySelectorAll(".button-3");
-
-  // Hide all skeletons
-  skeletonsearch.forEach(skeleton => {
-    skeleton.classList.add("hidden"); // Add "hidden" to skeletons
-  });
-
-  // Show all real elements
-  search.forEach(element => {
-    element.classList.remove("hidden"); // Remove "hidden" from real elements
-  });
-
-  skeletonbutton.forEach(skeleton => {
-    skeleton.classList.add("hidden"); // Add "hidden" to skeletons
-  });
-
-  // Show all real elements
-  buttons.forEach(element => {
-    element.classList.remove("hidden"); // Remove "hidden" from real elements
-  });
-});
-
-  </script>
+    document.addEventListener("DOMContentLoaded", function () {
+      // Select all <link> elements that reference stylesheets
+      const stylesheets = document.querySelectorAll('link[rel="stylesheet"]');
+    
+      // Function to remove skeletons and show real elements
+      function updateElements() {
+        const skeletonsearch = document.querySelectorAll(".skeleton-search");
+        const search = document.querySelectorAll(".search");
+        const skeletonbutton = document.querySelectorAll(".skeleton-button");
+        const buttons = document.querySelectorAll(".button-3");
+    
+        // Hide all skeletons
+        skeletonsearch.forEach(skeleton => {
+          skeleton.classList.add("hidden"); // Add "hidden" to skeletons
+        });
+    
+        // Show all real elements
+        search.forEach(element => {
+          element.classList.remove("hidden"); // Remove "hidden" from real elements
+        });
+    
+        skeletonbutton.forEach(skeleton => {
+          skeleton.classList.add("hidden"); // Add "hidden" to skeletons
+        });
+    
+        // Show all real elements
+        buttons.forEach(element => {
+          element.classList.remove("hidden"); // Remove "hidden" from real elements
+        });
+      }
+    
+      // Check if all stylesheets have loaded
+      function checkStylesheetsLoaded() {
+        const loadedStylesheets = Array.from(stylesheets).filter(link => link.sheet);
+        if (loadedStylesheets.length === stylesheets.length) {
+          updateElements();
+        }
+      }
+    
+      // Add load event listeners to each stylesheet
+      stylesheets.forEach(link => {
+        if (link.sheet) {
+          // If the stylesheet is already loaded, update elements immediately
+          updateElements();
+        } else {
+          // Otherwise, add a load event listener
+          link.addEventListener('load', checkStylesheetsLoaded);
+        }
+      });
+    
+      // If there are no stylesheets, update elements immediately
+      if (stylesheets.length === 0) {
+        updateElements();
+      }
+    });
+    </script>
+    
 </body>
 
 </html>

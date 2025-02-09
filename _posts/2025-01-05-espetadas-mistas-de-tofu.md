@@ -5,6 +5,7 @@ title: "Espetadas Mistas de Tofu"
 keywords: "Espetadas vegan, Espetadas de tofu, Marinada para tofu, Grelhados vegan, Espetadas no forno vegan, Espetadas vegan com pimento, Espetadas sem carne, Jantar vegan fácil, Espetadas para churrasco vegan, Receita de espetadas vegan com tofu e pimentos"
 permalink: /espetadas-mistas-de-tofu/
 type: ["Almoço/Jantar"]
+protein: ["Tofu"]
 description: "Espetadas vegan grelhadas de tofu, cebola e pimento com marinada rica"
 image: "/assets/img/espetada.webp"
 serve: 4 espetadas

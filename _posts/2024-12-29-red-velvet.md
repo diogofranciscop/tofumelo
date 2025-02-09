@@ -6,6 +6,7 @@ description: "Bolo Red Velvet vegan, macio e vibrante, com cobertura cremosa de 
 keywords: ["Red Velvet Vegan, Bolo Red Velvet Sem Lactose, Bolo Vegan Fácil, Bolo Vermelho Vegan, Sobremesa Vegan para Festas, Bolo Sem Produtos de Origem Animal, Como fazer cobertura de cream cheese vegan para bolos, Cobertura cremosa sem lactose, Receitas doces plant-based, Bolos sem ovos e sem leite"]
 permalink: /red-velvet/
 type: ["Sobremesa"]
+protein: []
 image: "/assets/img/red-velvet.webp"
 serve: 20 fatias
 diet: ["s-frutos-secos"]

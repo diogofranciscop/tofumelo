@@ -5,6 +5,7 @@ title: "Sopa de Feijão e Couve"
 keywords: "Sopa de feijão, Receita de sopa vegana, Sopa de feijão-manteiga,Sopa vegana saudável, Entrada vegana tradicional, Sopa cremosa com legumes, Receita saudável de sopa, Sopa rica em fibras, Alimentação plant-based, Sopa reconfortante de inverno"
 permalink: /sopa-feijao-couve/
 type: ["Entrada"]
+protein: ["Feijão"]
 description: "Sopa cremosa de legumes, couve e feijão-manteiga"
 image: "/assets/img/sopa-feijão-couve.webp"
 serve: 6 pratos de sopa

@@ -4,6 +4,7 @@ layout-type: 2
 title: "Sem Bacalhau Sem Natas"
 keywords: "Gratinado vegano, Bacalhau com natas vegano, Gratinado de batatas com cogumelos, Receita vegana com tofu, Molho branco sem lactose, Prato principal vegano ao forno, Batatas gratinadas com cogumelos, Receita vegana rica em sabor, Pratos quentes veganos, Jantares especiais veganos"
 type: ["Almoço/Jantar"]
+protein: ["Tofu"]
 serve: 4 porções
 permalink: /sem-bacalhau-sem-natas/
 description: "Gratinado cremoso de batatas, cogumelos e tofu com molho branco"

@@ -6,7 +6,8 @@ description: "Guisado vegano reconfortante com nacos de soja, legumes e um toque
 keywords: "Guisado vegano, Nacos de soja, Guisado de legumes, Receita vegana saudável, Guisado com vinho tinto, Prato principal vegano, Legumes com soja, Guisado sem carne, Refeição vegana reconfortante, Cozinha plant-based"
 permalink: /jardineira-de-soja/
 type: ["Almoço/Jantar"]
-image: "/assets/img/"
+protein: ["Soja"]
+image: "/assets/img/jardineira-soja.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 50

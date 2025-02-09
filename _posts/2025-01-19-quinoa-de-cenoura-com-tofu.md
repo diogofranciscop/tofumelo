@@ -6,6 +6,7 @@ description: "Quinoa com cenoura e edamame, acompanhada de tofu salteado com cou
 keywords: "Receita de quinoa com tofu e couve-roxa, Como preparar tofu dourado com quinoa, Quinoa de cenoura com edamame para veganos, Refeição vegana saudável e rica em proteínas, Receita fácil de quinoa com vegetais e tofu, Prato vegano equilibrado com quinoa e tofu, Jantar nutritivo com quinoa e couve-roxa, Receita sem glúten com tofu e quinoa, Receita Vegana, Almoço Saudável"
 permalink: /quinoa-de-cenoura-com-tofu/
 type: ["Almoço/Jantar"]
+protein: ["Edamame","Tofu"]
 image: "/assets/img/quinoa-de-cenoura-com-tofu.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos"]

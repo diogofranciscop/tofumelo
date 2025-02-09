@@ -6,7 +6,8 @@ description: "Cookie pie vegana com recheio cremoso de chocolate"
 keywords: "Cookie pie vegana, Sobremesa vegana fácil, Cookie pie com recheio de chocolate, Doce vegano com linhaça, Receita de cookie gigante, Sobremesa para partilhar, Cookie recheada com chocolate vegano, Sobremesa vegana sem ovos, Receita com vutella, Sobremesa crocante e cremosa"
 permalink: /cookie-pie/
 type: ["Lanche", "Sobremesa"]
-image: "/assets/img/"
+protein: []
+image: "/assets/img/cockie-pie.webp"
 serve: 16 fatias
 diet: ["s-frutos-secos"]
 time-total: 60

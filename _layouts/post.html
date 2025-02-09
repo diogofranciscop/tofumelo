@@ -9,26 +9,6 @@ layout: default
             <div class="overlay2">
                 <div class="header2">
                     <div class="title-and-diet">
-                        <div class="logo-diets">
-                            {% for diet in page.diet %}
-                            {% if diet == "s-gluten" %}
-                            <div class="diet-item" data-tooltip="Sem Gluten">
-                                <img src="/assets/img/logo-sem-gluten.webp" alt="Sem Gluten">
-                            </div>
-                            {% endif %}
-                            {% if diet == "s-soja" %}
-                            <div class="diet-item" data-tooltip="Sem Soja">
-                                <img src="/assets/img/logo-sem-soja.webp" alt="Sem Soja">
-                            </div>
-                            {% endif %}
-                            {% if diet == "s-frutos-secos" %}
-                            <div class="diet-item" data-tooltip="Sem Frutos Secos">
-                                <img src="/assets/img/logo-sem-frutos-secos.webp" alt="Sem Frutos Secos">
-                            </div>
-                            {% endif %}
-                            {% endfor %}
-                        </div>
-                        
                         <h1>{{page.title | upcase}}</h1>
                         
                         <i class="fas fa-caret-down title-arrow" data-tooltip="Ocultar Informações"> </i>
@@ -36,7 +16,7 @@ layout: default
                     <h2>{{page.description}}</h2>
                     <div class="info2">
                         <div class="servings2">
-                            <img src="/assets/img/serving.webp" alt="Type">
+                            <img src="/assets/img/serving.webp" alt="Type" style="width:30px;">
                             <p>
                                 {% if page.type.size > 1 %}
                                 {% for type in page.type %}
@@ -53,7 +33,7 @@ layout: default
                                     |</span> Confeção: <span>{{page.time-confe}}min</span></p>
                         </div>
                         <div class="porcoes2">
-                            <img src="/assets/img/porcoes.webp" alt="Serves">
+                            <img src="/assets/img/porcoes.webp" alt="Serves" style="width: 24px;">
                             <input type="number" id="servings-input" value="4" min="1" class="custom-input">
                             <!-- Display the serving unit dynamically -->
                             <span id="servings-text"></span>
@@ -98,7 +78,7 @@ layout: default
             </div>
             <div class="nutrition-item">
                 <span class="value">{{page.proteinas}}g</span>
-                <span class="label">Proteína</span>
+                <span class="label">Proteínas</span>
             </div>
             <div class="nutrition-item">
                 <span class="value">{{page.hidratos}}g</span>
