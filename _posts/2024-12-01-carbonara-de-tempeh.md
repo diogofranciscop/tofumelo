@@ -8,7 +8,7 @@ protein: ["Tempeh"]
 serve: 2 porções
 permalink: /carbonara-de-tempeh/
 description: "Carbonara cremosa com bacon de tempeh, cheia de sabor e textura"
-image: "/assets/img/carbonara2.webp"
+image: "/assets/img/carbonara-3.webp"
 diet: ["s-frutos-secos"]
 time-total: 35
 time-prepar: 10

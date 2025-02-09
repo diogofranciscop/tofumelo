@@ -7,7 +7,7 @@ keywords: "Caril de grão vegano, Receita de caril com legumes, Caril cremoso de
 permalink: /caril-gao-legumes-arroz/ 
 type: ["Almoço/Jantar"]
 protein: ["Grão"]
-image: "/assets/img/"
+image: "/assets/img/caril-grao.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 45

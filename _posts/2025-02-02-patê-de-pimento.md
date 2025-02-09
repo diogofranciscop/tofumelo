@@ -18,7 +18,7 @@ proteinas: 3.5
 lipidos: 6.25
 hidratos: 8.75
 author: original
-new: "yes"
+new: ""
 ingredients:
     - 100 gr | de Sementes de Girassol  
     - 2 | Pimentos Vermelhos grandes

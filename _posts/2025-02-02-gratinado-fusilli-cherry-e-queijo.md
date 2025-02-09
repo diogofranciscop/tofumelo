@@ -18,7 +18,7 @@ proteinas: 17.55
 lipidos: 23
 hidratos: 71.5
 author: original
-new: "yes"
+new: ""
 ingredients:
     - 200 gr | de Massa Fusilli
     - 4 copos | de Grão-de-Bico

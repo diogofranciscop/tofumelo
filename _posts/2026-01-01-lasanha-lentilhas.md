@@ -7,7 +7,7 @@ keywords: "Lasanha vegana de lentilhas, Receita de lasanha saudável, Lasanha co
 permalink: /lasanha-de-lentilhas/
 type: ["Almoço/Jantar"]
 protein: ["Lentilhas"]
-image: "/assets/img/"
+image: "/assets/img/lasanha-lentilhas.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
 time-total: 70

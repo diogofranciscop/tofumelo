@@ -7,7 +7,7 @@ keywords: "Guisado vegano, Nacos de soja, Guisado de legumes, Receita vegana sau
 permalink: /jardineira-de-soja/
 type: ["Almoço/Jantar"]
 protein: ["Soja"]
-image: "/assets/img/"
+image: "/assets/img/jardineira-soja.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 50

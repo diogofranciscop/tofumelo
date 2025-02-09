@@ -7,7 +7,7 @@ keywords: "Cogumelos à Brás, Receita vegana fácil, Prato principal vegano, À
 permalink: /cogumelos-a-bras/
 type: ["Almoço/Jantar"]
 protein: ["Tofu"]
-image: "/assets/img/"
+image: "/assets/img/sem-bacalhau-bras.webp"
 serve: 4 refeições
 diet: ["s-soja", "s-gluten", "s-frutos-secos"]
 time-total: 45

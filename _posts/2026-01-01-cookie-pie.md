@@ -7,7 +7,7 @@ keywords: "Cookie pie vegana, Sobremesa vegana fácil, Cookie pie com recheio de
 permalink: /cookie-pie/
 type: ["Lanche", "Sobremesa"]
 protein: []
-image: "/assets/img/"
+image: "/assets/img/cockie-pie.webp"
 serve: 16 fatias
 diet: ["s-frutos-secos"]
 time-total: 60
