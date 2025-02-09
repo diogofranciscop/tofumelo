@@ -60,7 +60,7 @@ ingredients:
     - 1 c.chá | de Colorau
     - "| Sal q.b."
     - "| Pimenta Preta q.b."
-    a Massa para moldar:
+    a Massa para Moldar:
     - 625 ml | de Caldo de Legumes reservado (da preparação do 'frango')
     - 280 gr | de Farinha de Trigo
     - 50 gr | de Manteiga Vegan

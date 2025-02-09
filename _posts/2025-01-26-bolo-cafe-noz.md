@@ -39,7 +39,7 @@ ingredients:
     - 50 gr | de Açúcar
     - 2 c.sopa | de Bebida Vegetal de Soja
     - 4 c.sopa | de Aquafaba (batida em castelo)
-    a decoração:
+    a Decoração:
     - 3 c.sopa | de Nozes picadas
 instructions:
     o Bolo:
@@ -49,13 +49,13 @@ instructions:
     - Adicionar a bebida vegetal de soja, o café já arrefecido, o óleo, o extrato de baunilha e o vinagre. Misturar bem até obter uma massa homogénea.
     - Envolver delicadamente as nozes picadas na massa. Verter a massa na forma e espalhar uniformemente.
     - Levar ao forno durante 25 minutos ou até que um palito inserido no centro saia limpo. Deixar o bolo arrefecer na forma por 30 minutos, depois desenformar para uma grelha. Deixar arrefecer completamente.
-    o creme de 'queijo':
+    o Creme de 'Queijo':
     - Numa tigela, bater o 'queijo' creme vegan, a manteiga vegan e o extrato de baunilha até obter uma mistura lisa e homogénea
     - Adicionar o açúcar e bater bem até que fique bem incorporado.
     - Acrescentar a bebida vegetal de soja e misturar bem novamente.
     - Noutro recipiente, bater a aquafaba até formar picos suaves e, em seguida, medir 4 colheres de sopa da aquafaba já batida.
     - Envolver delicadamente a aquafaba batida no creme de 'queijo', misturando cuidadosamente para manter a leveza.
-    a decoração:
+    a Decoração:
     - Depois de frio, espalhar o creme de 'queijo' sobre o bolo e decorar com as nozes picadas. Cortar em 16 pedaços e servir.
 notes:
     - Para obter melhores resultados, bater a aquafaba bem fria e adicionar um pouco de sumo de limão, o que ajudará a obter uma textura mais firme.

@@ -19,9 +19,9 @@ lipidos: 34.4
 hidratos: 68.6
 author: vegan heaven
 ingredients:
-    o acompanhamento:
+    o Acompanhamento:
         - 200 gr | de Esparguete
-    o bacon de tempeh:
+    o 'Bacon' de Tempeh:
         - 200 gr | de Tempeh
         - 1/2 | Cebola
         - 2 dentes | de Alho
@@ -33,7 +33,7 @@ ingredients:
         - 1 c.sopa | de Paprika Fumada
         - "| Sal q.b."
         - "| Pimenta Preta q.b."   
-    o molho da carbonara:
+    o Molho da Carbonara:
         - 60 gr | de Caju (demolhado em água a fever por 30 min)
         - 240 ml | de Bebida Vegetal sem açúcar 
         - 1 dente | de Alho 
@@ -42,15 +42,15 @@ ingredients:
         - "| Sal q.b."
         - "| Pimenta Preta q.b."
 instructions:
-    o acompanhamento:
+    o Acompanhamento:
         - Numa panela, cozer o esparguete de acordo com as instruções de pacote.
         - Após a cozedura, escorrer a massa e reservar.
-    o tempeh de bacon:
+    o 'Bacon' de Tempeh:
         - Desfazer o tempeh em pedaços.
         - Temperar o tempeh com o pimentão doce, a paprika fumada, o sal, o molho de soja, a pimenta preta, o sriracha, a cebola desidratada e o dente de alho. Deixar marinar (opcional).
         - Numa frigideira, colocar o azeite e deixar aquecer bem. De seguida, adicionar a cebola picada e deixar refogar até dourar.
         - Introduzir o tempeh e deixar 3/4 minutos. Reservar.
-    o molho de carbonara:
+    o Molho de Carbonara:
         - Num copo alto, adicionar todos os ingredientes e triturar tudo com uma varinha mágica.
         - Transferir o molho para uma frigideira durante 2/3 minutos até que engrosse.
         - Posteriormente, adicionar a massa cozida e envolver bem.
