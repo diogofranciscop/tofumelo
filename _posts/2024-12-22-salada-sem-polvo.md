@@ -42,7 +42,7 @@ instructions:
     - Numa frigideira, aquecer o azeite. Adicionar a cebola picada e o pimento vermelho. Refogar até ficarem cozinhados(se necessário adicionar água, até que os pimentos fiquem no ponto de cozedura que gostar).
     - Temperar o refogado com alho em pó, sal e piri-piri a gosto.
     - Adicionar o vinho branco e deixar cozinhar até que o álcool evapore completamente. Reservar e deixar arrefecer.
-  o molho:
+  o Molho:
     - Numa tigela pequena, misturar o azeite, o vinagre, o alho, sal e pimenta. Provar e ajustar os temperos ao seu gosto.
   Montar a Salada:
     - Num recipiente grande, juntar os cogumelos cozidos e o refogado (já arrefecido).

@@ -50,7 +50,7 @@ instructions:
       a Versão 1 - "Bacon":
         - Cortar o tofu em cubos pequenos, semelhantes a pedaços de bacon.
         - Colocar os cubos de tofu num recipiente com tampa.
-        - Adicionar os temperos: molho de soja, molho sriracha e paprika fumada. Misturar bem até que todos os pedaços de tofu estejam uniformemente cobertos.
+        - Adicionar os temperos - molho de soja, molho sriracha e paprika fumada. Misturar bem até que todos os pedaços de tofu estejam uniformemente cobertos.
         - Se tiver tempo, deixar marinar por alguns minutos para intensificar os sabores. Caso contrário, prosseguir diretamente para o próximo passo.
         - Dispor os cubos de tofu num tabuleiro, espalhando-os bem para que não fiquem sobrepostos.
         - Levar ao forno, pré-aquecido a 200°C, até que fiquem crocantes. Se necessário, virar os cubos de tofu durante o tempo de forno para garantir que tostem uniformemente.

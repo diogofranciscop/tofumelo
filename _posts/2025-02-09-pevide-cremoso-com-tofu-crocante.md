@@ -18,7 +18,7 @@ proteinas: 31
 lipidos: 21
 hidratos: 52
 author: original
-new: "yes"
+new: 
 ingredients:
     o Tofu marinado:
     - 400 gr | de Tofu, cortado em cubos
@@ -36,7 +36,7 @@ ingredients:
     - "| Sal q.b."
     - "| Alho em pó q.b."
 instructions:
-    o Tofu marinado:
+    o Tofu Marinado:
     - Cortar o tofu em cubos e reservar.
     - Preparar a marinada misturando o alho em pó, a pimenta preta, o piri-piri, o sal, o molho inglês e o molho de soja.
     - Envolver bem os cubos de tofu na marinada e deixar descansar por pelo menos 20 minutos, para que absorvam os sabores.

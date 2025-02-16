@@ -12,7 +12,7 @@ serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
 time-total: 30
 time-prepar: 10
-time-confe: 20\x
+time-confe: 20
 calorias: 280
 proteinas: 12.5
 lipidos: 7.5
