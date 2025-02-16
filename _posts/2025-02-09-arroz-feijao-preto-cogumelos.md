@@ -18,7 +18,7 @@ proteinas: 12.5
 lipidos: 5
 hidratos: 52.5
 author: original
-new: "yes"
+new: 
 ingredients:
     - 200 gr | de Arroz Agulha
     - 3 copos | de Feijão Preto

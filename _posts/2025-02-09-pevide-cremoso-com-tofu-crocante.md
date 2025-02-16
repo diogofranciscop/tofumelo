@@ -18,7 +18,7 @@ proteinas: 31
 lipidos: 21
 hidratos: 52
 author: original
-new: "yes"
+new: 
 ingredients:
     o Tofu marinado:
     - 400 gr | de Tofu, cortado em cubos
