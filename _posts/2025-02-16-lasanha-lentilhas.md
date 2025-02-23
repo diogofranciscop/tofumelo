@@ -18,7 +18,10 @@ proteinas: 16.25
 lipidos: 12.5
 hidratos: 50
 author: original
-new:
+<<<<<<< HEAD
+=======
+new: ""
+>>>>>>> f1857cca6c39d25dbf6d94897d0b612cc4e9d0df
 ingredients:
     o Recheio da Lasanha:
     - 130 gr | de Cebola picada
