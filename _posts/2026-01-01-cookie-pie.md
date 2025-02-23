@@ -25,10 +25,10 @@ ingredients:
     - 50 gr | de Açúcar Branco
     - 2 c.sopa | de Linhaça Moída
     - 5 c.sopa | de Água
-    - 470 gr | de Farinha de Trigo (adicionar aos poucos, conforme necessário)
+    - 470 gr | de Farinha de Trigo
     - 5 gr | de Bicarbonato de Sódio
     - 200 gr | de Gotas de Chocolate Vegano (ou Chocolate Vegano picado)
-    - 300 gr | de Vutella (ou outro recheio vegano da sua preferência)
+    - 300 gr | de Vutella
 instructions:
     - Preparar os "ovos de linhaça", misturando a linhaça moída com a água e deixar descansar por 5 minutos, até formar um gel. Reservar.
     - Pré-aquecer o forno a 170ºC com ventilação.
@@ -38,7 +38,7 @@ instructions:
     - Adicionar as gotas de chocolate e envolver na massa.
     - Dividir a massa em duas partes iguais.
     - Forrar uma forma redonda com papel vegetal e espalhar uma das metades da massa, formando uma camada uniforme.
-    - Adicionar o recheio (Vutella ou outro da sua preferência) no centro e espalhá-lo sobre a massa, deixando um pequeno espaço nas bordas.
+    - Adicionar o recheio (Vutella ou outro recheio vegano da sua preferência) no centro e espalhá-lo sobre a massa, deixando um pequeno espaço nas bordas.
     - Cobrir com a segunda metade da massa, pressionando levemente as bordas para selar.
     - Levar ao forno por cerca de 40 minutos ou até que a cookie pie esteja dourada.
     - Verificar o ponto durante o tempo de cozedura, pois o tempo pode variar dependendo do forno.
@@ -47,6 +47,6 @@ instructions:
     - Servir frio.
 notes:
     - Ajustar a quantidade de farinha conforme a consistência da massa, adicionando aos poucos.
-    - O tempo de cozedura pode variar de acordo com o forno; verificar regularmente e retirar do forno assim que estiver dourada.
+    - O tempo de cozedura pode variar de acordo com o forno, pelo que deve verificar regularmente e retirar do forno assim que estiver dourada.
 ---
 
