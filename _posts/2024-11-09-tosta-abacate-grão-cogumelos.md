@@ -17,7 +17,7 @@ calorias: 556
 proteinas: 17.2
 lipidos: 25.3
 hidratos: 69.1
-author: 
+author: original
 ingredients:
     - 2 fatias | de Pão
     - 6 fatias | de Tomate

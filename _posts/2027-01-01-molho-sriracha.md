@@ -17,13 +17,13 @@ calorias:
 proteinas:
 lipidos:
 hidratos:
-author: 
+author: derek sarno
 new:
 ingredients:
     - 
 instructions:
     - 
 notes:
-    - 
+    - Esta receita é do [Derek Sarno] (https://www.instagram.com/dereksarno/)
 ---
 

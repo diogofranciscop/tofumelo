@@ -17,7 +17,7 @@ calorias:
 proteinas:
 lipidos:
 hidratos:
-author: 
+author: original
 new:
 ingredients:
     - 

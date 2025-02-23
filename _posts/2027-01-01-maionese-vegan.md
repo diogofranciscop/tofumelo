@@ -17,13 +17,13 @@ calorias:
 proteinas:
 lipidos:
 hidratos:
-author: 
+author: brunasimoes
 new:
 ingredients:
     - 
 instructions:
     - 
 notes:
-    - 
+    - Esta receita está disponível em [Bruna Simões] (https://www.instagram.com/p/DDd93DBsPB8/)
 ---
 

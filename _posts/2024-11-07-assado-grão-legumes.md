@@ -17,7 +17,7 @@ calorias: 292.5
 proteinas: 8.9
 lipidos: 9.2
 hidratos: 45
-author: 
+author: original
 ingredients:
     - 1 | Courgette grande
     - 3 | Batatas grandes

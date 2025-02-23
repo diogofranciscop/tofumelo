@@ -17,7 +17,7 @@ calorias: 477.5
 proteinas: 29.4
 lipidos: 16.6
 hidratos: 51.3
-author:     
+author: original   
 ingredients:
     o tofu:
     - 400 gr | de Tofu

@@ -17,7 +17,7 @@ calorias: 464
 proteinas: 14.5
 lipidos: 13.2
 hidratos: 71.6
-author: 
+author: original
 ingredients:
     o Acompanhamento:
     - 4 | Wraps
