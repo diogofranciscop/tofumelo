@@ -17,7 +17,7 @@ calorias: 256.8
 proteinas: 19
 lipidos: 6
 hidratos: 21.9
-author: 
+author: original
 ingredients:
     as batatas:
     - 200 gr | de Batata

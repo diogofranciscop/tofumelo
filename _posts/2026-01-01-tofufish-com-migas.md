@@ -1,29 +1,76 @@
 ---
 layout: post
-layout-type:
-title: ""
-description: ""
-keywords: ""
-permalink: 
-type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa", "Molhos/Caldos"," Proteinas", "Pastas/Cremes"]
-protein: ["Feijão", "Grão", "Edamame", "Soja", "Tofu", "Seitan", "Tempeh", "Lentilhas"]
+layout-type: 2
+title: "Migas de Feijão-Frade com Tofufish"
+description: "Migas de feijão-frade com couve galega e broa tostada, acompanhadas de tofu envolto em alga nori"
+keywords: "migas de feijão-frade, tofu crocante, tofu com alga nori, comida tradicional portuguesa vegan, receita vegana com tofu, migas sem carne, prato principal vegan, tofu panado na frigideira, feijão-frade receitas, broa de milho tostada"
+permalink: /migas-com-tofufish/
+type: ["Almoço/Jantar"]
+protein: ["Feijão", "Tofu"]
 image: "/assets/img/"
-serve:
-diet: ["s-soja","s-frutos-secos","s-gluten"]
-time-total: 
-time-prepar: 
-time-confe: 
-calorias:
-proteinas:
-lipidos:
-hidratos:
-author: 
+serve: 4 refeições
+diet: ["s-frutos-secos"]
+time-total: 40
+time-prepar: 20
+time-confe: 20
+calorias: 602
+proteinas: 29.5
+lipidos: 22
+hidratos: 78
+author: original
 new:
 ingredients:
-    - 
+    as Migas:
+    - 200 gr | de Couve Galega 
+    - 3 dentes | de Alho
+    - 250 gr | de Broa de Milho
+    - 3 chávenas | de Feijão-Frade cozido  
+    - 3 c.sopa | de Azeite  
+    - 1 c.chá | de Bicarbonato de Sódio  
+    - "| Água q.b."  
+    - "| Sal q.b."  
+    - "| Alho em pó q.b."  
+    - "| Pimenta Preta q.b." 
+    o Tofufish:
+    - 3 blocos | de Tofu (200 gr cada)  
+    - 2 folhas | de Alga Nori  
+    - 5 c.sopa | de Farinha de Trigo  
+    - 3 c.sopa | de Pão Ralado  
+    - 10 c.sopa | de Água  
+    - 2 c.sopa | de Azeite  
+    - "| Sal q.b."  
+    - "| Alho em pó q.b."  
+    - "| Pimenta Preta q.b."  
 instructions:
-    - 
+    as Migas:
+    - Esfarelar a broa em pedaços pequenos. Reservar.
+    - Ralar a couve finamente e reservar.
+    - Numa panela grande, colocar a couve galega com água suficiente para cobrir, adicionar sal e o bicarbonato de sódio. 
+    - Deixar ferver e cozinhar por 5 minutos, para que a couve fique ligeiramente tenra, mas não totalmente cozinhada.  
+    - Escorrer a couve e reservar.  
+    - Na mesma panela, descartar a água da cozedura e adicionar o azeite.
+    - Quando o azeite estiver quente, juntar o alho picado e deixar refogar até dourar.  
+    - Acrescentar a broa de milho e mexer frequentemente até ficar ligeiramente tostadinha.  
+    - Adicionar a couve escorrida e o feijão-frade, mexendo bem para envolver todos os ingredientes.  
+    - Temperar com sal, alho em pó e pimenta preta a gosto.  
+    - Provar e ajustar os temperos, se necessário. Reservar.
+    o Tofufish:
+    - Numa taça, misturar a água, a farinha e o pão ralado até obter uma massa homogénea.
+    - Temperar com sal, alho em pó e pimenta preta.  
+    - Se necessário, ajustar a consistência adicionando mais água (se estiver demasiado espessa) ou mais farinha/pão ralado (se estiver demasiado líquida).
+    - Cortar os blocos de tofu em retângulos iguais.  
+    - Cortar as folhas de alga nori em pedaços do mesmo tamanho que o tofu. Reservar. 
+    - Aquecer o azeite numa frigideira em lume médio.  
+    - Passar cada pedaço de tofu na polme e, antes de levar à frigideira, colar um retângulo de alga nori sobre um dos lados.  
+    - Colocar o tofu na frigideira com o lado da alga virado para cima.
+    - Quando o lado de baixo estiver dourado, virar cuidadosamente e temperar com sal, alho em pó e pimenta preta. 
+    - Deixar dourar do outro lado.  
+    - Repetir o processo com todos os pedaços de tofu até ficarem bem crocantes. 
+    - Distribuir as migas nos pratos.
+    - Dispor os pedaços de tofu crocante por cima ou ao lado.
+    - Servir de imediato.
 notes:
-    - 
+    - Para uma versão mais simples, pode *cozinhar o tofu sem a polme*, apenas grelhando na frigideira com sal, alho em pó e pimenta preta. Depois de grelhado, basta dispor os pedaços de alga por cima, sem necessidade de os cozinhar, mantendo uma textura mais leve e fresca.
+    - Para migas mais crocantes, leve a broa esfarelada ao forno a 200ºC até dourar. Depois, adicione-a às migas no final do preparo.
 ---
 

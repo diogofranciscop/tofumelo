@@ -62,5 +62,5 @@ notes:
     - A aquafaba pode demorar entre 10 a 15 minutos a bater até formar picos firmes.
     - Utilizar a aquafaba logo após ser batida para garantir a textura leve do creme.
     - Guardar o bolo num recipiente hermético no frigorífico por até 5 dias.
-    - Este bolo foi inspirado em Baked By Clo
+    - Este bolo foi inspirado em [Baked By Clo] (https://bakedbyclo.com/vegan-coffee-and-walnut-cake/)
 ---

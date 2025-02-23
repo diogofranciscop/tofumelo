@@ -17,7 +17,7 @@ calorias: 101.5
 proteinas: 4.7
 lipidos: 3.5
 hidratos: 13.5
-author: 
+author: original
 ingredients:
     - 20 gr | de Azeite
     - 40 gr | de Cebola
