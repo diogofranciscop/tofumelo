@@ -18,7 +18,7 @@ proteinas: 15
 lipidos: 7.5
 hidratos: 30
 author: original
-new:
+new: "yes"
 ingredients:
     - 120 gr | de Nacos de Soja
     - 1 c.sopa | de Sumo de Limão
@@ -28,8 +28,8 @@ ingredients:
     - 3 dentes | de Alho
     - 0.5 copo | de Vinho Tinto
     - 400 ml | de Molho de Tomate caseiro (ou tomate triturado enlatado)
-    - 3 Batatas (descascadas e cortadas em cubos pequenos)
-    - 2 Cenouras (cortadas em meias-rodelas)
+    - 3 Batatas
+    - 2 Cenouras
     - 1 chávena | de Ervilhas
     - 1 c.chá | de Pimenta Preta
     - 1 c.chá | de Piri-piri
@@ -41,9 +41,9 @@ ingredients:
     - "| Sal q.b."
     - "| Água q.b."
 instructions:
-    - Colocar os nacos de soja numa tigela, cobrir com água a ferver, adicionar o sumo de limão e 2 folhas de louro e deixar hidratar por alguns minutos. Após esse tempo, escorrer a soja e espremer bem para tirar toda água absorvida.
+    - Colocar os nacos de soja numa tigela, cobrir com água a ferver, adicionar o sumo de limão e algumas das folhas de louro e deixar hidratar por alguns minutos. Após esse tempo, escorrer a soja e espremer bem para tirar toda água absorvida. Reservar.
     - Aquecer o azeite numa panela, juntar a cebola cortada em meias-luas e refogar até dourar.
-    - Adicionar o alho picado, os nacos de soja escorridos e 3 folhas de louro, misturar bem e deixar dourar, mexendo frequentemente para evitar que cole.
+    - Adicionar o alho picado, os nacos de soja escorridos e as restantes folhas de louro, misturar bem e deixar dourar, mexendo frequentemente para evitar que cole.
     - Regar com o vinho tinto e deixar o álcool evaporar.
     - Enquanto isso, descascar as batatas e cortar em cubos pequenos e cortar as cenouras em meias-rodelas.
     - Adicionar o molho de tomate à panela, completar com água até cobrir, deixar ferver e juntar as batatas e as cenouras. 
