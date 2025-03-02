@@ -1,0 +1,48 @@
+---
+layout: post
+layout-type: 1
+title: "Seitan de Grão Caseiro"
+description: "Seitan caseiro feito com grão-de-bico e glúten de trigo, cozido em caldo temperado, perfeito para substituir c*rne em diversas receitas."
+keywords: "Seitan caseiro, receita de seitan, seitan com grão-de-bico, glúten de trigo, molho de soja, substituto de carne, receita vegana, seitan temperado, proteína vegetal, como fazer seitan"
+permalink: /Seitan-grao-caseiro/
+type: ["Proteinas"]
+protein: ["Seitan"]
+image: "/assets/img/"
+serve: 900 gr
+diet: ["s-frutos-secos"]
+time-total: 55
+time-prepar: 15
+time-confe: 40
+calorias: 1398
+proteinas: 39.8
+lipidos: 5.2
+hidratos: 62.2
+author: original
+new:
+ingredients:
+    - 400 gr | de Grão-de-bico cozido
+    - 120 ml | de Água
+    - 4 c.sopa | de Molho de Soja
+    - 2 c.chá | de Mostarda Dijon
+    - 2 c.chá | de Sal
+    - 80 gr | de Farinha de Trigo
+    - 120 gr | de Glúten de Trigo
+    - 1 | Cebola
+    - 3 dentes | de Alho
+    - 4 folhas | de Louro
+    - "| Caldo de Legumes q.b."
+    - "| Salsa q.b."
+    - "| Paprika q.b."
+    - "| Paprika Fumada q.b."
+    - "| Pimenta Caiena q.b."
+instructions:
+    - Triturar o grão-de-bico com a água até obter uma pasta uniforme.
+    - Adicionar o molho de soja, a mostarda, o sal, a farinha e o glúten. Misturar bem até formar uma massa consistente.
+    - Dividir a massa em 3 porções, moldá-las em formato de 'salsichas' e dar um nó em cada uma.
+    - Numa panela, adicionar o caldo de legumes, a cebola, o alho, a salsa, o louro, a paprika e a pimenta. Cozinhar o seitan neste caldo, em lume brando, durante 40 minutos.
+    - Retirar o seitan da água e deixar arrefecer. Pode desfiar o seitan ou cortar em fatias, por exemplo.
+notes:
+    -Os temperos utilizados no caldo de legumes podem ser ajustados conforme a sua preferência, permitindo personalizar o sabor de acordo com o seu gosto.
+    - Caso queira cortar o seitan em fatias, em vez de moldá-lo em nós antes da cozedura, você pode optar por formar uma única bola e cozinhar dessa maneira.
+---
+

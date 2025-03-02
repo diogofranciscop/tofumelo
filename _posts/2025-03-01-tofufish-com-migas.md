@@ -7,7 +7,7 @@ keywords: "migas de feijão-frade, tofu crocante, tofu com alga nori, comida tra
 permalink: /migas-com-tofufish/
 type: ["Almoço/Jantar"]
 protein: ["Feijão", "Tofu"]
-image: "/assets/img/"
+image: "/assets/img/tofufish-com-migas.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos"]
 time-total: 40
@@ -18,7 +18,7 @@ proteinas: 29.5
 lipidos: 22
 hidratos: 78
 author: original
-new:
+new: "yes"
 ingredients:
     as Migas:
     - 200 gr | de Couve Galega 

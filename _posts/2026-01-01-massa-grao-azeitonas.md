@@ -1,29 +1,45 @@
 ---
 layout: post
-layout-type:
-title: ""
-description: ""
-keywords: ""
-permalink: 
-type: ["Almoço/Jantar", "Pequeno-Almoço", "Entrada", "Lanche", "Sobremesa", "Molhos/Caldos"," Proteinas", "Pastas/Cremes"]
-protein: ["Feijão", "Grão", "Edamame", "Soja", "Tofu", "Seitan", "Tempeh", "Lentilhas"]
+layout-type: 1
+title: "Massa com Grão e Azeitonas"
+description: "Massa cremosa e reconfortante, com grão, cogumelos e azeitonas"
+keywords: "massa com grão, massa vegetariana, massa com azeitonas, receita vegana, jantar rápido, massa com cogumelos, refeição saudável, comida mediterrânica, receita fácil, massa nutritiva"
+permalink: /massa-grao-azeitonas/
+type: ["Almoço/Jantar"]
+protein: ["Grão"]
 image: "/assets/img/"
-serve:
-diet: ["s-soja","s-frutos-secos","s-gluten"]
-time-total: 
-time-prepar: 
-time-confe: 
-calorias:
-proteinas:
-lipidos:
-hidratos:
+serve: 4 refeições
+diet: ["s-soja","s-frutos-secos"]
+time-total: 30
+time-prepar: 10
+time-confe: 20
+calorias: 520
+proteinas: 22
+lipidos: 11
+hidratos: 85
 author: original
 new:
 ingredients:
-    - 
+    - 200 gr | de Massa (à escolha)
+    - 0,5 | Cebola média
+    - 3 dentes | de Alho
+    - 300 gr | de Cogumelos frescos
+    - 3 | Tomates maduros
+    - 4 copos | de Grão-de-bico cozido
+    - 0,5 lata | de Azeitonas pretas
+    - "| Azeite q.b."
+    - "| Sal q.b."
+    - "| Pimenta Preta moída q.b."
+    - "| Alho em pó q.b."
+    - "| Orégãos secos q.b."
 instructions:
-    - 
-notes:
-    - 
+    - Cozer a massa conforme as instruções da embalagem. Escorrer e reservar.
+    - Picar a cebola e refogar num fio de azeite em lume médio até ficar macia.
+    - Picar os dentes de alho e adicionar ao refogado. Cozinhar por mais 1-2 minutos, mexendo sempre.
+    - Juntar os cogumelos picados e cozinhar até reduzirem e libertarem o seu líquido.
+    - Acrescentar os tomates picados e temperar com sal, pimenta preta, alho em pó e orégãos. Deixar cozinhar até os tomates reduzirem e o molho engrossar ligeiramente.
+    - Adicionar o grão-de-bico cozido e misturar bem. Cozinhar por mais 2-3 minutos para absorver os sabores.
+    - Envolver este preparado na massa cozida e misturar bem.
+    - Picar as azeitonas e distribuir por cima antes de servir.
 ---
 
