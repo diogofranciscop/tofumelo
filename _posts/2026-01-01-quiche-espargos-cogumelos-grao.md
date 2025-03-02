@@ -46,11 +46,11 @@ instructions:
     - Num copo alto, adicionar o tofu, as natas de soja, a bebida vegetal, os temperos e o sal. Triturar tudo com a varinha mágica até obter um creme homogéneo. Reservar.
     a Base e restante Recheio:
     - Numa frigideira, saltear os espargos, o pimento e os cogumelos num fio de azeite. Adicionar os temperos e mexer bem até os legumes ficarem macios.
-    - Forrar uma tarteira com a massa folhada. Distribuir os legumes salteados e as azeitonas pretas por cima.
+    - Forrar uma tarteira com a massa folhada. Distribuir os legumes salteados e as azeitonas pretas (algumas envolver outras por cima da quiche).
     - Verter o molho de tofu sobre os legumes, espalhando bem.
     - Cozinhar a 250ºC por cerca de 15-20 minutos, até a superfície ficar dourada.
     - Deixar arrefecer ligeiramente antes de cortar.
 notes:
-    - Esta receita, embora diferente, foi inspirada numa receita do Veggie Kit] (https://www.avp.org.pt/receitas/quiche-de-espargos-cogumelos-eryngii-e-tomate-seco/)
+    - Esta receita foi inspirada numa receita do Veggie Kit] (https://www.avp.org.pt/receitas/quiche-de-espargos-cogumelos-eryngii-e-tomate-seco/)
 ---
 

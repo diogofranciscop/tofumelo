@@ -7,7 +7,7 @@ keywords: "noodles com tofu, noodles salteados, receita vegan, tofu crocante, le
 permalink: /noodles-tofu-legumes/
 type: ["Almoço/Jantar"]
 protein: ["Tofu"]
-image: "/assets/img/"
+image: "/assets/img/noodles-com-tofu.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 30
@@ -33,7 +33,7 @@ ingredients:
     - "| Alho em pó q.b."
     - "| Sal q.b."
 instructions:
-    - Cortar o Tofu em cubos, fatiar os cogumelos e cortar em tiras o pimento, a courgette e a cenora. Reservar.
+    - Cortar o Tofu em cubos, fatiar os cogumelos e cortar em tiras o pimento, a courgette e a cenora (ambas em juliana). Reservar.
     - Temperar o tofu com azeite, tomilho, alho em pó, sal e sumo de limão. Deixar marinar por pelo menos 15 minutos.
     - Aquecer uma frigideira e dourar o tofu de todos os lados. Retirar e reservar.
     - Numa frigideira grande ou wok, saltear os cogumelos, o pimento, a courgette e a cenoura até libertarem a água e começarem a dourar.
@@ -42,5 +42,8 @@ instructions:
     - Acrescentar o tofu reservado e misturar tudo delicadamente.
     - Provar e ajustar os temperos com mais sumo de limão ou sal, se necessário.
     - Servir quente.
+notes:
+    - Se deixar o tofu a marinar durante a noite, vai ter mais sabor.
+    - Para cortar a ceboura e a courgette se usar um espiralizador conseguirá tiras mais finas.
 ---
 
