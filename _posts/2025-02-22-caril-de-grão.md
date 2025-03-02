@@ -18,7 +18,7 @@ proteinas: 10
 lipidos: 11.25
 hidratos: 40
 author: original
-new: "yes"
+new: ""
 ingredients:
     o Caril:
     - 1 | Cebola grande

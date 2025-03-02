@@ -18,7 +18,7 @@ proteinas: 15
 lipidos: 7.5
 hidratos: 30
 author: original
-new: "yes"
+new: ""
 ingredients:
     - 120 gr | de Nacos de Soja
     - 1 c.sopa | de Sumo de Limão
