@@ -7,7 +7,7 @@ keywords: "batatas assadas, bolonhesa de lentilhas, receita vegan, jantar saudá
 permalink: /batatas-assadas-lentilhas/
 type: ["Almoço/Jantar"]
 protein: ["Lentilhas"]
-image: "/assets/img/"
+image: "/assets/img/batatas-assadas-com-lentilhas.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 90
@@ -42,5 +42,7 @@ instructions:
     - No final da cozedura, adicionar as folhas de manjericão e triturar o molho com a varinha mágica até obter uma consistência homogénea.
     - Na mesma panela, adicionar os cogumelos fatiados e cozinhar até reduzirem e soltarem os seus sucos.
     - Juntar o molho de tomate triturado e as lentilhas demolhadas. Cozinhar em lume médio por 10-15 minutos, ou até as lentilhas estarem macias e absorverem os sabores. Ajustar os temperos se necessário.
-    - Distribuir as batatas assadas nos pratos e cobrir com a bolonhesa de lentilhas. Finalizar com um fio de azeite e mais folhas de manjericão, se desejar.
+    - Distribuir as batatas assadas nos pratos e cobrir com a bolonhesa de lentilhas.
+notes:
+    - Pode deixar menos tempo o molho de tomate a apurar, mas vai perder algum sabor.
 ---

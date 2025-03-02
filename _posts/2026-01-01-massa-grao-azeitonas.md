@@ -7,7 +7,7 @@ keywords: "massa com grão, massa vegetariana, massa com azeitonas, receita vega
 permalink: /massa-grao-azeitonas/
 type: ["Almoço/Jantar"]
 protein: ["Grão"]
-image: "/assets/img/"
+image: "/assets/img/massa-grao-azeitonas.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
 time-total: 30
