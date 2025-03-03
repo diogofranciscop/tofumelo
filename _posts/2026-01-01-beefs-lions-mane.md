@@ -7,7 +7,7 @@ keywords: "beefs de lion’s mane, cogumelo lion’s mane receita, bife vegan de
 permalink: /beefs-lions-mane/
 type: ["Almoço/Jantar"]
 protein: []
-image: "/assets/img/"
+image: "/assets/img/beef-lion-mane.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 70

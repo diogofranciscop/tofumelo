@@ -7,7 +7,7 @@ keywords: "strogonoff vegan, strogonoff de cogumelos, receita fácil, grão-de-b
 permalink: /strogonoff-cogumelos-grao/
 type: ["Almoço/Jantar"]
 protein: ["Grão"]
-image: "/assets/img/"
+image: "/assets/img/strogonof.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 35

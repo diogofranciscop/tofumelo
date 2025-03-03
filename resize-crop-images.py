@@ -18,3 +18,4 @@ def main(img):
     scaled_image_180.save(f"assets/img/{img}-180px.webp", quality=100)
 
 main("")
+

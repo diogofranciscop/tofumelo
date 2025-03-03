@@ -28,7 +28,7 @@ ingredients:
     - 470 gr | de Farinha de Trigo
     - 5 gr | de Bicarbonato de Sódio
     - 200 gr | de Gotas de Chocolate Vegano (ou Chocolate Vegano picado)
-    - 300 gr | de Vutella
+    - 300 gr | de <a href="https://tofumelo.pt/vutella/">Vutella</a>
 instructions:
     - Preparar os "ovos de linhaça", misturando a linhaça moída com a água e deixar descansar por 5 minutos, até formar um gel. Reservar.
     - Pré-aquecer o forno a 170ºC com ventilação.
