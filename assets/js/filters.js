@@ -87,16 +87,21 @@ function loadPaginatedPosts(page, posts) {
     postContainer.empty(); // Clear current posts
 
     paginatedPosts.forEach(post => {
-            // Use -180px for larger screens (desktop/tablet)
-            imagePath = post.image;
+        const imagePath = post.image;
+        const mobileImage = imagePath.replace('.webp', '-150px.webp');
+        const tabletImage = imagePath.replace('.webp', '-180px.webp');
 
         const cardHTML = `
             <a href="${post.url}" class="card" data-index="${posts.indexOf(post) + 1}">
-             <div class="skeleton skeleton-card"></div>
+                <div class="skeleton skeleton-card"></div>
                 <div class="card__img-container">
-                    <img src="${imagePath}" class="card__img" alt="${post.title}" style="display: none;">
+                    <picture>
+                        <source srcset="${mobileImage}" media="(max-width: 768px)" width="150" height="167">
+                        <source srcset="${tabletImage}" media="(min-width: 769px) and (max-width: 1500px)" width="180" height="200">
+                        <img src="${imagePath}" class="card__img" alt="${post.title}" loading="auto">
+                    </picture>
                 </div>
-                ${post.new === "yes" ? '<div class="new-tape" style="display:none">Nova Receita</div>' : ""}
+                ${post.new ? '<div class="new-tape" style="display:none">Nova Receita</div>' : ""}
                 <div class="card__overlay"><p>${post.description}</p></div>
                 <div class="card__footer">
                     <span class="title-card" style="display: none;">${post.title.toUpperCase()}</span>
@@ -105,14 +110,14 @@ function loadPaginatedPosts(page, posts) {
         `;
         postContainer.append(cardHTML);
 
-        // Attach load event to the image
-        const imageElement = postContainer.find(`img[src="${imagePath}"]`);
+        // Attach load event to the last appended image
+        const imageElement = postContainer.find(".card__img").last();
         imageElement.on("load", function () {
             const card = $(this).closest(".card");
-            card.find(".skeleton-card").addClass("hidden"); // Hide the skeleton
-            $(this).fadeIn(); // Show the image
-            card.find(".title-card").removeClass("hidden").fadeIn(); // Show the title
-            card.find(".new-tape").removeClass("hidden").fadeIn(); // Show the title
+            card.find(".skeleton-card").addClass("hidden"); // Hide skeleton
+            $(this).fadeIn(); // Show image
+            card.find(".title-card").removeClass("hidden").fadeIn(); // Show title
+            card.find(".new-tape").removeClass("hidden").fadeIn(); // Show "Nova Receita"
         });
     });
 
@@ -122,11 +127,11 @@ function loadPaginatedPosts(page, posts) {
     if (window.paginationTriggered) {
         setTimeout(() => {
             window.scrollTo({ top: 0, behavior: "smooth" });
-            window.paginationTriggered = false; // Reset the flag
+            window.paginationTriggered = false; // Reset flag
         }, 0);
     }
-    
 }
+
 
 
 function loadPosts(page) {
