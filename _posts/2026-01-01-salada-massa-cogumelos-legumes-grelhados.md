@@ -7,7 +7,7 @@ keywords: "salada de massa, cogumelos grelhados, legumes assados, salada saudáv
 permalink: /salada-massa-cogumelos-legumes-grelhados/
 type: ["Almoço/Jantar"]
 protein: ["Grão"]
-image: "/assets/img/"
+image: "/assets/img/salada-grao-grelhados.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos"]
 time-total: 30
