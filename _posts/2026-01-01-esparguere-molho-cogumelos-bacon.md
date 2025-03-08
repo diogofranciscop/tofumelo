@@ -35,6 +35,7 @@ ingredients:
     - "| Noz-moscada q.b. (opcional)"
     o 'Bacon' de Tofu:
     - 400 gr | de Tofu
+    - 2 c.sopa | de Óleo de Sésamo
     - 1 c.sopa | de Sriracha
     - 1 c.sopa | de Alho em pó
     - 1 c.sopa | de Cebola granulada
@@ -55,7 +56,7 @@ instructions:
     - Na frigideira com os restantes cogumelos, adicionar a bebida vegetal, temperar com sal, pimenta preta e noz-moscada.
     -  Transferir esta mistura da frigideira para um liquidificador e triturar até obter um molho cremoso e homogéneo. Reservar.
     o 'Bacon' de Tofu:
-    - Misturar todos os temperos numa tigela.
+    - Misturar o óleo de sésamo, o sriracha, o alho em pó, a cebola granulada, o molho de soja, a paprika fumada e o sal.
     - Cortar o tofu em tiras finas e envolver bem na marinada.
     - De preferência, deixar marinar no frigorífico durante a noite para intensificar o sabor.
     - Pré-aquecer o forno a 200°C.
