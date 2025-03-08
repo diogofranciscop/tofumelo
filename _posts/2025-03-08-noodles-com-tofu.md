@@ -26,9 +26,9 @@ ingredients:
     - 0,5 | Pimento
     - 1 | Courgette
     - 1 | Cenoura
-    - 2 c. sopa | de Molho de Soja
-    - 1 c. sopa | de Azeite Virgem Extra
-    - 1 c. sopa | de Sumo de Limão
+    - 2 c.sopa | de Molho de Soja
+    - 1 c.sopa | de Azeite Virgem Extra
+    - 1 c.sopa | de Sumo de Limão
     - "| Tomilho seco q.b."
     - "| Alho em pó q.b."
     - "| Sal q.b."
