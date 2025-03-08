@@ -18,7 +18,7 @@ proteinas: 23
 lipidos: 12
 hidratos: 42
 author: original
-new:
+new: "yes"
 ingredients:
     - 200 gr | de Noodles de Arroz
     - 400 gr | de Tofu
@@ -33,8 +33,8 @@ ingredients:
     - "| Alho em pó q.b."
     - "| Sal q.b."
 instructions:
-    - Cortar o Tofu em cubos, fatiar os cogumelos e cortar em tiras o pimento, a courgette e a cenora (ambas em juliana). Reservar.
-    - Temperar o tofu com azeite, tomilho, alho em pó, sal e sumo de limão. Deixar marinar por pelo menos 15 minutos.
+    - Cortar o Tofu em cubos, fatiar os cogumelos, cortar em tiras o pimento e cortar em juliana a courgette e a cenoura. Reservar.
+    - Temperar o tofu com azeite, tomilho, alho em pó, sal e sumo de limão. Deixar marinar por, pelo menos, 15 minutos.
     - Aquecer uma frigideira e dourar o tofu de todos os lados. Retirar e reservar.
     - Numa frigideira grande ou wok, saltear os cogumelos, o pimento, a courgette e a cenoura até libertarem a água e começarem a dourar.
     - Adicionar o molho de soja e envolver bem.
@@ -43,7 +43,7 @@ instructions:
     - Provar e ajustar os temperos com mais sumo de limão ou sal, se necessário.
     - Servir quente.
 notes:
-    - Se deixar o tofu a marinar durante a noite, vai ter mais sabor.
-    - Para cortar a ceboura e a courgette se usar um espiralizador conseguirá tiras mais finas.
+    - Para que o tofu fique com mais sabor, deixar a marinar durante a noite.
+    - Para cortar a cenoura e a courgette em tiras mais finas, poderá utilizar um espiralizador.
 ---
 
