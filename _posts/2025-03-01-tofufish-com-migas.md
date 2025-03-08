@@ -18,7 +18,7 @@ proteinas: 29.5
 lipidos: 22
 hidratos: 78
 author: original
-new: "yes"
+new:
 ingredients:
     as Migas:
     - 200 gr | de Couve Galega 

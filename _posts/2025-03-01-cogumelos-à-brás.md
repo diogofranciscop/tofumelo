@@ -18,7 +18,7 @@ proteinas: 12.5
 lipidos: 10
 hidratos: 40
 author: original
-new: "yes"
+new:
 ingredients:
     - 600 gr | de Cogumelos Pleurothus
     - 600 gr | de Batatas cortadas em cubos
