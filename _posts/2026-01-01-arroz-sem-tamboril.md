@@ -38,7 +38,7 @@ ingredients:
     - "| Piri-piri em pó q.b."
     o 'Tamboril':
     - 2 | Beringelas pequenas
-    - 2 folhas | de Alga nori
+    - 1,5 folhas | de Alga nori
     - 2 dentes | de Alho
     - 2 c.sopa | de Azeite
     - 3 c.sopa | de Molho de soja
@@ -59,7 +59,7 @@ instructions:
     - Fazer cortes superficiais em forma de losango na parte interna de cada pedaço.
     - Pincelar com azeite e colocar numa assadeira com o corte virado para baixo.
     - Levar ao forno durante 15-20 minutos até as beringelas ficarem macias.
-    - Cortar as folhas de alga nori em tiras ovais para cobrir a parte superior das beringelas, reservando os restos para o caldo do arroz.
+    - Cortar as folhas de alga nori em retângulos iguais para cobrir a parte superior das beringelas.
     - Misturar o molho de soja com o alho picado e o azeite numa taça.
     - Retirar as beringelas do forno, pincelar com o molho e cobrir com uma tira de alga nori.
     - Pincelar novamente por cima da alga e em toda a volta da beringela.
@@ -68,5 +68,7 @@ instructions:
     - Polvilhar com coentros picados antes de servir.
 notes:
     - A inspiração para o 'tamboril' de beringela foi inspirada em [Tuga Vegetal] (https://tugavegetal.com/arroz-com-peixinho-vegano/).
+    - Quanto mais tempo o molho de tomate apurar, mais intenso e rico será o seu sabor.
+    - Se após 15 minutos de cozedura o arroz ainda não estiver pronto, retire a alga kombu para evitar que o sabor fique amargo.
 ---
 

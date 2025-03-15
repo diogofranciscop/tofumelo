@@ -18,7 +18,7 @@ proteinas: 23
 lipidos: 12
 hidratos: 42
 author: original
-new: "yes"
+new:
 ingredients:
     - 200 gr | de Noodles de Arroz
     - 400 gr | de Tofu

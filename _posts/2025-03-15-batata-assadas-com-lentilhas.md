@@ -18,7 +18,7 @@ proteinas: 19
 lipidos: 10
 hidratos: 65
 author: original
-new:
+new: "yes"
 ingredients:
     - 1 kg | de Batatas
     - 2 | Cebolas médias
