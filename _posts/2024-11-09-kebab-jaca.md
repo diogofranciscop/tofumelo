@@ -24,11 +24,11 @@ ingredients:
     - 180 ml | de Água a temperatura ambiente
     - 6 gr | de Sal
     - 20 gr | de Azeite
-    - 3-4 gr | de Fermento de padeiro seco
+    - 4 gr | de Fermento de padeiro seco
   o Recheio:
    - 300 gr | de Jaca (ou alternativamente Cogumelos Pleurothus desfiados)
    - 2 folhas | de Alface cortada em juliana
-   - 1/2 | Cenoura ralada
+   - 0.5 | Cenoura ralada
    - 1 c.sopa | de Alho em pó
    - 1 c.sopa | de Água morna
    - 1 c.sobremesa | de Cominhos moídos

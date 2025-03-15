@@ -20,15 +20,15 @@ hidratos: 64.7
 author: omeletes-sem-ovos
 ingredients: 
   o Molho:
-    - 1 chávena de chá | de Polpa de Tomate
+    - 1 chávena | de Polpa de Tomate
     - 2 dl | de Cerveja
-    - 1/2 chávena | de Leite Vegetal
+    - 0.5 chávena | de Leite Vegetal
     - 1 dl | de Natas vegetais
     - 1 c.chá | de Alho em pó
     - 1 folha | de Louro 
     - 1 chávena  | de Caldo de Legumes caseiro
-    - 1/2 chávena | de Vinho do Porto
-    - 1/2 chávena | de Vinho Branco 
+    - 0.5 chávena | de Vinho do Porto
+    - 0.5 chávena | de Vinho Branco 
     - 1 c.chá | de Mostarda
     - 1 c.chá | de Molho de Soja
     - 1 c.chá | de Molho Inglês

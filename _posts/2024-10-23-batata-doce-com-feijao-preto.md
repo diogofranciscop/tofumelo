@@ -29,8 +29,8 @@ ingredients:
     - 1 | Cebola
     - 3 dentes | de Alho
     - 1 folha | de Louro
-    - 1/2 | Alho Francês
-    - 1/2 | Pimento
+    - 0.5 | Alho Francês
+    - 0.5 | Pimento
     - 1 c.sopa | de Azeite
     - " | Sal q.b."
     - "| Pimenta Preta q.b."

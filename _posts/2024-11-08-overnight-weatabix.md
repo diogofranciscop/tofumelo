@@ -19,12 +19,12 @@ lipidos: 7.9
 hidratos: 48
 author: original
 ingredients:
-    - 1,5 | Bolachas Weetabix
+    - 1.5 | Bolachas Weetabix
     - "| Bebida Vegetal de amêndoa/arroz q.b."
     - 100 gr | de Iogurte Vegan natural
     - "| Fruta a gosto q.b. (costumo usar morango ou banana)"
     - 1 c.chá | de Manteiga de Amendoim
-    - 1/2 c.chá | de Agave (opcional)
+    - 0.5 c.chá | de Agave (opcional)
 instructions:
     - Desfazer as bolachas weetabix numa tacinha.
     - Aos poucos, juntar o leite vegetal até ficar uma espécie de  pasta com alguma consistência. A ideia não é que fique líquida.

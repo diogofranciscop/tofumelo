@@ -29,10 +29,10 @@ ingredients:
     - "| Sal q.b."
     o Feijão Preto:
     - 1 c.sopa | de Azeite
-    - 0,5 | de Cebola
+    - 0.5 | de Cebola
     - 2 folhas | de Louro
     - 2 dentes | de Alho
-    - 0,5 | Tomate cortado
+    - 0.5 | Tomate cortado
     - 550 gr | de Feijão Preto cozido (com um pouco do caldo)
     - 1 c.sobremesa | de Sriracha
     - "| Sal q.b."
@@ -40,7 +40,7 @@ ingredients:
     - "| Paprika q.b."
     o Molho de Cogumelos:
     - 2 c.sopa | de Azeite
-    - 0,5 | Cebola picada
+    - 0.5 | Cebola picada
     - 2 dentes | de Alho picados
     - 200 gr | de Cogumelos Pleurotus cortados em tiras
     - 200 gr | de Cogumelos Marron fatiados

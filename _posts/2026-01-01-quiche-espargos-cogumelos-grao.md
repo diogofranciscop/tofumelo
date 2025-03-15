@@ -24,18 +24,18 @@ ingredients:
     - 300 gr | de Tofu
     - 150 gr | de Natas de Soja
     - 100 gr | de Bebida Vegetal
-    - 1 c. sopa | de Sal Negro
-    - 1 c. sopa | de Alho em pó
-    - 1 c. sopa | de Cebola em pó
-    - 1 c. sopa | de Paprika fumada
-    - 1 c. sopa | de Curcuma
+    - 1 c.sopa | de Sal Negro
+    - 1 c.sopa | de Alho em pó
+    - 1 c.sopa | de Cebola em pó
+    - 1 c.sopa | de Paprika fumada
+    - 1 c.sopa | de Curcuma
     - "| Sal q.b."
     a Base e restante Recheio:
     - 1 | Embalagem de Massa Folhada Vegan
     - 250 gr | de Espargos
-    - 0,5 | Pimento
+    - 0.5 | Pimento
     - 300 gr | de Cogumelos Marron
-    - 0,5 lata | de Azeitonas Pretas fatiadas
+    - 0.5 lata | de Azeitonas Pretas fatiadas
     - "| Alho em pó q.b."
     - "| Cebola em pó q.b."
     - "| Paprika fumada q.b."

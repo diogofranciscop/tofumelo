@@ -21,7 +21,7 @@ author: original
 ingredients:
     - 1 | Courgette grande
     - 3 | Batatas grandes
-    - 1/2 | Cebola
+    - 0.5 | Cebola
     - 30 | Tomates Cherry
     - 200 gr | de Grão-de-Bico
     - "| Azeite q.b."
@@ -30,7 +30,7 @@ ingredients:
     - "| Alho em pó q.b."
     - "| Sal q.b."
 instructions:
-    - Pré-aquecer o forno ou a _Air Fryer_ a 200º.
+    - Pré-aquecer o forno ou a Air Fryer a 200º.
     - Descascar e cortar em cubos a batata, a courgette e a cebola aos cubos. Cortar os tomates cherry em metades.
     - Colocar os legumes já cortados numa bacia e juntar-lhes o grão-de-bico.
     - Juntar o azeite a gosto e as especiarias. Misturar bem.

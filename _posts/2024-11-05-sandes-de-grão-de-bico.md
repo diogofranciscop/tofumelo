@@ -22,11 +22,11 @@ ingredients:
     - 4 | Pães de Água
     - 200 gr | de Grão-de-bico cozido
     - 250 gr | de Cogumelos Pleurothus
-    - 1/4 | Couve Rouxa
+    - 0.25 | Couve Rouxa
     - 1 | Cenoura
     - 5 c.sopa | de Maionese vegan (exemplo, Hellmann's) 
     - 1 c.sopa | de Sriracha
-    - 1/4 | de Limão
+    - 0.25 | de Limão
     - "| Caril em pó q.b."
     - "|Curcuma q.b."
     - "|Pimenta Preta q.b."

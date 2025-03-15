@@ -23,7 +23,7 @@ ingredients:
     - 200 gr | de Noodles de Arroz
     - 400 gr | de Tofu
     - 300 gr | de Cogumelos Marron
-    - 0,5 | Pimento
+    - 0.5 | Pimento
     - 1 | Courgette
     - 1 | Cenoura
     - 2 c.sopa | de Molho de Soja

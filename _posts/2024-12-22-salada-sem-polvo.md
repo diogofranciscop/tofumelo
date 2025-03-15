@@ -30,9 +30,9 @@ ingredients:
     - "| Piri-piri q.b."
     - "| Salsa fresca q.b."
   o Molho:
-    - 4,5 c.sopa | de Azeite
+    - 4.5 c.sopa | de Azeite
     - 3 c.sopa | de Vinagre de Vinho Branco
-    - 1,5 dentes de | Alho, picado ou esmigalhado
+    - 1.5 dentes de | Alho, picado ou esmigalhado
     - "| Sal q.b."
     - "| Pimenta Preta q.b."
 instructions:

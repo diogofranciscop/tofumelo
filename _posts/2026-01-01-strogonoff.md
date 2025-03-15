@@ -24,11 +24,11 @@ ingredients:
     - 3 chávenas | de Grão-de-bico cozido
     - 2 c.sopa | de Ketchup
     - 2 c.chá | de Mostarda Dijon
-    - 0,5 | Cebola
+    - 0.5 | Cebola
     - 200 ml | de Creme de Soja
     - 1 folha | de Louro
     - 3 dentes | de Alho
-    - 0,5 copo | de Vinho Branco
+    - 0.5 copo | de Vinho Branco
     - 200 gr | de Arroz
     - 1 c.sopa | de Azeite
     - "| Batata Palha q.b."

@@ -24,11 +24,11 @@ ingredients:
     - 4 copos | de Feijão Preto
     - 250 gr | de Cogumelos Marron
     - 3 | Tomates maduros
-    - 1/2 | Pimento
+    - 0.5 | Pimento
     - 1 | Cebola
     - 4 dentes | de Alho
     - 2 c.sopa | de Azeite
-    - 1/4 chávena | de Vinho Branco
+    - 0.25 chávena | de Vinho Branco
     - 1 folha | de Louro
     - "| Sal q.b."
     - "| Pimenta Preta q.b."
