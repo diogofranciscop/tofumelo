@@ -18,7 +18,7 @@ proteinas: 5.52
 lipidos: 22.93
 hidratos: 51.97
 author: original
-new: "yes"
+new:
 ingredients:
     - 180 gr | de Manteiga Vegetal
     - 160 gr | de Açúcar Mascavado
