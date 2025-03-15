@@ -1,6 +1,6 @@
 ---
 layout: post
-layout-type:
+layout-type: 1
 title: "Salada de Massa com Cogumelos e Legumes Grelhados"
 description: "Salada nutritiva e saborosa com massa, cogumelos e legumes grelhados"
 keywords: "salada de massa, cogumelos grelhados, legumes assados, salada saudável, prato vegan, receita fácil, almoço leve, salada nutritiva, refeição equilibrada, grão-de-bico."
