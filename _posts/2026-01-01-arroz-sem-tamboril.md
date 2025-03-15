@@ -26,7 +26,7 @@ ingredients:
     - 4 | Tomates maduros
     - 1 | Cebola média
     - 3 dentes | de Alho
-    - 0,25 folha | Alga Nori
+    - 0.25 folha | Alga Nori
     - 1 folha | Alga Kombu
     - 300 ml | Água
     - 4 c.sopa | Salsa picada
@@ -38,7 +38,7 @@ ingredients:
     - "| Piri-piri em pó q.b."
     o 'Tamboril':
     - 2 | Beringelas pequenas
-    - 1,5 folhas | de Alga nori
+    - 1.5 folhas | de Alga nori
     - 2 dentes | de Alho
     - 2 c.sopa | de Azeite
     - 3 c.sopa | de Molho de soja

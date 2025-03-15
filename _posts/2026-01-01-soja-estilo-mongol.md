@@ -30,8 +30,8 @@ ingredients:
     - 3 c.sopa | de Molho de Soja
     - 80 ml | de Caldo de Legumes (pode ser necessário mais)
     - 2 dentes | de Alho picados
-    - 0,5 c.chá | de Gengibre ralado
-    - 0,5-1 c.sopa | de Red Chilli Flakes (ajustar conforme preferência de picante)
+    - 0.5 c.chá | de Gengibre ralado
+    - 0.5 c.sopa | de Red Chilli Flakes (ajustar conforme preferência de picante)
 instructions:
     a Soja:
     - Demolhar a soja texturizada em água a ferver por 10 minutos ou até ficar bem hidratada.

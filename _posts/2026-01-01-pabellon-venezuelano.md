@@ -29,10 +29,10 @@ ingredients:
     - 50 gr | de cebola em cubos
     - 50 gr | de pimentão vermelho
     - 2 c.sopa | de Azeite
-    - 0,5 c.chá | de Cominhos moídos
-    - 0,5 c.chá | de Alho em pó
+    - 0.5 c.chá | de Cominhos moídos
+    - 0.5 c.chá | de Alho em pó
     - 1 c.chá | de Sal
-    - 0,5 c.chá | de Paprika Fumada
+    - 0.5 c.chá | de Paprika Fumada
     a Soja desfiada:
     - 100 gr | de Bifes de Soja texturizada seca
     - 300 ml | de Água quente

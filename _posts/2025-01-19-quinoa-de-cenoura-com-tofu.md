@@ -29,7 +29,7 @@ ingredients:
     - "| Sal q.b."
     o Tofu:
     - 400 gr | de Tofu
-    - 1/2 | Couve Rouxa
+    - 0.5 | Couve Rouxa
     - 1 c.sopa | de Azeite
     - 4 c.sopa | de Molho Inglês
     - "| Alho em Pó q.b."

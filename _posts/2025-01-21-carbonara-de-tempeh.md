@@ -23,9 +23,9 @@ ingredients:
         - 200 gr | de Esparguete
     o 'Bacon' de Tempeh:
         - 200 gr | de Tempeh
-        - 1/2 | Cebola
+        - 0.5 | Cebola
         - 2 dentes | de Alho
-        - 1/2 c.sopa | de Cebola Desidratada
+        - 0.5 c.sopa | de Cebola Desidratada
         - 1 c.sopa | de Azeite
         - 2 c.sopa | de Molho de Soja
         - 1 c.sopa | de Sriracha
@@ -37,7 +37,7 @@ ingredients:
         - 60 gr | de Caju (demolhado em água a fever por 30 min)
         - 240 ml | de Bebida Vegetal sem açúcar 
         - 1 dente | de Alho 
-        - 1/2 c.sopa | de Miso
+        - 0.5 c.sopa | de Miso
         - 2 c.sopa | de Levedura Nutricional
         - "| Sal q.b."
         - "| Pimenta Preta q.b."

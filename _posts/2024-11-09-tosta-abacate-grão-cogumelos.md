@@ -21,7 +21,7 @@ author: original
 ingredients:
     - 2 fatias | de Pão
     - 6 fatias | de Tomate
-    - 1/2 | Abacate bem maduro
+    - 0.5 | Abacate bem maduro
     - 100 gr | de Grão-de-bico ou Feijão Branco bem cozidos
     - 50 gr | de Cogumelos frescos à escolha
     - "| Sal q.b."

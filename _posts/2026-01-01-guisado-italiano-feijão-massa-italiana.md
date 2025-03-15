@@ -30,11 +30,11 @@ ingredients:
     - 720 ml | de Água
     - 1 ramo | de Alecrim fresco
     - 1 folha | de Louro
-    - 0,5 c. chá | de Red Chilli Flakes
+    - 0.5 c. chá | de Red Chilli Flakes
     - 2 c. sopa | de Levedura Nutricional
-    - 0,5 | Limão
+    - 0.5 | Limão
     - 1 c. sopa | de Pasta de Miso
-    - 0,25 c. chá | de Sal
+    - 0.25 c. chá | de Sal
     - "| Pimenta Preta moída q.b."
     - "| Salsa picada (opcional)"
 instructions:

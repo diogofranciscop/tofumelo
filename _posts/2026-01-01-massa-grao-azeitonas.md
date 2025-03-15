@@ -21,12 +21,12 @@ author: original
 new:
 ingredients:
     - 200 gr | de Massa (à escolha)
-    - 0,5 | Cebola média
+    - 0.5 | Cebola média
     - 3 dentes | de Alho
     - 300 gr | de Cogumelos frescos
     - 3 | Tomates maduros
     - 4 copos | de Grão-de-bico cozido
-    - 0,5 lata | de Azeitonas pretas
+    - 0.5 lata | de Azeitonas pretas
     - "| Azeite q.b."
     - "| Sal q.b."
     - "| Pimenta Preta moída q.b."

@@ -21,7 +21,7 @@ author: original
 new:
 ingredients:
     - 200 gr | de Esparguete
-    - 0,5 c.sopa | de Manteiga Vegetal
+    - 0.5 c.sopa | de Manteiga Vegetal
     - 600 gr | de Tofu
     - 2 c.sopa | de Azeite
     - "| Sal q.b."

@@ -27,7 +27,7 @@ ingredients:
     - 1 c.sopa | de Mostarda Dijon
     - 10 dentes | de Alho
     - 3 c.sopa | de Maionese Vegan (usei da _Hellmans_)
-    - 1/2 copo | de Vinagre de vinho branco
+    - 0.5 copo | de Vinagre de vinho branco
     - "| Sal q.b."
     o Restante:
     - 4 | Batatas grandes

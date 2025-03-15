@@ -19,13 +19,13 @@ lipidos: 33.3
 hidratos: 58.5
 author: derek
 ingredients:
-    - 800 gr | de Batatas pequenas, cortadas ao meio
-    - 3-4 | Pimentos, em cubos
-    - 2 | Cebolas, em cubos grandes
+    - 800 gr | de Batatas pequenas
+    - 3 | Pimentos
+    - 2 | Cebolas
     - 4 dentes | de Alho, picados
     - 4 c.sopa | de Azeite
-    - 3 c.sopa | de Alecrim fresco, picado (2 colheres se for seco)
-    - 3 c.sopa | de Tomilho fresco, picado (2 colheres se for seco)
+    - 3 c.sopa | de Alecrim fresco
+    - 3 c.sopa | de Tomilho fresco
     - 2 c.chá | de Pimentão Doce fumado
     - 400 gr | de Tofu
     - 4 c.sopa | de Maionese vegan (usei hellmans)
@@ -35,10 +35,13 @@ ingredients:
     - "| Sal q.b."
     - "| Pimenta Preta q.b."
 instructions:
-    - Junte as batatas, os pimentos, a cebola, o alho, o azeite, o alecrim, o tomilho e o pimentão doce fumado numa tigela grande e misture bem.
-    - Espalhe a mistura uniformemente numa assadeira ou num tabuleiro de forno. 
-    - Pré-aqueça o forno a 200°C.
-    - Numa tigela, misture o tofu (inteiro) com a maionese, a mostarda, a levedura nutricional, sal, pimenta e a água até obter uma mistura homogénea.
-    - Adicione o tofu por cima dos legumes e leve ao forno durante 30 minutos, a 200°C. 
-    - Verifique se está pronto, devendo estar o tofu com uma crosta crocante. Assim que estiver pronto, retirar o tabuleiro do forno. Pode-se servir o tofu inteiro, em fatias ou desfeito, conforme preferir. Se desejar, asse por mais 10-15 minutos antes de servir.
+    - Lavar e cortar as batatas ao meio. 
+    - Cortar os pimentos e as cebolas em cubos.
+    - Picar finamente o alho, o alecrim e o tomilho.
+    - Juntar as batatas, os pimentos, a cebola, o alho, o azeite, o alecrim, o tomilho e o pimentão doce fumado numa tigela grande e misturar bem.
+    - Espalhar a mistura uniformemente numa assadeira ou num tabuleiro de forno. 
+    - Pré-aquecer o forno a 200°C.
+    - Numa tigela, misturar o tofu (inteiro) com a maionese, a mostarda, a levedura nutricional, sal, pimenta e a água até obter uma mistura homogénea.
+    - Adicionar o tofu por cima dos legumes e levar ao forno durante 30 minutos, a 200°C. 
+    - Verificar se está pronto, devendo estar o tofu com uma crosta crocante. Assim que estiver pronto, retirar o tabuleiro do forno. Pode-se servir o tofu inteiro, em fatias ou desfeito, conforme preferir. Se desejar, assar por mais 10-15 minutos antes de servir.
 ---

@@ -29,7 +29,7 @@ ingredients:
     - 15 gr | de Amido de Milho
     - 2 c.sopa | de Óleo de Sésamo 
     - 1 dente de | Alho
-    - 0,5 cm de | raíz de Gengibre
+    - 0.5 cm de | raíz de Gengibre
     - 1 c.chá | de Sriracha
     - 2 c.sopa | de Vinagre de Arroz
     - 3 c.sopa | de Agave
