@@ -7,7 +7,7 @@ keywords: "esparguete, tofu dourado, manteiga vegetal, receita vegan, prato simp
 permalink: /esparguete-tofu-dourado/
 type: ["Almoço/Jantar"]
 protein: ["Tofu"]
-image: "/assets/img/"
+image: "/assets/img/esparguete-com-tofu.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos"]
 time-total: 20

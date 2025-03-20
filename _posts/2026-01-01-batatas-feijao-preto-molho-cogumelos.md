@@ -7,7 +7,7 @@ keywords: "Batatas assadas, Feijão preto, Molho de cogumelos, Receita vegana, A
 permalink: /batatas-feijao-preto-molho-cogumelos/
 type: ["Almoço/Jantar"]
 protein: ["Feijão"]
-image: "/assets/img/"
+image: "/assets/img/batata-feijão-preto-cogumelos.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 55

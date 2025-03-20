@@ -7,7 +7,7 @@ keywords: "seitan assado, batatas douradas, espargos assados, receita vegan, pra
 permalink: /seitan-assado-batatas-espargos/
 type: ["Almoço/Jantar"]
 protein: ["Seitan"]
-image: "/assets/img/"
+image: "/assets/img/seitan-assado.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
 time-total: 65

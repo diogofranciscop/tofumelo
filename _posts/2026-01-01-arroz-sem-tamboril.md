@@ -7,7 +7,7 @@ keywords: "Arroz de tamboril vegan, Receita vegetariana, Beringela com alga nori
 permalink: /arroz-sem-tamboril/
 type: ["Almoço/Jantar"]
 protein: ["Feijão"]
-image: "/assets/img/"
+image: "/assets/img/arroz-sem-tamboril.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 60

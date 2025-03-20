@@ -7,7 +7,7 @@ keywords: "quiche vegan, quiche de tofu, quiche de legumes, quiche sem ovo, quic
 permalink: /quiche-espargos-cogumelos-grao/
 type: ["Almoço/Jantar"]
 protein: ["Grão", "Tofu"]
-image: "/assets/img/"
+image: "/assets/img/quiche.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos"]
 time-total: 35

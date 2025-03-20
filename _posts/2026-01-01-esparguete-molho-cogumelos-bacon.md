@@ -7,7 +7,7 @@ keywords: "esparguete cremoso, molho de cogumelos, tofu crocante, bacon vegan, r
 permalink: /esparguete-molho-cogumelos-bacon-tofu/
 type: ["Almoço/Jantar"]
 protein: ["Tofu"]
-image: "/assets/img/"
+image: "/assets/img/esparguete-molho-cogumelos-tofu.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos"]
 time-total: 55
