@@ -7,7 +7,7 @@ keywords: "rroz de cenoura e courgete, Receita com tofu, Piano de tofu, Arroz sa
 permalink: /arroz-cenoura-courgette-piano-tofu/
 type: ["Almoço/Jantar"]
 protein: ["Tofu"]
-image: "/assets/img/"
+image: "/assets/img/arroz-cenoura-courjete-piano.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 35

@@ -7,7 +7,7 @@ keywords: "babaganoush, creme de berinjela, receita vegana, pasta árabe, tahine
 permalink: /babaganoush/
 type: ["Pastas/Cremes"]
 protein: []
-image: "/assets/img/"
+image: "/assets/img/babaganoush.webp"
 serve: aprox. 600 gr
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 50

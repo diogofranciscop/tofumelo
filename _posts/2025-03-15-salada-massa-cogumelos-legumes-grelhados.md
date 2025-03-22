@@ -18,7 +18,7 @@ proteinas: 18
 lipidos: 12
 hidratos: 58
 author: original
-new: "yes"
+new: 
 ingredients:
     - 400 gr | de Cogumelos Brancos
     - 6 folhas | de Couve Chinesa
