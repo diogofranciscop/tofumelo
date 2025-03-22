@@ -8,7 +8,7 @@ permalink: /batatas-assadas-lentilhas/
 type: ["Almoço/Jantar"]
 protein: ["Lentilhas"]
 image: "/assets/img/batatas-assadas-com-lentilhas.webp"
-serve: 4 refeições
+serve: 4 refeições  
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 90
 time-prepar: 15
@@ -18,7 +18,7 @@ proteinas: 19
 lipidos: 10
 hidratos: 65
 author: original
-new: "yes"
+new: 
 ingredients:
     - 1 kg | de Batatas
     - 2 | Cebolas médias

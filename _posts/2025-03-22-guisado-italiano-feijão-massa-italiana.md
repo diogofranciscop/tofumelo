@@ -7,7 +7,7 @@ keywords: "guisado vegan, feijão branco, massa cremosa, receita saudável, jant
 permalink: /guisado-itaiano-feijao-massa/
 type: ["Almoço/Jantar"]
 protein: ["Feijão"]
-image: "/assets/img/"
+image: "/assets/img/massa-italiana.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos"]
 time-total: 40
@@ -18,7 +18,7 @@ proteinas: 20
 lipidos: 10
 hidratos: 65
 author: rainbowplantlife
-new:
+new: "yes"
 ingredients:
     - 200 gr | de Massa Fusilli ou Conchas
     - 500 gr | de Feijão Branco, escorrido e dividido em duas partes
@@ -49,6 +49,6 @@ instructions:
     - Retirar o alecrim e a folha de louro. Ajustar os temperos com sal e pimenta preta a gosto.
     - Servir e finalizar com um fio de azeite e pimenta preta moída. Opcionalmente, polvilhar com salsa picada para um toque fresco.
 notes:
-    - Esta receita foi inspirada em [Rainbow Plant Life] (https://rainbowplantlife.com/vegan-italian-white-bean-and-pasta-stew/)
+    - Esta receita foi inspirada em [Rainbow Plant Life](https://rainbowplantlife.com/vegan-italian-white-bean-and-pasta-stew/)
 ---
 
