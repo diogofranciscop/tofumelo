@@ -18,7 +18,7 @@ proteinas: 17
 lipidos: 12
 hidratos: 70
 author: original
-new: "yes"
+new:
 ingredients:
     - 300 gr | de Cogumelos Brancos frescos
     - 3 chávenas | de Grão-de-bico previamente cozido

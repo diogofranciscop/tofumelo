@@ -18,7 +18,7 @@ proteinas: 10.85
 lipidos: 14.65
 hidratos: 59.9
 author: original
-new:
+new: "yes"
 ingredients:
     os Beefs de Lion's Mane:
     - 1 kg | de Cogumelo Lion’s Mane
