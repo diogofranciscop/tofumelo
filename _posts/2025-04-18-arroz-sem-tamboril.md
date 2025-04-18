@@ -67,7 +67,7 @@ instructions:
     - Servir o arroz bem cremoso com as beringelas por cima.
     - Polvilhar com coentros picados antes de servir.
 notes:
-    - A inspiração para o 'tamboril' de beringela foi inspirada em [Tuga Vegetal] (https://tugavegetal.com/arroz-com-peixinho-vegano/).
+    - A inspiração para o 'tamboril' de beringela foi inspirada em [Tuga Vegetal](https://tugavegetal.com/arroz-com-peixinho-vegano/).
     - Quanto mais tempo o molho de tomate apurar, mais intenso e rico será o seu sabor.
     - Se após 15 minutos de cozedura o arroz ainda não estiver pronto, retire a alga kombu para evitar que o sabor fique amargo.
 ---
