@@ -18,7 +18,7 @@ proteinas: 15
 lipidos: 55
 hidratos: 50
 author: original
-new:
+new: "yes"
 ingredients:
     - 3 | Beringelas
     - 1 cabeça | de Alho
