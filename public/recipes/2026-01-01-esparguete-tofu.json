@@ -1,0 +1,45 @@
+{
+  "layout": "post",
+  "layout-type": 1,
+  "title": "Esparguete com Tofu Dourado",
+  "description": "Esparguete cremoso com tofu dourado crocante",
+  "keywords": "esparguete, tofu dourado, manteiga vegetal, receita vegan, prato simples, refeição rápida, proteína vegetal, massa al dente, tofu crocante, jantar fácil",
+  "permalink": "/esparguete-tofu-dourado/",
+  "type": [
+    "Almoço/Jantar"
+  ],
+  "protein": [
+    "Tofu"
+  ],
+  "image": "/assets/img/esparguete-com-tofu.webp",
+  "serve": "4 refeições",
+  "diet": [
+    "s-frutos-secos"
+  ],
+  "time-total": 20,
+  "time-prepar": 5,
+  "time-confe": 15,
+  "calorias": 368,
+  "proteinas": 21,
+  "lipidos": 17,
+  "hidratos": 38,
+  "author": "original",
+  "new": null,
+  "ingredients": [
+    "200 gr | de Esparguete",
+    "0.5 c.sopa | de Manteiga Vegetal",
+    "600 gr | de Tofu",
+    "2 c.sopa | de Azeite",
+    "| Sal q.b.",
+    "| Pimenta preta q.b.",
+    "| Alho em pó q.b.",
+    "| Água q.b."
+  ],
+  "instructions": [
+    "Cozer a massa numa panela grande com água a ferver e sal, conforme as instruções da embalagem, até ficar al dente. escorrer a massa e misturar com a manteiga vegetal ainda quente, envolvendo bem para derreter e dar sabor. Reservar.",
+    "Cortar o tofu em fatias com cerca de 0,5 cm de espessura.",
+    "Aquecer o azeite numa frigideira em lume médio-alto, adicionar as fatias de tofu e temperar com sal, pimenta preta e alho em pó.",
+    "Deixar cozinhar até o tofu ganhar uma crosta dourada, depois virar e dourar do outro lado.",
+    "Distribuir o esparguete pelos pratos e colocar o tofu dourado por cima."
+  ]
+}
