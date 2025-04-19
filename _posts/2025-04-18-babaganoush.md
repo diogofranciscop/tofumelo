@@ -2,8 +2,8 @@
 layout: post
 layout-type: 1
 title: "Babaganoush"
-description: "Creme de berinjela assada com tahine e alho, de sabor fumado e textura cremosa."
-keywords: "babaganoush, creme de berinjela, receita vegana, pasta árabe, tahine, acompanhamento saudável, patê vegetal, comida mediterrânea, entrada fácil, sabor defumado"
+description: "Creme de berinjela assada com tahine e alho, de sabor fumado e textura cremosa"
+keywords: "babaganoush, creme de berinjela, receita vegana, pasta árabe, tahine, acompanhamento saudável, patê vegetal, comida mediterrânea, entrada fácil, sabor fumado"
 permalink: /babaganoush/
 type: ["Pastas/Cremes"]
 protein: []
