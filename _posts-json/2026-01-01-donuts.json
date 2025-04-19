@@ -1,0 +1,59 @@
+{
+  "layout": "post",
+  "layout-type": 1,
+  "title": "Donuts",
+  "description": "Donuts veganos fritos, cobertos com açúcar ou chocolate derretido",
+  "keywords": "donuts veganos, donuts fritos, donuts de chocolate, receita de donuts, sobremesa vegana, doces veganos, donuts caseiros, sobremesa fácil, chocolate negro, donuts simples",
+  "permalink": "/donuts/",
+  "type": [
+    "Lanche",
+    "Sobremesa"
+  ],
+  "protein": [],
+  "image": "/assets/img/donuts.webp",
+  "serve": "16 donuts",
+  "diet": [
+    "s-soja",
+    "s-frutos-secos"
+  ],
+  "time-total": 35,
+  "time-prepar": 15,
+  "time-confe": 20,
+  "calorias": 200,
+  "proteinas": 2,
+  "lipidos": 9,
+  "hidratos": 27,
+  "author": "original",
+  "new": null,
+  "ingredients": [
+    "100 gr | de Manteiga Vegan",
+    "250 ml | de Bebida Vegetal de Soja",
+    "4 c.sopa | de Óleo Vegetal",
+    "500 gr | de Farinha para Bolos",
+    "100 gr | de Açúcar Branco",
+    "2 c.chá | de Fermento",
+    "1 c.chá | de Sal",
+    "0.5 L | de Óleo Girassol para Fritar",
+    "200 gr | de Tablete de Chocolate Negro Vegan (opcional)",
+    "| Bebida Vegetal q.b. (opcional)",
+    "| Açúcar Branco q.b. para Polvilhar (opcional)"
+  ],
+  "instructions": [
+    "Derreter a manteiga numa panela pequena, adicionar a bebida vegetal e o óleo vegetal. Mexer e deixar cozinhar um pouco. Retirar do lume.",
+    "Numa taça, juntar a farinha, o açúcar, o fermento e o sal. Misturar bem.",
+    "Fazer um buraco no centro e adicionar a mistura líquida. Misturar com as mãos até ficar bem homogéneo.",
+    "Dividir a massa em bolinhas pequenas.",
+    "Espalmar ligeiramente e fazer um buraco no centro para dar o formato de donuts.",
+    "Dispor os donuts moldados num tabuleiro e cobrir com uma manta. Deixar repousar por algumas horas, até que aumentem de tamanho.",
+    "Colocar o óleo numa frigideira e aquecer até ficar bem quente.",
+    "Colocar os donuts na frigideira e fritar até ficarem dourados. Virar os donuts e fritar do outro lado até dourar igualmente. Retirar e colocar num prato forrado com papel absorvente.",
+    "Para uma cobertura simples, mergulhar os donuts num prato com açúcar enquanto ainda estiverem quentes.",
+    "Para uma cobertura de chocolate, derreter a tablete de chocolate em banho-maria e, se necessário, adicionar bebida vegetal dependendo de como gostar da cremosidade do chocolate. Mergulhar os donuts até metade no chocolate. Deixar secar antes de servir."
+  ],
+  "notes": [
+    "Se preferir que o chocolate fique crocante, pode colocar os donuts no frigorífico após mergulhar, para que a cobertura se solidifique mais rapidamente.",
+    "O fermento químico (tipo \"Royal\") não dá tanta leveza. Experimenta substituir por 7g de fermento biológico seco ou 20g de fermento fresco. Dissolve-o na bebida vegetal morna antes de misturar.",
+    "Amassa durante uns 10 minutos para desenvolver o glúten, o que deixa os donuts mais macios.",
+    "O óleo deve estar entre 170-180°C. Se estiver muito quente, os donuts fritam rápido por fora mas ficam crus e massudos por dentro."
+  ]
+}

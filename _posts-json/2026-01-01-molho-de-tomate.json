@@ -1,0 +1,59 @@
+{
+  "layout": "post",
+  "layout-type": 1,
+  "title": "Molho de Tomate Caseiro",
+  "description": "Molho de tomate caseiro, perfeito para acompanhar massas, pizzas e outros pratos",
+  "keywords": "Molho de tomate caseiro, Molho de tomate simples, Molho de tomate para pizza, Molho de tomate saudável, Receita de molho de tomate fresco, Molho de tomate com manjericão, Molho de tomate sem açúcar, Molho de tomate para massas, Molho de tomate sem conservantes, Molho de tomate natural",
+  "permalink": "/molho-tomate-caseiro/",
+  "type": [
+    "Molhos/Caldos"
+  ],
+  "protein": [
+    "Feijão",
+    "Grão",
+    "Edamame",
+    "Soja",
+    "Tofu",
+    "Seitan",
+    "Tempeh",
+    "Lentilhas"
+  ],
+  "image": "/assets/img/",
+  "serve": "aprox. 500 ml",
+  "diet": [
+    "s-soja",
+    "s-frutos-secos",
+    "s-gluten"
+  ],
+  "time-total": 80,
+  "time-prepar": 10,
+  "time-confe": 70,
+  "calorias": 347,
+  "proteinas": 5.4,
+  "lipidos": 28.92,
+  "hidratos": 23.4,
+  "author": "original",
+  "new": null,
+  "ingredients": [
+    "500 gr | de Tomate bem maduro (sem pele)",
+    "2 c.sopa | de Azeite",
+    "2 c.sopa |de Orégãos secos",
+    "5 folhas | de Manjericão fresco (opcional)",
+    "| Água q.b.",
+    "| Sal q.b.",
+    "| Pimenta preta q.b.",
+    "| Alho em pó q.b."
+  ],
+  "instructions": [
+    "Coloque o azeite em uma panela e deixe aquecer.",
+    "Coloque os tomates maduros, já pelados, na panela. Mexa e coloque a tampa. Abaixe o fogo e deixe apurar por cerca de uma hora (quanto mais tempo, mais intenso será o sabor).",
+    "Depois de uma hora, comece a esmagar os tomates com uma colher de pau ou um esmagador de batatas.",
+    "Adicione sal, alho em pó, pimenta, orégãos e manjericão (se usar) e mexa bem.",
+    "Deixe o molho apurar por mais alguns minutos, mexendo de vez em quando.",
+    "e necessário, triture o molho para uma textura mais lisa e ajuste a consistência com água, conforme o uso desejado.",
+    "Se preferir um molho mais espesso, deixe-o apurar um pouco mais."
+  ],
+  "notes": [
+    "Se quiser um sabor ainda mais rico, comece refogando cebola e dentes de alho antes de adicionar os tomates."
+  ]
+}

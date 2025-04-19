@@ -1,0 +1,46 @@
+{
+  "layout": "post",
+  "layout-type": null,
+  "title": "",
+  "description": "",
+  "keywords": "",
+  "permalink": null,
+  "type": [
+    "Molhos/Caldos"
+  ],
+  "protein": [
+    "Feijão",
+    "Grão",
+    "Edamame",
+    "Soja",
+    "Tofu",
+    "Seitan",
+    "Tempeh",
+    "Lentilhas"
+  ],
+  "image": "/assets/img/",
+  "serve": null,
+  "diet": [
+    "s-soja",
+    "s-frutos-secos",
+    "s-gluten"
+  ],
+  "time-total": null,
+  "time-prepar": null,
+  "time-confe": null,
+  "calorias": null,
+  "proteinas": null,
+  "lipidos": null,
+  "hidratos": null,
+  "author": null,
+  "new": null,
+  "ingredients": [
+    null
+  ],
+  "instructions": [
+    null
+  ],
+  "notes": [
+    null
+  ]
+}

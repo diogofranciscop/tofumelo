@@ -1,0 +1,48 @@
+{
+  "layout": "post",
+  "layout-type": 1,
+  "title": "Canja de Cogumelos",
+  "keywords": "canja vegan, receitas fáceis vegan, comida de conforto vegan, Sopa vegan, Canja de cogumelos, Receita fácil de canja vegan com cogumelos, Canja sem carne com cenoura e cogumelos, Canja leve e saudável para dietas plant-based,  Sopa sem produtos de origem animal, Refeições rápidas e saudáveis",
+  "permalink": "/canja-de-cogumelos/",
+  "type": [
+    "Almoço/Jantar"
+  ],
+  "protein": [],
+  "description": "Deliciosa sopa vegan com cogumelos, cenoura e massa",
+  "image": "/assets/img/canja.webp",
+  "serve": "4 pratos de sopa",
+  "diet": [
+    "s-frutos-secos",
+    "s-soja"
+  ],
+  "time-total": 30,
+  "time-prepar": 10,
+  "time-confe": 20,
+  "calorias": 250,
+  "proteinas": 8,
+  "lipidos": 4,
+  "hidratos": 45,
+  "author": "original",
+  "ingredients": [
+    "200 gr | de Massa para canja",
+    "1 | Cenoura",
+    "500 gr | de Cogumelos (as variedades que mais gostar)",
+    "1 | Cebola",
+    "4 dentes | de Alho",
+    "1 folha | de Louro",
+    "|Sal q.b.",
+    "|Pimenta Preta q.b."
+  ],
+  "instructions": [
+    "Picar a cebola e o alho. Reservar.",
+    "Cortar os cogumelos em fatias ou separá-los, dependendo da variedade que usar. Reservar.",
+    "Ralar a cenoura. Reservar.",
+    "Refogar a cebola picada juntamente com a folha de louro.",
+    "Acrescentar o alho e refogar por mais alguns minutos.",
+    "Adicionar a cenoura ao refogado, deixando cozinhar durante 5 minutos.",
+    "Juntar os cogumelo e deixar reduzir.",
+    "Adicionar a massa e cobrir com água.",
+    "Deixar ferver e cozinhar a massa conforme as instruções da embalagem.",
+    "Servir de imediato."
+  ]
+}

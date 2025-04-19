@@ -1,0 +1,54 @@
+{
+  "layout": "post",
+  "layout-type": 1,
+  "title": "Crepioca",
+  "keywords": "Crepioca vegana, Crepioca saudável, Receita de crepioca sem glúten, Crepioca com farinha de grão-de-bico, Crepioca recheada com abacate, Crepioca sem ovo e sem leite, Lanches veganos saudáveis, Receita proteica vegana, Refeições rápidas e veganas, Dicas para crepioca crocante",
+  "type": [
+    "Pequeno-Almoço",
+    "Lanche"
+  ],
+  "protein": [
+    "Grão"
+  ],
+  "serve": "1 porção",
+  "permalink": "/crepioca/",
+  "description": "Crepe de grão-de-bico recheado com abacate, tomate e alface, leve e saboroso",
+  "image": "/assets/img/crepioca.webp",
+  "diet": [
+    "s-gluten",
+    "s-soja",
+    "s-frutos-secos"
+  ],
+  "time-total": 10,
+  "time-prepar": 5,
+  "time-confe": 5,
+  "calorias": 321,
+  "proteinas": 8.9,
+  "lipidos": 26.8,
+  "hidratos": 39.3,
+  "author": "original",
+  "ingredients": [
+    "3 c.sopa | de Farinha de Grão-de-Bico",
+    "1 c.sopa | de Tapioca",
+    "8 c.sopa | de Água",
+    "0.5 | Tomate",
+    "0.5 | Abacate",
+    "2 folhas | de Alface",
+    "1 c.chá | de Oregãos",
+    "1 c.chá | de Pimenta preta",
+    "0.5 c.chá | de Sal",
+    "1 c.chá | de Alho em põ",
+    "0.25 | de Limão",
+    "1 c.sopa | de Azeite"
+  ],
+  "instructions": [
+    "Numa taça, misturar a tapioca e a farinha de grão-de-bico.",
+    "Adicionar a água aos poucos para que não ganhe grumos.",
+    "De seguida, juntar o sal, a pimenta preta, os oregãos e o alho em pó.",
+    "Numa frigideira, aquecer o azeite. Colocar a massa e distribui-la bem pela frigideira.",
+    "Deixar 90 segundos, e virar. Deixar mais 90 segundos e meter num prato.",
+    "Adicionar à crepioca as folhas de alface, 3 fatias de tomate e temperar com sal e pimenta a gosto.",
+    "Depois, adicionar o abacate às fatias e regar com gotas de limão.",
+    "Fechar o crepe e está pronto a servir."
+  ]
+}

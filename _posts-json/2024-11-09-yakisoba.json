@@ -1,0 +1,87 @@
+{
+  "layout": "post",
+  "layout-type": 2,
+  "title": "Yakisoba",
+  "keywords": "Yakisoba vegano, Receita de yakisoba vegano, Yakisoba com seitan caseiro, Prato asiático vegano, Yakisoba com legumes e molho, Molho de yakisoba, Seitan de grão-de-bico, Yakisoba fácil e rápido, Comida reconfortante vegana, Cozinha asiática plant-based",
+  "type": [
+    "Almoço/Jantar"
+  ],
+  "protein": [
+    "Seitan"
+  ],
+  "serve": "4 refeições",
+  "permalink": "/yakisoba/",
+  "description": "Yakisoba vegano com seitan de grão-de-bico desfiado e legumes envolvidos em molho yakisoba",
+  "image": "/assets/img/yakisoba.webp",
+  "diet": [
+    "s-frutos-secos"
+  ],
+  "time-total": 90,
+  "time-prepar": 20,
+  "time-confe": 70,
+  "calorias": 632.8,
+  "proteinas": 38.2,
+  "lipidos": 11.4,
+  "hidratos": 88.4,
+  "author": null,
+  "ingredients": {
+    "o Seitan de Grão-de-bico": [
+      "200 gr | de Grão-de-bico",
+      "60 ml | de Água",
+      "2 c.sopa | de Molho de Soja",
+      "1 c.chá | de Mostarda Dijon",
+      "1 c.chá | de Sal",
+      "40 gr de | Farinha de Trigo",
+      "60 gr | de Glúten de Trigo",
+      "| Caldo de Legumes q.b."
+    ],
+    "o Molho de Yakisoba": [
+      "150 ml | de Molho de Soja",
+      "1 c.sopa | de Açúcar",
+      "150 ml | de Água",
+      "1 c.sopa | de Amido de Milho"
+    ],
+    "o Yakisoba": [
+      "200 gr | de Couve Branca",
+      "1.5 | Cenouras médias",
+      "300 gr | de Edamame",
+      "200 gr | de Feijão Mungo",
+      "0.5 | Pimento",
+      "1 | Cebola",
+      "3 dentes | de Alho",
+      "250 gr | de Massa para Yakisoba",
+      "| Azeite q.b.",
+      "| Óleo de Girassol q.b.",
+      "| Óleo de Sésamo q.b.",
+      "| Raíz de Gengibre q.b.",
+      "| Alho em pó q.b."
+    ]
+  },
+  "instructions": {
+    "o Seitan de grão-de-bico": [
+      "Adicionar o grão-de-bico e a água a um processador de alimentos e triturar até que fique homogéneo.",
+      "Adicionar os restantes ingredientes (exceto o caldo de legumes) e misturar bem.",
+      "Retirar a massa para uma bancada e amassá-la ligeiramente.",
+      "Dividir em três partes, enrolar cada porção numa forma de salsicha e fazer um nó.",
+      "Num tacho, colocar o seitan e colocar o caldo de legumes até que fiquem metade cobertos. Assim que começar a ferver, baixar o lume para cozinhar em lume brando e fechar com uma tampa durante 40 minutos.",
+      "Retirar o seitan do caldo e deixar arrefecer."
+    ],
+    "o Molho de Yakisoba": [
+      "Numa panela, colocar o amido de milho e a água aos poucos, mexendo sempre bem para que não crie grumos. Adicionar o molho de soja e o açúcar e misturar até ficar homogéneo.",
+      "Colocar a panela no fogo baixo, mexendo constantemente até atingir uma consistência mais encorpada (se cozinhar durante demasiado tempo pode amargar).",
+      "Está pronto para servir."
+    ],
+    "o Yakisoba": [
+      "Cortar o seitan em cubinhos e polvihá-lo com um pouco de azeite e sal. Levá-lo à Airfryer/Forno durane cerca de 15 minutos a 200º até ficar douradinho e crocante. Reservar.",
+      "Enquanto isso, numa panela, colocar a massa a cozer conforme as instruções de embalagem. Quando cozinhada, retirar da água e reservar.",
+      "Picar a cebola e o alho e cortar o pimento em tiras. Reservar.",
+      "Cortar a couve branca em fatias finas, assim como a cenoura. Reservar",
+      "Numa frigideira, misturar um pouco de azeite, óleo de girassol e óleo de sésamo.",
+      "Quando a frigideira estiver quente, refogar a cebola até dourar. De seguida, acrescentar o alho e o pimento cortado e refogar mais uns minutos.",
+      "Juntar o gengibre ralado e um pouco de alho em pó.",
+      "De seguida, adicionar a couve branca e a cenoura. Deixar cozinhar até os legumes reduzirem. Se necessário, ir juntando água para não queimar.",
+      "No final, juntar o seitan, o edamame (previamente cozido e descascado) e rebentos de feijão mungo.",
+      "Quando tudo estiver cozinhado, juntar o molho de yakisoba e a massa. Envolver tudo muito bem e está pronto a servir."
+    ]
+  }
+}

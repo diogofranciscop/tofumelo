@@ -1,0 +1,103 @@
+{
+  "layout": "post",
+  "layout-type": 2,
+  "title": "Burritos",
+  "description": "Burritos veganos recheados com batatas assadas crocantes, feijão preto temperado e um molho cremoso de pimento",
+  "keywords": "burritos veganos, batatas assadas, feijão preto, molho de pimento, burritos saudáveis, burritos fáceis, receitas mexicanas vegan, burritos sem carne, refeição prática vegana, comida mexicana plant-based",
+  "permalink": "/burritos/",
+  "type": [
+    "Almoço/Jantar"
+  ],
+  "protein": [
+    "Feijão"
+  ],
+  "image": "/assets/img/burrito.webp",
+  "serve": "6 burritos",
+  "diet": [
+    "s-soja"
+  ],
+  "time-total": 70,
+  "time-prepar": 20,
+  "time-confe": 50,
+  "calorias": 375,
+  "proteinas": 11,
+  "lipidos": 12,
+  "hidratos": 52,
+  "author": "https://plantyou.com/",
+  "ingredients": {
+    "as Batatas Assadas": [
+      "0.6 | Pimento Vermelho",
+      "0.6 | Pimento Verde",
+      "0.6 | Cebola grande",
+      "0.6 | Tomate médio",
+      "5 | Batatas médias",
+      "0.6 c.sopa | de Paprika",
+      "0.6 c.sopa | de Cominhos",
+      "| Sal q.b.",
+      "|Pimenta Preta q.b.",
+      "| Alho em pó q.b.",
+      "| Tomilho q.b."
+    ],
+    "o Feijão Preto": [
+      "1.8 dentes | de Alho",
+      "0.6 | Piri-piri Sino",
+      "1 c.chá | de Paprika Fumada",
+      "2 c.chá | de Cominhos",
+      "0.6 c.chá | de Paprika",
+      "0.6 c.sopa | de Levedura Nutricional",
+      "0.6 c.chá | de Sal",
+      "600 gr | de Feijão Preto cozido e escorrido",
+      "36 ml | de Caldo de Legumes",
+      "1 c.sopa | de Azeite",
+      "| Tomilho q.b."
+    ],
+    "o Molho Cremoso de Pimento": [
+      "60 gr | de Caju cru",
+      "0.5 | de Pimento Vermelho",
+      "1 | Piri-piri Sino (ajustar a gosto)",
+      "72 ml | de Bebida Vegetal sem açúcar",
+      "0.15 c.chá | de Sal",
+      "0.6 c.chá | de Xarope de Agave",
+      "0.6 c.chá | de Paprika Fumada",
+      "1 c.sopa | de Levedura Nutricional",
+      "| Alho em pó q.b.",
+      "| Oregãos q.b.",
+      "| Sumo de Limão q.b.",
+      "| Água q.b."
+    ],
+    "Montar os Burritos": [
+      "6 | Tortilhas grandes"
+    ]
+  },
+  "instructions": {
+    "as Batatas Assadas": [
+      "Pré-aquecer o forno a 200°C.",
+      "Cortar aos cubos o Pimento Vermelho, o Pimento Verde, a Cebola, o Tomate e as Batatas. Transferir tudo para uma assadeira.",
+      "Temperar com a paprika, os cominhos, o sal, a pimenta, o alho em pó e o tomilho. Misturar bem.",
+      "Levar ao forno durante 45 minutos, mexendo a meio do tempo, até que as batatas fiquem douradas e crocantes."
+    ],
+    "o Feijão Preto": [
+      "Picar o alho e cortar o piri-piri sino em cubos. Reservar.",
+      "Numa frigideira grande, aquecer o azeite em lume médio.",
+      "Adicionar o feijão preto e o caldo de legumes. Misturar bem.",
+      "Utilizando um esmagador de batatas, esmagar o feijão até formar uma pasta espessa, mantendo alguns feijões inteiros.",
+      "Deixar cozinhar em lume brando por 5 minutos."
+    ],
+    "o Molho Cremoso de Pimento": [
+      "Colocar o caju a demolhar de um dia para o outro ou fervido por 10 minutos. Reservar.",
+      "Num liquidificador, adicionar os cajus previamente demolhados, o pimento, o piri-piri sino, a bebida vegetal, o sal, o xarope de agave, o sumo de limão, a paprika fumada, a levedura nutricional, o alho em pó, os oregãos.",
+      "Triturar até obter um molho homogéneo e cremoso. Ajustar os temperos conforme necessário e, se necessário adicionar água de acordo com a consistência."
+    ],
+    "Montar os Burritos": [
+      "Abrir as tortilhas e distribuir o molho de pimento, dividindo-o de forma equitativa entre todas.",
+      "Dividir igualmente a mistura de batatas assadas pelo número de tortilhas e colocá-la no centro de cada uma.",
+      "Adicionar o feijão preto, também dividido de forma proporcional entre as tortilhas.",
+      "Enrolar as tortilhas firmemente."
+    ]
+  },
+  "notes": [
+    "Guardar os burritos no frigorífico por até 4 dias ou congelar embrulhados em folha de alumínio ou papel vegetal dentro de sacos próprios para congelação.",
+    "Aquecer os burritos no forno, na airfryer ou no micro-ondas. Para uma textura crocante, grelhar na frigideira ou numa grelha.",
+    "Esta receita foi inspirada em [Plantyou] (https://plantyou.com/black-bean-burrito/)"
+  ]
+}
