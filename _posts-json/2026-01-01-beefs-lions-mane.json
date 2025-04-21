@@ -1,0 +1,78 @@
+{
+  "layout": "post",
+  "layout-type": 2,
+  "title": "Beefs de Lion’s Mane com Puré de Batata e Cenoura",
+  "description": "Beefs de Lion’s Mane servidos com puré de batata e cenoura e acompanhados de bimis",
+  "keywords": "beefs de lion’s mane, cogumelo lion’s mane receita, bife vegan de cogumelos, receita sem glúten e soja, jantar vegan saudável, puré de batata e cenoura, receita plant-based fácil, alternativa vegana ao bife, cogumelo no forno, receita proteica sem carne",
+  "permalink": "/beefs-lions-mane/",
+  "type": [
+    "Almoço/Jantar"
+  ],
+  "protein": [],
+  "image": "/assets/img/beef-lion-mane.webp",
+  "serve": "4 refeições",
+  "diet": [
+    "s-soja",
+    "s-frutos-secos",
+    "s-gluten"
+  ],
+  "time-total": 70,
+  "time-prepar": 20,
+  "time-confe": 50,
+  "calorias": 432,
+  "proteinas": 10.85,
+  "lipidos": 14.65,
+  "hidratos": 59.9,
+  "author": "original",
+  "new": null,
+  "ingredients": {
+    "os Beefs de Lion's Mane": [
+      "1 kg | de Cogumelo Lion’s Mane",
+      "4 c. sopa | de Manteiga",
+      "2 ramos | de Alecrim fresco",
+      "2 c. sopa | de Tomilho seco",
+      "4 dentes | de Alho",
+      "1 c. chá | de Grão de Mostarda",
+      "1 c. chá | de Paprika Fumada",
+      "1 c. chá | de Pimentão Doce",
+      "1 c. chá | de Gengibre em pó",
+      "2 c. sobremesa | de Beet Powder",
+      "200 ml | de Vinho Tinto",
+      "| Alho em pó q.b.",
+      "| Sal q.b.",
+      "| Pimenta Preta q.b."
+    ],
+    "o Acompanhamento": [
+      "500 gr | de Batatas",
+      "600 gr | de Cenoura",
+      "300 gr | de Bimis",
+      "1 c. sopa | de Manteiga",
+      "8 c. sopa | de Bebida Vegetal",
+      "| Sal q.b.",
+      "| Pimenta preta q.b.",
+      "| Noz-moscada q.b. (opcional)"
+    ]
+  },
+  "instructions": {
+    "os Beefs de Lion's Mane": [
+      "Derreter a manteiga numa frigideira e adicionar o alho picado, o alecrim e o tomilho. Deixar refogar até libertar aroma.",
+      "Adicionar os cogumelos Lion’s Mane inteiros e temperar com sal, alho em pó e pimenta preta. Deixar fritar.",
+      "Virar os cogumelos, temperar novamente e continuar a cozinhar. Durante o processo, os cogumelos irão libertar sucos. Esses sucos devem ser retirados da frigideira e reservados numa taça para que os cogumelos tostem em vez de cozerem. Pressionar os cogumelos com uma espátula ou panela para ajudar a extrair os sucos. Continuar este processo até os cogumelos estarem bem dourados e reduzidos de tamanho.",
+      "Na taça com os sucos dos cogumelos, adicionar a mostarda, a paprika fumada, o pimentão doce, o gengibre, a pimenta preta, alho em pó e o beet powder. Misturar bem e de seguida adicionar o vinho e voltar a misturar.",
+      "Quando os cogumelos estiverem bem tostados, retirá-los da frigideira e reservar num prato.",
+      "Na mesma frigideira, colocar a mistura da taça e deixar reduzir até engrossar e o álcool do vinho evaporar.",
+      "Transferir esse molho novamente para a taça e colocar os cogumelos, virando-os para que fiquem envolvidos no molho. Deixar marinar por cerca de 2 horas.",
+      "Após a marinada, pré-aquecer o forno a 200°C.",
+      "Colocar um tabuleiro com uma camada de água na parte mediana do forno e posicionar a grelha por cima. Dispor os cogumelos diretamente na grelha e assar por 30 minutos, virando-os a meio do tempo.",
+      "Aumentar a temperatura para 220°C no modo grill e assar por mais 10 minutos, virando a meio, ou até ficarem bem tostados."
+    ],
+    "o Acompanhamento": [
+      "Descascar, lavar e cortar as batatas e as cenouras em pedaços pequenos.",
+      "Cozinhar em água a ferver por 15 a 20 minutos, ou até estarem completamente macias.",
+      "Escorrer e esmagar com um passe-vite ou esmagador.",
+      "Adicionar a manteiga e a bebida vegetal, misturar bem e temperar com sal, pimenta preta e noz-moscada a gosto. Se necessário ajustar com bebida vegetal, até que fique com a textura da sua preferência.",
+      "Numa panela, cozinhar os bimis em água a ferver por 6 minutos, ou até atingirem o ponto desejado.",
+      "Servir os beefs de Lion’s Mane com o puré e os bimis."
+    ]
+  }
+}

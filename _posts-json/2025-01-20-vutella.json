@@ -1,0 +1,56 @@
+{
+  "layout": "post",
+  "layout-type": 1,
+  "title": "Vutella",
+  "description": "Pasta de avelãs com cacau, perfeita para espalhar no pão ou usar como recheio em sobremesas veganas",
+  "keywords": "Patê de avelãs vegano, Receita de creme de avelãs, Pasta de cacau vegana, Creme de chocolate caseiro, Pasta vegana de avelãs e cacau, Creme de chocolate saudável, Doce vegano com cacau, Creme de barrar sem lactose, Nutella vegana caseira, Pasta de avelãs com cacau",
+  "permalink": "/vutella/",
+  "type": [
+    "Lanche",
+    "Sobremesa",
+    "Pastas/Cremes"
+  ],
+  "protein": [],
+  "image": "/assets/img/vutella.webp",
+  "serve": "1 pote pequeno",
+  "diet": [
+    "s-soja",
+    "s-gluten"
+  ],
+  "time-total": 25,
+  "time-prepar": 15,
+  "time-confe": 10,
+  "calorias": 1800,
+  "proteinas": 32,
+  "lipidos": 116,
+  "hidratos": 170,
+  "author": "original",
+  "new": null,
+  "ingredients": [
+    "160 gr | de Avelãs",
+    "3 c.sopa | de Cacau em pó",
+    "3 c.sopa | de Xarope de Agave",
+    "6 c.sopa | de Açúcar",
+    "3 c.sopa | de <a href=\"https://tofumelo.pt/leite-vegetal-em-po/\">Leite Vegetal em pó</a>",
+    "5 c.sopa | de Bebida Vegetal, de preferência, de Avelã",
+    "3 c.sopa | de Óleo de Palma",
+    "1 c.chá | de Extrato de Baunilha",
+    "| Sal q.b."
+  ],
+  "instructions": [
+    "Tostar as avelãs no forno a 180ºC por 15 minutos, mexendo a meio do tempo, até que fiquem levemente douradas.",
+    "Quando estiverem prontas, tirar do forno e, com a ajuda de um pano limpo, esfregar para remover a pele.",
+    "Num processador, colocar as avelãs e processar até que vire uma pasta cremosa.",
+    "Adicionar o cacau em pó, o leite vegetal em pó e o sal. Processar novamente.",
+    "Acrescentar o xarope de agave, o açúcar e o óleo de palma. Processar até ter uma consistência homogénea e cremosa.",
+    "Adicionar a bebida vegetal aos poucos, de forma a ajustar a textura (pode não ser necessária toda, ou ser necessária um pouco mais).",
+    "Adicionar a baunilha  e processar novamente.",
+    "Provar e ajustar a doçura ou cremosidade.",
+    "Transferir para um porte de vidro esterilizado e hermético."
+  ],
+  "notes": [
+    "Guardar em temperatura ambiente ou no frigorífico até 2 semanas.",
+    "Verificar se o Óleo de Palma é certificado como sustentável para minimizar o impacto ambiental.",
+    "Para uma textura mais parecida com a Nutella industrial, usar óleo de palma refinado, para que não interfira com o sabor."
+  ]
+}

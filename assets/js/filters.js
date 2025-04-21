@@ -96,9 +96,7 @@ function loadPaginatedPosts(page, posts) {
                 <div class="skeleton skeleton-card"></div>
                 <div class="card__img-container">
                     <picture>
-                        <source srcset="${mobileImage}" media="(max-width: 768px)" width="150" height="167">
-                        <source srcset="${tabletImage}" media="(min-width: 769px) and (max-width: 1500px)" width="180" height="200">
-                        <img src="${imagePath}" class="card__img" alt="${post.title}" loading="auto">
+                         <img src="${post.image}" class="card__img" alt="${post.title}">
                     </picture>
                 </div>
                 ${post.new ? '<div class="new-tape" style="display:none">Nova Receita</div>' : ""}
