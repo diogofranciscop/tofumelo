@@ -18,7 +18,7 @@ proteinas: 32
 lipidos: 12
 hidratos: 45
 author: original
-new: "yes"
+new:
 ingredients:
     - 500 gr | de Seitan
     - 1 kg | de Batatas

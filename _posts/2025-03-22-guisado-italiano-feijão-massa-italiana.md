@@ -18,7 +18,7 @@ proteinas: 20
 lipidos: 10
 hidratos: 65
 author: rainbowplantlife
-new: "yes"
+new:
 ingredients:
     - 200 gr | de Massa Fusilli ou Conchas
     - 500 gr | de Feijão Branco, escorrido e dividido em duas partes
