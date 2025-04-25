@@ -18,7 +18,7 @@ proteinas: 14
 lipidos: 10
 hidratos: 65
 author: original
-new: "yes"
+new:
 ingredients:
     o Arroz:
     - 200 gr | de Arroz

@@ -18,7 +18,7 @@ proteinas: 18
 lipidos: 17
 hidratos: 78
 author: original
-new: 
+new: "yes"
 ingredients:
     as Batatas:
     - 1 kg | de Batatas
