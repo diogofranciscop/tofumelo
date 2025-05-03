@@ -35,7 +35,7 @@ ingredients:
     os Toppings:
     - 200 gr | de Framboesas frescas
     - 100 gr | de Chocolate Negro de culinária
-    - Pedacinhos de frutos vermelhos cozinhados (aproveitados do molho de frutos vermelhos)
+    - "| Pedacinhos de frutos vermelhos cozinhados (aproveitados do molho de frutos vermelhos) "
     - "| Folhas de hortelã q.b. (opcional)"
 instructions:
     a Massa Folhada:
