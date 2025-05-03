@@ -7,7 +7,7 @@ keywords: "tofu, broa, cogumelos, forno, vegano, alga nori, feijão verde, saud�
 permalink: /tofu-broa-forno/
 type: ["Almoço/Jantar"]
 protein: ["Tofu"]
-image: "/assets/img/"
+image: "/assets/img/tofu-com-broa.webp"
 serve: 4 refeições
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 60
