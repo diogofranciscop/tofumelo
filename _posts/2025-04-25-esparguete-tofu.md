@@ -18,7 +18,7 @@ proteinas: 21
 lipidos: 17
 hidratos: 38
 author: original
-new: "yes"
+new: 
 ingredients:
     - 200 gr | de Esparguete
     - 0.5 c.sopa | de Manteiga Vegetal

@@ -7,7 +7,7 @@ keywords: "massa, legumes assados, grão-de-bico, cogumelos, espargos, levedura 
 permalink: /massa-legumes-assados-grao/
 type: ["Almoço/Jantar"]
 protein: ["Grão"]
-image: "/assets/img/"
+image: "/assets/img/massa-legumes-assados.webp"
 serve: 5 refeições
 diet: ["s-soja","s-frutos-secos"]
 time-total: 45
