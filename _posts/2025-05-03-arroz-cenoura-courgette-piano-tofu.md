@@ -18,7 +18,7 @@ proteinas: 26.5
 lipidos: 14.8
 hidratos: 47
 author: original
-new: "yes"
+new: 
 ingredients:
     o Arroz:
     - 200 gr | de Arroz Agulha

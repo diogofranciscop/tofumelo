@@ -20,7 +20,7 @@ hidratos: 21.9
 author: original
 ingredients:
     as batatas:
-    - 200 gr | de Batata
+    - 1000 gr | de Batata
     - "| Sal q.b."
     - "| Óleo ou Azeite q.b."
     a soja:

@@ -7,7 +7,7 @@ permalink: /tofu-na-cerveja/
 type: ["Almoço/Jantar"]
 protein: ["Tofu"]
 description: "Tofu em marinada de mostarda, alho, e ervas com batatas douradas e um toque de cerveja"
-image: "/assets/img/tofu-na-cerveja.webp"
+image: "/assets/img/tofu-na-cerveja2.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos", "s-gluten"]
 time-total: 55
