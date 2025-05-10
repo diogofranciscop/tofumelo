@@ -18,7 +18,7 @@ proteinas: 6.7
 lipidos: 26
 hidratos: 78
 author: original
-new: "yes"
+new: 
 ingredients:
     a Massa Folhada:
     - 650 gr | de Massa Folhada
