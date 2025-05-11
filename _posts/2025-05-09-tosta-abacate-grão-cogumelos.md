@@ -7,7 +7,7 @@ permalink: /tosta-abacate-cogumelo/
 type: ["Pequeno-Almoço", "Lanche"]
 protein: ["Grão"]
 description: "Tosta com pasta de abacate, cogumelos grelhados e tomate"
-image: "/assets/img/tosta-abacate-grão-de-bico-cogumelo.webp"
+image: "/assets/img/tosta-abacate.webp"
 serve: 1 pessoa
 diet: ["s-soja","s-frutos-secos", "s-gluten"]
 time-total: 20
