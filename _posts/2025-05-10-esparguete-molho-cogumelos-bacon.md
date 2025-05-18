@@ -18,7 +18,7 @@ proteinas: 26
 lipidos: 18
 hidratos: 55
 author: original
-new: "yes"
+new:
 ingredients:
     o Molho de Cogumelos:
     - 300 gr | de Cogumelos Brancos

@@ -26,10 +26,10 @@ ingredients:
     - 5 dentes | de Alho
     - 400 gr | de Tomate Cherry
     - 300 gr | de Espargos
-    - 300 gr | de Cogumelos marron
-    - 300 gr | de Cogumelos pleurothus
+    - 300 gr | de Cogumelos Marron
+    - 300 gr | de Cogumelos Pleurothus
     - 400 gr | de Grão-de-bico
-    - 6 c.sopa | de Levedura nutricional
+    - 6 c.sopa | de Levedura Nutricional
     - "| Azeite q.b."
     - "| Sal q.b."
     - "| Pimenta Preta q.b."
