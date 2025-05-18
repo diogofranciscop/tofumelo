@@ -7,7 +7,7 @@ keywords: "pão com chouriço, pão recheado, fermentação, lanche salgado, rec
 permalink: /pao-com-chourico/
 type: ["Entrada", "Lanche"]
 protein: []
-image: "/assets/img/"
+image: "/assets/img/pao-com-chouriço.webp"
 serve: 12 pães
 diet: ["s-frutos-secos"]
 time-total: 50

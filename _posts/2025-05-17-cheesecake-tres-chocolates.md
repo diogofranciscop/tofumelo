@@ -7,7 +7,7 @@ keywords: "Cheesecake de Oreo, cheesecake vegano, sobremesa sem lactose, tarte d
 permalink: cheesecake-tres-chocolates//
 type: ["Sobremesa"]
 protein: []
-image: "/assets/img/"
+image: "/assets/img/cheesecake-3-chocolates.webp"
 serve: 12 fatias
 diet: []
 time-total: 240
