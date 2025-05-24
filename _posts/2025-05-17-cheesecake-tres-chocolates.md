@@ -18,7 +18,7 @@ proteinas: 4.8
 lipidos: 26.5
 hidratos: 37.5
 author: original
-new: "yes"
+new: 
 ingredients:
     a Base:
     - 200 gr | da bolacha da Oreo

@@ -7,7 +7,7 @@ keywords: "tofu, arroz, legumes, cogumelos, arroz frito, molho de soja, salteado
 permalink: /arroz-salteado-legumes-tofu-cogumelos/
 type: ["Almoço/Jantar"]
 protein: ["Tofu"]
-image: "/assets/img/"
+image: "/assets/img/arroz-frito-tofu-cogumelos.webp"
 serve: 4 refeições
 diet: ["s-frutos-secos","s-gluten"]
 time-total: 45
@@ -18,7 +18,7 @@ proteinas: 26.8
 lipidos: 20.5
 hidratos: 27.4
 author: original
-new:
+new: "yes"
 ingredients:
     o Arroz:
     - 200 gr | de Arroz

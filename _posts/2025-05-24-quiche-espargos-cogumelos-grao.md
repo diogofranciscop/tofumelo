@@ -18,7 +18,7 @@ proteinas: 26
 lipidos: 28
 hidratos: 45
 author: 
-new:
+new: "yes"
 ingredients:
     o Molho de Tofu:
     - 300 gr | de Tofu
