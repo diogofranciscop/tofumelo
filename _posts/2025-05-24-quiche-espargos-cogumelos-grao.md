@@ -18,7 +18,7 @@ proteinas: 26
 lipidos: 28
 hidratos: 45
 author: 
-new:
+new: "yes"
 ingredients:
     o Molho de Tofu:
     - 300 gr | de Tofu
@@ -51,6 +51,6 @@ instructions:
     - Cozinhar a 250ºC por cerca de 15-20 minutos, até a superfície ficar dourada.
     - Deixar arrefecer ligeiramente antes de cortar.
 notes:
-    - Esta receita foi inspirada numa receita do Veggie Kit] (https://www.avp.org.pt/receitas/quiche-de-espargos-cogumelos-eryngii-e-tomate-seco/)
+    - Esta receita foi inspirada numa receita do [Veggie Kit](https://www.avp.org.pt/receitas/quiche-de-espargos-cogumelos-eryngii-e-tomate-seco/)
 ---
 

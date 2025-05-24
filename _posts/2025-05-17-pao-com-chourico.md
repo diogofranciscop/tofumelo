@@ -18,7 +18,7 @@ proteinas: 7.32
 lipidos: 6.13
 hidratos: 36.28
 author: original
-new: "yes"
+new: 
 ingredients:
     - 500 gr | de Farinha sem Fermento
     - 1 c.chá | de Sal
