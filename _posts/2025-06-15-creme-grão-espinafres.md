@@ -7,7 +7,7 @@ keywords: "sopa, cremosa, nutritiva, grão-de-bico, espinafres, saudável, fáci
 permalink: /creme-grão-espinafres/
 type: ["Entrada"]
 protein: ["Grão"]
-image: "/assets/img/"
+image: "/assets/img/sopa-grao-espinafres.webp"
 serve: 6 porções
 diet: ["s-soja","s-frutos-secos","s-gluten"]
 time-total: 50
@@ -18,7 +18,7 @@ proteinas: 13.4
 lipidos: 8.2
 hidratos: 42
 author: original
-new:
+new: "yes"
 ingredients:
     - 300 gr | de Cebola
     - 800 gr |de Grão-de-bico cozido e escorrido

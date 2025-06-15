@@ -18,7 +18,7 @@ proteinas: 24.5
 lipidos: 15.5
 hidratos: 60.9
 author: original
-new:
+new: "yes"
 ingredients:
     o Tofu com Broa:
     - 400 gr | de Tofu Natural
