@@ -1,7 +1,5 @@
-import Image from 'next/image';
-import Link from 'next/link';
+// Your page file
 import type { Metadata } from 'next';
-import ResponsiveLayout from '../components/ResponsiveLayout'; // No need for .tsx
 
 export const metadata: Metadata = {
   title: 'Receitas Vegan',
@@ -11,6 +9,14 @@ export const metadata: Metadata = {
 
 export default function Page() {
   return (
-    <ResponsiveLayout />
+    <main>
+      {/* Your page content goes here */}
+      {/* Navbar is already rendered in layout, no need to include it here */}
+      <div className="container mx-auto px-4">
+        <h1 className="font-playfair text-4xl font-bold">Receitas Vegan</h1>
+        {/* Rest of your page content */}
+
+      </div>
+    </main>
   );
 }

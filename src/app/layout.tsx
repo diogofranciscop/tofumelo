@@ -1,14 +1,15 @@
 // /app/layout.tsx
 import './globals.css'
-import Navbar from "@/components/navbar.tsx";
+import Navbar from "@/components/header";
+import { Playfair_Display } from 'next/font/google'
 
-function MyPage() {
-  return (
-    <div>
-      <Navbar />
-    </div>
-  );
-}
+const playfairDisplay = Playfair_Display({
+  subsets: ['latin'],
+  weight: ['400', '500', '600', '700', '800', '900'],
+  style: ['normal', 'italic'],
+  variable: '--font-playfair',
+  display: 'swap',
+})
 
 export default function RootLayout({
   children,
@@ -16,13 +17,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={playfairDisplay.variable}>
       <body>
-      <div>
-     
-    </div>
+        <Navbar />
         {children}
-        </body>
+      </body>
     </html>
   )
 }
